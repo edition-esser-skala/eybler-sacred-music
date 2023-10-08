@@ -1,0 +1,47 @@
+\documentclass[changelog=false,tocdir=\tocdir,tocstyle=none]{ees}
+
+\usepackage{mfirstuc}
+\usepackage{multicol}
+
+\firstname{Joseph Leopold Edler von}
+\lastname{Eybler}
+\shortname{Eybler}
+\shorttitle{Proprium missæ}
+
+\ifthenelse{\isundefined{\MetadataFestival}}{%
+  \subtitle{%
+    \MetadataSubtitle\\[\baselineskip]%
+    \xmakefirstuc{\MetadataGenre}%
+  }%
+}{%
+  \subtitle{%
+    \MetadataSubtitle\\[\baselineskip]%
+    \xmakefirstuc{\MetadataGenre}~(\MetadataFestival)%
+  }%
+}%
+
+
+\begin{document}
+
+\eesTitlePage
+
+\makeatletter%
+  \ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
+\makeatother%
+\eesCriticalReport{\csname MetadataToe\endcsname}
+\makeatletter%
+  \ees@toetrue%
+\makeatother
+
+\ifthenelse{\isundefined{\MetadataLyrics}}{}{%
+  \ifPrintFrontMatter%
+    \section{Lyrics}%
+    \MetadataLyrics%
+  \fi%
+}
+
+\eesToc{}
+
+\eesScore
+
+\end{document}
