@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name (markup #:center-column ("vlc" "b")))
+#(define option-instrument-name "fag 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \xxxOrgano }
+        \new Staff { \xxxFagottoI }
       >>
     }
   }

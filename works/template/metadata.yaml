@@ -1,8 +1,8 @@
 title:
-id: Hárich deest · A-Ed
+id: HerEy
 genre:
 festival:
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (\flat B),\\2 clno (\flat B), timp (\flat B–F), 2 vl, vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -14,4 +14,10 @@ sources:
     principal: true
 toe: |
 
+parts:
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  b: Violoncello \& Bassi
 lyrics:
+
+  (\bibleverse{Ps}(25/24:1-3))
