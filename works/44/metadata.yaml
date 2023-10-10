@@ -1,0 +1,23 @@
+title: Per te Dei genitrix
+id: HerEy 44
+genre: gradual
+festival: de Beatæ Mariæ Virginis
+scoring: S, A, T, B (coro), 2 ob, 2 cl (C), 2 fag, 2 cor (C), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 571/16
+    date: 1828
+    license: public domain
+    principal: true
+    notes: full score; 11 pages
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  cor12: Corno I, II in C
+  b: Violoncello \& Bassi
+lyrics:
+  Per te Dei genitrix nobis est data vita perdita,\\
+  quae de caelo suscepisti prolem\\
+  et mundo genuisti salvatorem.
