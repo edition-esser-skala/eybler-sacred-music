@@ -5,13 +5,38 @@ festival:
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (\flat B),\\2 clno (\flat B), timp (\flat B–F), 2 vl, vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
-  B1:
-    siglum: A-Ed
-    shelfmark:
-    rism:
-    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/132.html
+  A1:
+    siglum: A-Ws
+    shelfmark: 571/16
+    date: 1828
     license: public domain
     principal: true
+    notes: full score; 11 pages
+  B1:
+    siglum: A-Wn
+    shelfmark: F24.St.Peter.E151(II)
+    date: 1827
+    rism: 654000117
+    url: https://data.onb.ac.at/rec/AC14328853
+    license: public domain
+    notes: "four manuscript parts: fl (by Anton Diabelli), 3 trb (by Joseph Greipel)"
+  C1:
+    siglum: A-Wn
+    shelfmark: HK.2145
+    date: 1827
+    rism: 991018074
+    url: https://data.onb.ac.at/rec/AC14328852
+    license: public domain
+    principal: true
+    notes: full score; Tobias Haslinger, Wien, plate number 5047
+  C2:
+    siglum: A-Wn
+    shelfmark: F24.St.Peter.E151(II)
+    date: 1827
+    rism: 654000117
+    url: https://data.onb.ac.at/rec/AC14328853
+    license: public domain
+    notes: 18 parts (S, A, T, B, ob 1, ob 2, fag 1, fag 2, cor 1, cor 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5050
 toe: |
 
 parts:

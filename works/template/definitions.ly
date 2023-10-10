@@ -4,6 +4,8 @@ tempoxxx = \tempoMarkup "Allegro"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
+\include "notes/cl1.ly"
+\include "notes/cl2.ly"
 \include "notes/fag1.ly"
 \include "notes/fag2.ly"
 \include "notes/clno1.ly"
