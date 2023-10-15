@@ -1,0 +1,52 @@
+title: Tua est potentia
+id: HerEy 50
+genre: gradual
+festival: de tempore
+scoring: S, A, T, B (coro), 2 cl (\flat B), 2 fag,\\2 clno (\flat E), [2 trb], timp (\flat E–\flat B), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 571
+    date: 1822-01
+    license: public domain
+    principal: true
+    notes: full score; 11 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: HK.2144
+    date: 1826
+    rism: 991018078
+    url: https://data.onb.ac.at/rec/AC14328864
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 4792
+  C2:
+    siglum: A-Wn
+    shelfmark: F4.Baden.90
+    date: 1826
+    rism: 654000103
+    url: https://data.onb.ac.at/rec/AC14328853
+    license: public domain
+    notes: 17 parts (S, A, T, B, cl 1, cl 2, fag 1/2, clno 1 and 2 on one sheet, trb 1 and 2 on one sheet, timp, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 4795
+toe: |
+  –   & trb   & Trombones are only included in \C1 and \C2. \\
+  2ff & vl, vla, org & In bars 2, 3, 6, and 30, all sources show the rhythm
+                \eighthNote–\semiquaverRestDotted–%
+                tuplet of 3×\thirtysecondNote. Here, the
+                \semiquaverRestDotted\ has been emended to a \semiquaverRest
+                in order to yield a plausible rhythm. \\
+  25  & T     & The 3rd \quarterNote\ was originally \flat b4 in \A1,
+                but has been corrected (likely by later hand) to f′4, since
+                the original note would lead to parallel fifths with A.
+                Nevertheless, \flat b4~still appears in \C1 and \C2. \\
+  28  & trb 1 & 2nd \halfNote\ in \C2: \halfNoteRest \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  ottoni: Clarino I, II in \flat E\\Timpani in \flat E–\flat B
+  b: Violoncello \& Bassi
+lyrics:
+  Tua est potentia, tuum regnum, Domine,\\
+  tu es super omnes gentes.\\
+  Da pacem, Domine, in diebus nostris.\\
+  (\bibleverse{IChr}(29:11))
