@@ -1,7 +1,5 @@
 \version "2.24.0"
 
-fzp  = \dynScript "fzp" ##f
-
 tempoXLIV = \tempoMarkup "Andante"
 
 \include "notes/ob1.ly"
