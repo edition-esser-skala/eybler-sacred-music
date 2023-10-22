@@ -1,0 +1,41 @@
+title: Non in multitudine
+id: HerEy 56
+genre: gradual
+festival: de tempore
+scoring: S, A, T, B (coro), 2 ob, 2 cl (C), 2 fag, 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 571
+    date: 1823-08
+    license: public domain
+    principal: true
+    notes: full score; 10 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: HK.2144
+    date: 1831
+    rism: 991018071
+    url: https://data.onb.ac.at/rec/AC14328848
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5560
+  C2:
+    siglum: A-Wn
+    shelfmark: F4.Baden.88
+    date: 1831
+    rism: 654000115
+    url: https://data.onb.ac.at/rec/AC14266063
+    license: public domain
+    notes: 15 parts (S, A, T, B, ob 1, ob 2, cl 1, cl 2, fag 1, fag 2, vl 1, vl 2, vla, vlne, org); Tobias Haslinger, Wien, plate number 5563
+toe: |
+  43 & vla & 6th to 8th \eighthNote\ in \C2: 3 × e8 \\
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  b: Violoncello \& Bassi
+lyrics:
+  Non in multitudine est virtus tua, Domine.\\
+  Nec superbi ab initio placuerunt tibi:\\
+  sed humilium et mansuetorum semper placuit tibi deprecatio.\\
+  (\bibleverse{Jdt}(9:16))
