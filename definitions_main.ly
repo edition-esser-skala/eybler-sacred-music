@@ -8,3 +8,8 @@
 \include "ees.ly"
 
 fzp  = \dynScript "fzp" ##f
+perd = #(make-music
+  'DecrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "perd.")))

@@ -1,11 +1,5 @@
 \version "2.24.0"
 
-perd = #(make-music
-  'DecrescendoEvent
-  'span-direction START
-  'span-type 'text
-  'span-text (markup (#:normal-text #:small "perd.")))
-
 tempoCVII = \tempoMarkup "Andante"
 
 \include "notes/ob1.ly"
