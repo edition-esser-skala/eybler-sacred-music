@@ -1,0 +1,40 @@
+title: Dies sanctificatus
+id: HerEy 61
+genre: gradual
+festival: Nativitas Domini
+scoring: S, A, T, B (coro), 2 cl (C), 2 fag, 2 cor (G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 571
+    date: 1827
+    license: public domain
+    principal: true
+    notes: full score; 10 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: N/A
+    date: 1829
+    rism: 991018064
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5244
+  C2:
+    siglum: A-Wn
+    shelfmark: F4.Baden.87
+    date: 1829
+    rism: 654000106
+    url: https://data.onb.ac.at/rec/AC14265987
+    license: public domain
+    notes: 15 parts (S, A, T, B, cl 1, cl 2, fag 1, fag 2, cor 1, cor 2, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5247
+toe: |
+  1 & vla & 1st \quarterNote\ in \C2: g8–g16–b16 \\
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  cor12: Corno I, II in G
+  b: Violoncello \& Bassi
+lyrics:
+  Dies sanctificatus illuxit nobis,\\
+  venite gentes, et adorate Dominum,\\
+  quia hodie descendit super terram.
