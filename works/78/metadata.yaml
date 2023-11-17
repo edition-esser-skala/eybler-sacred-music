@@ -1,0 +1,46 @@
+title: Tui sunt cœli
+id: HerEy 78
+genre: offertorium
+festival: Nativitas Domini
+scoring: S, A, T, B (coro), 2 cl (C), 2 fag, 2 cor (C),\\2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 571
+    date: 1827
+    license: public domain
+    principal: true
+    notes: full score; 16 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: HK.2145
+    date: 1829
+    rism: 991018079
+    url: https://data.onb.ac.at/rec/AC14328867
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5245
+  C2:
+    siglum: A-Wn
+    shelfmark: MS69264-4°/4
+    date: 1829
+    rism: 654000118
+    url: https://data.onb.ac.at/rec/AC09306797
+    license: public domain
+    notes: 18 parts (S, A, T, B, cl 1, cl 2, fag 1, fag 2, cor 1, cor 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5248
+toe: |
+  45  & vl 2  & 3rd \quarterNote\ in \A1, \C1, and \C2: b′4 \\
+  102 & fag 1 & 1st \quarterNote\ in \C2: b4 \\
+  107 & fag 1 & 1st to 5th \eighthNote\ in \C2: \flat B2–\flat B′8 \\
+  120 & cl 2  & 3rd \quarterNote\ in \C2: c″4 \\
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  b: Violoncello \& Bassi
+lyrics:
+  Tui sunt coeli, et tua est terra:\\
+  Orbem terrarum, et plenitudinem eius tu fundasti:\\
+  Iustitia et iudicium praeparatio sedis tuae.\\
+  (\bibleverse{Ps}(89/88:12,15))
