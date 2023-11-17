@@ -8,6 +8,7 @@
 \include "ees.ly"
 
 fzp  = \dynScript "fzp" ##f
+ffz  = \dynScript "ffz" ##f
 perd = #(make-music
   'DecrescendoEvent
   'span-direction START
