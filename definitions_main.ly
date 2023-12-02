@@ -9,6 +9,7 @@
 
 fzp  = \dynScript "fzp" ##f
 ffz  = \dynScript "ffz" ##f
+hA = \once \override Accidental.stencil = ##f
 perd = #(make-music
   'DecrescendoEvent
   'span-direction START
