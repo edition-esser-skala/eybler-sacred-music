@@ -1,0 +1,35 @@
+title: Terra tremuit
+id: HerEy 85
+genre: offertorium
+festival: Resurrectio Domini
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 571
+    date: 1797
+    license: public domain
+    principal: true
+    notes: full score; 16 pages
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs. 733
+    rism: 600110969
+    url: https://data.onb.ac.at/rec/AC14266115
+    license: public domain
+    notes: 18 parts (S (2×), A (2×), T, B, ob 1, ob 2, fag 1, fag 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlne, org)
+  C1:
+    siglum: A-Wn
+    shelfmark: F24.St.Peter.E161(II)
+    date: 1929
+    url: https://data.onb.ac.at/rec/AC14328862
+    license: public domain
+    notes: piano reduction (8 pages) and 17 parts (S, A , T, B, ob 1, ob 2, fag 1, fag 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlc, vlne, org); Anton Böhm \& Sohn, Augsburg–Wien, plate number 7109
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  b: Violoncello \& Bassi
+lyrics:
+  Terra tremuit, et quievit,\\
+  dum resurgeret Deus in iudicio.\\
+  (\bibleverse{Ps}(76/75:9,10))
