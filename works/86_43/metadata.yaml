@@ -1,0 +1,65 @@
+title: Si consistant · Unam petii
+id: HerEy 86/43
+genre: offertorium
+festival: De Tempore
+scoring: S, A, 2 T, 2 B (coro), 2 ob, 2 fag, 2 cor (C),\\2 clno (C), timp (C–G), 2 vl, vla, vlc, b, harmonium, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 571
+    date: 1805
+    license: public domain
+    principal: true
+    notes: full score; 17 pages
+  A2:
+    siglum: A-Ws
+    shelfmark: 569/3
+    date: no later than 1827
+    license: public domain
+    notes: full score; 5 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: HK.2145
+    date: 1827
+    rism: 991018075
+    url: https://data.onb.ac.at/rec/AC14328856
+    license: public domain
+    principal: true
+    notes: full score; Tobias Haslinger, Wien, plate number 5013
+  C2:
+    siglum: A-Wn
+    shelfmark: F4.Baden.81
+    date: 1827
+    rism: 654000116
+    url: https://data.onb.ac.at/rec/AC14266098
+    license: public domain
+    notes: 20 parts (S, A, T 1, T 2, B 1, B 2, ob 1, ob 2, fag 1, fag 2, cor 1, cor 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5016
+toe: |
+  – & – & The 1805 version of this work (\A1, HerEy 86) comprises the first section (“Si consistant”, bars 1–45), a middle section (“Unam petii”, XX bars) for harmonium (denoted “Baritono” in the manuscript) and male chorus (TTBB), and the final section (“Si consistant”, 43 bars). By contrast, the 1827 version (\A2 and prints) replaces the harmonium in the middle section by 2 ob, 2 fag, and 2 cor and is longer/shorter (64 bars, HerEy 43).
+  – & cor & In the first and final section, cor only appear in \C1 and \C2. \\
+  9 & clno 1 & 1st \quarterNote\ in \C2: c′4 \\
+  28 & fag 2 & 3rd \quarterNote\ in \C2: \flat e4 \\
+  32 & T & 4th \quarterNote\ in \C2 (only T 1): \flat e′4 \\
+  34 & cor 1 & 3rd \quarterNote\ in \C2: c″4 \\
+parts:
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  b: Violoncello \& Bassi
+lyrics:
+  Si consistant adversum me castra,
+  non timebit cor meum.
+  Si exurgat adversum me proelium,
+  in hoc ego sperabo.
+  Unam petii a Domino, hanc requiram,
+  ut inhabitem in domo Domini
+  omnes dies vitae meae.
+  (\bibleverse{Ps}(27/26:3,4))
+
+Si con -- si -- stant ad -- ver -- sum me ca -- stra,
+non ti -- me -- bit cor me -- um.
+Si ex -- ur -- gat ad -- ver -- sum me proe -- li -- um,
+in hoc e -- go spe -- ra -- bo.
+U -- nam pe -- ti -- i a Do -- mi -- no, hanc re -- qui -- ram,
+ut in -- ha -- bi -- tem in do -- mo Do -- mi -- ni
+o -- mnes di -- es vi -- tae me -- ae.
