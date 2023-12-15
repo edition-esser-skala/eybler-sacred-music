@@ -10,7 +10,7 @@
 
 \book {
   \bookpart {
-    \section "LXXXVI" ""
+    \section "86/43" "Si consistant"
     \addTocEntry
     \score {
       <<
@@ -31,6 +31,27 @@
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
           \LXXXVITimpani
         }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Si consistant (II)"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \LXXXVIdClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \LXXXVIdClarinoII
+            }
+          >>
+        >>
+        \new Staff { \LXXXVIdTimpani }
       >>
     }
   }

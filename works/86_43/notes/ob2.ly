@@ -93,3 +93,55 @@ LXXXVIcOboeII = {
     c2\fermata h4\fermata \bar "||"
   }
 }
+
+LXXXVIdOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoLXXXVId
+      \set Score.currentBarNumber = #115
+      \markSkip
+    d2.\p d8. d16
+    d2. d8. d16
+    g2. g8. g16
+    g2. g8. g16
+    g2.\cresc g8. g16
+    g2. g8. g16\! %120
+    h2.\f g4
+    g g2 fis4
+    g r h2\fz
+    c fis,
+    g4 r h2\fz %125
+    c fis,
+    g4 r r2
+    es1\fz
+    as!\fz
+    es'\fz %130
+    des4 r r2
+    f,1\fz
+    b\fz
+    f'\fz
+    es4 r r es %135
+    d c h fis
+    g r r es'
+    d c h fis
+    g r r g
+    as!8 g f es h' c d es %140
+    f2\fz es4 c
+    h c2 h4
+    c es c as!
+    f f' d b!
+    g g' es c %145
+    h2\ff c
+    c4 r f, r
+    es1\fz
+    f\fz
+    g\fz %150
+    c2\fz b!\fz
+    as\fz f'\fz
+    es4\fE r8 c g' es c g
+    es' c g es c' g es c
+    g'4 r h r %155
+    c r c, r
+    c r r2\fermata \bar "|." %157 finis
+  }
+}

@@ -101,3 +101,55 @@ LXXXVIcOboeI = {
     e2\fermata d4\fermata \bar "||" %109 finis
   }
 }
+
+LXXXVIdOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoLXXXVId
+      \set Score.currentBarNumber = #115
+      \markSkip
+    g'2.\p g8. g16
+    g2. g8. g16
+    h2. h8. h16
+    h2. h8. h16
+    d2.\cresc d8. d16
+    d2. d8. d16\! %120
+    f2\f d4 h
+    c d es! c
+    h r g'2\fz
+    es c
+    h4 r g'2\fz %125
+    es c
+    h4 r r2
+    as!1\fz
+    des\fz
+    ges\fz %130
+    f4 r r2
+    b,1\fz
+    es\fz
+    as\fz
+    g4 r r g %135
+    f es d c
+    h r r g'
+    f es d c
+    h r r c
+    h8 c d es d es f g %140
+    as2\fz g4 f~
+    f es d2
+    \pa c4 es c as!
+    f f' d b!
+    g g' es c \pd %145
+    as'2\ff a
+    g4 r h, r
+    c1\fz
+    d\fz
+    e\fz %150
+    f2\fz g\fz
+    as\fz h\fz
+    c4\fE r8 \pa c, g' es c g
+    es' c g es c' g es c
+    g'4 \pd r g' r %155
+    \pao c, r \pao c, r
+    \pao c r r2\fermata \bar "|." %157 finis
+  }
+}

@@ -7,11 +7,20 @@
 
 \book {
   \bookpart {
-    \section "LXXXVI" ""
+    \section "86/43" "Si consistant"
     \addTocEntry
     \score {
       <<
         \new Staff { \LXXXVIViola }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Si consistant (II)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LXXXVIdViola }
       >>
     }
   }

@@ -7,11 +7,22 @@
 
 \book {
   \bookpart {
-    \section "LXXXVI" ""
+    \section "86/43" "Si consistant"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
         \new Staff { \LXXXVIViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Si consistant (II)"
+    \addTocEntry
+    \paper { page-count = #1 }
+    \score {
+      <<
+        \new Staff { \LXXXVIdViolinoII }
       >>
     }
   }

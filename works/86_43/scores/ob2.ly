@@ -7,11 +7,29 @@
 
 \book {
   \bookpart {
-    \section "LXXXVI" ""
+    \section "86/43" "Si consistant"
     \addTocEntry
     \score {
       <<
         \new Staff { \LXXXVIOboeII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Unam petiit (1827 versions)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LXXXVIcOboeII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Si consistant (II)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LXXXVIdOboeII }
       >>
     }
   }

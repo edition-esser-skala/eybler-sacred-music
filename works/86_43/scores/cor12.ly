@@ -9,7 +9,7 @@
 
 \book {
   \bookpart {
-    \section "LXXXVI" ""
+    \section "86/43" "Si consistant"
     \addTocEntry
     \score {
       <<
@@ -23,6 +23,46 @@
             \new Staff {
               \set Staff.instrumentName = "2"
               \LXXXVICornoII
+            }
+          >>
+        >>
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Unam petiit (1827 versions)"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \LXXXVIcCornoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \LXXXVIcCornoII
+            }
+          >>
+        >>
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Si consistant (II)"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \LXXXVIdCornoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \LXXXVIdCornoII
             }
           >>
         >>

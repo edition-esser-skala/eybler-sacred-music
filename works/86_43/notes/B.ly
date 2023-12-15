@@ -560,3 +560,85 @@ LXXXVIcBassoIILyrics = \lyricmode {
   qui -- ram a Do -- mi --
   no. %105 finis
 }
+
+LXXXVIdBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoLXXXVId \autoBeamOff
+      \set Score.currentBarNumber = #115
+      \markSkip
+    \once \override Parentheses.font-size = #3 \parenthesize g4^\markup \remark { "B 2" \critnote } r r \set Staff.forceClef = ##t \mvTr g'8\p^\tuttiE g
+    g4 g8 g g4 g8 g
+    g4 g, r g'8 g
+    g4 g8 g g4 g8 g
+    g4\cresc g, r g'8 g
+    g4 g8 g g4 g8 g %120
+    g4.\f g8 g4 f8 f
+    es!4 h8 h c4 as'!8 as
+    g4 g g2
+    r4 g8 g g4 g8 g
+    g4 g g2 %125
+    r4 g8 g g4 g8 g
+    g4 g r g8 g
+    ges4 ges8 ges ges4 ges8 ges
+    f4. f8 f4 f
+    c2 c4 c8 c %130
+    des4 des r des8 des
+    as'4 as8 as as4 as8 as
+    g!4. g8 g4 g
+    d!2 d4 d8 d
+    es4 es r g8 g %135
+    g4 g8 g g4 g8 g
+    g4 g r g8 g
+    g4 g8 g g4 g8 g
+    g8. g16 g4 r es8 es
+    f([ es)] d c f([ es)] d c %140
+    h2\fz c4 as'8 as
+    g4 c8 c g2
+    c,4 r r f
+    d r r g
+    es r r as %145
+    f2 r4 fis8\ff fis
+    g4 g8 g g,2
+    c4 r r2
+    R1*8 %156
+    R1\fermata \bar "|." %157 finis
+  }
+}
+
+LXXXVIdBassoLyrics = \lyricmode {
+  no. Si con -- %115
+  si -- stant ad -- ver -- sum me
+  ca -- stra, si con --
+  si -- stant ad -- ver -- sum me
+  ca -- stra, si ex --
+  ur -- gat ad -- ver -- sum me %120
+  proe -- li -- um, non ti --
+  me -- bit, ti -- me -- bit cor
+  me -- um, non,
+  non ti -- me -- bit cor
+  me -- um, non, %125
+  non ti -- me -- bit cor
+  me -- um, si ex --
+  ur -- gat ad -- ver -- sum me
+  proe -- li -- um, in
+  hoc e -- go spe -- ra -- %130
+  bo, si ex --
+  ur -- gat ad -- ver -- sum me
+  proe -- li -- um, in
+  hoc e -- go spe -- ra --
+  bo, si con -- %135
+  si -- stant ad -- ver -- sum me
+  ca -- stra, si ex --
+  ur -- gat ad -- ver -- sum me
+  proe -- li -- um, non ti --
+  me -- bit, ti -- me -- bit cor %140
+  me -- um, non ti --
+  me -- bit cor me --
+  um, non,
+  non, non,
+  non, non, %145
+  non, non ti --
+  me -- bit cor me --
+  um. %148 finis
+}

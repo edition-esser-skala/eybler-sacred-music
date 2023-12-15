@@ -9,6 +9,7 @@ markSkip = {
 tempoLXXXVI = \tempoMarkup "Allegro spirituoso"
 tempoLXXXVIb = \tempoMarkup "Adagio cantabile"
 tempoLXXXVIc = \tempoMarkup "Larghetto cantabile"
+tempoLXXXVId = \tempoMarkup "Tempo primo"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

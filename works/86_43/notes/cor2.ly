@@ -93,3 +93,48 @@ LXXXVIcCornoII = {
     c2\fermata g4\fermata \bar "||" %109 finis
   }
 }
+
+LXXXVIdCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLXXXVId
+      \set Score.currentBarNumber = #115
+      \markSkip
+    g1~\p
+    g
+    g'~
+    g
+    g~\cresc
+    g %120
+    g\f
+    g4 g2 c4
+    g r g2\fz
+    c1
+    g4 r g2\fz %125
+    c1
+    g4 r r2
+    R1*7 %134
+    r2 r4 g8.\f g16 %135
+    g4 g8. g16 g4 c
+    g r r g8. g16
+    g4 g8. g16 g4 c
+    g r r2
+    R1 %140
+    d'2\fz es4 r
+    r c2 g4
+    c, r r2
+    R1*2 %145
+    d'2\fz c\fz
+    g4 r g r
+    c1\fz
+    d\fz
+    e!\fz %150
+    c2\fz e!\fz
+    c\fz d\fz
+    g,4\fE r r2
+    R1
+    g4 r g r %155
+    c, r c r
+    c r r2\fermata \bar "|." %157 finis
+  }
+}

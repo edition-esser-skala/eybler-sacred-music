@@ -111,3 +111,55 @@ LXXXVIcFagottoI = {
     \pa g2\fermata g,4\fermata \pd \bar "||" %109 finis
   }
 }
+
+LXXXVIdFagottoI = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoLXXXVId
+      \set Score.currentBarNumber = #115
+      \markSkip
+    h'2.\p h8. h16
+    h2. h8. h16
+    d2. d8. d16
+    d2. d8. d16
+    h2.\cresc h8. h16
+    h2. d8. d16 %120
+    d2.\f d4
+    es! d c c
+    d r \once \partCombineChords d2\fz
+    c es
+    d4 r \once \partCombineChords d2\fz %125
+    c es
+    d4 r r2
+    c1\fz
+    des\fz
+    as~\fz %130
+    as4 r r2
+    d!1\fz
+    es\fz
+    b~
+    b4 r r \clef "treble_8" g' %135
+    f es d es
+    d r r g
+    f es d es
+    d r r \clef bass c
+    d8 es h c as' g f es %140
+    d2\fz g,4 c
+    d \pa c g2
+    c,4 c' as! f
+    d d' b! g
+    es es' c as \pd %145
+    d2\ff es
+    es4 r d r
+    c1\fz
+    h\fz
+    b\fz %150
+    as2\fz e'\fz
+    f\fz d\fz
+    es4\fE r r r8 \pa g,
+    es' c g es c' g es c
+    g'4 r \pd g r %155
+    \pao c, r c r
+    c r r2\fermata \bar "|." %157 finis
+  }
+}

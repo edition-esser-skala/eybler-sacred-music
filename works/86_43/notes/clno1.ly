@@ -42,3 +42,40 @@ LXXXVIClarinoI = {
     g r r\fermata \bar "||" %45 finis
   }
 }
+
+LXXXVIdClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLXXXVId
+      \set Score.currentBarNumber = #115
+    R1*6 %120
+    g'4.\f g16 g g8 g g g
+    c4 r r2
+    g4 r8 g16 g g8 g g g
+    c4 r r2
+    g4 r8 g16 g g8 g g g %125
+    c4 r r2
+    g4 r r2
+    \pa c,2~\fz c4 \pd r
+    R1*7 %135
+    g'4\fE r g r
+    g r8 g16 g g8 g g g
+    g4 r g r
+    g r r2
+    R1*3 %142
+    c4 r r2
+    R1*2 %145
+    r2 c\ffE
+    g4 r g r
+    c,2~\fz c4 r
+    c2~\fz c4 r
+    c2~\fz c4 r %150
+    c4\fzE r c\fzE r
+    c\fzE r c\fzE r
+    c\fE r r2
+    R1
+    r2 g'4 r %155
+    c r \pao c, r
+    \pao c r r2\fermata \bar "|." %157 finis
+  }
+}

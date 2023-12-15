@@ -103,3 +103,55 @@ LXXXVIcFagottoII = {
     g2\fermata g,4\fermata \bar "||" %109 finis
   }
 }
+
+LXXXVIdFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoLXXXVId
+      \set Score.currentBarNumber = #115
+      \markSkip
+    g'2.\p g8. g16
+    g2. g8. g16
+    g2. g8. g16
+    g2. g8. g16
+    g2.\cresc g8. g16
+    g2. g8. g16 %120
+    g2.\f f4
+    es! h c as'!
+    g r g,2\fz
+    c c'
+    g4 r g,2\fz %125
+    c c'
+    g4 r r2
+    ges1\fz
+    f\fz
+    c\fz %130
+    des4 r r2
+    as'1\fz
+    g!\fz
+    d!\fz
+    es4 r r \clef "treble_8" es' %135
+    d c h c
+    g r r es'
+    d c h c
+    g r r \clef bass es
+    f8 es d c f es d c %140
+    h2\fz c4_\critnote as'
+    g c g g,
+    c c' as! f
+    d d' b! g
+    es es' c as %145
+    f2\ff fis
+    g4 r g r
+    c,1\fz
+    c\fz
+    c\fz %150
+    c2\fz c\fz
+    c\fz c\fz
+    c4\fE r r r8 g'
+    es' c g es c' g es c
+    g'4 r g, r %155
+    c r c, r
+    c r r2\fermata \bar "|." %157 finis
+  }
+}
