@@ -51,3 +51,55 @@ LXXXVIFagottoII = {
     g r r\fermata \bar "||" %45 finis
   }
 }
+
+LXXXVIcFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoLXXXVIc
+      \set Score.currentBarNumber = #46
+    \partial 4 r4 c,\fp c' r8 c
+    r g c r r4
+    c,\fp c' r8 c
+    r g c r r4
+    f,4.\fz f8\p a f %50
+    c' c' r4 c,8-!\f g-!
+    e4 c8 r h'\p c
+    g g' g, r r4
+    \mvDl c,\fp c'8 r r4
+    R2. %55
+    \mvDl c,4\fp c'8 r r4
+    R2.*3
+    r8 c\f c r r4 %60
+    r r8 c c, c'
+    g g' g, r r4
+    R2.*3 %65
+    r4 r \mvDl a8\p a
+    a4( d8) r r4
+    r8 fis( g) r r4
+    r r8 c h g
+    fis[ d] g r r4 %70
+    R2.*6 \markSkip %76
+    \clef "treble_8"r4 g16(\fE a h c) h( c a h)
+    d8 c~ c16( e dis e) fis( e d c)
+    c8 h4 \clef bass g,8 a h
+    c r a\fz h16 c d8 d %80
+    d,4(\fz g8) r r4
+    \clef "treble_8" r8 h'4\pE h8 r c
+    r c4 e8 r4
+    \clef bass g,,4_\tenuto r r
+    R2.*3 %87
+    f4\fz r r
+    R2.
+    r4 r8 g(\pp c f,) %90
+    g g' g, r g\cresc g
+    c,4\! c'8 r r4
+    R2.
+    \mvDl c,4\fp c'8 r r4
+    R2.*10 %104
+    r4 r8 c\fE r c, %105
+    g' g' r g r g,
+    c c' r c, r c
+    f,4\fz f'8 r r fis\p
+    g2\fermata g,4\fermata \bar "||" %109 finis
+  }
+}

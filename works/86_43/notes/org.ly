@@ -99,3 +99,61 @@ LXXXVIBassFigures = \figuremode {
   <_!>1 \once \bassFigureExtendersOn
   \bc <[_! _]>2. %45 finis
 }
+
+LXXXVIbOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoLXXXVIb
+      \set Score.currentBarNumber = #46
+    \partial 4 r4 c, c' r8 e,
+    r g c r r4
+    c, c'8 r h c
+    r g c r r4
+    r8 c, c' r r4 %50
+    r8 c, c' r c-! g-!
+    e4 c8 r h' c
+    r g g r r4
+    c, c'8 r r4
+    R2. %55
+    c,4 c'8 r r4
+    R2.*3
+    r8 e, e r r4 %60
+    r r8 c c c'
+    r g g r r4
+    R2.*3 %65
+    r4 r a8 a
+    a4 d8 r r4
+    R2.*4 %71
+    r4 r8 f,! e d
+    c4 r r
+    fis r\fermata r
+    R2.*3 %77
+    r4 r d8 r
+    r4 r d8 r
+    R2. %80
+    c4 r r
+    r r8 g' r g
+    r c, c r r4
+    r8 g' g r r4
+    c,8 r c r d d %85
+    d4 g8 r r4
+    R2.*6 %92
+    f4 r r
+    R2.
+    r4 r8 g c, f %95
+    r g g r r4
+    c,4 c'8 r r4
+    R2.
+    c,4 c'8 r r4
+    R2.*6 %105
+    r4 r g8 r
+    r4 r g8 r
+    r4 r e8 r
+    R2.
+    r4 r r8 c %110
+    g'4 r r8 g
+    c4 r8 c, r c
+    r f f r r fis
+    g2\fermata g4\fermata \bar "||" %114 finis
+  }
+}

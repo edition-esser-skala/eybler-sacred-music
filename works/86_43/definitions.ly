@@ -1,6 +1,14 @@
 \version "2.24.0"
 
+markSkip = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup \remark \musicglyph "scripts.segno"
+}
+
 tempoLXXXVI = \tempoMarkup "Allegro spirituoso"
+tempoLXXXVIb = \tempoMarkup "Adagio cantabile"
+tempoLXXXVIc = \tempoMarkup "Larghetto cantabile"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

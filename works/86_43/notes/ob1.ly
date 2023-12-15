@@ -51,3 +51,53 @@ LXXXVIOboeI = {
     g r r\fermata \bar "||" %45 finis
   }
 }
+
+LXXXVIcOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoLXXXVIc
+      \set Score.currentBarNumber = #46
+    \partial 4 \pa c16(\p e g c) \pd e4.\fp f16( e) e([ d)] d( c)
+    h8. c32 d c8 r \once \slurDashed e,16( g c e)
+    g4~\fp g16( e a g) g([ f)] f( e)
+    d8. e32 f e8 r g16([ e)] g( e)
+    a8.\fz f16 c8 a16(\p c) c([ f)] f( a) %50
+    g8. f16 e8 r e-!\f g-!
+    c,4.( d16\p e) g([ f)] f( e)
+    e4( d8) r r4
+    R2.*7 %60
+    r16 g,(\fE a h c d e f) a( g f e)
+    e4( d8) r r4
+    R2.*3 %65
+    r4 \pa r8 cis16(\p d e fis g cis,)
+    e4( d8) e16( fis g fis e d)
+    d8. c!16 h8 \pd r r4
+    r r16 d( e fis g fis e d)
+    d8. c16 h8 r r4 %70
+    R2.*2
+    r8 e16(-\dolce d c h a g) fis8 r
+    r cis'16( d e d h g) fis8 r
+    r cis'16\f d e( d g fis e d c h) %75
+    e8 r r4 r \markSkip
+    r8 g,16(\fE a h c d e) d( e fis g)
+    fis8 e~ e16( g fis g) a( g fis e)
+    e8 d4 g16( fis e d c h)
+    a8 c'4\fz h16( a) a([ g)] g( fis) %80
+    fis4(\fz g8) r r4
+    R2.*6 %87
+    a4\fz r r
+    R2.*2 %90
+    r4 r8 a16\cresc g g( f e d)\!
+    \pao c4 r r
+    R2.*8 %100
+    r8 \mvTr a'16(\p-\dolce g f e d c) h8 r
+    r fis16(\cresc g c e g e) f8 r
+    r fis16(\f g a g e c) g8 r
+    R2.
+    r4 e16(\fE g c e) g8.\fz e16 %105
+    e8( d) g,16( h d f) a8.\fz f16
+    f8( e) fis16( g fis g) a( g f e)
+    a4.\fz a16(\p g) g([ f)] f( e)
+    e2\fermata d4\fermata \bar "||" %109 finis
+  }
+}

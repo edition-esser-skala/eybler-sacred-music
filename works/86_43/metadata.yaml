@@ -36,12 +36,14 @@ sources:
     license: public domain
     notes: 20 parts (S, A, T 1, T 2, B 1, B 2, ob 1, ob 2, fag 1, fag 2, cor 1, cor 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5016
 toe: |
-  – & – & The 1805 version of this work (\A1, HerEy 86) comprises the first section (“Si consistant”, bars 1–45), a middle section (“Unam petii”, XX bars) for harmonium (denoted “Baritono” in the manuscript) and male chorus (TTBB), and the final section (“Si consistant”, 43 bars). By contrast, the 1827 version (\A2 and prints) replaces the harmonium in the middle section by 2 ob, 2 fag, and 2 cor and is longer/shorter (64 bars, HerEy 43).
+  – & – & The 1805 version of this work (\A1, HerEy 86) comprises the first section (“Si consistant”, 45 bars), a middle section (“Unam petii”, 69 bars) for harmonium (denoted “Baritono” in the manuscript) and male chorus (TTBB), and the final section (“Si consistant”, 43 bars). By contrast, the 1827 version (\A2 and prints) replaces the harmonium in the middle section by 2 ob, 2 fag, and 2 cor. \A2 (HerEy 43) is similar to \A1: It lacks bars 71–75 and is therefore five bars shorter (i.e., 64 bars in total). Moreover, there are slight changes in all voices in bar 70, mainly to accomodate the subsequent omitted bars. In \C1 and \C2, the middle section is even shorter, since it lacks bars 77–109 (i.e., 31 bars in total).
   – & cor & In the first and final section, cor only appear in \C1 and \C2. \\
   9 & clno 1 & 1st \quarterNote\ in \C2: c′4 \\
   28 & fag 2 & 3rd \quarterNote\ in \C2: \flat e4 \\
   32 & T & 4th \quarterNote\ in \C2 (only T 1): \flat e′4 \\
   34 & cor 1 & 3rd \quarterNote\ in \C2: c″4 \\
+  64 B1 ???
+  65b & T 1 & \C1 contains grace notes on the 9th (\sharp f″) and 11th (e″) \sixteenthNote. \\
 parts:
   cor12: Corno I, II in C
   ottoni: Clarino I, II in C\\Timpani in C–G
@@ -51,7 +53,8 @@ lyrics:
   non timebit cor meum.
   Si exurgat adversum me proelium,
   in hoc ego sperabo.
-  Unam petii a Domino, hanc requiram,
+  Unam petii a Domino,
+  hanc requiram a Domino,
   ut inhabitem in domo Domini
   omnes dies vitae meae.
   (\bibleverse{Ps}(27/26:3,4))
@@ -60,6 +63,7 @@ Si con -- si -- stant ad -- ver -- sum me ca -- stra,
 non ti -- me -- bit cor me -- um.
 Si ex -- ur -- gat ad -- ver -- sum me proe -- li -- um,
 in hoc e -- go spe -- ra -- bo.
-U -- nam pe -- ti -- i a Do -- mi -- no, hanc re -- qui -- ram,
+U -- nam pe -- ti -- i a Do -- mi -- no,
+hanc re -- qui -- ram a Do -- mi -- no,
 ut in -- ha -- bi -- tem in do -- mo Do -- mi -- ni
-o -- mnes di -- es vi -- tae me -- ae.
+di -- e -- bus o -- mni -- bus vi -- tae me -- ae.
