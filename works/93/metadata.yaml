@@ -1,0 +1,62 @@
+title: Fremit mare cum furore
+id: HerEy 93
+genre: offertorium
+festival: De Tempore
+scoring: S (solo), S, A, T, B (coro), 2 ob, cl solo,\\2 clno (D), timp (D–A), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 567
+    date: 1800-08
+    license: public domain
+    principal: true
+    notes: full score; 32 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: HK.2525
+    date: 1814
+    rism: 991018067
+    url: https://data.onb.ac.at/rec/AC14328843
+    license: public domain
+    notes: 10 parts (S solo, S, A, T, B, cl solo, vl 1, vl 2, vla, vlc/b); Stamperia chimica sul Graben (Chemische Druckerey), Wien, plate number 2137
+  D1:
+    siglum: D-NATk
+    shelfmark: NA/SP (E-22)
+    date: 1800-1830
+    rism: 455039871
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_E22/
+    license: public domain
+    notes: 23 parts (S solo, S (2×), A (2×), T (2×), B (2×), ob 1, ob 2, cl, fag, clno 1, clno 2, b-trb, timp, vl 1(2×), vl 2, vla, vlc/b, org)
+toe: |
+  10 & vla & 1st \halfNote\ in \C1: \sharp d′2 \\
+  45
+  53
+  55 & vl 2 & 6th/last eighthNote\ in \C1: \flat b8 \\
+  82 & vl 1 & 1st \quarterNote\ in \C1: \flat e″+c′′′4 \\
+parts:
+  cl_solo: Clarinetto solo in \flat B
+  ottoni: Clarino I, II in D\\Timpani in D–A
+  b: Violoncello \& Bassi
+lyrics:
+  Fremit mare cum furore
+  coelum undique obscuratur,
+  stridet fulmen cum terrore,
+  cor oppressum cruciatur.
+  Vivam adhuc sola spe.
+
+  Genus omne Deo creatum
+  nunc est triste, nunc beatum.
+  Crescat ergo spes in me.
+  Quid desperam? Quid pavescam?
+
+Fre -- mit ma -- re cum fu -- ro -- re
+  coe -- lum un -- di -- que ob -- scu -- ra -- tur,
+  stri -- det ful -- men cum ter -- ro -- re,
+  cor op -- pres -- sum cru -- ci -- a -- tur,
+  vi -- vam ad -- huc so -- la spe.
+
+  Ge -- nus o -- mne De -- o cre -- a -- tum
+  nunc est tri -- ste, nunc be -- a -- tum.
+  Cre -- scat er -- go spes in me.
+  Quid de -- spe -- ram? Quid pa -- ve -- scam?
