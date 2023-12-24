@@ -107,3 +107,96 @@ XCIIIViola = {
      q4 r r r\fermata \bar "||" %82 finis
   }
 }
+
+XCIIIbViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 3/4 \tempoXCIIIb
+      \set Score.currentBarNumber = #83
+    R2.
+    f,\p
+    r8 f f f f f %85
+    r f f f f f
+    r f f f f f
+    r f f f f f
+    r f f f( es g)
+    f2 r4 %90
+    R2. \markSkip
+    f2.
+    r8 f f f f f
+    r f f f f f
+    r f f f f f %95
+    r f f f f f
+    r f f f f f
+    r f f f f f
+    r f f f r f
+    r f f f r f %100
+    r es es f g g
+    f4 f r
+    r8 e e e g g
+    r f f f f f
+    r e e e e e %105
+    r f f f f f
+    r e e e g g
+    r f f f f f
+    r e e e e e
+    r f f f f f %110
+    r f f f f f
+    f b b r r4
+    r8 a a a g g
+    f( a f a g\sfp b)
+    f( a f a g\sfp b) %115
+    f( a f a f a)
+    f\cresc f f f f f
+    f\p r f r f r
+    r f f f g g
+    a f f f f f %120
+    r g g g g g
+    r f f f f f
+    r f f f f f
+    r f f f f f
+    r f f f f f %125
+    r es es es g g
+    f2 r4
+    R2. \markSkip
+    f
+    r8 f f f f f %130
+    r f f f g( d)
+    r es es es g g
+    r g g g <f g> q
+    <es g> es' es es d d
+    r c c c c c %135
+    r a a a a a
+    r b b b b b
+    r f f f f f
+    r f f f f f
+    r f f f f f %140
+    r f f f f f
+    r f f f f f
+    r f f f f f
+    r b b b f f
+    g g g g g g %145
+    f d' d d c c
+    b( d b d c\sfp es)
+    b( d b d c\sfp es)
+    b( d b d b d)
+    b\cresc b b b b b %150
+    b\p r b r b r
+    r b b b f es'
+    d f, f f f f
+    r f f f f f
+    r g g g g g %155
+    r f f f f f
+    r f f f f f
+    r f f f f f
+    r f f f f f
+    g4 r r %160
+    r8 f f f f f
+    f f4\ppE f f8~
+    f f f f f f
+    f f4 f f8~
+    f f f f es es %165
+    d r d r d r
+    d2.\fermata \bar "|."
+  }
+}

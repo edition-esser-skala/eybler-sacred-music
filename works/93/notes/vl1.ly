@@ -88,3 +88,96 @@ XCIIIViolinoI = {
     q4^\critnote r r r\fermata \bar "||" %82 finis
   }
 }
+
+XCIIIbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoXCIIIb
+      \set Score.currentBarNumber = #83
+    r4 g'(\p f
+    es2) d4
+    r8 c c c c c %85
+    r c-! d-! b'( f d)
+    r c c c c c
+    r d d d d d
+    r es d f( g es)
+    \once \slurDashed d4( c8[) r16 g']( f es d c) %90
+    b4( g' f) \markSkip
+    es2 d4
+    r8 c c c c c
+    r c-! d-! b'( f d)
+    r c c c c c %95
+    r d d d d d
+    r es es es es es
+    r d d d d d
+    r c c c r d
+    r es es es r d %100
+    r g g( f es d)
+    d4 c r
+    r8 c c c c c
+    r c c c c c
+    r c c c c c %105
+    r c c c c c
+    r c c c c c
+    r c c c c c
+    r c c c c c
+    r c c c c c %110
+    r f f f f f
+    f f f r r4
+    r8 f f f e e
+    f( c f c e\sfp c)
+    f( c f c e\sfp c) %115
+    f( c f c f c)
+    f\cresc f f f es! es
+    d\p r d r d r
+    r c c c e e
+    f c c c c c %120
+    r c c c c c
+    r c c c c c
+    r d d d d d
+    r es! es es es es
+    r d d d f f %125
+    r g g g es es
+    d4( c8[) r16 g']( f es d c)
+    b4( g' f) \markSkip
+    es2 d4
+    r8 c c c c c %130
+    r c-! d-! d( es f)
+    r g g g f f
+    r es es es d d
+    r c' c c b! b
+    r a a a a a %135
+    r f f f f f
+    r f f f f f
+    r es es es es es
+    r d d d d d
+    r c c c c c %140
+    r d d d d d
+    r es es es es es
+    r d d d d d
+    r f f f as as
+    g g g g es'( c) %145
+    b b b b a a
+    b( f b f a\sfp f)
+    b( f b f a\sfp f)
+    b( f b f b f)
+    b\cresc b b b as as %150
+    g\p r g r g r
+    r f f f a! a
+    b d, d d d d
+    r f f f d d
+    r es es es es es %155
+    r d c c c c
+    r c c c c c
+    r d d d d d
+    r d d d d d
+    es4 r r %160
+    r8 d d d es es
+    d f'~\ppE f g16( f es d c b)
+    a8 c, c c es es
+    d f~ f g16( f es d c b)
+    a8 c c c c c %165
+    b r b r b r
+    b2.\fermata \bar "||" %167 finis
+  }
+}

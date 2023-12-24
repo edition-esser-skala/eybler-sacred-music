@@ -88,3 +88,96 @@ XCIIIViolinoII = {
     q4 r r r\fermata \bar "||" %82 finis
   }
 }
+
+XCIIIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoXCIIIb
+      \set Score.currentBarNumber = #83
+    r4 es(\p d
+    c2) b4
+    r8 a a a a a %85
+    r a-! b-! d( b d)
+    r a a a a a
+    r b b b b b
+    r c b b( g c)
+    \once \slurDashed b4( a8[) r16 es']( d c b a) %90
+    b4( es d) \markSkip
+    c2 b4
+    r8 a a a a a
+    r a-! b-! d( b d)
+    r a a a a a %95
+    r b b b b b
+    r c c c c c
+    r b b b b b
+    r a a a r b
+    r a a a r b %100
+    r b es( d c b)
+    b4 a r
+    r8 g g g b b
+    r a a a a a
+    r g g g b b %105
+    r a a a a a
+    r g g g b b
+    r a a a a a
+    r g g g g g
+    r a a a a a %110
+    r c c c es! es
+    d d d r r4
+    r8 c c c b b
+    a( c a c b\sfp c)
+    a( c a c b\sfp c) %115
+    a( c a c a c)
+    c\cresc c c c c c
+    b\p r b r b r
+    r a a a c c
+    c a a a a a %120
+    r b b b b b
+    r a a a a a
+    r b b b b b
+    r a a a a a
+    r b b b b b %125
+    r g g g c c
+    b4( a8[) r16 es']( d c b a)
+    b4( es d) \markSkip
+    c2 b4
+    r8 a a a a a %130
+    r \parOn a-\parenthesize-! \parOff b-\parenthesize-! \once \slurDashed b( b as)
+    g b b b h h
+    r c c c h h
+    c g' g g g g
+    r c, f f f f %135
+    r c c c c c
+    r d d d d d
+    r c c c c c
+    r b b b b b
+    r a a a a a %140
+    r b b b b b
+    r c c c c c
+    r b b b b b
+    r d d d f f
+    es es es es \once \slurDashed g( es) %145
+    d f f f es es
+    d( f d f es\sfp f)
+    d( f d f es\sfp f)
+    d( f d f d f)
+    f\cresc f f f d d %150
+    es\p r es r es r
+    r d d d f f
+    f b, b b b b
+    r c c c b b
+    r b b b c c %155
+    r b a a a a
+    r a a a a a
+    r b b b b b
+    r b b b b b
+    b4 r r %160
+    r8 b b b a! a
+    b <b d>4\ppE q q8
+    c a a a a c
+    b <b d>4 q q8
+    c a a a a a %165
+    b r b r b r
+    b2.\fermata \bar "||" %167 finis
+  }
+}

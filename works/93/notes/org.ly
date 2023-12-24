@@ -173,3 +173,184 @@ XCIIIBassFigures = \figuremode {
   r2... <7->16
   <\t>1 %82 finis
 }
+
+XCIIIbOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/4 \tempoXCIIIb
+      \set Score.currentBarNumber = #83
+    R2.
+    \mvTr f\p-\solo
+    f4 r f, %85
+    b4. b8 d b
+    es4 r r
+    d r r
+    a b es
+    f f, r %90
+    R2. \markSkip
+    f'^\critnote
+    f4 r f,
+    b4. b8 d b
+    es4 r r %95
+    d r r
+    a r r
+    b4. b8( c d)
+    es2 d4
+    c2 b4 %100
+    es2 es8 e
+    f4 f,8 f'( a c)
+    c,4 r r
+    c r r
+    c r r %105
+    f4. c'8( a f)
+    c4 r r
+    c r r
+    c r r
+    f4. a8( f c) %110
+    a2 a'4
+    b b, r
+    c r c
+    f, r f'
+    f, r f' %115
+    f, r8 a'( f c)
+    a\cresc a a a a a
+    b\pE r b r b r
+    c4 r c
+    f r r %120
+    e r r
+    es r r
+    d r r
+    c r r
+    b r d %125
+    es r c
+    f f, r
+    R2. \markSkip
+    f'
+    f4 r f, %130
+    b4. as'8( g f)
+    es4 r d
+    c r d
+    es r e
+    f r r %135
+    es! r r
+    d r r
+    a r r
+    b r r
+    es r r %140
+    d r r
+    a r r
+    b4. d'8( b f)
+    d d d d d d
+    es es es es c es %145
+    f4 r f,
+    b r b'
+    b, r b'
+    b, r8 d' b f
+    d\cresc d d d d d %150
+    es\p r es r es r
+    f4 r f,
+    b b' r
+    a r as
+    g r c, %155
+    f r r
+    es r r
+    d r r
+    b r r
+    es r r %160
+    f r f,
+    b8(\pp f b d f b)
+    f4 r f,
+    b8( f b d f b)
+    f4 r f, %165
+    b8 r b r b r
+    b2.\fermata \bar "||" %167 finis
+  }
+}
+
+XCIIIbBassFigures = \figuremode {
+  r2. %83
+  <7 4>4 <\t 3> <6 4>
+  <7 [5]>2. %85
+  \bo <[9 4]>4 \bc <[8 3]>2
+  <4 2>2.
+  <6>
+  <[6]>2 <6>4
+  <6 4> <5 3>2 %90
+  r2.
+  <7 4>4 <\t 3> <6 4>
+  <7 [5]>2.
+  \bo <[9 4]>4 \bc <[8 3]>2
+  <2>2. %95
+  \bo <[6 _]>
+  \bc <[6 5]>
+  r
+  <4>2 <6>4
+  <6 4 3>2. %100
+  <10 8>4. <9 7>8 <8 6> <7 5>
+  <6 4>4 <5 3>2
+  <[5] _!>2.
+  <6 4>
+  <[5] _!> %105
+  \bo <[5 2\+]>4 \bc <[\t 3]>2
+  <[5] _!>2.
+  <6 4>
+  <7 _!>
+  r %110
+  <6 3>2 <\t [5-] _+>4
+  r2.
+  <6 4>2 <7 _!>4
+  r2 <7! 4 2>4
+  <8 [3]>2 <7! 4 2>4 %115
+  <8 [3]>2.
+  <6>2 <5->4
+  r2.
+  <6 4>2 <7 _!>4
+  r2. %120
+  <6 5>
+  <2>
+  <[7]>4 <6>2
+  <6 4 _->2.
+  r2 <[6]>4 %125
+  r2.
+  <6 4>4 <5 3>2
+  r2.
+  <7 4>4 <\t 3> <6 4>
+  <7 [5]>2. %130
+  \bo <[9 4]>4 \bc <[8 3]>8 <4 2> <6 3> <6 4 _->
+  r2 <6! 4 3>4
+  r2 q4
+  <6>2 <7 [5-]>4
+  <5>2. %135
+  <2>
+  <6>
+  <6 5>
+  r
+  <2> %140
+  <6>
+  <6 5>
+  r
+  <6>2 <6! 5->4
+  <6>2. %145
+  <6 4->2 <7 [3]>4
+  r2 <7 4 2>4
+  <8 3>2 <7 4 2>4
+  <8 3>2.
+  <6>2 <7->4 %150
+  r2.
+  <6 4>2 <7 [_!]>4
+  r2.
+  <6>2 <2>4
+  <6>2. %155
+  <6 4>4 <5 3>2
+  <2>2.
+  <6>
+  <7->
+  r %160
+  <6 4>2 <7 5>4
+  r2.
+  <[7]>
+  r
+  r %165
+  r
+  r %167 finis
+}

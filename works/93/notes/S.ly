@@ -112,3 +112,120 @@ XCIIISopranoLyrics = \lyricmode {
 
   Quid pa -- ve -- scam? %82 finis
 }
+
+XCIIIbSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoXCIIIb \autoBeamOff
+      \set Score.currentBarNumber = #83
+    R2.*8 %90
+    \mvTr b'2\pE^\solo b4 \markSkip
+    b( \grace { c16[ b] } a8_[ b]) c([ d)]
+    es4.( c8) a es
+    f8.([ es16)] d4 r
+    f2 f4 %95
+    f8.([ g16)] f4 r
+    f'2 r8 es
+    cis8.([ d16)] d4 r
+    c2 b4
+    es2 d4 %100
+    g4.( f8) es d
+    \appoggiatura { c16[ es] } d4 c r
+    R2.*4 %106
+    c2 e,4
+    f8.([ c16)] c4 r
+    g''4.( e8) c([ b)]
+    gis8.[( a16)] a4 r %110
+    c2 cis4
+    d~ d16([ e f cis] d[ a)] b([ g)]
+    c2 e,4
+    f r b8. e,16
+    g8 f r4 c'8. g16 %115
+    b8 a r4 r
+    f2 f4
+    f8([ g16 a] b[ c d e] g[ f]) e([ d)]
+    c4. d16([ c)] \appoggiatura c b([ a)] b([ g)]
+    f4 r r %120
+    R2.*7 %127
+    b2 b4 \markSkip
+    b4( \grace { c16[ b] } a8_[ b)] c([ d)]
+    es4.( c8) a es %130
+    f8.([ es16)] d4 r
+    g2 f4
+    f8.([ es16)] es4 r
+    es'2 r8 d
+    h8.([ c16)] c4 r %135
+    R2.*4
+    f,2 f4 %140
+    f8.([ g16)] f4 r
+    % f'4~ f8[ fis] g([ es)] % for midi
+    << { \tiny \after 8 \turn f'8.[(^\critnote a16] c8[ a]) f([ es)] } \\ \context Voice = "Soprano" { \voiceTwo f4~ f8[ fis] g([ es)] \oneVoice } >>
+    cis8.([ d16)] d4 r
+    b2 h4
+    c~ c16([ d es f] g[ d)] es([ c)] %145
+    b!2 \appoggiatura d8 c4
+    b r es8. a,16
+    c8 b r4 f'8. c16
+    es8 d r4 r
+    b2 d,4 %150
+    es8([ g b es)] g([ es)]
+    << { \tiny d16[(^\critnote b d f] b[ a]) } \\ \context Voice = "Soprano" { \voiceTwo d,4. \oneVoice } >> g16([ f)] f([ es)] d([ c)]
+    b4 r r
+    R2.*13 %166
+    R2.\fermata \bar "||" %167 finis
+  }
+}
+
+XCIIIbSopranoLyrics = \lyricmode {
+  Ge -- nus %91
+  o -- mne
+  De -- o cre --
+  a -- tum
+  nunc est %95
+  tri -- ste,
+  nunc be --
+  a -- tum,
+  ge -- nus
+  o -- mne %100
+  De -- o cre --
+  a -- tum,
+
+  nunc est %107
+  tri -- ste,
+  nunc be --
+  a -- tum, %110
+  cre -- scat
+  er -- go
+  spes in
+  me, quid de --
+  spe -- ram? quid pa -- %115
+  ve -- scam?
+  cre -- scat,
+  cre -- scat
+  er -- go spes in
+  me. %120
+
+  Ge -- nus %128
+  o -- mne
+  De -- o cre -- %130
+  a -- tum
+  nunc est
+  tri -- ste,
+  nunc be --
+  a -- tum, %135
+
+  nunc est %140
+  tri -- ste,
+  nunc __ be --
+  a -- tum,
+  cre -- scat
+  er -- go %145
+  spes in
+  me, quid de --
+  spe -- ram? quid pa --
+  ve -- scam?
+  cre -- scat, %150
+  cre -- scat
+  er -- go spes in
+  me. %153 finis
+}
