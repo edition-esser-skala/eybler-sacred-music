@@ -197,7 +197,7 @@ XCIIIbViola = {
     f f4 f f8~
     f f f f es es %165
     d r d r d r
-    d2.\fermata \bar "|."
+    d2.\fermata \bar "||" %167 finis
   }
 }
 

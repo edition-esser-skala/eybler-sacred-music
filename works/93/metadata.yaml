@@ -2,7 +2,7 @@ title: Fremit mare cum furore
 id: HerEy 93
 genre: offertorium
 festival: De Tempore
-scoring: S (solo), S, A, T, B (coro), 2 ob, 2 cl, 2 fag,\\2 clno (D), timp (D–A), 2 vl, vla, vlc solo, b, org
+scoring: S (solo), S, A, T, B (coro), 2 ob, cl solo (\flat B), 2 cl (\flat B), 2 fag,\\2 clno (D), timp (D–A), 2 vl, vla, vlc solo, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -29,45 +29,46 @@ sources:
     license: public domain
     notes: 23 parts (S solo, S (2×), A (2×), T (2×), B (2×), ob 1, ob 2, cl, fag, clno 1, clno 2, b-trb, timp, vl 1(2×), vl 2, vla, vlc/b, org)
 toe: |
-  –   & –     & Articulations and dynamics are exclusively taken from \A1, since \C1 is highly inconsistent in this respect. \\
-  10  & vla   & 1st \halfNote\ in \C1: \sharp d′2 \\
-  55  & vl 2  & 6th/last eighthNote\ in \C1: \flat b8 \\
-  82  & vl 1  & 1st \quarterNote\ in \C1: \flat e″+c′′′4 \\
-  83–167 & –  & There are two versions of the middle section: The first version (which likely represents the earlier one) comprises all (85) bars and a solo for vlc. The second version (probably created in 1814 when Eybler revised the work for print \C1) omits bars 92-108 (here indicated by segnos) and contains a solo for cl. This is also the version reproduced in \C1 and was likely considered as the final version by Eybler (cf. his autograph catalogue of works, where this work is listed as offertorium no. 5: “in der Mitte mit Soprano und Clarinetto Solo”). \\
-  83  & vlc   & In \A1, a treble clef without transposition is used, so that vlc would sound one octave higher (i.e., starting with b″). \\
-  92  & org   & bar in \C1: \flat e2. \\
+  –   & –    & Articulations and dynamics are exclusively taken from \A1,
+               since they are highly inconsistent in \C1. \\
+  10  & vla  & 1st \halfNote\ in \C1: \sharp d′2 \\
+  55  & vl 2 & 6th/last eighthNote\ in \C1: \flat b8 \\
+  82  & vl 1 & 1st \quarterNote\ in \C1: \flat e″+c′′′4 \\
+  83–167 & – & There are two versions of the middle section:
+               The first version (which likely represents the earlier one)
+               comprises all (85) bars and a solo for vlc. The second version
+               (probably created in 1814 when Eybler revised the work
+               for print \C1) omits bars 92–108 (here indicated by segnos)
+               and contains a solo for cl. This is also the version
+               reproduced in \C1 and was likely considered as the final version
+               by Eybler (cf. his autograph catalogue of works,
+               where this work is listed as offertorium no. 5:
+               “in der Mitte mit Soprano und Clarinetto Solo”). \\
+  83  & vlc  & In \A1, a treble clef without transposition is used,
+               so that vlc would sound one octave higher
+               (i.e., starting with b″). \\
+  92  & org  & bar in \C1: \flat e2. \\
   142, 152 & S & The upper voice is only written in \A1 (in small font.) \\
-  163 & cl    & last \sixteenthNote\ in \C1: a′16 \\
-  202–237 & cl, fag & These parts may have been added at a later timepoint, since their ink is different, and they are labeled with pencil. \\
-  214 & T     & 1st \halfNote\ in \C1: g2 \\
-  226 & vl 2  & 1st \eighthNote\ in \C1: \sharp f′8 \\
-  226 & vla   & 1st \eighthNote\ in \C1: d′8 \\
-  226 & A     & grace note added by editor \\
+  163 & cl   & last \sixteenthNote\ in \C1: a′16 \\
+  202–237 & cl, fag & These parts may have been added at a later timepoint,
+               since their ink is different,
+               and they are labeled with pencil. \\
+  214 & T    & 1st \halfNote\ in \C1: g2 \\
+  226 & vl 2 & 1st \eighthNote\ in \C1: \sharp f′8 \\
+  226 & vla  & 1st \eighthNote\ in \C1: d′8 \\
+  226 & A    & grace note added by editor \\
 parts:
-  cl_solo: Clarinetto solo in \flat B
+  cl1: Clarinetto solo in \flat B\\Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
   ottoni: Clarino I, II in D\\Timpani in D–A
-  b: Violoncello \& Bassi
+  vlc: Violoncello solo
 lyrics:
-  Fremit mare cum furore
-  coelum undique obscuratur,
-  stridet fulmen cum terrore,
-  cor oppressum cruciatur.
-  Vivam adhuc sola spe.
-
-  Genus omne Deo creatum
-  nunc est triste, nunc beatum,
-  crescat ergo spes in me,
+  Fremit mare cum furore\\
+  coelum undique obscuratur,\\
+  stridet fulmen cum terrore,\\
+  cor oppressum cruciatur.\\
+  Vivam adhuc sola spe.\\
+  Genus omne Deo creatum\\[1ex]
+  nunc est triste, nunc beatum,\\
+  crescat ergo spes in me,\\
   quid desperam? quid pavescam?
-
-Fre -- mit ma -- re cum fu -- ro -- re
-  coe -- lum un -- di -- que ob -- scu -- ra -- tur,
-  stri -- det ful -- men cum ter -- ro -- re,
-  cor op -- pres -- sum cru -- ci -- a -- tur,
-  vi -- vam ad -- huc so -- la spe.
-
-  Ge -- nus o -- mne De -- o cre -- a -- tum
-  nunc est tri -- ste, nunc be -- a -- tum,
-  cre -- scat er -- go spes in me,
-  quid de -- spe -- ram? quid pa -- ve -- scam?
-
-12-41

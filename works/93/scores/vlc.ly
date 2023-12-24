@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vla")
+#(define option-instrument-name "vlc")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \XCIIIViola }
+        \new Staff { \XCIIIOrgano }
       >>
     }
   }
@@ -20,7 +20,10 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \XCIIIbViola }
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "vlc" "solo" }
+          \XCIIIbCello
+        }
       >>
     }
   }
@@ -29,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \XCIIIcViola }
+        \new Staff { \XCIIIcOrgano }
       >>
     }
   }

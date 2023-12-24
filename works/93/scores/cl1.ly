@@ -2,34 +2,29 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vla")
+#(define option-instrument-name "cl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
-  \bookpart {
-    \section "93" "Fremit mare cum furore"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \XCIIIViola }
-      >>
-    }
-  }
   \bookpart {
     \subsection "Genus omne Deo creatum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \XCIIIbViola }
+        \new Staff {
+          \set Staff.instrumentName = \markup \center-column { "cl" "solo" }
+          \XCIIIbClarinettoSolo
+        }
       >>
     }
   }
   \bookpart {
     \subsection "Fremit mare cum furore (II)"
     \addTocEntry
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \XCIIIcViola }
+        \new Staff { \XCIIIcClarinettoI }
       >>
     }
   }

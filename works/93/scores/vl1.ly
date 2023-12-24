@@ -7,11 +7,30 @@
 
 \book {
   \bookpart {
-    \section "XCIII" ""
+    \section "93" "Fremit mare cum furore"
     \addTocEntry
     \score {
       <<
         \new Staff { \XCIIIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Genus omne Deo creatum"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fremit mare cum furore (II)"
+    \addTocEntry
+    \paper { page-count = #2 }
+    \score {
+      <<
+        \new Staff { \XCIIIcViolinoI }
       >>
     }
   }

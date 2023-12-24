@@ -6,17 +6,16 @@
 #(define option-instrument-name-lower "timp")
 \include "score_settings/three-staves.ly"
 
-\paper { indent = 1.5\cm }
-
 \book {
   \bookpart {
-    \section "XCIII" ""
+    \section "93" "Fremit mare cum furore"
     \addTocEntry
+    \paper { indent = 1.5\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
+            \set GrandStaff.instrumentName = \transposedNameShort "clno" "D" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \XCIIIClarinoI
@@ -28,9 +27,30 @@
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
+          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
           \XCIIITimpani
         }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fremit mare cum furore (II)"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \XCIIIcClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \XCIIIcClarinoII
+            }
+          >>
+        >>
+        \new Staff { \XCIIIcTimpani }
       >>
     }
   }

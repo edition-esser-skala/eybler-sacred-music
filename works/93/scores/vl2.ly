@@ -7,11 +7,29 @@
 
 \book {
   \bookpart {
-    \section "XCIII" ""
+    \section "93" "Fremit mare cum furore"
     \addTocEntry
     \score {
       <<
         \new Staff { \XCIIIViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Genus omne Deo creatum"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIbViolinoII }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fremit mare cum furore (II)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \XCIIIcViolinoII }
       >>
     }
   }
