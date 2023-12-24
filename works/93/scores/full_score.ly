@@ -84,64 +84,151 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Genus omne Deo creatum"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #12
+  %     top-system-spacing.minimum-distance = #12
+  %     top-markup-spacing.basic-distance = #2
+  %     top-markup-spacing.minimum-distance = #2
+  %     markup-system-spacing.basic-distance = #12
+  %     markup-system-spacing.minimum-distance = #12
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new Staff \with { \smallStaffDistance } {
+  %         \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "B" "flat" "solo" }
+  %         % \transpose c b,
+  %         \XCIIIbClarinettoSolo
+  %       }
+  %       \new Staff \with { \smallStaffDistance } {
+  %         \set Staff.instrumentName = \markup \center-column { "vlc" "solo" }
+  %         \XCIIIbCello
+  %       }
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \XCIIIbViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \XCIIIbViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \XCIIIbViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \XCIIIbSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \XCIIIbSopranoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \XCIIIbOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \XCIIIbBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Genus omne Deo creatum"
+    \subsection "Fremit mare cum furore (II)"
     \addTocEntry
-    \paper {
-      top-system-spacing.basic-distance = #12
-      top-system-spacing.minimum-distance = #12
-      top-markup-spacing.basic-distance = #2
-      top-markup-spacing.minimum-distance = #2
-      markup-system-spacing.basic-distance = #12
-      markup-system-spacing.minimum-distance = #12
-      systems-per-page = #2
-    }
     \score { %\articulate
       <<
-        \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "B" "flat" "solo" }
-          % \transpose c b,
-          \XCIIIbClarinetto
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+            \partCombine #'(0 . 10) \XCIIIcOboeI \XCIIIcOboeII
+          >>
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "cl" "1, 2" }
+            % \transpose c b,
+            \partCombine #'(0 . 10) \XCIIIcClarinettoI \XCIIIcClarinettoII
+          >>
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+            \partCombine #'(0 . 10) \XCIIIcFagottoI \XCIIIcFagottoII
+          >>
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            % \transpose c d
+            \partCombine #'(0 . 10) \XCIIIcClarinoI \XCIIIcClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          % \transpose c d
+          \XCIIIcTimpani
         }
-        \new Staff \with { \smallStaffDistance } {
-          \set Staff.instrumentName = \markup \center-column { "vlc" "solo" }
-          \XCIIIbCello
-        }
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \XCIIIbViolinoI
+              \XCIIIcViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \XCIIIbViolinoII
+              \XCIIIcViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \XCIIIbViola
+            \XCIIIcViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \XCIIIbSoprano }
+            \new Voice = "Soprano" { \dynamicUp \XCIIIcSoprano }
           }
-          \new Lyrics \lyricsto Soprano \XCIIIbSopranoLyrics
+          \new Lyrics \lyricsto Soprano \XCIIIcSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \XCIIIcAlto }
+          }
+          \new Lyrics \lyricsto Alto \XCIIIcAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \XCIIIcTenore }
+          }
+          \new Lyrics \lyricsto Tenore \XCIIIcTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \XCIIIcBasso }
+          }
+          \new Lyrics \lyricsto Basso \XCIIIcBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            \set Staff.instrumentName = \markup \center-column { "org" "vlc" "b" }
             % \transpose c c,
-            \XCIIIbOrgano
+            \XCIIIcOrgano
           }
         >>
-        \new FiguredBass { \XCIIIbBassFigures }
+        \new FiguredBass { \XCIIIcBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

@@ -229,3 +229,112 @@ XCIIIbSopranoLyrics = \lyricmode {
   er -- go spes in
   me. %153 finis
 }
+
+XCIIIcSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoXCIIIc \autoBeamOff
+      \set Score.currentBarNumber = #168
+    R1*10 %177
+    r2 r4 \mvTr a'8\f^\tuttiE a
+    d4 a d a
+    f' d r a8 a %180
+    e'4 a, e' a,
+    g' e r2
+    fis2. fis4
+    g4. g,8 g4 r
+    gis' gis8 gis gis4 gis %185
+    a a, r2
+    cis\sf d\sf
+    g\sf f\sf
+    es\sf d\sf
+    cis4 a r2 %190
+    r4 d8 d f d f d
+    cis4 e r2
+    r4 d8 d f d f d
+    a'4 a, r2
+    R1 %195
+    a2\p r4 a
+    a a a a
+    a1~
+    a
+    a,4 r r2 %200
+    R1*2
+    \key d \major R1*8 %210
+    a'2.\p fis4
+    d2. e8([ fis)]
+    g4 g \appoggiatura a16 g8([ fis)] g([ a)]
+    \appoggiatura g4 fis2 r
+    a2. fis4 %215
+    g2. h4
+    a4. fis8 a([ g)] fis([ e)]
+    d2 r
+    a'4.( e8) e4 r
+    a4.( fis8) fis4 r %220
+    h a g fis
+    e2 r
+    R1*2
+    g4 g \appoggiatura a16 g8([ fis)] g([ a)] %225
+    \appoggiatura g4 fis2 r
+    a2. fis4
+    d'2.\cresc h4
+    a4. fis8 a([ g)] fis([ e)]
+    d2 r %230
+    a'2.\p g4
+    fis2 r
+    a2. cis,4
+    d2 r
+    R1*2 %236
+    R1\fermata \bar "|." %237 finis
+  }
+}
+
+XCIIIcSopranoLyrics = \lyricmode {
+  Fre -- mit %178
+  ma -- re cum fu --
+  ro -- re, fre -- mit %180
+  ma -- re cum fu --
+  ro -- re,
+  coe -- lum
+  un -- di -- que,
+  un -- di -- que ob -- scu -- %185
+  ra -- tur,
+  stri -- det
+  ful -- men
+  cum ter --
+  ro -- re, %190
+  fre -- mit ma -- re cum fu --
+  ro -- re,
+  stri -- det ful -- men cum ter --
+  ro -- re,
+  %195
+  cor op --
+  pres -- sum cru -- ci --
+  a --
+
+  tur. %200
+
+  Vi -- vam, %211
+  vi -- vam
+  ad -- huc so -- la
+  spe,
+  vi -- vam, %215
+  vi -- vam
+  ad -- huc so -- la
+  spe,
+  vi -- vam,
+  vi -- vam %220
+  ad -- huc so -- la
+  spe,
+
+  vi -- vam so -- la %225
+  spe,
+  vi -- vam,
+  vi -- vam
+  ad -- huc so -- la
+  spe, %230
+  so -- la
+  spe,
+  so -- la
+  spe. %234 finis
+}

@@ -4,13 +4,13 @@ XCIIIOrgano = {
   \relative c {
     \clef bass
     \key d \minor \time 4/4 \tempoXCIII
-    \mvTr d4\f-\solo r \appoggiatura { a32[ h cis] } d4 r
-    \appoggiatura { a32[ h cis] } d4 d d r
-    a' r \appoggiatura { e32[ fis gis] } a4 r
-    \appoggiatura { e32[ fis gis] } a4 a a r
-    \appoggiatura { a,16[ b] } c!4 c' c r %5
+    \mvTr d4\f-\solo r \grace { a32[ h cis] } d4 r
+    \grace { a32[ h cis] } d4 d d r
+    a' r \grace { e32[ fis gis] } a4 r
+    \grace { e32[ fis gis] } a4 a a r
+    \grace { a,16[ b] } c!4 c' c r %5
     b, b' b r
-    \appoggiatura { h,16[ c] } d4 d' d r
+    \grace { h,16[ c] } d4 d' d r
     cis, cis' cis r
     g g' f, f'
     e, e' d, d' %10
@@ -21,13 +21,13 @@ XCIIIOrgano = {
     gis gis' gis gis gis, gis' gis gis %15
     a a a-\unisono a gis gis g g
     fis fis f f e e a a
-    d,4-\tutti-\markup \remark "accompagnato" r \appoggiatura { a32[ h cis] } d4 r
-    \appoggiatura { a32[ h cis] } d4 d d r
-    a' r \appoggiatura { e32[ fis gis] } a4 r %20
-    \appoggiatura { e32[ fis gis] } a4 a a r
-    \appoggiatura { a,16[ b] } c!4 c' c r
+    d,4-\tutti-\markup \remark "accompagnato" r \grace { a32[ h cis] } d4 r
+    \grace { a32[ h cis] } d4 d d r
+    a' r \grace { e32[ fis gis] } a4 r %20
+    \grace { e32[ fis gis] } a4 a a r
+    \grace { a,16[ b] } c!4 c' c r
     b, b' b r
-    \appoggiatura { h,16[ c] } d4 d' d r
+    \grace { h,16[ c] } d4 d' d r
     cis, cis' cis r %25
     g\sf g, f'\sf f,
     e'\sf e, d'\sf d,
@@ -353,4 +353,155 @@ XCIIIbBassFigures = \figuremode {
   r %165
   r
   r %167 finis
+}
+
+XCIIIcOrgano = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #168
+    \mvTr g4\p-\solo g g r
+    g'\f g g r
+    f\p f f r %170
+    d\f d d r
+    g,\sf g' gis,\sf gis'
+    a8 a, gis-\unisono a b\sf a b\sf a
+    gis\sf gis' gis gis gis,\sf gis' gis gis
+    a a, gis-\unisono a b\sf a b\sf a %175
+    gis\sf gis' gis gis gis,\sf gis' gis gis
+    a a a-\unisono a gis gis g g
+    fis fis f f e e a a
+    d,4-\tutti r \grace { a32[ h cis] } d4 r
+    \grace { a32[ h cis] } d4 d d r %180
+    a' r \grace { e32[ fis gis] } a4 r
+    \grace { e32[ fis gis] } a4 a a r
+    \grace { a,16[ b] } c!4 c' c r
+    b, b' b r
+    \grace { h,16[ c] } d4 d' d r %185
+    cis, cis' cis r
+    g\sf g, f'\sf f,
+    e'\sf e, d'\sf d,
+    g\sf g' gis,\sf gis'
+    a8 a, gis-\unisono a b\sf a b\sf a %190
+    gis\sf gis' gis gis gis,\sf gis' gis gis
+    a a, gis-\unisono a b\sf a b\sf a
+    gis\sf gis' gis gis gis,\sf gis' gis gis
+    a a a-\unisono a gis\decresc gis g g
+    fis fis f f e e d d %195
+    cis\pE cis a' a gis gis g g
+    fis fis f f e e d d
+    cis cis a' a gis gis g g
+    fis fis f f e e d d
+    a4.( gis8) a4.( gis8) %200
+    a( gis a gis) a( gis a gis) \noBreak
+    a4 r r2
+    \key d \major d4-\solo^\pizz r d' r \noBreak
+    d, r d' r
+    a, r a' r %205
+    r d, fis a
+    d, r d' r
+    h r g r
+    a r a, r
+    d r r2 %210
+    d4 r d' r
+    d, r d' r
+    a, r a' r
+    r d, fis a
+    d, r d' r %215
+    h r g r
+    a r a, r
+    d-\arco d' r2
+    cis,4 cis' r2
+    d,4 d' r fis, %220
+    g a h gis
+    a g\cresc fis e
+    d\f r d' r
+    d, r d' r
+    a\p r a, r %225
+    r d fis a
+    d, r d' r
+    g,,\cresc r g' r
+    a r a, r
+    d r r2 %230
+    r4 a'-!\p a-! a-!
+    d r r2
+    r4 a,-! a-! a-!
+    d r r2
+    d4\decresc r r2 %235
+    d4 r d\pp r
+    d2 r\fermata \bar "|." %237 finis
+  }
+}
+
+XCIIIcBassFigures = \figuremode {
+  r1 %168
+  <6 4\+ _->
+  <6> %170
+  r
+  <6->2 <7 _!>
+  <_+>1
+  <7 _!>
+  <_+> %175
+  <7 _!>
+  <_+>
+  r
+  r
+  r %180
+  <_+>
+  r
+  <4\+>
+  <6>
+  <6! 4\+ _!> %185
+  <6>
+  <4\+ _->2 <6>
+  <6\\ 5->1
+  <6->2 <7 _!>
+  <_+>1 %190
+  <7 _!>
+  <_+>
+  <7 _!>
+  <_+>
+  r %195
+  r
+  r
+  r
+  r
+  r %200
+  r
+  r
+  r
+  r
+  \bo <[7 _]> %205
+  <9 4>4 \bc <[8 3]>2.
+  r1
+  <6>
+  <6 4>2 <[5] 3>
+  r1 %210
+  r
+  r
+  \bo <[7 _]>
+  <9 4>4 \bc <[8 3]>2.
+  r1 %215
+  <6>
+  <6 4>2 <[5] 3>
+  r1
+  <6>
+  r2. <6>4 %220
+  r <8 6> <6 4> <7 5>
+  <_+> <\t> <8 6> <10 8>
+  r1
+  r
+  <7> %225
+  \bo <[9 4]>4 \bc <[8 3]>2.
+  r1
+  r
+  <6 4>2 <7 [3]>
+  r1 %230
+  r
+  r
+  r
+  r
+  r %235
+  r
+  r %237 finis
 }

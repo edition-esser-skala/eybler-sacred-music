@@ -200,3 +200,98 @@ XCIIIbViola = {
     d2.\fermata \bar "|."
   }
 }
+
+XCIIIcViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #168
+    <d, g>2:16\p q:
+    <g b>:\f q:
+    <f a>:\p q: %170
+    <a d>:\f q:
+    <b es>:\sf <h d>:\sf
+    <e, cis'>8 a16 a gis a a a b!\sf a a a b\sf a a a
+    h2:\sf h:\sf
+    e,16 a a a gis a a a b\sf a a a b\sf a a a %175
+    h'2:\sf h:\sf
+    e,16 a a a a4: gis: g:
+    fis: f: e: a,:
+    f2: f:
+    f1: %180
+    a2: a:
+    a1:
+    <a d>2: q:
+    <b d>: q:
+    <d f>: q: %185
+    <cis e>: q:
+    q:\sf <d f>:\sf
+    cis:\sf d4:\sf a:
+    g2:\sf f:\sf
+    e16 a a a gis a a a b!\sf a a a b\sf a a a %190
+    h2:\sf h:\sf
+    e,16 a a a gis a a a b\sf a a a b\sf a a a
+    h'2:\sf h:\sf
+    e,16 a, a a a4: gis:\decresc g:
+    fis: f: e: d: %195
+    cis:\p a': gis: g:
+    fis: f: e: d:
+    cis: a': gis: g:
+    fis: f: e: d:
+    a'16 a a a a a gis gis a a a a a a gis gis %200
+    a a gis gis a a gis gis a a gis gis a a gis gis \noBreak
+    a4 r r2
+    \key d \major d8( a d a) d( a d a) \noBreak
+    d( a d a) d( a d a)
+    cis( a cis a) cis( a cis a) %205
+    d( a d a) d( a d a)
+    d( a d a) d( a d a)
+    d( g, d' g,) d'( h d h)
+    d( a d fis) a( g fis e)
+    << {
+      d fis( e d cis h a g) %210
+      fis1~
+      fis
+      g
+      fis
+      a %215
+      h
+      a4. fis8 a( g fis e)
+    } \\ {
+      d'8 d( cis h a g fis e) %210
+      d1~
+      d
+      e
+      d
+      fis %215
+      g
+      fis4. d8 fis( e d cis)
+    } >>
+    d( fis a fis) d( fis a d)
+    a( e' a, e') cis( e cis e)
+    << {
+      fis( a gis a h a d cis) %220
+      cis( h) h( a) a( g) g( fis)
+      e4
+    } \\ {
+      d8( fis eis fis g fis h a) %220
+      a( g) g( fis) fis( e) e( d)
+      a4
+    } >> r8 a( \cresc h cis d cis)
+    d(\f a d a) d( a d a)
+    d( a d a) d( a d a)
+    cis(\p a cis a) cis( a cis a) %225
+    cis(-\critnote a d a) d( a d a)
+    d( a d a) d( a d a)
+    d(\cresc h d h) d( h d h)
+    d( a d fis) a( g fis e)
+    d4 r r2 %230
+    r4 <e a>\pE q q
+    <fis a> r r2
+    r4 <a, e'> q q
+    d8( a d a) d( a d a)
+    d(\decresc a d a) d( a d a) %235
+    d4 r <a d,>\pp r
+    q2 r\fermata \bar "|." %237 finis
+  }
+}

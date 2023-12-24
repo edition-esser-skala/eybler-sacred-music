@@ -13,7 +13,7 @@ XCIIIViolinoII = {
     <h gis'>: q:
     <e a>: q:
     b'!: a:
-    <g b,>: <f a,>: %10
+    <g g,>: <f a,>: %10
     <es b>: <d h>:
     cis16 a a a gis a a a b\sf a a a b\sf a a a
     <d f>2: q:
@@ -26,17 +26,17 @@ XCIIIViolinoII = {
     <cis e>2: q: %20
     q1:
     <d fis>2: q:
-    <b g'>: q:
+    <g, g'>: q:
     <h gis'>: q:
     <e a>: q: %25
     b'!:\sf a:\sf
-    <g b,>:\sf <f a,>:\sf
+    <g g,>:\sf <f a,>:\sf
     <es b>:\sf <d h>:\sf
     cis16 a a a gis a a a b\sf a a a b\sf a a a
     <d f>2:\sf q:\sf %30
     <cis e>16 a a a gis a a a b!\sf a a a b\sf a a a
     <f' d'>2:\sf q:\sf
-    <e cis'>16 a a a a4:16\decresc gis: g:
+    <e cis'>16 a a a a4:16 gis:\decresc g:
     fis: f: e: d:
     cis:\p a': gis: g: %35
     fis: f: e: d:
@@ -179,5 +179,83 @@ XCIIIbViolinoII = {
     c a a a a a %165
     b r b r b r
     b2.\fermata \bar "||" %167 finis
+  }
+}
+
+XCIIIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #168
+    b2:16\p b:
+    <cis e>:\f q:
+    <a d>:\p q: %170
+    <f' a>:\f q:
+    g:\sf f:\sf
+    e16 a, a a gis a a a b!\sf a a a b\sf a a a
+    <d f>2:\sf q:\sf
+    <cis e>16 a a a gis a a a b!\sf a a a b\sf a a a %175
+    <f' d'>2:\sf q:\sf
+    <e cis'>16 a a a a4: gis: g:
+    fis: f: e: <cis a'>:
+    <a d>2: q:
+    q1: %180
+    <cis e>2: q:
+    q1:
+    <d fis>2: q:
+    <g, g'>: q:
+    <h gis'>: q: %185
+    <e a>: q:
+    b'!:\sf a:\sf
+    <g g,>:\sf <f a,>:\sf
+    <es b>:\sf <d h>:\sf
+    cis16 a a a gis a a a b\sf a a a b\sf a a a %190
+    <d f>2:\sf q:\sf
+    <cis e>16 a a a gis a a a b!\sf a a a b\sf a a a
+    <f' d'>2:\sf q:\sf
+    <e cis'>16 a a a a4:16 gis:\decresc g:
+    fis: f: e: d: %195
+    cis:\p a': gis: g:
+    fis: f: e: d:
+    cis: a': gis: g:
+    fis: f: e: d:
+    a16 a a a a a gis gis a a a a a a gis gis %200
+    a a gis gis a a gis gis a a gis gis a a gis gis \noBreak
+    a4 r r2
+    \key d \major fis'8( a, fis' a,) fis'( a, fis' a,) \noBreak
+    fis'( a, fis' a,) fis'( a, fis' a,)
+    e'( a, e' a,) e'( a, e' a,) %205
+    fis'( a, fis' a,) fis'( a, fis' a,)
+    fis'( a, fis' a,) fis'( a, fis' a,)
+    g'( h, g' h,) g'( h, g' h,)
+    fis'( a, fis' d) fis( e d cis)
+    d d'( cis h a g fis e) %210
+    d( a d a) d( a d a)
+    d( a d a) d( a d a)
+    cis( a cis a) cis( a cis a)
+    d( a d a) d( a d a)
+    d( a d a) d( a d a) %215
+    d( g, d' g,) d'( h d h)
+    d( a d fis) fis( e d cis)
+    d( a' fis a) fis( a fis a)
+    g( a e a) g( a e a)
+    d,( fis' eis fis) g( fis h a) %220
+    a( g) g( fis) fis( e) e( d)
+    cis a,(\cresc h cis d e fis g)
+    fis(\f a, fis' a,) fis'( a, fis' a,)
+    fis'( a, fis' a,) fis'( a, fis' a,)
+    e'(\p a, e' a,) e'( a, e' a,) %225
+    e'(-\critnote a, fis' a,) fis'( a, fis' a,)
+    fis'( a, fis' a,) fis'( a, fis' a,)
+    h(\cresc g' h, g') h,( g' h, g')
+    fis( a, fis' d) fis( e d cis)
+    d4 cis8(\p d g fis h a) %230
+    a4( cis) cis-! cis-!
+    d cis,8( d g fis h a)
+    a4( g) g-! g-!
+    fis8( a, fis' a,) fis'( a, fis' a,)
+    fis'(\decresc a, fis' a,) fis'( a, fis' a,) %235
+    fis'4 r d\pp r
+    d2 r\fermata \bar "|." %237 finis
   }
 }

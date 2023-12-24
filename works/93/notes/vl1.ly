@@ -29,14 +29,14 @@ XCIIIViolinoI = {
     g d e fis g d e fis g f es d c b a g
     gis a h a gis a h a gis a h c d e fis gis
     a e fis gis a e fis gis a gis fis e d cis h a %25
-    b(\sf cis d e f g a b) a(\sf g a f e d c b)
+    b(\sf cis d e f g a b) a(\sf g f e d c b a)
     g(\sf a b! cis d e f g) f(\sf e d c b a g f)
     es(\sf f g as b c d es) d,(\sf e f g a h cis d)
     cis8 a,16 a gis a a a b!\sf a a a b\sf a a a
     d8\sf e16 f g a h cis d cis d e f e f d %30
     cis a a a gis a a a b\sf a a a b\sf a a a
     <d d,>8\sfE e16 f g a h cis d cis d e f e f d
-    cis a, a a a4:16\decresc gis: g:
+    cis a, a a a4:16 gis:\decresc g:
     fis: f: e: d:
     cis:\p a': gis: g: %35
     fis: f: e: d:
@@ -179,5 +179,83 @@ XCIIIbViolinoI = {
     a8 c c c c c %165
     b r b r b r
     b2.\fermata \bar "||" %167 finis
+  }
+}
+
+XCIIIcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #168
+    g16(\p a b a) g( a b a) g( b c d e fis g a)
+    b(\f a g a) b( a g a) b( a g f e d cis e)
+    d(\p e f e) d( e f e) d( f g a h cis d e) %170
+    f(\f e d e) f( e d e) f( e d c b a g f)
+    es(\sf f g as b c d es) d,(\sf e f g a h cis d)
+    cis8 a,16 a gis a a a b!\sf a a a b\sf a a a
+    d8\sfE e16 f g a h cis d cis d e f e f d
+    cis a a a gis a a a b\sf a a a b\sf a a a %175
+    <d d,>8\sfE e16 f g a h cis d cis d e f e f d
+    cis a, a a a4:16 gis: g:
+    fis: f: e: a:
+    d,16( a h cis d e f e) d( a h cis d e f e)
+    d( e f e) d( e f e) d e f g a f e d %180
+    e d cis d e f g f e d cis d e f g f
+    e f g f e f g f e f g a b g f e
+    fis g a g fis g a g fis g a b! c d e fis
+    g d e fis g d e fis g f es d c b a g
+    gis a h a gis a h a gis a h c d e fis gis %185
+    a e fis gis a e fis gis a gis fis e d cis h a
+    b(\sf cis d e f g a b) a(\sf g f e d c b a)
+    g(\sf a b! cis d e f g) f(\sf e d c b a g f)
+    es(\sf f g as b c d es) d,(\sf e f g a h cis d)
+    cis8 a,16 a gis a a a b!\sf a a a b\sf a a a %190
+    d8\sfE e16 f g a h cis d cis d e f e f d
+    cis a a a gis a a a b\sf a a a b\sf a a a
+    <d d,>8\sfE e16 f g a h cis d cis d e f e f d
+    cis a, a a a4:16 gis:\decresc g:
+    fis: f: e: d: %195
+    cis:\p a': gis: g:
+    fis: f: e: d:
+    cis: a': gis: g:
+    fis: f: e: d:
+    a16 a a a a a gis gis a a a a a a gis gis %200
+    a a gis gis a a gis gis a a gis gis a a gis gis \noBreak
+    a4 r r2
+    \key d \major a''2.(-\dolce fis4) \noBreak
+    d2.( e8 fis)
+    g4 g \appoggiatura a16 g8( fis g a) %205
+    \appoggiatura g4 fis2 r
+    a2.( fis4)
+    g2.( h4)
+    a4. fis8 a( g fis e)
+    d fis( e d cis h a g) %210
+    fis( a, fis' a,) fis'( a, fis' a,)
+    fis'( a, fis' a,) fis'( a, fis' a,)
+    e'( a, e' a,) e'( a, e' a,)
+    fis'( a, fis' a,) fis'( a, fis' a,)
+    fis'( a, fis' a,) fis'( a, fis' a,) %215
+    g'( h, g' h,) g'( h, g' h,)
+    fis'( a, fis' a) a( g fis e)
+    d4 cis'8( d e d g fis)
+    e4 dis8( e fis e a g)
+    fis4 gis8( a h a d cis) %220
+    cis( h) h( a) a( g) g( fis)
+    e a,(\cresc h cis d e fis g)
+    a2.(\f fis4)
+    d2.( e8 fis)
+    g4\p g \appoggiatura a16 g8 fis g a %225
+    \appoggiatura g4 fis2 r
+    a2.( fis4)
+    d'2.(\cresc h4)
+    a4. fis8 a( g fis e)
+    d4 cis8(\p d g fis h a) %230
+    a4( e) e-! e-!
+    fis cis8( d g fis h a)
+    a4( cis,) cis cis
+    d r a4. g8
+    fis4\decresc r a4. g8 %235
+    fis4 r fis\pp r
+    fis2 r\fermata \bar "|." %237 finis
   }
 }

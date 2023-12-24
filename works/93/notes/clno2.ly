@@ -36,3 +36,32 @@ XCIIIClarinoII = {
     r2 r4 r\fermata \bar "||" %82 finis
   }
 }
+
+XCIIIcClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #168
+    R1*6 %173
+    c4\f c8. c16 c4 c
+    g r r2 %175
+    c4 c8. c16 c4 c
+    g r r2
+    R1
+    c4 r c r
+    c c8. c16 c4 c %180
+    g r g r
+    g g8. g16 g4 g
+    c2. r4
+    c2. r4
+    c2. r4 %185
+    g2. r4
+    R1*4 %190
+    c4 c8. c16 c4 c
+    g r r2
+    c4 c8. c16 c4 c
+    g r r2
+    R1*42 %236
+    R1\fermata \bar "|." %237 finis
+  }
+}

@@ -106,3 +106,112 @@ XCIIIBassoLyrics = \lyricmode {
   so -- la
   spe. %73 finis
 }
+
+XCIIIcBasso = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoXCIIIc \autoBeamOff
+      \set Score.currentBarNumber = #168
+    R1*10 %177
+    r2 r4 \mvTr a'8\f^\tuttiE a
+    f4 d f a
+    d d, r a'8 a %180
+    cis,4 e a cis
+    e a, r2
+    c!2. c4
+    b4. g8 g4 r
+    d' d8 d d4 d %185
+    cis a r2
+    g\sf f\sf
+    e\sf f\sf
+    g\sf gis\sf
+    a4 a, r2 %190
+    r4 gis'8 gis gis gis gis gis
+    a4 a, r2
+    r4 gis'8 gis gis gis gis gis
+    a4 a, r2
+    R1 %195
+    a'2\p r4 a
+    a a a a
+    a1~
+    a
+    a,4 r r2 %200
+    R1*2
+    \key d \major R1*8 %210
+    d2.\p d4
+    d2. d4
+    cis cis cis cis
+    d2 r
+    d2. d4 %215
+    h2 g
+    a4 a a a
+    d2 r
+    cis cis4 r
+    d2 d4 r %220
+    g, a h gis
+    a2 r
+    R1*2
+    cis4 cis cis cis %225
+    d2 r
+    d2. d4
+    g,2\cresc g'
+    a4 a a, a
+    d2 r %230
+    cis2.\p cis4
+    d2 r
+    a2. a4
+    d2 r
+    R1*2 %236
+    R1\fermata \bar "|." %237 finis
+  }
+}
+
+XCIIIcBassoLyrics = \lyricmode {
+  Fre -- mit %178
+  ma -- re cum fu --
+  ro -- re, fre -- mit %180
+  ma -- re cum fu --
+  ro -- re,
+  coe -- lum
+  un -- di -- que,
+  un -- di -- que ob -- scu -- %185
+  ra -- tur,
+  stri -- det
+  ful -- men
+  cum ter --
+  ro -- re, %190
+  fre -- mit ma -- re cum fu --
+  ro -- re,
+  stri -- det ful -- men cum ter --
+  ro -- re,
+  %195
+  cor op --
+  pres -- sum cru -- ci --
+  a --
+
+  tur. %200
+
+  Vi -- vam, %211
+  vi -- vam
+  ad -- huc so -- la
+  spe,
+  vi -- vam, %215
+  vi -- vam
+  ad -- huc so -- la
+  spe,
+  vi -- vam,
+  vi -- vam %220
+  ad -- huc so -- la
+  spe,
+
+  vi -- vam so -- la %225
+  spe,
+  vi -- vam,
+  vi -- vam
+  ad -- huc so -- la
+  spe, %230
+  so -- la
+  spe,
+  so -- la
+  spe. %234 finis
+}

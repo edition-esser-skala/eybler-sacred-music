@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-XCIIIbClarinetto = {
+XCIIIbClarinettoSolo = {
   \relative c' {
     \clef treble
     \key c \major \time 3/4 \tempoXCIIIb
@@ -47,5 +47,36 @@ XCIIIbClarinetto = {
     d~ d16 a'( g f e d g h,) %165
     c8 r c r c r
     c2.\fermata \bar "||"
+  }
+}
+
+XCIIIcClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #168
+    R1*39 %206
+    h'1\p
+    cis
+    h4 r r2
+    R1*4 %213
+    r4 h,( e gis)
+    h1 %215
+    cis
+    h4 r r2
+    R1*2
+    r4 h2 e8( dis) %220
+    dis( cis) cis( h) h( a) a( gis)
+    fis4 r r2
+    gis'1\f
+    e
+    fis4 r r2 %225
+    r4 gis,\p h e
+    gis1
+    a\cresc
+    gis4. e8 gis( fis e dis)
+    e4\! r r2 %230
+    R1*6 %236
+    R1\fermata \bar "|." %237 finis
   }
 }

@@ -59,3 +59,50 @@ XCIIIOboeII = {
     es4 r r r\fermata \bar "||" %82 finis
   }
 }
+
+XCIIIcOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoXCIIIc
+      \set Score.currentBarNumber = #168
+    R1
+    cis'\f
+    r %170
+    d\f
+    b2\sf h\sf
+    a4 r r2
+    f1
+    e4 r r2 %175
+    d'1
+    cis4 r r2
+    R1
+    f,
+    d' %180
+    cis
+    e
+    a,
+    d
+    h %185
+    e
+    cis2\sf d\sf
+    cis\sf d\sf
+    b\sf h\sf
+    a4 r r2 %190
+    f1
+    e4 r r2
+    d'1
+    cis4 r r2
+    R1*8 %202
+    \key d \major R1*20 %222
+    a1\f
+    fis
+    e4 r r2 %225
+    r2 r8 cis'(\p d e)
+    fis1
+    g\cresc
+    fis4. d8 fis( e d cis)\!
+    d4 r r2 %230
+    R1*6 %236
+    R1\fermata \bar "|." %237 finis
+  }
+}
