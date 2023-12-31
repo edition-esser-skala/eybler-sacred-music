@@ -1,5 +1,13 @@
 # Changelog
 
+## 2023.12.0 – 2023-12-31
+
+### Added
+
+- works: HerEy 85, 86/43, and 93
+- global macro definitions: \hA
+
+
 ## 2023.11.0 – 2023-11-29
 
 ### Added
