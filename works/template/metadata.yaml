@@ -7,7 +7,7 @@ license: cc-by-sa-4.0
 sources:
   A1:
     siglum: A-Ws
-    shelfmark: 571/16
+    shelfmark: Cod. 571/16
     date: 1828
     license: public domain
     principal: true
@@ -44,6 +44,7 @@ parts:
   cl2: Clarinetto II in \flat B
   cor12: Corno I, II in C
   ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
   b: Violoncello \& Bassi
 lyrics:
 
