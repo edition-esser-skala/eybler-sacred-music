@@ -37,7 +37,7 @@ CVIICornoII = {
     r e8\ff e e4 r
     r e8 e e4 r %40
     R1*3
-    r2 g\ppE\<
+    r2 \mvTrr g\ppE-\markup \remark "cresc."
     c2.\f g4 %45
     c r r2
     R1*2
@@ -63,8 +63,8 @@ CVIICornoII = {
     r4 e,16(\f g c d) e8(\fz \scriptOut c16)-! r r4 %70
     R1
     r4 e,16(\p g c d) e8( \scriptOut c16)-! r r4
-    r4 g8\ffE r e2~\p
-    e~\perd e8 r e r
+    r4 g8\fE r e2~\p
+    e~ e8 r\perd e r
     e4\! r r2\fermata \bar "|." %75 finis
   }
 }

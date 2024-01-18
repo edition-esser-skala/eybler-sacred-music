@@ -20,28 +20,19 @@
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "Oboe"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \CVIIOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \CVIIOboeII
-            }
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = "Flauto"
+            \CVIIFlauto
+          }
+          \new Staff <<
+            \set Staff.instrumentName = "Oboe I, II"
+            \partCombine #'(0 . 10) \CVIIOboeI \CVIIOboeII
           >>
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "Fagotto"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \CVIIFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \CVIIFagottoII
-            }
+          \new Staff <<
+            \set Staff.instrumentName = "Fagotto I, II"
+            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \partCombine #'(0 . 10) \CVIIFagottoI \CVIIFagottoII
           >>
         >>
         \new StaffGroup \with { \smallGroupDistance } <<
@@ -55,13 +46,24 @@
             % \transpose c b,
             \partCombine #'(0 . 10) \CVIIClarinoI \CVIIClarinoII
           >>
+          \new GrandStaff \with { \smallGroupDistance }  <<
+            \set GrandStaff.instrumentName = "Trombone"
+            \new Staff <<
+              \set Staff.instrumentName = "I, II"
+              \partCombine #'(0 . 10) \CVIITromboneI \CVIITromboneII
+            >>
+            \new Staff {
+              \set Staff.instrumentName = "III"
+              \CVIITromboneIII
+            }
+          >>
         >>
         \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \transposedTimp "B" "flat" "F" ""
           % \transpose c b,
           \CVIITimpani
         }
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance }  <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
@@ -74,11 +76,11 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Viola"
+            \set Staff.instrumentName = "Viole"
             \CVIIViola
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #14 } <<
           \new Staff {
             \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \CVIISoprano }

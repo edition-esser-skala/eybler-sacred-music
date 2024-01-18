@@ -23,12 +23,12 @@ CVIIViola = {
     a\pp f a c r b d f
     r h, d g r c, e g
     r cis, e a r d, f a
-    r e g c c, f d b %20
+    r e g c c, f d b! %20
     a\fE c a f d d' e, g
     f c' a f g c, f c'
     b d b g es es' fis, a
-    g d' b g a d, g g'
-    c, es! f! a, b d es g, %25
+    g d' b g a d, g b-\critnote
+    c es! f! a, b d es g, %25
     a c d d, g d' b d
     g, b cis g' fis d, fis a
     d,\pp h' g d es! g c es
@@ -41,8 +41,8 @@ CVIIViola = {
     g'8 es4 c a f'8~ %35
     f d4 b g es'8~
     es c d a' g d4 a'8
-    g g,4 g'8 fis16[ a32 fis] d16 d d8 r
-    r4 <d, a' fis' d'>8\ff q q4 r
+    g g,4 g'8 fis16 a32 fis d16 d d8 r
+    r4 \mvDll <d, a' fis' d'>8\ff q q4 r
     r q8 q q4 r %40
     r8 b'(\p a g) es'4 b
     d8\pp a fis d d' b g d
@@ -53,11 +53,11 @@ CVIIViola = {
     es es, g c as c' h h,
     c g c, c' d g, c c,
     a' f' r es d b' r b,
-    es c a a' b b,32[ c b a] b16-! f-! d-! f-! %50
+    es c a a' b b,32([ c b a]) b16-! f-! d-! f-! %50
     r8 b d f r es g b
     r b f b, r b g as
     r b g es r b' f d
-    r a' c f, r f d b'~
+    r a'! c f, r f d b'~
     b g4 f'8 es es, g c %55
     d g f f d b d f~
     f c a f~ f b d f~
@@ -75,9 +75,9 @@ CVIIViola = {
     << { es8 g f es d4 } \\ { g,8 es' a, c b4 } >> r4
     r b16(\f c d es) f8(\fz \scriptOut b16)-! r b,8 b %70
     b g' f f f4 r
-    r b,16(\p c d es) f8( \scriptOut b16)-! r <b d,>8\ff r
+    r b,16(\p c d es) f8( \scriptOut b16)-! r \mvDll <b d,>8\ff r
     <g g,> r <f a,> r <f b,>2~\p
-    q2~\perd q8 r q r
+    q2~ q8 r\perd q r
     q4\! r r2\fermata \bar "|." %75 finis
   }
 }

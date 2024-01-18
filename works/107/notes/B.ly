@@ -28,24 +28,24 @@ CVIIBasso = {
     c4 f!8 f b,4 es8 es %25
     a,4 d8 d g,4 g'
     es2 d4 r
-    h\pp h8 h c4 c
+    h\p h8 h c4 c
     d2 es4 r
     c c8 c d4 d %30
-    b2 f'4 r
+    b!2 f'4 r
     r b8\f as g f es g
     c c, r4 c'8 b a g
     f g16([ a)] b8 b, g' b es, g
     c, es16 es a,8 a' f a d, f %35
     b, d16 d g,8 g' es g c, es
     a, a'16 a fis8 d g4 f8 f
-    es2 d4 d'8\ff d
+    es2 d4 \mvDll d'8\ff d
     d4 d, r d'8 d
     d4 d, r2 %40
     es!4\p es8 es es2
-    d r4 d~\ppE
+    d r4 d~
     d d8 d d2
     d4 r r2
-    b4\f d es f8 f %45
+    b4\f d es f!8 f %45
     b, d16 f b8 b,16 b c8 f b, r
     c4 es f8. f16 g8 g
     c, c c' c,16 c d8([ g)] c, r
@@ -63,9 +63,9 @@ CVIIBasso = {
     es4 es8 es f2 %60
     b,4 r r r8 es\pp
     e e e e f4 f
-    fis8 fis fis\cresc fis g4 g8 g
+    fis8\cresc fis fis fis g4 g8 g
     a4\f a8 a b d, es c
-    f2 b,4 b'8. b16 %65
+    f!2 b,4 b'8. b16 %65
     b8 b, b b f' f f8. f16
     f8 f f f b b, b'8. b16
     f8 b, b'8. b16 f8 b, b'8. b16

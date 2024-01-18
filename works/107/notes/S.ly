@@ -26,7 +26,7 @@ CVIISoprano = {
     es8. d16 c4 d8. c16 b4 %25
     c b8 a b4 g
     cis2 d4 r
-    d,\pp d8 d es!4 es
+    d,\p d8 d es!4 es
     f!2 g4 r
     a a8 a b4 f %30
     d'2 c4 r
@@ -40,7 +40,7 @@ CVIISoprano = {
     fis4 d r fis8 fis
     a4 fis r d~\p %40
     d c8 b b([ a)] a g
-    fis4 a r d,~\ppE
+    fis4 a r d,~
     d d8 d d2
     d4 r r2
     b'4\f b c c8 c %45
@@ -53,14 +53,14 @@ CVIISoprano = {
     b4 g' f8. d16 b8 b
     a!16([ b)] c([ d)] es([ g)] f es d8.([ es16)] f4
     g h,8 h c8. d16 es8 g %55
-    f16([ d)] es c b8[( \slashedGrace d8 c)] b4 r
+    f16([ d)] es c b8[( \grace d8 c)] b4 r
     f' f f8.([ f,16)] f4
     f' f f8. d16 b8 b
     b4( c) f,8 f' d as
     g([ g')] f16([ es)] d([ c)] b4( a) %60
     b r r r8 g\pp
     g g g g a4 a
-    a8 a a\cresc a b4 b8 b
+    a8\cresc a a a b4 b8 b
     c4\f c8 c d b g es'
     d4( c) b d8. c16 %65
     c([ b)] b8 b16([ d)] d([ f)] f([ es)] es8 es8. d16
@@ -141,7 +141,7 @@ CVIISopranoLyrics = \lyricmode {
   lu -- ja, al -- le -- lu -- ja, al -- le --
   lu -- ja, al -- le -- lu -- ja, al -- le --
   lu -- ja, al -- le -- %70
-  lu -- ja, al -- le -- lu -- ja, al -- le --
+  lu -- ja, al -- le -- lu -- ja, __ al -- le --
   lu -- ja, al -- le --
   lu -- ja, al -- le -- lu -- ja, al -- le --
   lu -- ja. %74 finis

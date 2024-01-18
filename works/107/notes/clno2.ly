@@ -17,7 +17,7 @@ CVIIClarinoII = {
     r2 r8 g g g %15
     c4 r r2
     R1*4 %20
-    g,4\f r r2
+    g,4\fE r r2
     R1*3
     r4 g' c, r %25
     R1
@@ -48,8 +48,8 @@ CVIIClarinoII = {
     c4 r c c8. c16 %70
     c8 r r g' c,4 r
     r2 r4 c8\ff r
-    r4 g8 r \mvDl c2~\p
-    c~\perd c8 r c r
+    r4 g8\f r \mvDl c2~\p
+    c~ c8 r\perd c r
     c4\! r r2\fermata \bar "|." %75 finis
   }
 }

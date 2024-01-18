@@ -22,12 +22,12 @@ CVIIOboeII = {
     f4 r r2
     R1*5 %22
     g2.\f fis4
-    g2~ g8 fis g[ b]
+    \once \tieDashed g2~ g8 fis g[ b]
     c8. b16 a4 b8. a16 g4 %25
     a g8 fis g2
     g fis4 r
     R1*4 %31
-    r2 b8\f as g f
+    r2 \mvDl b8\f as g f
     es g c4 r c8 b
     a g f g16 a b4 r
     g8 es4 c' a f8~ %35
@@ -37,7 +37,7 @@ CVIIOboeII = {
     r fis8\ff fis a4 r
     r d8 d fis4 r %40
     R1*3
-    r2 es,!\ppE\<
+    r2 \mvTrr es,!\ppE-\markup \remarkE "cresc."
     d4\f b'2 a4 %45
     b8. a16 b8 c16 d g,8 a b[ f]
     es4 c'2 h4
@@ -59,13 +59,13 @@ CVIIOboeII = {
     b4 a\trill b r %65
     r8 d,~ d16( b') b( d) d( c) c8 r4
     r8 f,~ f16( a) a( c) c( b) b8 d,8. f16
-    \once \slurDashed f( es) d8 b'8. d16 d( c) b8 d8. b16
-    es8 g, es c d4 d16(\f f b c)
-    \once \slurDashed d8(\fz \scriptOut b16)-\parenthesize-! r r4 r as8. f'16~ %70
+    f( es) d8 b'8. d16 d( c) b8 d8. b16
+    es8 g, es c d4 d16( f b c)
+    d8(\fz \scriptOut b16)-! r r4 r as8. f'16~ %70
     f( es d c) c( b) b( a) a8( b) r4
     r2 r4 d8\ff r
     es r es, r d2~\p
-    d~\perd d8 r d r
+    d~ d8 r\perd d r
     d4\! r r2\fermata \bar "|." %75 finis
   }
 }

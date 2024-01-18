@@ -27,7 +27,7 @@ CVIITenore = {
     r4 f'!8. es16 d4 es8. d16 %25
     c4 d d8 d b d
     g,2 a4 r
-    g\pp g8 g g4 g
+    g\p g8 g g4 g
     f!2 es4 r
     f f8 f f4 b %30
     b2 a4 f'8\f es
@@ -41,7 +41,7 @@ CVIITenore = {
     d4 d r d8 d
     d4 d r2 %40
     g,4\p g8 g g4 g8 g
-    a4 fis r d~\ppE
+    a4 fis r d~
     d d8 d d2
     d4 r r2
     d'4\f b b a8 a %45
@@ -54,14 +54,14 @@ CVIITenore = {
     r2 b4 f'
     es8. c16 a!8 a b16([ d)] f([ es)] d([ c)] b as
     g([ as)] b8 r4 r2 %55
-    r f'4 f
+    r f'4\f f
     f8.([ f,16)] f4 f'4 f
     f8. f,16 f8 a b8.([ d16)] d4
     r r8 es d4 f
     es b8 g' f4.( es8) %60
     d4 r r r8 b\pp
     g g g g f8.([ a16)] c4
-    a8 a a\cresc a g8.([ b16)] d8 d
+    a8\cresc a a a g8.([ b16)] d8 d
     c4\f c8 c b b b c
     f,4( a) b b8. es16 %65
     es([ d)] d8 d16([ b)] b([ d)] d([ c)] c8 c8. b16
@@ -73,9 +73,9 @@ CVIITenore = {
     b([ g')] f es es([ d)] d([ c)] c8([ d)] r4
     r b16([\p c)] d([ es)] f8 d d8.\ff d16
     d([ c)] es c c([ b)] c([ a)]
-    b4 b8\p b
+    b4 b8\p b %75
     b2 b4 r
-    R1\fermata \bar "|."
+    R1\fermata \bar "|." %77 finis
   }
 }
 
@@ -149,11 +149,4 @@ CVIITenoreLyrics = \lyricmode {
   al -- le -- lu -- ja, al -- le --
   lu -- ja, al -- le -- lu -- ja, al -- le --
   lu -- ja. %74 finis
-
-%   Re -- ges Thar -- sis et in -- su -- lae mu -- ne -- ra of -- fe -- rent,
-%   re -- ges A -- ra -- bum et Sa -- ba do -- na ad -- du -- cent,
-%   et ad -- o -- ra -- bunt e -- um o -- mnes re -- ges ter -- rae,
-%   o -- mnes gen -- tes ser -- vi -- ent e -- i.
-%   Al -- le -- lu -- ja!
-%   al -- le -- lu -- ja
 }

@@ -5,7 +5,7 @@ CVIIClarinoI = {
     \clef treble
     \key c \major \time 4/4 \tempoCVII
     c'2\f d
-    \once \partCombineChords e4 r r2
+    e4 r r2
     R1*2
     g,4 r g r %5
     r r8 d' c4 r
@@ -17,12 +17,12 @@ CVIIClarinoI = {
     r2 r8 d d d %15
     e4 r r2
     R1*4 %20
-    g,4\f r r2
+    g,4\fE r r2
     R1*3
-    r4 d' \once \partCombineChords e r %25
+    r4 d' e r %25
     R1
-    r2 r8 e,16. e32 e8 e
-    e4 r r2
+    r2 r8 \pa e,16. e32 e8 e
+    e4 \pd r r2
     R1*10 %38
     r4 e8\ff e e4 r
     r e8 e e4 r %40
@@ -46,10 +46,10 @@ CVIIClarinoI = {
     r2 r4 c8. c16
     c4 r r2
     c4 r \pao c, c'8. c16 %70
-    c8 r r  \pao g g4 r
+    c8 r r \pao g g4 r
     r2 r4 c8\ff r
-    r4 g8 r g2~\p
-    g\perd e8 r e r
+    r4 g8\f r g2~\p
+    g e8 r\perd e r
     e4\! r r2\fermata \bar "|." %75 finis
   }
 }

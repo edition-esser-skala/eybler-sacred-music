@@ -2,14 +2,18 @@
 
 tempoCVII = \tempoMarkup "Andante"
 
+\include "notes/fl.ly"
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
 \include "notes/fag1.ly"
 \include "notes/fag2.ly"
-\include "notes/clno1.ly"
-\include "notes/clno2.ly"
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"
+\include "notes/clno1.ly"
+\include "notes/clno2.ly"
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"  % add clef in parts
+\include "notes/trb3.ly"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

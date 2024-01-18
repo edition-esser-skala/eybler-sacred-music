@@ -2,9 +2,16 @@ title: Reges Tharsis
 id: HerEy 107
 genre: offertorium
 festival: Epiphanias
-scoring: S, A, T, B (coro), [fl], 2 ob, 2 fag, 2 cor (\flat B),\\2 clno (\flat B), [3 trb], timp (\flat B–F), 2 vl, vla, vlc, b, org
+scoring: S, A, T, B (coro), fl, 2 ob, 2 fag, 2 cor (\flat B),\\2 clno (\flat B), 3 trb, timp (\flat B–F), 2 vl, vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 568 (3)
+    date: 1807
+    license: public domain
+    principal: true
+    notes: full score; 17 pages
   B1:
     siglum: A-Wn
     shelfmark: F24.St.Peter.E151(II)
@@ -20,7 +27,6 @@ sources:
     rism: 991018074
     url: https://data.onb.ac.at/rec/AC14328852
     license: public domain
-    principal: true
     notes: full score; Tobias Haslinger, Wien, plate number 5047
   C2:
     siglum: A-Wn
@@ -37,9 +43,18 @@ sources:
     url: https://data.onb.ac.at/rec/AC09173367
     license: public domain
     notes: conductor's score; Anton Böhm \& Sohn, Augsburg–Wien, plate number 6847
+toe: |
+  –  & –     & Parts for fl and trb are later additions, only appearing in \B1.
+               Parts for cor are included in \C1 and \C2 and thus have
+               likely been sanctioned by Eybler. \\
+  24 & vla   & last \eighthNote\ in \C1: g′8 \\
+  38 & fag 1 & 1st \halfNote\ in \C1 and \C2: \flat e′2 \\
+  50 & fag 2 & 3rd \quarterNote\ in \C1 and \C2: \flat b4 \\
+  69 & trb 3 & 1st \quarterNote\ in \B1: f4 \\
 parts:
   cor12: Corno I, II in \flat B
   ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+  vla: Viole
   b: Violoncello \& Bassi
 lyrics:
   Reges Tharsis et insulae munera offerent,\\

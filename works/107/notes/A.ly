@@ -14,7 +14,7 @@ CVIIAlto = {
     r2 f4 a
     b8. g16 g8 c c c16([ b)] a([ g)] f es! %10
     d([ es)] f8 r4 r2
-    r2 c'4 c
+    r2 c'4\f c
     c8.([ c,16)] c4 c' c
     c8. c,16 c8 e f8.([ a16)] a4
     r2 r8 f f f %15
@@ -26,7 +26,7 @@ CVIIAlto = {
     c8. b16 a4 b8. a16 g4 %25
     a g8 fis g4 g
     g2 fis4 r
-    d\pp d8 d c4 c
+    d\p d8 d c4 c
     b!2 b4 r
     es es8 es d4 d %30
     f2 f4 r
@@ -40,10 +40,10 @@ CVIIAlto = {
     a4 fis r a8 a
     fis4 a r2 %40
     b,2\p c4 cis
-    d d r d~\ppE
+    d d r d~
     d d8 d d2
     d4 r r2
-    f4\f d g f8 f %45
+    f!4\f d g f8 f %45
     f f16 f f8 b16 b b8([ a16)] a b8 r
     g4 es as8. as16 g8 g
     g g g f16 es d4 es8 r
@@ -53,14 +53,14 @@ CVIIAlto = {
     b f16 g as([ c)] b as g8. as16 b4
     R1*2
     es,4 f8 f es8. d16 c8 es %55
-    d16([ b')] g es d8[( \slashedGrace f es)] d4 r
+    d16([ b'!)] g es d8[( \grace f es)] d4 r
     r8 c'([ a)] es d8.([ f16)] f4
     r8 c'([ a)] es d8. f16 f8 f
     g4 a b2~
     b4 a!16([ g)] f([ es)] d4( c) %60
     b r r r8 es\pp
     c c c c c8.([ f16)] f4
-    d8 d d\cresc d d8.([ g16)] g8 g
+    d8\cresc d d d d8.([ g16)] g8 g
     f!4\f f8 f f f es g
     f2 d4 f8. a16 %65
     a([ b)] f8 f f f f f8. f16
