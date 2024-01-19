@@ -16,6 +16,7 @@ parts:
   cl1: Clarinetto I in C
   cl2: Clarinetto II in C
   cor12: Corno I, II in C
+  vla: Viole
   b: Violoncello \& Bassi
 lyrics:
   Per te Dei genitrix nobis est data vita perdita,\\

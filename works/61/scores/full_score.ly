@@ -43,7 +43,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Viola"
+            \set Staff.instrumentName = "Viole"
             \LXIViola
           }
         >>

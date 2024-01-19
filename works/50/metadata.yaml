@@ -44,6 +44,7 @@ parts:
   cl1: Clarinetto I in \flat B
   cl2: Clarinetto II in \flat B
   ottoni: Clarino I, II in \flat E\\Timpani in \flat E–\flat B
+  vla: Viole
   b: Violoncello \& Bassi
 lyrics:
   Tua est potentia, tuum regnum, Domine,\\

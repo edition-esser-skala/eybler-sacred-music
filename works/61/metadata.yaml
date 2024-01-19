@@ -33,6 +33,7 @@ parts:
   cl1: Clarinetto I in C
   cl2: Clarinetto II in C
   cor12: Corno I, II in G
+  vla: Viole
   b: Violoncello \& Bassi
 lyrics:
   Dies sanctificatus illuxit nobis,\\

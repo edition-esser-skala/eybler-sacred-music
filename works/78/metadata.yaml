@@ -38,6 +38,7 @@ parts:
   cl2: Clarinetto II in C
   cor12: Corno I, II in C
   ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
   b: Violoncello \& Bassi
 lyrics:
   Tui sunt coeli, et tua est terra:\\

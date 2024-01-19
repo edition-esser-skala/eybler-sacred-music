@@ -33,6 +33,7 @@ toe: |
 parts:
   cl1: Clarinetto I in C
   cl2: Clarinetto II in C
+  vla: Viole
   b: Violoncello \& Bassi
 lyrics:
   Non in multitudine est virtus tua, Domine.\\

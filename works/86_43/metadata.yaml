@@ -69,6 +69,7 @@ toe: |
 parts:
   cor12: Corno I, II in C
   ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
   b: Violoncello \& Bassi
   org: Organo\\Baritono (Harmonium)
 extra_abbreviations:
