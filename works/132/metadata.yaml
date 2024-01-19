@@ -1,38 +1,52 @@
 title: De profundis
 id: HerEy 132
 genre: psalm
-scoring: S, A, T, B (coro), 2 ob, 2 cl (\flat B), 2 fag,\\2 clno (\flat B), timp (\flat B–F), 2 vl, vla, vlc, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cl (\flat B), 2 fag,\\2 clno (\flat B), 3 trb, timp (\flat B–F), 2 vl, vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
-  B1:
+  A1:
+    siglum: A-Wn
+    shelfmark: 16591
+    date: 1803
+    license: public domain
+    principal: true
+    notes: full score, bound as last work in one volume with the requiem and Libera (HerEy 37); 52 pages
+  E1:
     siglum: A-Wn
     shelfmark: HK.2147/1
     date: 1850
     rism: 600243144
     url: https://data.onb.ac.at/rec/AC14265982
     license: public domain
-    principal: true
     notes: full score; digitized version available at \url{https://data.onb.ac.at/rec/AC14266094}
 toe: |
-  –     & org  & All bass figures have been added by the editor. \\
-  14–18 & b    & bars in \B1: 5 × \flat B1 \\
-  27    & A    & 2nd \quarterNote\ in \B1: g′4 \\
-  32f   & B    & bars in \B1: F2–\halfNoteRest\ and \wholeNoteRest \\
-  38    & vl 2 & 7th \eighthNote\ in \B1: d′8 \\
-  141   & cb   & 1st \halfNote\ in \B1: f2 \\
-  162   & S    & 1st \quarterNote\ in \B1: c″4 \\
+  –   & –    & \E1 is a shortened version (comprising 199 bars in total): Bars 68 to 186 have been replaced with a short transition comprising three bars, and bars 239 to 249 and 284 to 363 have been deleted. Moreover, the final fugue uses the lyrics “Alleluia”. \\
+  21  & –    & “con moto” has been added to the tempo indication with pencil. \\
+  195 & –    & Tempo indication has been added with pencil.
 parts:
   cl1: Clarinetto I in \flat B
   cl2: Clarinetto II in \flat B
   ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+  vla: Viole
   b: Violoncello \& Bassi
 lyrics:
   De profundis clamavi ad te, Domine;\\
   Domine, exaudi vocem meam.\\
   Fiant aures tuae intendentes\\
   in vocem deprecationis meae.\\
+  Si observaveris iniquitates Domine,\\
+  Domine, quis sustinebit?\\
+  Quia apud te propitiatio est,\\
+  et propter legem tuam sustinui te, Domine.\\
+  Sustinuit anima mea in verbo eius,\\
+  speravit anima mea in Domino.\\
+  A custodia matutina usque ad noctem\\
+  speret Israel in Domino,\\
   Quia apud Dominum misericordia,\\
-  et copiosa redemptio apud eum.\\
-  Et ipse redimet Israel\\
+  et copiosa redemptio apud eum,\\
+  et ipse redimet Israel\\
   ex omnibus iniquitatibus eius.\\
+  Gloria Patri et Filio et Spiritui Sancto,\\
+  sicut erat nunc et semper\\
+  et in saecula saeculorum, amen.\\
   (\bibleverse{Ps}(130/129:))
