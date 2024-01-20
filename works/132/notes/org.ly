@@ -3,7 +3,7 @@
 CXXXIIOrgano = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \tempoCXXXIIDeProfundis
+    \key b \major \time 2/2 \tempoCXXXIIDeProfundis
     << {
       R1^\vlc
       r2 r4 b(
@@ -282,8 +282,7 @@ CXXXIIOrgano = {
     b a g f
     es d c a \noBreak
     b d es f
-    \time 3/4 \tempoCXXXIIGloria \newSpacingSection
-      b,4 r r \noBreak
+    \time 3/4 \tempoCXXXIIGloria b,4 r r \noBreak
     b~\f b8. \tuplet 6/4 { c64( d es f g a) } b8-! a-! %240
     g4 r r
     g,~ g8. \tuplet 6/4 { a64( b c d es f) } g8-! f-!
@@ -294,9 +293,7 @@ CXXXIIOrgano = {
     r f\f b,
     f~ f8. \tuplet 6/4 { g64( a b c d e) } f8 f \noBreak
     f,2.\fermata \bar "||"
-    \time 2/2 \tempoCXXXIIEtInSaecula \newSpacingSection
-      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4)
-       b1-!\f \noBreak %250
+    \time 2/2 \tempoCXXXIIEtInSaecula b1-!\f \noBreak %250
     es-!
     d-!
     g2.-! g4-!

@@ -5,10 +5,10 @@
 \include "score_settings/full-score.ly"
 
 \paper {
-  top-system-spacing.basic-distance = #10
-  top-system-spacing.minimum-distance = #10
-  top-markup-spacing.basic-distance = #0
-  top-markup-spacing.minimum-distance = #0
+  top-system-spacing.basic-distance = #15
+  top-system-spacing.minimum-distance = #15
+  top-markup-spacing.basic-distance = #5
+  top-markup-spacing.minimum-distance = #5
   markup-system-spacing.basic-distance = #10
   markup-system-spacing.minimum-distance = #10
 }
@@ -24,24 +24,25 @@
           \new Staff <<
             \set Staff.instrumentName = "Oboe I, II"
             \set Staff.soloText = \markup \remark \medium "ob 1"
-            \partCombine \CXXXIIOboeI \CXXXIIOboeII
+            \partCombine #'(0 . 10) \CXXXIIOboeI \CXXXIIOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
             \set Staff.soloText = \markup \remark \medium "cl 1"
             \set Staff.soloIIText = \markup \remark \medium "cl 2"
             % \transpose c b,
-            \partCombine \CXXXIIClarinettoI \CXXXIIClarinettoII
+            \partCombine #'(0 . 10) \CXXXIIClarinettoI \CXXXIIClarinettoII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
             \set Staff.soloText = \markup \remark \medium "fag 1"
-            \partCombine \CXXXIIFagottoI \CXXXIIFagottoII
+            \partCombine #'(0 . 10) \CXXXIIFagottoI \CXXXIIFagottoII
           >>
         >>
         \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff <<
+          \new Staff<<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "B" "flat"
+            \set Staff.soloText = \markup \remark \medium "clno 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \CXXXIIClarinoI \CXXXIIClarinoII
           >>
@@ -52,11 +53,12 @@
           \CXXXIITimpani
         }
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
               \CXXXIIViolinoI
+
             }
             \new Staff {
               \set Staff.instrumentName = "II"
@@ -64,7 +66,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Viola"
+            \set Staff.instrumentName = "Viole"
             \CXXXIIViola
           }
         >>
@@ -76,19 +78,19 @@
           \new Lyrics \lyricsto Soprano \CXXXIISopranoLyrics
 
           \new Staff {
-            \incipitAlto
+            \incipit \markup \center-column { "Alto e" "Trombone I" } "alto" #-20.5 #-1.8
             \new Voice = "Alto" { \dynamicUp \CXXXIIAlto }
           }
           \new Lyrics \lyricsto Alto \CXXXIIAltoLyrics
 
           \new Staff {
-            \incipitTenore
+            \incipit \markup \center-column { "Tenore e" "Trombone II" } "tenor" #-20.9 #-1.8
             \new Voice = "Tenore" { \dynamicUp \CXXXIITenore }
           }
           \new Lyrics \lyricsto Tenore \CXXXIITenoreLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "Basso"
+            \set Staff.instrumentName = \markup \center-column { "Basso e" "Trombone III" }
             \new Voice = "Basso" { \dynamicUp \CXXXIIBasso }
           }
           \new Lyrics \lyricsto Basso \CXXXIIBassoLyrics
@@ -103,7 +105,7 @@
         \new FiguredBass { \CXXXIIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 45 } % 60 – 75 – 105
+      \midi { \tempo 2 = 45 } % 75 – 100 – 60 – 110
     }
   }
 }

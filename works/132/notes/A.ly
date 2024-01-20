@@ -3,7 +3,7 @@
 CXXXIIAlto = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \autoBeamOff \tempoCXXXIIDeProfundis
+    \key b \major \time 2/2 \autoBeamOff \tempoCXXXIIDeProfundis
     R1*14 %14
     \mvTr b2\p^\tuttiE b %15
     a!1
@@ -168,8 +168,7 @@ CXXXIIAlto = {
     f2. f4
     d2 r
     R1*5 %238
-    \time 3/4 \tempoCXXXIIGloria \newSpacingSection
-      f2\f f8 f \noBreak
+    \time 3/4 \tempoCXXXIIGloria f2\f f8 f \noBreak
     f4 f r %240
     g2 g8 g
     g8. b16 b4 r

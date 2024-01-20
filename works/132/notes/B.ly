@@ -3,7 +3,7 @@
 CXXXIIBasso = {
   \relative c {
     \clef bass
-    \key b \major \time 4/4 \autoBeamOff \tempoCXXXIIDeProfundis
+    \key b \major \time 2/2 \autoBeamOff \tempoCXXXIIDeProfundis
     R1*12 %12
     \mvTr b2\p^\tuttiE b
     b1
@@ -186,8 +186,7 @@ CXXXIIBasso = {
     f2. f4
     b,2 r
     R1*5 %238
-    \time 3/4 \tempoCXXXIIGloria \newSpacingSection
-      b'2\f b8 b \noBreak
+    \time 3/4 \tempoCXXXIIGloria b'2\f b8 b \noBreak
     b4 b, r %240
     g'2 g8 g
     g8. g,16 g4 r

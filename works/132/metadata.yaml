@@ -10,7 +10,7 @@ sources:
     date: 1803
     license: public domain
     principal: true
-    notes: full score, bound as last work in one volume with the requiem and Libera (HerEy 37); 52 pages
+    notes: full score, 52 pages; bound as last work in one volume with the Requiem and Libera (HerEy 37)
   E1:
     siglum: A-Wn
     shelfmark: HK.2147/1
@@ -18,11 +18,17 @@ sources:
     rism: 600243144
     url: https://data.onb.ac.at/rec/AC14265982
     license: public domain
-    notes: full score; digitized version available at \url{https://data.onb.ac.at/rec/AC14266094}
+    notes: full score, 31 pages; digitized version available at \url{https://data.onb.ac.at/rec/AC14266094}
 toe: |
-  –   & –    & \E1 is a shortened version (comprising 199 bars in total): Bars 68 to 186 have been replaced with a short transition comprising three bars, and bars 239 to 249 and 284 to 363 have been deleted. Moreover, the final fugue uses the lyrics “Alleluia”. \\
+  –   & –    & \E1 is a shortened version (comprising 199 bars in total):
+               Bars 68 to 186 have been replaced with a short transition
+               comprising three bars, and bars 239 to 249 and 284 to 363
+               have been deleted. Moreover, the final fugue uses the
+               lyrics “Alleluia”. \\
+  –   & trb  & These parts are indicated by the directive “3 Tromboni in Tutti
+               con le Parti cantanti.”, written on the first page in red ink. \\
   21  & –    & “con moto” has been added to the tempo indication with pencil. \\
-  195 & –    & Tempo indication has been added with pencil.
+  195 & –    & Tempo indication has been added with pencil. \\
 parts:
   cl1: Clarinetto I in \flat B
   cl2: Clarinetto II in \flat B
@@ -30,7 +36,7 @@ parts:
   vla: Viole
   b: Violoncello \& Bassi
 lyrics:
-  De profundis clamavi ad te, Domine;\\
+  De profundis clamavi ad te, Domine,\\
   Domine, exaudi vocem meam.\\
   Fiant aures tuae intendentes\\
   in vocem deprecationis meae.\\

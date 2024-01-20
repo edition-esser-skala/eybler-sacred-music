@@ -3,7 +3,7 @@
 CXXXIISoprano = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \autoBeamOff \tempoCXXXIIDeProfundis
+    \key b \major \time 2/2 \autoBeamOff \tempoCXXXIIDeProfundis
     R1*13 %13
     \mvTr d2\p^\tuttiE d
     es es4 es %15
@@ -159,8 +159,7 @@ CXXXIISoprano = {
     c2. c4
     b2 r
     R1*5 %238
-    \time 3/4 \tempoCXXXIIGloria \newSpacingSection
-      b2\f b8 b \noBreak
+    \time 3/4 \tempoCXXXIIGloria b2\f b8 b \noBreak
     d4 b r %240
     b2 b8 b
     d8. b16 b4 r

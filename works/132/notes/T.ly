@@ -3,7 +3,7 @@
 CXXXIITenore = {
   \relative c' {
     \clef "treble_8"
-    \key b \major \time 4/4 \autoBeamOff \tempoCXXXIIDeProfundis
+    \key b \major \time 2/2 \autoBeamOff \tempoCXXXIIDeProfundis
     R1*13 %13
     \mvTr as2\p^\tuttiE as
     ges ges4 ges %15
@@ -188,8 +188,7 @@ CXXXIITenore = {
     b2( a4) a
     b2 r
     R1*5 %238
-    \time 3/4 \tempoCXXXIIGloria \newSpacingSection
-      d2\f d8 d \noBreak
+    \time 3/4 \tempoCXXXIIGloria d2\f d8 d \noBreak
     b4 d r %240
     d2 d8 d
     b8. d16 d4 r

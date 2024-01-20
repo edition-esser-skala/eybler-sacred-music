@@ -3,7 +3,7 @@
 CXXXIIViola = {
   \relative c' {
     \clef alto
-    \key b \major \time 4/4 \tempoCXXXIIDeProfundis
+    \key b \major \time 2/2 \tempoCXXXIIDeProfundis
     R1
     r2 r4 b(\p
     ges2.) b4(
@@ -238,17 +238,16 @@ CXXXIIViola = {
     b a g f
     es d c f'~ \noBreak
     f b, g' es
-    \time 3/4 \tempoCXXXIIGloria \newSpacingSection
-      d4 r r \noBreak
-    d4~\f d8. \tuplet 3/2 { es64( f g a b c) } d8 d %240
+    \time 3/4 \tempoCXXXIIGloria d4 r r \noBreak
+    d4~\f d8. \tuplet 6/4 { es64( f g a b c) } d8 d %240
     d4 r r
-    b,~ b8. \tuplet 3/2 { c64( d es f g a) } b8 b
+    b,~ b8. \tuplet 6/4 { c64( d es f g a) } b8 b
     b4 g8..[ g32 g8.. g32]
     g8..[ g32 f8.. f32 f8.. f32]
     g8\p g4 g g8 %245
     c,4 r r
     r <a f' c'>\f <b f' d'>
-    <a f' c'> f8. \tuplet 3/2 { g64( a b c d e) } f8 f \noBreak
+    <a f' c'> f8. \tuplet 6/4 { g64( a b c d e) } f8 f \noBreak
     f,2.\fermata \bar "||"
     \time 2/2 \tempoCXXXIIEtInSaecula R1*14 %263
     b1\fE

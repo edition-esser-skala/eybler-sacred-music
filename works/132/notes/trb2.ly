@@ -1,58 +1,61 @@
 \version "2.24.0"
 
-CXXXIIFagottoII = {
-  \relative c {
-    \clef bass
+CXXXIITromboneII = {
+  \relative c' {
+    \clef tenor
     \key b \major \time 2/2 \tempoCXXXIIDeProfundis
-    R1*6 %6
-    f1\p
-    ges4 r r2
-    b,1~
-    b4 r r2 %10
-    r r4 a'(
-    b) d,( es2)\fz
-    d4 r r2
-    f1\p
-    es4 r r2 %15
-    a!1
-    b4 r r2
-    r4 as( ges f)
-    es b' ges es
-    b1~ %20
-    \tempoCXXXIIClamavi b4 r r2
-    \clef "treble_8" r4 d'2\f es4
+    R1*13 %13
+    as2\p as
+    ges ges4 ges %15
+    es2 f4 ges
+    f b d2~
+    d es4 f
+    ges es b ges
+    es2. es4 %20
+    \tempoCXXXIIClamavi d2 r
+    r4 d'2\f es4
     f4. b,8 b2
     r4 es, es'2~
     es4 des8 ces b4 as %25
     g!2 as4 b
-    ces2 \clef bass f,
-    ges es
-    f \clef "treble_8" b~\fz
+    ces4. b8 as4 f'!
+    des2 r4 es
+    c!2 b~
     b4 c8 des es4 e %30
-    f r r2
-    R1*2 \noBreak
-    R1\fermata
-    \clef bass b,,1~\f \noBreak %35
-    b2. r4
-    R1*2
-    es1\f
-    d2 r %40
-    R1*15 %55
-    \mvDl es1\pE\>
-    as4\! r r2
-    R1*4 %61
-    g1\>
-    c4\! r r2
-    R1*4 %67
-    as,1\>
-    g4\! r r2
-    R1*2
-    \clef "treble_8" c'2\f c4 c
+    f f, r2
+    e\pp b'
+    b a!4 g! \noBreak
+    a1\fermata
+    b4.\f b8 b4 d,! \noBreak %35
+    es g b2
+    b\p a
+    g4 c f, f\f
+    c'2. a4
+    b4. d8 f4 f,~\p %40
+    f f f2
+    f r
+    d'2.\f fis,4
+    g b d g
+    c, c c c %45
+    c2 c
+    r4 f2 f4
+    f4. f,8 f2
+    f4 a d f
+    h,4. c8 c2 %50
+    R1*7 %57
+    r2 es,\pp
+    es es
+    es4 es es es %60
+    es2 es
+    g2. f4
+    es2 r
+    R1*8 %71
+    c'2\f c4 c
     es4. es8 es2
     r4 es d c
     h4. a!8 g2 %75
     r4 f! f'8 es d c
-    h1
+    h4 h h4. h8
     c4 g g' es
     c2 es8 d c b!
     a!2. a4 %80
@@ -68,7 +71,7 @@ CXXXIIFagottoII = {
     r4 f es des %90
     c4. b8 as2
     r4 es es'8 des c b
-    a!1
+    a!4 a a4. a8
     b2 r
     R1 %95
     r4 b c des
@@ -77,102 +80,101 @@ CXXXIIFagottoII = {
     b es r2
     es c4 c %100
     as2 as4 f'
-    d!2. d4
+    d! d d4. d8
     c2 r
     r4 f, f'8 es! d c
-    h1 %105
+    h4 h h4. h8 %105
     c4 g g' es
     c2 es8 d c b!
-    a!1
+    a!4 a a4. a8
     h2 r
-    g\f c4 es %110
-    d h r2
-    R1*3
-    R1\fermata %115
-    \clef bass es,2\< as,4.\> es'8
-    es4\! r r2
-    r4 b,( c d)
-    es es' es, r
-    R1*19 %138
-    f'1\p
-    f\cresc %140
-    f
-    f2.\f es!4
-    d4. c8 b4 as'
-    g4. f8 es4 e
-    f2 f, %145
-    b4 b2 h4
-    r c f, f'
-    r b! b b,
-    es c f f,
-    b r r2 %150
-    R1*5 %155
-    r4 g'\p g f!
-    es1
-    r4 d d r
-    R1*12 %170
-    es,2\fz b'\fz
-    es\fz r
-    R1*10 %182
-    g,2\fz r
-    R1*11 %194
-    \tempoCXXXIIIpse b1\ff \noBreak %195
-    g
-    es2 f
-    b,1
-    b'
-    g %200
-    c,
-    f
-    d
-    b
-    es %205
-    g2 c,
-    f b,
-    es f
-    b, r
-    R1*3 %212
-    a'1\f
+    g'\f es4 c %110
+    h d r2
+    R1*2
+    es2\ff r
+    d1\fermata %115
+    R1*20 %135
+    b4\p b b b
+    c2 r4 c
+    d2 d
+    a\cresc a4 a
+    b2 r4 b %140
+    c\fE c c c
+    c2 a4 a
+    f'4. es8 d4 f
+    b,4. d8 es4 g
+    d!2. f8 es %145
+    d2 r
+    R1*40 %186
+    b4\p b b b
+    g4. g8 g2
+    c\cresc c4 c
+    a!4. a8 a2 %190
+    a\f a4 a
+    b2 d4 f
+    es d8 d c4 b \noBreak
+    a f r f\ff
+    \tempoCXXXIIIpse b2 b \noBreak %195
+    b b4 b
+    c2. c4
+    b2 r4 d
+    d2 d4 d
+    b2 g4 g %200
+    es'2 c4 c
+    a2 f
+    b1
+    b2 r4 b
+    b1 %205
+    b2 c~
+    c b4 b
+    b2 a4 a
     b2 r
-    R1*2 %216
-    a1\f
+    R1 %210
+    f2\p f
+    f f
+    c'1\f
+    b2 r4 f\p
+    f2 f4 f %215
+    f2 f
+    c'1\f
     b2 r
-    d,1\ff
-    b %220
-    es
-    g2 c,
-    f b
-    es, f
-    b a %225
-    b a
-    b g'
-    es f
-    b, c'
-    b c %230
-    b b,
-    f1
-    b,2 r
+    b1\ff
+    b2 r4 b %220
+    b1
+    b2 c~
+    c b4 b
+    b2 a4 a
+    b2 c %225
+    b c4 c
+    b2 d4 d
+    g2 f4 f
+    f2 es
+    d es %230
+    d b4 b
+    b2 a4 a
+    b2 r
     R1*5 %238
-    \time 3/4 \tempoCXXXIIGloria b'4\f d f \noBreak
-    b b, r %240
-    g b d
-    g g, r
-    es es' g,
-    c f, b
-    R2.*2 %246
-    f2\fz b4
-    f f f \noBreak
-    f2.\fermata \bar "||"
+    \time 3/4 \tempoCXXXIIGloria d2\f d8 d \noBreak
+    b4 d r %240
+    d2 d8 d
+    b8. d16 d4 r
+    es2 d4
+    c c b!
+    b2.\p %245
+    a4 f'8\cresc e es d
+    c2\f b8 d
+    f4 f, r \noBreak
+    R2.\fermata \bar "||"
     \time 2/2 \tempoCXXXIIEtInSaecula R1*6 %255
-    \clef "treble_8" f'1\f
+    f1\f
     b
     a2. a4
     d1
     c2 f, %260
     b1
-    a4 g a b
-    c1
-    b2 b4 a
+    a4 b c d
+    es!1
+    d2 b4 a
     g f g a %265
     b f b2~
     b4 a b c
@@ -284,7 +286,7 @@ CXXXIIFagottoII = {
     g4 f es d
     c d es2~
     es4 c d b %385
-    c1\trill
+    c1
     b2 d4 c
     b a g f8 g
     a4 f f' es
@@ -292,15 +294,18 @@ CXXXIIFagottoII = {
     c4 b8 c d4 c8 d
     es4 f g es
     c2 b4 d
-    \clef bass f,1
-    b,\ff %395
-    b
-    b
-    b
-    es,
+    c1
+    b2 r %395
+    r d4\ff d
+    d2. d4
+    d2 d4 d
+    es2 es4 es
     es2 es %400
-    b'-! b,-!
-    R1*4 %405
-    R1\fermata \bar "|." %406 finis
+    d d
+    R1
+    c~\p
+    c
+    b %405
+    R\fermata \bar "|." %406 finis
   }
 }

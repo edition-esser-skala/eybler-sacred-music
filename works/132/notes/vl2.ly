@@ -3,7 +3,7 @@
 CXXXIIViolinoII = {
   \relative c' {
     \clef treble
-    \key b \major \time 4/4 \tempoCXXXIIDeProfundis
+    \key b \major \time 2/2 \tempoCXXXIIDeProfundis
     R1
     r4 b\p( f'2~)
     f4 d( es2~)
@@ -236,19 +236,20 @@ CXXXIIViolinoII = {
     d es c d b c a b
     g a' f g es es' d c \noBreak
     b d f b c,4 a'
-    \time 3/4 \tempoCXXXIIGloria \newSpacingSection
-      b,4 r r \noBreak
-    d,~\f d8. \tuplet 3/2 { es64( f g a b c) } d8-! c-! %240
+    \time 3/4 \tempoCXXXIIGloria b,4 r r \noBreak
+    d,~\f d8. \tuplet 6/4 { es64( f g a b c) } d8-! c-! %240
     b4 r r
-    b,~ b8. \tuplet 3/2 { c64( d es f g a) } b8-! as-!
+    b,~ b8. \tuplet 6/4 { c64( d es f g a) } b8-! as-!
     g4 b8..[ b32 h8.. h32]
     c8..[ c32 a8.. a32 b8.. b32]
     b8\p b4 b b8 %245
     a4 r r
     r <f es'!>\f <f d'>
-    <f c'> f8. \tuplet 3/2 { g64( a b c d e) } f8 f \noBreak
+    <f c'> \stemUp f8. \tuplet 6/4 { g64( a b c d e) } f8 f \stemNeutral \noBreak
     f,2.\fermata \bar "||"
-    \time 2/2 \tempoCXXXIIEtInSaecula R1 \noBreak %250
+    \time 2/2 \tempoCXXXIIEtInSaecula \newSpacingSection
+      \tightNotes
+      R1 \noBreak %250
     r8. b16\f b4\trill g8 b es g
     f4 f, r2
     r8. b16 b4\trill es8 b g es

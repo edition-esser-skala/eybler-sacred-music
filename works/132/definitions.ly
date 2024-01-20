@@ -1,9 +1,12 @@
 \version "2.24.0"
 
+tightNotes = \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4)
+
 tempoCXXXIIDeProfundis = \tempoMarkup "Adagio"
-tempoCXXXIIClamavi = \tempoMarkup "Andante"
-tempoCXXXIIDomine = \tempoMarkup "Poco più mosso"
-tempoCXXXIIAlleluia = \tempoMarkup "Allegro"
+tempoCXXXIIClamavi = \tempoMarkup "Andante con moto"
+tempoCXXXIIIpse = \tempoMarkup "Più mosso"
+tempoCXXXIIGloria = \tempoMarkup "Andante maestoso"
+tempoCXXXIIEtInSaecula = \tempoMarkup "Allegro"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
@@ -13,6 +16,9 @@ tempoCXXXIIAlleluia = \tempoMarkup "Allegro"
 \include "notes/fag2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
+\include "notes/trb3.ly"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
