@@ -1,5 +1,24 @@
 # Changelog
 
+## 2024.01.0 – 2024-01-30
+
+### Added
+
+- global macro definitions: \fivehatflat, \perdE
+- acknowledgements in the front matter of each work
+
+
+### Changed
+
+- use autograph manuscript as principal source for HerEy 107 and 132
+- spell the violas as “Viole” in all works
+
+
+### Fixed
+
+- shelfmarks of HerEy 44, 50, 56, 61, 78, and 93
+
+
 ## 2023.12.0 – 2023-12-31
 
 ### Added
