@@ -1,0 +1,21 @@
+title: Te Deum
+id: HerEy 114
+genre: hymn
+scoring: S, A, T, B (coro 1), S, A, T, B (coro 2), 2 fl, 2 ob, 2 cl (C), 2 fag, 2 clno (C), 3 trb, timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 568 (4)
+    date: 1807
+    license: public domain
+    principal: true
+    notes: full score (61 pages), 2 fl, 2 cl, and 3 trb written on 13 separate pages entitled “Stromenti mancanti Per il Te Deum dell’ anno 807”
+toe: |
+  112 & vl 2 & 1st \eighthNote\ in \A1: a8 \\
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
