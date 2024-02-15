@@ -4,6 +4,8 @@ CoroI = \markup \remark "Coro 1"
 CoroII = \markup \remark "Coro 2"
 
 tempoCXIV = \tempoMarkup "Allegro con spirito"
+tempoCXIVb = \tempoMarkup "Adagio"
+tempoCXIVc = \tempoMarkup "Tempo primo"
 
 \include "notes/fl1.ly"
 \include "notes/fl2.ly"

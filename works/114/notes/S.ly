@@ -417,8 +417,7 @@ CXIVSopranoLyrics = \lyricmode {
   rus. %201 finis
 }
 
-% Te er -- go quae -- su -- mus, tu -- is fa -- mu -- lis sub -- ve -- ni,
-% quos pre -- ti -- o -- so san -- gui -- ne re -- de -- mi -- sti.
+
 % Ae -- ter -- na fac cum san -- ctis tu -- is in glo -- ri -- a nu -- me -- ra -- ri.
 % Sal -- vum fac po -- pu -- lum tu -- um Do -- mi -- ne,
 % et be -- ne -- dic hae -- re -- di -- ta -- ti tu -- ae.
@@ -432,3 +431,89 @@ CXIVSopranoLyrics = \lyricmode {
 % su -- per nos, quem -- ad -- mo -- dum spe -- ra -- vi -- mus in te.
 % In te, Do -- mi -- ne, spe -- ra -- vi:
 % Non con -- fun -- dar in ae -- ter -- num.
+
+CXIVbSopranoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 r8 r2 %213
+    R1
+    r2 \mvTr e'4\fE^\tuttiE r8 a, %215
+    c8. h16 h4 f'\> e8\! h
+    d8. c16 c4 r2
+    r8 h4 h8 c8. h16 h4
+    r h8 h h([\< c)] d e
+    f4.\fz f,8 e4 r %220
+    r8 a a a a8.([ c16)] c4
+    c8. h16 h4 r \once \override Hairpin.to-barline = ##f c8\< e
+    g4\! f! r e~
+    e8 d16 c \appoggiatura g' f8 e16([ d)] c4( h)
+    a a8\p g! g4( f) %225
+    e r r2\fermata \bar "||" %226 finis
+  }
+}
+
+CXIVbSopranoILyrics = \lyricmode {
+  Te, te %215
+  quae -- su -- mus, te er -- go
+  quae -- su -- mus,
+  tu -- is fa -- mu -- lis,
+  tu -- is fa -- mu -- lis
+  sub -- ve -- ni, %220
+  quos pre -- ti -- o -- so
+  san -- gui -- ne, pre -- ti --
+  o -- so san --
+  gui -- ne re -- de -- mi --
+  sti, re -- de -- mi -- %225
+  sti. %226 finis
+}
+
+CXIVbSopranoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 r8 r2 %213
+    R1
+    r2 r4 \mvTr a'\fE^\tuttiE %215
+    r8 gis gis gis gis8.\> a16 h4\!
+    r8 e, a c b4.\p a8
+    gis4 r r gis8 gis
+    a8. gis16 gis4 r2
+    h8.\fz d16 d4 r8 e, e e' %220
+    e8.([ dis16)] dis4 fis4. a,8
+    gis4 gis8\< h d4\! c
+    r f2 e8 d
+    c4 d c( h)
+    a a8\p g! g4( f) %225
+    e r r2\fermata \bar "||" %226 finis
+  }
+}
+
+CXIVbSopranoIILyrics = \lyricmode {
+  Te, %215
+  te er -- go quae -- su -- mus,
+  te er -- go quae -- su --
+  mus, tu -- is
+  fa -- mu -- lis
+  sub -- ve -- ni, quos pre -- ti -- %220
+  o -- so san -- gui --
+  ne, pre -- ti -- o -- so
+  san -- gui -- ne
+  re -- de -- mi --
+  sti, re -- de -- mi -- %225
+  sti. %226 finis
+}
+
+CXIVcSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCXIVc
+      \set Score.currentBarNumber = #227
+  }
+}
+
+CXIVcSopranoLyrics = \lyricmode {
+
+}

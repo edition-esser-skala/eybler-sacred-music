@@ -419,3 +419,34 @@ CXIVBassFigures = \figuremode {
   r
   r %213 finis
 }
+
+CXIVbOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 \mvTr a8(\p-\solo c h d c)
+    f4(\> e8)\! r gis,\p r a8.( e16)
+    e4^\tenuto r r2
+    R1*10
+    R1\fermata \bar "||"
+  }
+}
+
+CXIVbBassFigures = \figuremode {
+  % tacet
+}
+
+CXIVcOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCXIVc
+      \set Score.currentBarNumber = #227
+    \mvTr c4\f-\solo r c
+    e r e
+  }
+}
+
+CXIVcBassFigures = \figuremode {
+
+}

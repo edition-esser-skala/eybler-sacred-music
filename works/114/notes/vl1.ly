@@ -210,3 +210,24 @@ CXIVViolinoI = {
     c4 r r\fermata \bar "||" %213 finis
   }
 }
+
+CXIVbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 a8(\p^\conSord c h d c) %213
+    f4(\> e8)\! r d\p r c8.( h16)
+    h4^\tenuto r r2 %215
+    R1*10 %225
+    R1\fermata \bar "||" %226 finis
+  }
+}
+
+CXIVcViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCXIVc
+      \set Score.currentBarNumber = #227
+  }
+}

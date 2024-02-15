@@ -430,3 +430,89 @@ CXIVAltoLyrics = \lyricmode {
   tu -- %200
   rus. %201 finis
 }
+
+CXIVbAltoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 r8 r2 %213
+    R1
+    r2 \mvTr e4\fE^\tuttiE r8 e %215
+    gis8. gis16 gis4 gis\> gis8\! gis
+    h8. a16 a4 r2
+    r8 gis4 gis8 a8. gis16 gis4
+    r gis8 gis gis([\< a)] h c
+    d4.\fz d,8 c4 r %220
+    r8 fis fis fis fis8.([ a16)] a4
+    e8. gis16 gis4 r \once \override Hairpin.to-barline = ##f a8\< a
+    a4\! a r e(
+    c'8) h16 a a8 h a4( gis)
+    a e8\p e d2 %225
+    cis4 r r2\fermata \bar "||" %226 finis
+  }
+}
+
+CXIVbAltoILyrics = \lyricmode {
+  Te, te %215
+  quae -- su -- mus, te er -- go
+  quae -- su -- mus,
+  tu -- is fa -- mu -- lis,
+  tu -- is fa -- mu -- lis
+  sub -- ve -- ni, %220
+  quos pre -- ti -- o -- so
+  san -- gui -- ne, pre -- ti --
+  o -- so san --
+  gui -- ne re -- de -- mi --
+  sti, re -- de -- mi -- %225
+  sti. %226 finis
+}
+
+CXIVbAltoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 r8 r2 %213
+    R1
+    r2 r4 \mvTr e4\fE^\tuttiE %215
+    r8 d d d h'8.\> a16 gis8\! gis
+    gis8.([ a16)] a8 a f\p f fis8. fis16
+    e4 r r e8 e
+    dis8. e16 e4 r2
+    f8.\fz d16 h4 r8 c e e %220
+    fis4 fis a4. fis8
+    e4 e8\< e e4\! a
+    r a( gis) gis8 gis
+    a4. h8 a4( gis)
+    a e8\p e d2 %225
+    cis4 r r2\fermata \bar "||" %226 finis
+  }
+}
+
+CXIVbAltoIILyrics = \lyricmode {
+  Te, %215
+  te er -- go quae -- su -- mus, te
+  er -- go, te er -- go quae -- su --
+  mus, tu -- is
+  fa -- mu -- lis
+  sub -- ve -- ni, quos pre -- ti -- %220
+  o -- so san -- gui --
+  ne, pre -- ti -- o -- so
+  san -- gui -- ne
+  re -- de -- mi --
+  sti, re -- de -- mi -- %225
+  sti. %226 finis
+}
+
+CXIVcAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCXIVc
+      \set Score.currentBarNumber = #227
+  }
+}
+
+CXIVcAltoLyrics = \lyricmode {
+
+}

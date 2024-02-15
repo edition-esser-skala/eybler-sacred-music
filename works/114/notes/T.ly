@@ -423,3 +423,89 @@ CXIVTenoreLyrics = \lyricmode {
   tu -- %200
   rus. %201 finis
 }
+
+CXIVbTenoreI = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 r8 r2 %213
+    R1
+    r2 \mvTr c4\fE^\tuttiE r8 c %215
+    d8. d16 d4 d\> d8\! d
+    e8. e16 e4 r2
+    r4 e8 e dis8. e16 e4
+    r e8 e f([\< e)] d c
+    h4.\fz h8 c4 r %220
+    r8 fis, h h c8.([ a16)] a4
+    e8. e'16 e4 r \once \override Hairpin.to-barline = ##f e8\< e
+    e4\! a, r e'(
+    a,8) h16 c f,8 f' e4.( d8)
+    c4 a8\p a a4( gis) %225
+    a r r2\fermata \bar "||" %226 finis
+  }
+}
+
+CXIVbTenoreILyrics = \lyricmode {
+  Te, te %215
+  quae -- su -- mus, te er -- go
+  quae -- su -- mus,
+  tu -- is fa -- mu -- lis,
+  tu -- is fa -- mu -- lis
+  sub -- ve -- ni, %220
+  quos pre -- ti -- o -- so
+  san -- gui -- ne, pre -- ti --
+  o -- so san --
+  gui -- ne re -- de -- mi --
+  sti, re -- de -- mi -- %225
+  sti. %226 finis
+}
+
+CXIVbTenoreII = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 4/4 \autoBeamOff \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 r8 r2 %213
+    R1
+    r2 r4 \mvTr c\fE^\tuttiE %215
+    r8 f f f d8.\> c16 h4\!
+    r8 a c e d\p d c8. c16
+    h!4 r r h8 h
+    a8. h16 h4 r2
+    d8.\fz f16 f4 r8 g, g c %220
+    a4 a a4. c8
+    e4 h8\< h h4\! c
+    r d2 c8 h
+    a4 f' e2
+    e4 a,8\p a a4( h) %225
+    e, r r2\fermata \bar "||" %226 finis
+  }
+}
+
+CXIVbTenoreIILyrics = \lyricmode {
+  Te, %215
+  te er -- go quae -- su -- mus,
+  te er -- go, er -- go quae -- su --
+  mus, tu -- is
+  fa -- mu -- lis
+  sub -- ve -- ni, quos pre -- ti -- %220
+  o -- so san -- gui --
+  ne, pre -- ti -- o -- so
+  san -- gui -- ne
+  re -- de -- mi --
+  sti, re -- de -- mi -- %225
+  sti. %226 finis
+}
+
+CXIVcTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoCXIVc
+      \set Score.currentBarNumber = #227
+  }
+}
+
+CXIVcTenoreLyrics = \lyricmode {
+
+}

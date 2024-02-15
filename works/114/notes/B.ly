@@ -391,3 +391,89 @@ CXIVBassoLyrics = \lyricmode {
   tu -- %200
   rus. %201 finis
 }
+
+CXIVbBassoI = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 r8 r2 %213
+    R1
+    r2 \mvTr a'4\fE^\tuttiE r8 a %215
+    a8. a16 a4 a\> a8\! a
+    a8. a,16 a4 r2
+    R1
+    r4 e'8 e' d([\< c)] h a
+    g!4.\fz g8 c,4 r %220
+    r8 h' h h dis, dis dis8. dis16
+    e4 r r \override Hairpin.to-barline = ##f a8\< a
+    cis,4\! d r e(
+    f8) f16 f d8 d e4( e,)
+    a cis8\p cis d2
+    a4 r r2\fermata \bar "||"
+  }
+}
+
+CXIVbBassoILyrics = \lyricmode {
+  Te, te %215
+  quae -- su -- mus, te er -- go
+  quae -- su -- mus,
+
+  tu -- is fa -- mu -- lis
+  sub -- ve -- ni, %220
+  quos pre -- ti -- o -- so san -- gui --
+  ne, pre -- ti --
+  o -- so san --
+  gui -- ne re -- de -- mi --
+  sti, re -- de -- mi -- %225
+  sti. %226 finis
+}
+
+CXIVbBassoII = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoCXIVb
+      \set Score.currentBarNumber = #214
+    \partial 8*5 r8 r2 %213
+    R1
+    r2 r4 \mvTr a\fE^\tuttiE %215
+    r8 a a a a8.\> a16 a4\!
+    r r8 a d4\p dis
+    e8. f!16 e4 r e8 e
+    f8. e16 e4 r2
+    g!8.\fz g,16 g4 r8 c c c %220
+    h4 h dis dis8 dis
+    e e16 e e8\< e gis,4\! a
+    r d( e) e8 e
+    f4 d e2
+    a,4 cis8\p cis d2 %225
+    a4 r r2\fermata \bar "||" %226 finis
+  }
+}
+
+CXIVbBassoIILyrics = \lyricmode {
+  Te, %215
+  te er -- go quae -- su -- mus,
+  te er -- go
+  quae -- su -- mus, tu -- is
+  fa -- mu -- lis
+  sub -- ve -- ni, quos pre -- ti -- %220
+  o -- so san -- gui -- ne,
+  san -- gui -- ne, pre -- ti -- o -- so
+  san -- gui -- ne
+  re -- de -- mi --
+  sti, re -- de -- mi -- %225
+  sti. %226 finis
+}
+
+CXIVcBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoCXIVc
+      \set Score.currentBarNumber = #227
+  }
+}
+
+CXIVcBassoLyrics = \lyricmode {
+
+}

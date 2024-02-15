@@ -140,3 +140,11 @@ CXIVClarinoII = {
     c r r\fermata \bar "||" %213 finis
   }
 }
+
+CXIVcClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCXIVc
+      \set Score.currentBarNumber = #227
+  }
+}

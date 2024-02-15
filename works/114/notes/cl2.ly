@@ -185,3 +185,11 @@ CXIVClarinettoII = {
     c r r\fermata \bar "||" %213 finis
   }
 }
+
+CXIVcClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCXIVc
+      \set Score.currentBarNumber = #227
+  }
+}

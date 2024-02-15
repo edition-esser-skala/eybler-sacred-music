@@ -117,3 +117,11 @@ CXIVTimpani = {
     c r r\fermata \bar "||" %213 finis
   }
 }
+
+CXIVcTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCXIVc
+      \set Score.currentBarNumber = #227
+  }
+}
