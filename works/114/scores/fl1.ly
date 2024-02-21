@@ -2,7 +2,7 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name "vla")
+#(define option-instrument-name "fl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -11,26 +11,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CXIVViola }
+        \new Staff { \CXIVFlautoI }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Te ergo quæsumus"
-    \addTocEntry
-    \paper { systems-per-page = #1 }
-    \score {
-      <<
-        \new Staff { \CXIVbViola }
-      >>
-    }
+    \tacet "subsection" "Te ergo quæsumus"
   }
   \bookpart {
     \subsection "Æterna fac"
     \addTocEntry
     \score {
       <<
-        \new Staff { \CXIVcViola }
+        \new Staff { \CXIVcFlautoI }
       >>
     }
   }

@@ -150,7 +150,215 @@ CXIVFlautoII = {
 CXIVcFlautoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoCXIVc
+    \key c \major \time 3/4 \tempoCXIVc
       \set Score.currentBarNumber = #227
+    R2.*2
+    r4 r g''\fE
+    g2.~ %230
+    g~
+    g~
+    g4 r r
+    R2.
+    r4 r e %235
+    e fis8 gis a h
+    c4 a r
+    r r8 a h cis
+    d4 a a
+    c,!2. %240
+    h4 g' h
+    d2\fz c4
+    a cis d
+    c2 \appoggiatura e8 d4
+    c r r %245
+    R2.*4
+    r4 e2~ %250
+    e4 d e
+    a,2 a4
+    c2 h4
+    d2 c4
+    h r r %255
+    h h c
+    d2 e4
+    c4. h8 a4~
+    a gis2
+    a4 r r %260
+    R2.*4
+    r4 gis gis %265
+    a r r
+    r h h
+    c2.
+    a
+    g4 a ais\cresc %270
+    h c cis
+    d2.\ff
+    g,4 r r
+    r h h
+    a2.\fz %275
+    g4 r r
+    R2.*18 %294
+    r4 c\f c %295
+    d2 c4
+    d2 h4
+    c r r
+    R2.*25 %323
+    a2.\p
+    g %325
+    f
+    e
+    f4 r r
+    R2.*24 %352
+    r4 d'\f d
+    d2\ffE dis4
+    e d c %355
+    h2.~
+    h4 a fis
+    g r r
+    r r g
+    d'2 c4 %360
+    h2 c4
+    f,2 e4
+    r h'\f r
+    r c r
+    r a r %365
+    h r r
+    R2.
+    f!2.~
+    f
+    e4 c' c %370
+    a2 a4
+    d2 d4
+    h2.
+    e4 e e
+    c2 c4 %375
+    f2 e4
+    d2.
+    c4 r r
+    r g c
+    c a r %380
+    r a d
+    d h r
+    r h e
+    e fis g~
+    g fis8 e d c %385
+    h4 c d
+    e c r
+    R2.
+    r4 a d
+    d h r %390
+    r h e
+    e c r
+    r d g,
+    a g2
+    g4 r r %395
+    R2.*8 %403
+    r4 c c
+    a2 a4 %405
+    d2 d4
+    h2.
+    e4 e e
+    c2 c4
+    f2 e4 %410
+    d2.
+    c
+    h
+    a4 r r
+    r a d %415
+    d h r
+    r h e
+    e c g
+    a f d'~
+    d cis2 %420
+    d4 a f
+    d h'! r
+    r h g
+    e c' r
+    r c a %425
+    f d' c
+    b8 a b d c b
+    a g a c b a
+    g f g b a g
+    f4 d r %430
+    R2.*7 %437
+    r4 e' e
+    c2 c4
+    f2 f4 %440
+    d2.
+    g4 g g
+    e2 f4
+    d2 e4
+    c2 d4 %445
+    h h e
+    c a r
+    r a d
+    h g r
+    r g c %450
+    a fis r
+    r fis h
+    g e r
+    R2.*6
+    r4 a a~ %460
+    a g8 fis e d
+    c4 c' r
+    r d d~
+    d c8 h a g
+    fis4 a r %465
+    r h h
+    g2 g4
+    c2 c4
+    a2.
+    d4 d d %470
+    h2 h4
+    e2 e4
+    c d e
+    f!8 e f a g f
+    e4 e e %475
+    d8 c d f e d
+    c4 c c
+    b8 a b d c b
+    a4 r r
+    r f b %480
+    b g r
+    r g c
+    c a r
+    r a d
+    d g, r %485
+    r g c~
+    c f, b~
+    b e, a~
+    a f f
+    g8 fis g b a g %490
+    f4 a a
+    h!8 a h d c h
+    a4 c c
+    d8 c d f e d
+    c4 r r %495
+    r c c
+    a2 a4
+    d2 d4
+    h2.
+    e4 e e %500
+    c d e
+    f4. e8 d4
+    c2 h4
+    c r r
+    R2.*3 %507
+    r4 c c
+    c2.
+    c %510
+    d2 c4
+    h r r
+    R2.*7 %519
+    r4 d c %520
+    a cis d
+    e2\fz f,4
+    e r r
+    r e\ff e
+    e r r %525
+    r c' c
+    c r r
+    e2.
+    c
+    e,4 e e %530
+    e r r\fermata \bar "|." %531 finis
   }
 }

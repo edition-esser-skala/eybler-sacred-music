@@ -191,7 +191,230 @@ CXIVFagottoI = {
 CXIVcFagottoI = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoCXIVc
+    \key c \major \time 3/4 \tempoCXIVc
       \set Score.currentBarNumber = #227
+    c4\f r c
+    e r e
+    g e c
+    g' g g %230
+    c2 e4
+    h2 c4
+    g \pao g, r
+    R2.
+    r4 e'' e %235
+    e2 d4
+    c r r
+    e2.
+    fis4 d d
+    d2 c!4 %240
+    h d d
+    h2 c4
+    \pao f, g a
+    \pa g g' f
+    e \pd r r %245
+    R2.*4
+    r4 e2 %250
+    c4 d e
+    f!4. e8 d4
+    e2 f4
+    d e2
+    e4 e e %255
+    f2 e4
+    \partCombineChords f2 e4
+    e4. d8 c4
+    d \pd h2
+    a4 r r %260
+    R2.*4
+    r4 e e %265
+    a r r
+    r g! g
+    c2.~
+    c
+    h4 r r %270
+    R2.
+    f!2.\fz
+    e4 c r
+    d'2.\fz
+    d,\fz %275
+    g4 r r
+    R2.*18 %294
+    c4\f g e' %295
+    h2 c4
+    f,2 g4
+    c, r r
+    R2.*6 %304
+    r4 g' g %305
+    g2.~\>
+    g\!
+    f4 r r
+    R2.*15 %323
+    c'2.\p
+    d %325
+    \pao c
+    b
+    a4 r r
+    R2.*11 %339
+    \clef "treble_8" e'2.\pE %340
+    f
+    g
+    f
+    e4 r r
+    R2.*5 %349
+    \clef bass r4 c\p c %350
+    d2.\cresc
+    e
+    c\f
+    h\ff
+    c %355
+    d4 h g
+    d2.
+    g4 r r
+    \pa g d h
+    g \pd r \pao g' %360
+    h2 c4
+    g2 e'8 c
+    h4 g\f r
+    r g r
+    r g r %365
+    g r r
+    R2.
+    d'2.~
+    d
+    c4 r r %370
+    R2.*16 %386
+    \clef "treble_8"
+    r4 c c
+    a2 a4
+    d2 d4
+    h2. %390
+    e4 e e
+    c2 c4
+    f2 e4
+    d2.
+    c4 r r %395
+    r g c
+    c a r
+    r a d
+    d h r
+    r h e %400
+    e fis g~
+    g fis8 e d c
+    h4 c d
+    e c r
+    R2. %405
+    r4 a d
+    d h r
+    r h e
+    e c r
+    r d g, %410
+    a g g'~
+    g c, f~
+    f h, e
+    a, r r
+    R2.*6 %420
+    r4 d d
+    h!2 h4
+    e2 e4
+    c2.
+    f4 f f %425
+    d4. e8 f4
+    f e2~
+    e4 d2~
+    d4 cis2
+    d4 r r %430
+    r f, b
+    b g r
+    r g c
+    c a r
+    r a d %435
+    d g, r
+    R2.
+    r4 c c
+    a2 a4
+    d2 d4 %440
+    h2.
+    e4 e e
+    c2 d4
+    h2 c4
+    a2 h4 %445
+    gis gis h
+    a c r
+    r d d
+    d h r
+    r c c %450
+    c2.
+    h4 r r
+    R2.
+    r4 c c
+    a2 a4 %455
+    d2 d4
+    h2.
+    e4 e e
+    e fis g~
+    g fis8 e d c %460
+    h4 d r
+    R2.*2
+    r4 e e
+    e d8 c h a %465
+    h4 d r
+    r c c
+    a2 a4
+    d2 d4
+    h2. %470
+    e4 e e
+    c2 c4
+    f!2 e4
+    d2.
+    c4 c c %475
+    h2.
+    a4 a a
+    g!2.
+    f4 a a
+    f2 f4 %480
+    b2 b4
+    g2.
+    c4 c c
+    a2 a4
+    d e f %485
+    f e2~
+    e4 d2~
+    d4 cis2
+    d4 a a
+    c!2 e,4 %490
+    r c' c
+    e2 gis,4
+    r e' e
+    g!4. h,8 c d
+    e4 c r %495
+    R2.
+    \clef bass r4 a a
+    f2 f4
+    h2 h4
+    g2. %500
+    c2 b4
+    a2\fz h4
+    c a \pa g
+    c, \pd r r
+    R2.*3 %507
+    r4 c' c
+    a2 g4
+    f2 e4 %510
+    h'2 c4
+    g r r
+    d'2.\fz
+    e4 r r
+    R2.*5 %519
+    r4 g, g %520
+    \pao f g a
+    \mvDl g2.\fz
+    \pao c,4 r r
+    r c'\ff c
+    c r r %525
+    r c c
+    c r r
+    c,2.~
+    c~
+    c4 c c %530
+    c r r\fermata \bar "|." %531 finis
   }
 }

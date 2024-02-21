@@ -10,7 +10,7 @@
 
 \book {
   \bookpart {
-    \section "CXIV" ""
+    \section "114" "Te Deum"
     \addTocEntry
     \score {
       <<
@@ -31,6 +31,28 @@
           \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
           \CXIVTimpani
         }
+      >>
+    }
+    \tacet "subsection" "Te ergo quæsumus"
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CXIVcClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CXIVcClarinoII
+            }
+          >>
+        >>
+        \new Staff { \CXIVcTimpani }
       >>
     }
   }

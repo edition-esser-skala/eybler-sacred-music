@@ -248,8 +248,312 @@ CXIVbViola = {
 
 CXIVcViola = {
   \relative c' {
-    \clef treble
-    \key c \major \time 4/4 \tempoCXIVc
+    \clef alto
+    \key c \major \time 3/4 \tempoCXIVc
       \set Score.currentBarNumber = #227
+    \mvTr <c c,>4\f-\senzaSord r8. c16 c8.\trill h32 c
+    e4 r8. e16 e8.\trill d32 e
+    g4 <g g,> q
+    q8 g16 fis g8 d h g %230
+    c c'16 h c8 g e c
+    h h'16 a h8 h, c c'
+    g, g'16 fis g8 d h d
+    g, h16 d g8 f e d
+    c e16 g c8 e c a %235
+    e gis16 h e8 d c h
+    a c e, a c, e
+    a, cis16 e a8 g fis e
+    d fis16 a d8 a fis a
+    d, fis16 a d8 c! h a %240
+    g h d, g h, d
+    g, g'16 fis g8 g, c c'
+    f,,! f' e, e' d, d'
+    g, g' e c g' g,
+    c4 r8 e f g %245
+    c,4 r8 f g a
+    d,4 r8 h c d
+    g,4 a f'
+    e8 e d f e c'
+    h a gis a fis gis %250
+    a a, c h d c
+    f! e f c d f
+    a, h c a d c
+    h c a h c d
+    e e, gis a h c %255
+    d c d e d c
+    h c h a gis e'
+    a, c d e f e
+    d f e d e e,
+    a4 r8 c d e %260
+    a,4 r8 d e f
+    h,4 r8 gis' a h
+    e,4 f d
+    c8 a'16 gis a8 e c a
+    e e'16 dis e8 h gis e %265
+    a a'16 gis a8 e c a
+    g! g'16 fis g8 d h g
+    c c'16 h c8 g e c
+    a a'16 gis a8 fis c a
+    h h c c cis\cresc cis %270
+    d d dis dis e e
+    \mvDll <f! g,>2.:16\ff
+    <e g,>4 c r
+    r <d d'> q
+    r q <d c'> %275
+    <d h'> r8 h' c d
+    g,4 r8 c d e
+    a,4 r8 fis g a
+    d,4 e c
+    h8 d'(\p c h a g) %280
+    fis( e d c h a)
+    g( fis g a h g)
+    c( h c e' d c)
+    h( g a h c c,)
+    d'( d, e d e fis) %285
+    g( fis g a h c)
+    d( e f! d h f)
+    e( g c g e c)
+    h( d g d h g)
+    c( g e g c e) %290
+    g( c e c g e)
+    f!( e f g e c)
+    h( d g h) c, c'
+    g a-!\f g-! f-! e-! d-!
+    c-! e-! g-! c-! e-! c-! %295
+    h d g, h c c,
+    f e f d g g,
+    c4 r8 e f g
+    c,4 r8 f g a
+    d,4 r8 h c d %300
+    g,4 a f'
+    e r r
+    r c\p r
+    r <c e> r
+    r q\cresc q %305
+    q\! r r
+    R2.*2
+    r8 a( b c d es)
+    d4 r r %310
+    r8 f( d f d b)
+    g4 r r
+    r c c
+    c2.
+    r4 c c %315
+    d2.\sfp
+    r4 g, c
+    as2.\sfp
+    r4 as g
+    r c c %320
+    c d! c
+    b g' d
+    c( a' e!)
+    f << { f f } \\ { c\pp c } >>
+    r << { d d } \\ { b b } >> %325
+    r << { c c } \\ { a a } >>
+    r << { b b } \\ { g g } >>
+    << { a } \\ { f } >> a'(\pp gis)
+    b( a g)
+    f( e d) %330
+    cis( d f,)
+    g( b a)
+    g( es' d)
+    cis( d e)
+    a, r r %335
+    r d(\f d,)
+    r a''( d,)
+    r a'(\p f)
+    r b( g)
+    r << { e( a,) } \\ { cis( a) } >> %340
+    r << { f'( a,) } \\ { d( a) } >>
+    r << { g'( a,) } \\ { e'( a,) } >>
+    r << { f'( a,) } \\ { d( a) } >>
+    r b'( a)
+    g( f e) %345
+    d8 a4 a a8
+    r c!4 c c8
+    r c4 c c8
+    r e4 e\cresc e8
+    e e4 e e8 %250
+    g! g4 g g8
+    g g4 g g8
+    <d d'>\f q4 q q8
+    \mvDll <g g,>2.:16\ff
+    <e g,>4: <fis g,>: <g g,>: %355
+    d2.:
+    fis4: a: c:
+    h8 g, h g d' h
+    g' d h' g d h
+    g h d g c, c' %360
+    f,! d h f e e'
+    d h f d c c'
+    g4 <g g'> r
+    r <c e> r
+    r <a fis'> r %365
+    <g g'>8 g a h c d
+    e fis g a h c
+    d e f! e d c
+    h a g f e d
+    c4 g'8-! e-! c4 %370
+    r a8-! c-! f4
+    r a8-! f-! d4
+    r h8-! d-! g4
+    r h8-! g-! e4
+    r c8-! e-! a4 %375
+    r h,8-! d-! c4
+    r g8-! d'-! g4
+    r g8-! e-! c4
+    r c8-! e-! g4
+    r c,8-! e-! a4 %380
+    r d,8 fis a4
+    r d,8 fis h4
+    r e,8 g h4
+    r c8 c, d4
+    r d8 fis a4 %385
+    r g8 d g,4
+    r c8 e g4
+    r a8 f! c4
+    r d8 f a4
+    r h8 g d4 %390
+    r e8 g h4
+    r c8 a e4
+    r f8 d g4
+    r g,8 d' g4
+    r e8 g c,4 %395
+    r c8 e g4
+    r c,8 e a4
+    r d,8 fis a4
+    r d,8 fis h4
+    r e,8 g h4 %400
+    r a8 c, d4
+    r d8 d' d,4
+    r d8 g g,4
+    r e'8 c g'4
+    r a8 f! c4 %405
+    r f8 d a'4
+    r h8 g d4
+    r g8 e h'4
+    r c8 a e4
+    r d8 f g4 %410
+    r d8 g h4
+    r c,8 f a4
+    r h,8 e gis4
+    r a8 f c4
+    r d8 f a4 %415
+    r h8 f d4
+    r e8 g h4
+    r c8 g e4
+    r a,8 a' f4
+    r g,8 g' e4 %420
+    r f8 d a'4
+    r h,!8 d g4
+    r g8 e h'4
+    r c,8 e a4
+    r a8 f c'4 %425
+    r d8 b f4
+    r b8 g e4
+    r a8 f d4
+    r g8 e cis4
+    r a8 d f4 %430
+    r d8 b f'4
+    r b,8 d g4
+    r e8 c! g'4
+    r c,8 e a4
+    r f8 d a'4 %435
+    r g8 e g,4
+    r f'8 d g,4
+    r g8 e' g4
+    r a8 f c4
+    r d8 f a4 %440
+    r h8 g d4
+    r e8 g h4
+    r c8 a a,4
+    r h'8 g g,4
+    r a'8 f f,4 %445
+    r gis'8 e h4
+    r c8 e a4
+    r fis8 d a4
+    r h8 d g!4
+    r e8 c g4 %450
+    r a8 c fis4
+    r dis8 fis fis,4
+    r g8 h e4
+    r a,8 c e4
+    r a8 fis c4 %455
+    r h8 d! fis4
+    r h8 g d4
+    r c8 e g4
+    r c8 c, d4
+    r a'8 fis d4 %460
+    r h'8 g e4
+    r c'8 a fis4
+    r d'8 h g4
+    r e'8 c a4
+    r fis8 a d4 %465
+    r h8 g d4
+    r e8 c g'4
+    r c,8 a e'4
+    r fis8 d a'4
+    r d,8 h fis'4 %470
+    r g8 e h'4
+    r e,8 c g'4
+    r f!8 d g4
+    r d8 f h4
+    r c,8 e a4 %475
+    r h,8 d gis4
+    r a,8 c f4
+    r g,!8 b e4
+    r f,8 a c4
+    r b8 d f4 %480
+    r b,8 g d'4
+    r e8 c g4
+    r c8 a e'4
+    r f8 d a4
+    r b8 g f4 %485
+    r g8 c e4
+    r f,8 b d4
+    r e,8 a cis4
+    r f,8 a d4
+    r g,8 c! e4 %490
+    r a,8 c f4
+    r h,!8 e gis4
+    r c,8 e a4
+    r h8 d g,,4
+    r e'8 c g4 %495
+    r c8 e a4
+    r a8 f c4
+    r f,8 a f'4
+    r h,8 g d'4
+    r g,8 h g'4 %500
+    r c,8 c' b4
+    r a8 a, d h!
+    c a f f' g g,
+    c4 e8 g c4
+    r h8 d g,4 %505
+    r e8 g c4
+    r h8 d g,4
+    r e8 g c,4
+    r a'8 f c4
+    r f8 a c,4 %510
+    r d8 h g g'
+    g g,\fE h d f e
+    d c h a' g f
+    e e' d c h a
+    gis a h e, fis gis %515
+    a c b a g f
+    e f g c, d e
+    f a g f e d
+    cis d e a, h! cis
+    d d' g,, g' g, g' %520
+    a, a' cis, cis' d, d'
+    c g e c g' g,
+    c4 r r
+    r \mvDll <c' e, g, c,>\ff q
+    q r r %525
+    r q q
+    q r r
+    <c, c,> r8. c32( d e8[) r16 e32( f]
+    g4) r8. e32( f g8)[ r16 \tuplet 3/2 16 { g32( a h)] }
+    c4 <c, c,> q %530
+    q r r\fermata \bar "|." %531 finis
   }
 }

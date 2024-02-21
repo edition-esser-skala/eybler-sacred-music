@@ -417,21 +417,6 @@ CXIVSopranoLyrics = \lyricmode {
   rus. %201 finis
 }
 
-
-% Ae -- ter -- na fac cum san -- ctis tu -- is in glo -- ri -- a nu -- me -- ra -- ri.
-% Sal -- vum fac po -- pu -- lum tu -- um Do -- mi -- ne,
-% et be -- ne -- dic hae -- re -- di -- ta -- ti tu -- ae.
-% Et re -- ge e -- os, et ex -- tol -- le il -- los us -- que in ae -- ter -- num.
-% Per sin -- gu -- los di -- es, be -- ne -- di -- ci -- mus te
-% et lau -- da -- mus no -- men tu -- um in sae -- cu -- lum,
-% et in sae -- cu -- lum sae -- cu -- li.
-% Di -- gna -- re Do -- mi -- ne, di -- e i -- sto si -- ne pec -- ca -- to nos cu -- sto -- di -- re.
-% Mi -- se -- re -- re no -- stri, Do -- mi -- ne, mi -- se -- re -- re no -- stri.
-% Fi -- at mi -- se -- ri -- cor -- di -- a tu -- a Do -- mi -- ne,
-% su -- per nos, quem -- ad -- mo -- dum spe -- ra -- vi -- mus in te.
-% In te, Do -- mi -- ne, spe -- ra -- vi:
-% Non con -- fun -- dar in ae -- ter -- num.
-
 CXIVbSopranoI = {
   \relative c' {
     \clef treble
@@ -511,9 +496,599 @@ CXIVcSoprano = {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCXIVc
       \set Score.currentBarNumber = #227
+    R2.*2
+    << \context Voice = "Soprano" {
+      \voiceOne r4 r \mvDl g'^\fE^\tuttiE %229
+      g'2.~
+      g~
+      g
+      g,4 r g \oneVoice
+    } \\ {
+      R2. %229
+      d'4 d d
+      e2 c4
+      f2 e4
+      e d g,
+    } >>
+    g a8 h c d
+    e4 c a %235
+    gis2 gis4
+    a a a
+    cis2 cis4
+    d r r
+    r d d %240
+    d h g!
+    f'!2 e4
+    d e f
+    c2 \appoggiatura e8 d4
+    c r r %245
+    R2.*4
+    r4 e2~ %250
+    e4 d e
+    a,4. a8 a4
+    c2 h4
+    d2 c4
+    h r r %255
+    h h c
+    d2 e4
+    c4. h8 a4
+    a gis2
+    a4 r r %260
+    R2.*3
+    a4 a a
+    c h r %265
+    c8 c c4 c
+    e d r
+    << \context Voice = "Soprano" {
+      \voiceOne e2 c4 %268
+      fis2 d4
+      g2.~ %270
+      g~
+      \mvDl g~\fz
+      g4 e c
+      h2.
+      a\fz %275
+      g4 \oneVoice r r
+    } \\ {
+      e'2 c4 %268
+      fis2 d4
+      g g, r %270
+      r g g
+      h2.
+      c4 r r
+      r d d
+      fis2. %275
+      g4 s s
+    } >>
+    R2.*3
+    r4 r \mvTr d\p^\CoroI %280
+    d4. e8 c4
+    h d r
+    r e fis
+    g4. fis8 e4
+    d8 e d4 c8 c %285
+    h4 r r
+    r \mvTr h\p^\CoroII h
+    c2 g4
+    r d' d
+    e2 c4 %290
+    r g' g
+    g h, c
+    f2 e4
+    d r r
+    << \context Voice = "Soprano" {
+      r^\tutti \voiceOne c^\f c %295
+      g'4. f!8 e4
+      f2 d4
+      c \oneVoice r r
+    } \\ {
+      s c c %295
+      d4. d8 c4
+      d2 h4
+      c s s
+    } >>
+    R2.*9 %307
+    c4^\markup \remark "sotto voce" c c
+    c4. a8 f4
+    r f' f %310
+    f2 d4
+    e, f g
+    a b c~
+    c b a
+    a g r %315
+    r as f
+    e2 g4
+    r h! f'
+    f2 e4
+    g e b %320
+    a b c
+    es8([ d c b)] a([ g)]
+    c2 e,!4
+    f r r
+    R2.*4 %328
+    r4 a\p a
+    a2 a4 %330
+    a2 a4
+    b2.~\<
+    b2\> \hA b4\!
+    a r r
+    r e'\f e %335
+    f2.
+    d
+    c!\p
+    b
+    a4 r r %340
+    R2.*5 %345
+    f2\p f4
+    g g g
+    a4. a8 a4
+    h! h\cresc h
+    c4. c8 c4 %350
+    d2 d4
+    << \context Voice = "Soprano" {
+      \voiceOne e4. d8 c4
+      fis2\f d4^\critnote
+      \mvDl g2.~\ff
+      g4 fis e %355
+      d2 h4
+      d( c) a
+      g \oneVoice r r
+    } \\ {
+      c4. h8 c4 %352
+      d2 d4
+      d2( dis4
+      e) d c %355
+      h2 d4
+      d( c) a
+      g s s
+    } >>
+    r r g
+    f'!2 e4 %360
+    d2 c4
+    h2 c4
+    d r g,
+    << \context Voice = "Soprano" {
+      \voiceOne e' \oneVoice r \voiceOne c
+      fis \oneVoice r \voiceOne d %365
+      g2.~
+      g~
+      g4 \oneVoice r r
+    } \\ {
+      c,4 s g %364
+      a s c %365
+      h2.~
+      h~
+      h4 s s
+    } >>
+    R2.
+    r4 c c %370
+    a2 a4
+    d2 d4
+    h2.
+    e4 e e
+    c2 c4 %375
+    f2 e4
+    d2.
+    c4 r r
+    r g c
+    c a r %380
+    r a d
+    d h r
+    r h e
+    e fis g~
+    g fis8[ e d c] %385
+    h4 c d
+    e c r
+    R2.
+    r4 a d
+    d h r %390
+    r h e
+    e c r
+    r d g,
+    a( g2)
+    g4 r r %395
+    R2.*8 %403
+    r4 c c
+    a2 a4 %405
+    d2 d4
+    h2.
+    e4 e e
+    c2 c4
+    f2 e4 %410
+    d2.
+    c
+    h
+    a4 r r
+    r a d %415
+    d h r
+    r h e
+    e c g
+    a f d'~
+    d cis2 %420
+    d4 a f
+    d h'! r
+    r h g
+    e c' r
+    r c a %425
+    f d' c
+    b8[ a b d c b]
+    a[ g a c b a]
+    g[ f g b a g]
+    f4 d r %430
+    R2.*7 %437
+    r4 e' e
+    c2 c4
+    f2 f4 %440
+    d2.
+    g4 g g
+    e2 f4
+    d2 e4
+    c2( d4) %445
+    h h e
+    c a r
+    r a d
+    h g r
+    r g c %450
+    a fis r
+    r fis h
+    g e r
+    R2.*6
+    r4 a a %460
+    a g8[ fis e d]
+    c4 c' r
+    r d d
+    d c8[ h a g]
+    fis4 a r %465
+    r h h
+    g2 g4
+    c2 c4
+    a2.
+    d4 d d %470
+    h2 h4
+    e2 e4
+    c d e
+    f!8[ e f a g f]
+    e4 e e %475
+    d8[( c d f e d])
+    c4 c c
+    b8[( a b d c b])
+    a4 r r
+    r f b %480
+    b g r
+    r g c
+    c a r
+    r a d
+    d g, r %485
+    r g c
+    c f, b~
+    b e, a~
+    a f f
+    g8[( fis g b a g]) %490
+    f4 a a
+    h!8[( a h d c h])
+    a4 c c
+    d8[( c d f e d])
+    c4 r r %495
+    r e e
+    c2 c4
+    f2 f4
+    d2.
+    g4 g g %500
+    e f g
+    a4. g8 f4
+    e d2
+    << \context Voice = "Soprano" {
+      \voiceOne c4 r r
+      r g' g %505
+      e c r
+      r g' g
+      e c r
+      f2 e4
+      a2 g4 %510
+      r f e
+      d g, \oneVoice r
+    } \\ {
+      r4 c c
+      d2. %505
+      e4 c c
+      d2.
+      e4 c c
+      c2 c4
+      c r c %510
+      f r e
+      d g, s
+    } >>
+    R2.
+    r4 c c
+    e2 e4 %515
+    a,2 a4
+    c2.
+    f,4 f f
+    a2.
+    d,4 f' e %520
+    d e f
+    << \context Voice = "Soprano" {
+      \voiceOne \mvDl g2.\fz
+      c,4 e,\ff g
+      c2 g4
+      \once \oneVoice r g c %525
+      e2 c4
+      \once \oneVoice r c e
+      g2.
+      e
+      c4 \oneVoice r r %530
+    } \\ {
+      c!4( e d) %522
+      c e, g
+      g2 e4
+      s g c %525
+      c2 g4
+      s g c
+      e2.~
+      e
+      c4 s s %530
+    } >>
+    R2.\fermata \bar "|." %531 finis
   }
 }
 
 CXIVcSopranoLyrics = \lyricmode {
+  Ae -- %229
+  ter -- %230
 
+  na in %233
+  glo -- ri -- a nu -- me --
+  ra -- ri, cum %235
+  san -- ctis
+  tu -- is in
+  glo -- ri --
+  a,
+  nu -- me -- %240
+  ra -- ri cum
+  san -- ctis
+  tu -- is in
+  glo -- ri --
+  a. %245
+
+  Sal -- %250
+  vum fac
+  po -- pu -- lum
+  tu -- um
+  Do -- mi --
+  ne, %255
+  et be -- ne --
+  dic hae --
+  re -- di -- ta --
+  ti tu --
+  ae. %260
+
+  Et re -- ge %264
+  e -- os, %265
+  et ex -- tol -- le
+  il -- los
+  us -- que
+  in ae --
+  ter -- %270
+
+  num, ae -- %273
+  ter --
+  _ %275
+  num.
+
+  Per %280
+  sin -- gu -- los
+  di -- es
+  be -- ne --
+  di -- ci -- mus,
+  be -- ne -- di -- ci -- mus %285
+  te
+  et lau --
+  da -- mus
+  no -- men
+  tu -- um, %290
+  no -- men
+  tu -- um in
+  sae -- cu --
+  lum,
+  et in %295
+  sae -- cu -- lum
+  sae -- cu --
+  li.
+
+  Di -- gna -- re %308
+  Do -- mi -- ne,
+  di -- e %310
+  i -- sto
+  si -- ne pec --
+  ca -- to nos __
+  cu -- sto --
+  di -- re, %315
+  di -- e
+  i -- sto,
+  di -- e
+  i -- sto
+  nos cu -- sto -- %320
+  di -- re di --
+  gna -- re __
+  Do -- mi --
+  ne.
+
+  Mi -- se -- %329
+  re -- re %330
+  no -- stri,
+  Do --
+  mi --
+  ne,
+  mi -- se -- %335
+  re --
+  re
+  no --
+  _
+  stri. %340
+
+  Fi -- at %346
+  mi -- se -- ri --
+  cor -- di -- a,
+  mi -- se -- ri --
+  cor -- di -- a %350
+  tu -- a
+  Do -- mi -- ne,
+  su -- per
+  nos, __
+  fi -- at, %355
+  fi -- at
+  su -- per
+  nos,
+  quem --
+  ad -- mo -- %360
+  dum spe --
+  ra -- vi --
+  mus in
+  te, in
+  te, in %365
+  te. __
+
+  In te, %370
+  Do -- mi --
+  ne, spe --
+  ra --
+  vi, non con --
+  fun -- dar %375
+  in ae --
+  ter --
+  num,
+  non con --
+  fun -- dar, %380
+  non con --
+  fun -- dar
+  in ae --
+  ter -- _ _
+  _ %385
+  num, in ae --
+  ter -- num,
+
+  non con --
+  fun -- dar, %390
+  non con --
+  fun -- dar
+  in ae --
+  ter --
+  num, %395
+
+  in te, %404
+  Do -- mi -- %405
+  ne, spe --
+  ra --
+  vi, non con --
+  fun -- dar
+  in ae -- %410
+  ter --
+  _
+  _
+  num,
+  non con -- %415
+  fun -- dar
+  in ae --
+  ter -- num, ae --
+  ter -- _ _
+  _ %420
+  num, non con --
+  fun -- dar,
+  non con --
+  fun -- dar
+  in ae -- %425
+  ter -- _ _
+  _
+  _
+  _
+  _ num, %430
+
+  in te, %438
+  Do -- mi --
+  ne, spe -- %440
+  ra --
+  vi, non con --
+  fun -- dar
+  in ae --
+  ter -- %445
+  num, non con --
+  fun -- dar
+  in ae --
+  ter -- num,
+  non con -- %450
+  fun -- dar
+  in ae --
+  ter -- num,
+
+  in ae -- %460
+  ter -- _
+  _ num,
+  in ae --
+  ter -- _
+  _ num, %465
+  in te,
+  Do -- mi --
+  ne, spe --
+  ra --
+  vi, non con -- %470
+  fun -- dar
+  in ae --
+  ter -- _ _
+  _
+  num, in ae -- %475
+  ter --
+  num, in ae --
+  ter --
+  num,
+  non con -- %480
+  fun -- dar
+  in ae --
+  ter -- num,
+  non con --
+  fun -- dar %485
+  in ae --
+  ter -- _ _
+  _ _
+  num, ae --
+  ter -- %490
+  num, in ae --
+  ter --
+  num, in ae --
+  ter --
+  num, %495
+  in te,
+  Do -- mi --
+  ne, spe --
+  ra --
+  vi, in ae -- %500
+  ter -- num, ae --
+  ter -- num non
+  con -- fun --
+  dar,
+  in ae -- %505
+  ter -- num
+  non con --
+  fun -- dar,
+  in ae --
+  ter -- num %510
+  non con --
+  fun -- dar,
+
+  in te,
+  Do -- mi -- %515
+  ne, spe --
+  ra --
+  vi, non con --
+  fun --
+  dar in ae -- %520
+  ter -- num, ae --
+  ter --
+  num, non con --
+  fun -- dar,
+  non con -- %525
+  fun -- dar
+  in ae --
+  ter --
+  _
+  num. %529 finis
 }

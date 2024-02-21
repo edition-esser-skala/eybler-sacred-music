@@ -7,11 +7,30 @@
 
 \book {
   \bookpart {
-    \section "CXIV" ""
+    \section "114" "Te Deum"
     \addTocEntry
     \score {
       <<
         \new Staff { \CXIVViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Te ergo quæsumus"
+    \addTocEntry
+    \paper { systems-per-page = #1 }
+    \score {
+      <<
+        \new Staff { \CXIVbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CXIVcViolinoI }
       >>
     }
   }

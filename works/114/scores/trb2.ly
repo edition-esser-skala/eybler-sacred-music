@@ -7,11 +7,21 @@
 
 \book {
   \bookpart {
-    \section "CXIV" ""
+    \section "114" "Te Deum"
     \addTocEntry
     \score {
       <<
-        \new Staff { \CXIVTromboneII }
+        \new Staff { \clef tenor \CXIVTromboneII }
+      >>
+    }
+    \tacet "subsection" "Te ergo quæsumus"
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \clef tenor \CXIVcTromboneII }
       >>
     }
   }

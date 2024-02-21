@@ -7,15 +7,25 @@
 
 \book {
   \bookpart {
-    \section "CXIV" ""
+    \section "114" "Te Deum"
     \addTocEntry
     \paper { indent = 1.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = \transposedNameShort "cl 2" "B" "flat"
+          \set Staff.instrumentName = \transposedNameShort "cl 2" "C" ""
           \CXIVClarinettoII
         }
+      >>
+    }
+    \tacet "subsection" "Te ergo quæsumus"
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CXIVcClarinettoII }
       >>
     }
   }

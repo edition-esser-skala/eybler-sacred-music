@@ -121,7 +121,115 @@ CXIVTimpani = {
 CXIVcTimpani = {
   \relative c {
     \clef bass
-    \key c \major \time 4/4 \tempoCXIVc
+    \key c \major \time 3/4 \tempoCXIVc
       \set Score.currentBarNumber = #227
+    c4\f r r
+    R2.
+    r4 c c
+    g r r %230
+    r c c
+    r g c
+    g r r
+    R2.*8 %241
+    g2\trill c4
+    R2.
+    r4 g g
+    c r r %245
+    R2.*26 %271
+    g2.\f\startTrillSpan
+    c4\stopTrillSpan r r
+    R2.*2
+    g4 r r
+    R2.*18 %294
+    c4\f r8 c16 c c8 c %295
+    g2\trill c4
+    r r g
+    c r r
+    R2.*55 %353
+    g2.\ff\startTrillSpan
+    c4\stopTrillSpan r r %355
+    R2.*2
+    g4 r r
+    g r r
+    g r r %360
+    R2.*2
+    r4 g\f r
+    r g r
+    r g r %365
+    g r r
+    R2.
+    g2.~\startTrillSpan
+    g
+    c4\stopTrillSpan r r %370
+    R2.*24 %394
+    r4 g g %395
+    c r r
+    R2.*7 %403
+    r4 c c
+    c r r %405
+    R2.*8 %413
+    c4 r r
+    R2.*17 %431
+    r4 g g
+    c r r
+    R2.*3 %436
+    r4 g g
+    c r r
+    c r r
+    R2. %440
+    r4 g g
+    g r r
+    R2.
+    r4 g c
+    c r r %445
+    R2.*3
+    r4 g g
+    c r r %450
+    R2.*7 %457
+    r4 c c
+    c r r
+    R2.*6 %465
+    g4 r r
+    R2.
+    c4 r r
+    R2.*3 %471
+    r4 c c
+    c r r
+    R2.*3 %476
+    c4 r r
+    R2.
+    c4 r r
+    R2. %480
+    r4 g g
+    c r r
+    R2.*11 %493
+    g2.\startTrillSpan
+    c4\stopTrillSpan r r %495
+    c r r
+    c r r
+    R2.
+    r4 g g
+    g r r %500
+    R2.
+    c4\fz r r
+    r r g
+    c r r
+    R2.*4 %508
+    c4 r r
+    c r r %510
+    R2.*2
+    g2.\fz\startTrillSpan
+    c4\stopTrillSpan r r
+    R2.*7 %521
+    g8\fz g16 g g8 g g g
+    c4 r r
+    r c\ff c
+    c r r %525
+    r c c
+    c r r
+    c r8. c32 c c8 c
+    c4 r8. c32 c c8 c
+    c4 c c %530
+    c r r\fermata \bar "|." %531 finis
   }
 }

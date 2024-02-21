@@ -144,7 +144,133 @@ CXIVClarinoII = {
 CXIVcClarinoII = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoCXIVc
+    \key c \major \time 3/4 \tempoCXIVc
       \set Score.currentBarNumber = #227
+    c4\f r c
+    e r e
+    g g g
+    g r r %230
+    r e e
+    g2 c4
+    c g r
+    R2.*2 %235
+    e8 e16 e e8 e e e
+    e4 r r
+    R2.*4 %241
+    g2 c4
+    R2.
+    r4 e, g
+    e r r %245
+    R2.*26 %271
+    g2.\f
+    c4 r r
+    R2.*2 %275
+    g,4 r r
+    R2.*18 %294
+    c4\f r e %295
+    g2 c4
+    d2 g,4
+    e r r
+    R2.*55 %353
+    g,2.~\ff
+    g4 r r %355
+    R2.*2
+    g4 r r
+    g r r
+    g r r %360
+    R2.*2
+    r4 g\f r
+    r g r
+    r g r %365
+    g r r
+    R2.
+    g'~
+    g
+    c,4 r r %370
+    R2.*24 %394
+    r4 g g %395
+    c r r
+    R2.*7 %403
+    r4 c c
+    c r r %405
+    R2.*2
+    r4 e e
+    e r r
+    R2.*3 %412
+    r4 e e
+    c2 r4
+    R2.*7 %421
+    r4 g' g
+    g2 e4
+    c r r
+    R2.*7 %431
+    r4 g g
+    c r c
+    e r r
+    R2.*2 %436
+    r4 g g
+    c, r r
+    c r r
+    R2. %440
+    r4 g g
+    g r r
+    R2.
+    r4 g' c,
+    c r r %445
+    r e e
+    e r r
+    R2.
+    r4 g, g
+    c r r %450
+    R2.*2
+    r4 e e
+    c r r
+    R2.*3 %457
+    r4 e e
+    c r r
+    R2.*6 %465
+    g4 r r
+    r e' e
+    c r r
+    R2.*3 %471
+    r4 c c
+    c r r
+    R2.*3 %476
+    c4 r r
+    R2.
+    c4 r r
+    R2. %480
+    r4 g g
+    c r r
+    R2.*11 %493
+    g'2.
+    c,4 r r %495
+    c r r
+    c r r
+    R2.
+    r4 g g
+    g r r %500
+    R2.
+    c4\fz r r
+    r r g'
+    e r r
+    R2.*4 %508
+    c4 r r
+    c r r %510
+    R2.*2
+    g'2.\fz
+    c4 r r
+    R2.*7 %521
+    c2\fz g4
+    e r r
+    r c\ff c
+    c r r %525
+    r c c
+    c r r
+    e2.~
+    e
+    c4 c c %530
+    c r r\fermata \bar "|." %531 finis
+
   }
 }

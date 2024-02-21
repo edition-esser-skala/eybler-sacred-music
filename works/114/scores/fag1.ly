@@ -7,11 +7,21 @@
 
 \book {
   \bookpart {
-    \section "CXIV" ""
+    \section "114" "Te Deum"
     \addTocEntry
     \score {
       <<
         \new Staff { \CXIVFagottoI }
+      >>
+    }
+    \tacet "subsection" "Te ergo quæsumus"
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CXIVcFagottoI }
       >>
     }
   }
