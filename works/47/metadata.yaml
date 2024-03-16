@@ -1,0 +1,38 @@
+title: Nocte surgentes
+id: HerEy 47
+genre: gradual
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 cl (A), 2 fag,\\2 clno (D), timp (D–A), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 567 (3)
+    date: 1800-08
+    license: public domain
+    principal: true
+    notes: full score; 16 pages
+  B1:
+    siglum: A-Ed
+    shelfmark: B 278
+    rism: 600038212
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/120.html
+    license: public domain
+    notes: 17 parts (S (2×), A, T, B, ob 1, ob 2, clno 1, clno 2, timp, vl 1 (2×), vl 2 (2×), vla, vlne, org)
+toe: |
+  – & – & fag 1/2 share a staff with timp and are written in a darker ink,
+          possibly indicating that they have been added later.
+          cl 1/2 are written on the same staff as clno 1/2,
+          but in the same ink. \\
+parts:
+  cl1: Clarinetto I in A
+  cl2: Clarinetto II in A
+  ottoni: Clarino I, II in D\\Timpani in D–A
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Nocte surgentes vigilemus omnes,\\
+  semper in psalmis meditemur atque\\
+  viribus totis Domino canamus\\
+  dulciter hymnos.\\
+  (Liber Hymnarius 1983, p. 224)
