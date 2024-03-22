@@ -1,0 +1,22 @@
+title: Christus factus est
+id: HerEy 54
+genre: gradual
+festival: Coena Domini, Inventio et Exultatio Sanctae Crucis
+scoring: S, A, T, B (coro), org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/2
+    date: 1797
+    license: public domain
+    principal: true
+    notes: full score; 4 pages
+lyrics:
+  Christus factus est pro nobis\\
+  obediens usque ad mortem,\\
+  mortem autem crucis.\\
+  Propter quod et Deus exaltavit illum\\
+  et dedit illi nomen,\\
+  quod est super omne nomen.\\
+  (\bibleverse{Phil}(2:8,9))
