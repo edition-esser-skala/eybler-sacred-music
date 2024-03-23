@@ -1,0 +1,47 @@
+title: Quem tuus amor ebriat
+id: HerEy 38
+genre: offertorium
+festival: de tempore
+scoring: "[S (solo)], A (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (C),\\\\2 clno (C), 2 trb, timp (C–G), 2 vl, vla, vlc, b, org"
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/2
+    date: 1797
+    license: public domain
+    principal: true
+    notes: full score; 28 pages
+toe: |
+  –   & cor   & cor 1/2 have been added in red ink on the staff of trb~1 (p.~1),
+                clno 1/2 (p.~2–4, 6–20), and timp (p.~21–28). \\
+  –   & trb   & In the \textit{Alleluia}, trb 1 and 2 share a staff with timp
+                and clno 1/2, respectively, and are written on p.~21
+                (bars 156–161), 25 (bars 201–209), 26 (bars 210–212, 219f),
+                and 27 (bars 221–226). Otherwise, they should play unison
+                with A and T, as indicated by Eybler’s directive at the bottom
+                of p.~21 (“Nb: Wo die Tromboni nicht beſonders ausgeſetzt ſind,
+                gehen ſie mit die Singſtimmen.”). \\
+  – &   S     & Eybler added an alternative part for S~solo on the bottommost
+                staff of pages 4–8 and 11–17, and on the staff for S~tutti on
+                p.~21–27. \\
+  1–153 & org & All bass figures have been added by the editor. \\
+  132   & A   & \A1 contains two autograph candenzas for A~solo
+                (on the second staff from the bottom on p.~17):\newline
+                \includegraphics{snippet_38_1.pdf}\newline
+                and\newline
+                \includegraphics{snippet_38_2.pdf} \\
+parts:
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Quem tuus amor ebriat,\\
+  novit quid Jesus sapiat.\\
+  Quam Felix est quem satiat?\\
+  Non est ultra quod cupiat.\\[1ex]
+  Jesu decus angelicum,\\
+  in aure dulce canticum,\\
+  in ore mel mirificum,\\
+  in corde nectar coelicum.
