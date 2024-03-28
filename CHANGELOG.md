@@ -1,5 +1,17 @@
 # Changelog
 
+## 2024.03.0 – 2024-03-28
+
+### Added
+
+- works: HerEy 38, 47, 53, and 54
+
+### Changed
+
+- update versions of GitHub Actions workflow steps
+- update make file to allow parallel engraving
+
+
 ## 2024.02.0 – 2024-02-29
 
 ### Added
