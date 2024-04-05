@@ -1,0 +1,31 @@
+title: Cantate Domino
+id: HerEy 39
+genre: gradual
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 566 (3)
+    date: 1804
+    license: public domain
+    principal: true
+    notes: full score; 19 pages
+  D1:
+    siglum: D-NATk
+    shelfmark: NA/SP (E-14)
+    date: 1813-11-25
+    rism: 455039863
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_E14/
+    license: public domain
+    notes: 15 parts (S, A, T, B, ob 2, clno 1, clno 2, timp, vl 1 (2×) vl 2 (2×), vla, vlne, org)
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Cantate Domino, et benedicite nomini eius.\\
+  Quoniam magnus Dominus et laudabilis nimis,\\
+  terribilis est super omnes Deos Dominus.\\
+  (\bibleverse{Ps}(96/95:2,4))
