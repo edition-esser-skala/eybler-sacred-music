@@ -1,0 +1,44 @@
+title: Alma Redemptoris mater
+id: HerEy 57
+genre: gradual
+festival: Mariæ B.V.
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 trb, 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/4
+    date: 1815
+    license: public domain
+    principal: true
+    notes: full score; 8 pages
+  B1:
+    siglum: A-Wn
+    shelfmark: HK.2147/5
+    date: 1850
+    rism: 600243147
+    url: https://data.onb.ac.at/rec/AC14265952
+    license: public domain
+    notes: full score, 8 pages; lacks trb
+  B2:
+    siglum: A-SPD
+    shelfmark: SP (E-3)
+    date: 1850–1860
+    rism: 455042253
+    url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/A-SPD_E03/
+    license: public domain
+    notes: 11 parts (S, A, T, B, vl 1 (2×), vl 2, vla, vlc, vlne, org)
+parts:
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Alma Redemptoris Mater,\\
+  quae pervia coeli porta manes\\
+  et stella maris:\\
+  Succurre cadenti,\\
+  surgere qui curat populo.\\
+  Tu quae genuisti, natura mirante,\\
+  tuum sanctum Genitorem,\\
+  Virgo prius ac posterius,\\
+  Gabrielis ab ore sumens illud Ave,\\
+  peccatorum miserere.
