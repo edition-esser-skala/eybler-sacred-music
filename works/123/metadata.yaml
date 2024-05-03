@@ -1,0 +1,21 @@
+title: Tristes erant Apostoli
+id: HerEy 123
+genre: hymn
+festival: De tempore paschali
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/4 (2)
+    license: public domain
+    principal: true
+    notes: full score; 1 page
+toe: |
+  – & – & at end of \A1: “R: Vos elegit Deus in hæreditatem sibi. Alleluja.” \\
+lyrics:
+  Tristes erant Apostoli\\
+  de Christi acerbo munere,\\
+  quem morte crudelissima\\
+  servi necarant impii.\\
+  (Liber Hymnarius 1983, p. 271)
