@@ -1,0 +1,19 @@
+title: Te Deum
+id: HerEy 117
+genre: hymn
+scoring: S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 566 (1)
+    date: 1804
+    license: public domain
+    principal: true
+    notes: full score; 54 pages
+toe: |
+
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
