@@ -1,0 +1,31 @@
+title: Iste confessor
+id: HerEy 124
+genre: hymn
+festival: De Communi Confessorum, in Festo S. Leopoldi Confessoris
+scoring: S, A, T, B (coro)
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/4 (5)
+    date:
+    license: public domain
+    principal: true
+    notes: full score; 11 pages
+  B1:
+    siglum: A-Wn
+    shelfmark: HK.2485
+    date: 1835
+    url: https://data.onb.ac.at/rec/AC14266010
+    license: public domain
+    notes: full score; 4 pages
+lyrics:
+  Iste confessor Domini colentes,\\
+  quem pie laudant populi per orbem:\\
+  Hac die laetus meruit beatas\\
+  scandere sedes.\\[1ex]
+  Sit salus illi, decus, atque virtus,\\
+  qui super coeli solio coruscans,\\
+  totius mundi seriem gubernat\\
+  Trinus et unus. Amen.\\[1ex]
+  (Liber Hymnarius 1983, p. 466)
