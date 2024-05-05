@@ -241,3 +241,70 @@ CXVIIBassFigures = \figuremode {
   r %115
   \bc <[6 5]> %116 finis
 }
+
+CXVIIbOrgano = {
+  \relative c {
+    \clef bass
+    \key f \minor \time 4/4 \tempoCXVIIb
+      \set Score.currentBarNumber = #117
+    \mvTr f8\p-\solo f f f f f f f
+    f f f f e e e e
+    es\cresc es es es es es es es
+    es\p es es es des! des des des %120
+    b'\f b b b as as as as
+    e\p e e e f f f f
+    b, b b b h h h h
+    c\fp c c c c c c c
+    des! des des des c c b!\cresc b %125
+    as as as as as' as as as
+    e\fp e e f g g e e
+    f f f f f, f f f
+    b\pp b b b h h h h
+    c c c c c c c c %130
+    des!\cresc des des des des des des des
+    c\p c c c c c c c
+    e\sfp e e e e e e e
+    f f f f f f f f
+    a, a a a a a a\cresc a %135
+    b\fp b' b b b b b b
+    b,\f b' b b b b b b
+    as!\p as as as g g f f
+    e e e e f f f f
+    b, b b b des! des des des %140
+    c c c c c, c c c
+    f2 a'
+    b b,
+    f'1\fermata \bar "||" %144 finis
+  }
+}
+
+CXVIIbBassFigures = \figuremode {
+  r2 <6>4 <5> %117
+  <[6!] 4! _->2 <6>
+  \bo <6 [4!] _-> \bassFigureExtendersOn <6 4! _->8 \bc <6 [4!] _-> <5 _->4 \bassFigureExtendersOff
+  <4! _->2 <6> %120
+  <[6!] 4! _-> <6>
+  <6>4. <5>8 <_->2
+  <6 5> <7 [_!]>4 <6>8 <5>
+  <_!>1
+  <4 2!>2 <_!>4 <4! _-> \bassFigureExtendersOn %125
+  q4. q8 \bassFigureExtendersOff <6>2
+  <7->4. <5>8 <6!>4 <6>8 <7->
+  <9 4>2 <8 3>
+  <6-> \bo <\t [_!]>4 \bc <5 [\t]>
+  <6 4> <[5] _!>2. %130
+  <6 4 3>2 \bassFigureExtendersOn q4 <6! 4 3> \bassFigureExtendersOff
+  <_!>1
+  <7->2 <6>
+  <_->1
+  <6 5[-]> %135
+  <9 4>2 <[8] _->
+  <6 5 _->2 <\t 4! \t>
+  <6> <6->4 q
+  <6 5>2 <_->
+  q <6!> %140
+  <6 4> <[5] _!>
+  <_!> <6 5[-]>
+  <9 5 4> <\t 4! \t>4 <8 \t _->
+  <_!>1 %144 finis
+}

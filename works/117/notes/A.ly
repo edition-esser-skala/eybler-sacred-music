@@ -211,3 +211,70 @@ CXVIIAltoLyrics = \lyricmode {
   cre -- de -- ris es -- se ven --
   tu -- rus. %112 finis
 }
+
+CXVIIbAlto = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 4/4 \autoBeamOff \tempoCXVIIb
+      \set Score.currentBarNumber = #117
+    f2\pE f4 f
+    d4. d8 g4 r
+    ges2\cresc ges4 ges
+    ges4.\p ges8 f4 r %120
+    e2\f f4 r
+    g!4.\p g8 f4 r
+    des des d d8 d
+    e4.\fp c8 c4 r
+    r e e e\cresc %125
+    e4..( f16) f4 r
+    g4.\fp as8 b4 g
+    g4.. f16 f4 r
+    r des(\pp d) d
+    c c r2 %130
+    b!\cresc b4 h
+    c4..\p d16 e4 r
+    b'!2\sfp g4 g
+    f4. f8 f4 r
+    es! es c8([ f)] f\cresc f %135
+    f4..\fp f16 f4 r
+    g4..\f g16 g4 r
+    r f\p g as
+    g2 as4 r
+    f f8 f f4 f %140
+    f2( e)
+    f f4 f
+    f2( e)
+    f1\fermata \bar "||" %144 finis
+  }
+}
+
+CXVIIbAltoLyrics = \lyricmode {
+  Te er -- go %117
+  quae -- su -- mus,
+  te er -- go
+  quae -- su -- mus, %120
+  tu -- is
+  fa -- mu -- lis,
+  tu -- is fa -- mu -- lis
+  sub -- ve -- ni,
+  quos pre -- ti -- %125
+  o -- so,
+  pre -- ti -- o -- so
+  san -- gui -- ne
+  re -- de --
+  mi -- sti, %130
+  te er -- go
+  quae -- su -- mus,
+  te er -- go
+  quae -- su -- mus,
+  tu -- is fa -- mu -- lis %135
+  sub -- ve -- ni,
+  sub -- ve -- ni,
+  quos pre -- ti --
+  o -- so
+  san -- gui -- ne re -- de -- %140
+  mi --
+  sti, re -- de --
+  mi --
+  sti. %144 finis
+}

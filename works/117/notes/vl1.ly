@@ -122,3 +122,39 @@ CXVIIViolinoI = {
     d8 c' g, h' c4 c,\fermata \bar "||" %116 finis
   }
 }
+
+CXVIIbViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 4/4 \tempoCXVIIb
+      \set Score.currentBarNumber = #117
+    c'8\pE^\conSord c c c des des c c
+    h h h h c c c c
+    c\cresc c c c c c b b
+    a\p a a a b b b b %120
+    des\f des des des c c c c
+    c\p c c b as as as as
+    g g g g as as g f
+    e\fp e e e e e e e
+    b'! b b b c c des!\cresc des %125
+    des des des des c c c c
+    b\fp b b as g( des'! c b)
+    b b b b as as as as
+    ges\pp ges ges ges ges ges f f
+    f f e e e e e e %130
+    b'!\cresc b b b g! g f f
+    e\p e e e g g g g
+    b\sfp b b b b b b b
+    as as as as as as as as
+    f f f f f( a c\cresc es) %135
+    es\fp es es es des des des des
+    f\f f f f e e e e
+    f\p f f f es es des! des
+    c c c c c c c c
+    b b b b b( as g f) %140
+    as as as as g g g g
+    f4 f2 es'!4
+    es2. des4\trill
+    c1\fermata \bar "||" %144 finis
+  }
+}

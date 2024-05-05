@@ -212,9 +212,74 @@ CXVIISopranoLyrics = \lyricmode {
   tu -- rus. %112 finis
 }
 
+CXVIIbSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \minor \time 4/4 \autoBeamOff \tempoCXVIIb
+      \set Score.currentBarNumber = #117
+    \mvTr c'2\pE des4 c
+    h4. h8 c4 r
+    c2\cresc es!4 ges
+    a,4.\p a8 b4 r %120
+    des2\f c4 r
+    c4.\p b8 as4 r
+    g g \appoggiatura b8 as4 g8 f
+    c'4.\fp c,8 c4 r
+    r b'! c des!\cresc %125
+    des4..( c16) c4 r
+    g'4.\fp f8 e([ des!)] c([ b)]
+    b4.. as16 as4 r
+    r ges2\pp f4
+    f e r2 %130
+    b'!\cresc g!4 f
+    e4..\p f16 g4 r
+    g'2\sfp e4 b
+    as4. b8 c4 r
+    f, f f8([ a)] c\cresc es %135
+    es4..\fp des16 des4 r
+    f4..\f e16 e4 r
+    r f\p es des!
+    c4.( \grace es16 des8) c4 r
+    es!8([ des)] c b b([ as)] g([ f)] %140
+    as2( g)
+    f f4 es'!
+    es2.( des4)
+    c1\fermata \bar "||" %144 finis
+  }
+}
 
-% Te er -- go quae -- su -- mus, tu -- is fa -- mu -- lis sub -- ve -- ni,
-%   quos pre -- ti -- o -- so san -- gui -- ne re -- de -- mi -- sti.
+CXVIIbSopranoLyrics = \lyricmode {
+  Te er -- go %117
+  quae -- su -- mus,
+  te er -- go
+  quae -- su -- mus, %120
+  tu -- is
+  fa -- mu -- lis,
+  tu -- is fa -- mu -- lis
+  sub -- ve -- ni,
+  quos pre -- ti -- %125
+  o -- so,
+  pre -- ti -- o -- so __
+  san -- gui -- ne
+  re -- de --
+  mi -- sti, %130
+  te er -- go
+  quae -- su -- mus,
+  te er -- go
+  quae -- su -- mus,
+  tu -- is fa -- mu -- lis %135
+  sub -- ve -- ni,
+  sub -- ve -- ni,
+  quos pre -- ti --
+  o -- so
+  san -- gui -- ne re -- de -- %140
+  mi --
+  sti, re -- de --
+  mi --
+  sti. %144 finis
+}
+
+
 %   Ae -- ter -- na fac cum san -- ctis tu -- is in glo -- ri -- a nu -- me -- ra -- ri.
 %   Sal -- vum fac po -- pu -- lum tu -- um Do -- mi -- ne,
 %   et be -- ne -- dic hae -- re -- di -- ta -- ti tu -- ae.

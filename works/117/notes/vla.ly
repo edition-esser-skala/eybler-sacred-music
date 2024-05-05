@@ -122,3 +122,39 @@ CXVIIViola = {
     a f d g c,4 c,\fermata \bar "||" %116 finis
   }
 }
+
+CXVIIbViola = {
+  \relative c' {
+    \clef alto
+    \key f \minor \time 4/4 \tempoCXVIIb
+      \set Score.currentBarNumber = #117
+    f8\pE^\conSord f f f f f f f
+    d d d d g, c c c
+    a\cresc a a a c c es! es
+    c\p c c c des! des des des %120
+    g!\f g g g as! as as as
+    c,\p c c c c c c c
+    des des des des d d g, as
+    g\fp g g g g g g g
+    g' g g g g g g\cresc g
+    g g g g as as as as
+    des,!\fp des des c b b( c des)
+    c c c c c c c c
+    b\pp b b b as as as as
+    as as g g g g g g
+    f\cresc f f f f f g g
+    g\p g g g c c c c
+    des!\sfp des des des c c c c
+    c c c c c c c c
+    c c c c f f f\cresc f
+    f\fp f f f f f f f
+    g!\f g g g g g g g
+    as\p as f f g g as as
+    b b b b as as as as
+    des, des des des h h h h
+    c c c c c c c c
+    f,4 c'2 f4
+    f2 e
+    f1\fermata \bar "||"
+  }
+}

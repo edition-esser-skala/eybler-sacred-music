@@ -1,6 +1,7 @@
 \version "2.24.0"
 
 tempoCXVIIa = \tempoMarkup "Allegro con spirito"
+tempoCXVIIb = \tempoMarkup "Adagio"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
