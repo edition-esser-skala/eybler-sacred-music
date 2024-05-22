@@ -284,3 +284,395 @@ CXVIIbTenoreLyrics = \lyricmode {
   mi --
   sti. %144 finis
 }
+
+CXVIIcTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoCXVIIc
+      \set Score.currentBarNumber = #145
+    R2.*3 %147
+    r4 r g\f
+    d'2 h4
+    c2 c4 %150
+    d2 c4
+    c h g
+    a a8 a h cis
+    d4 d a
+    g g8 g a h %155
+    c!4 c g'
+    c,2 c4
+    c c c
+    c2 h4
+    c r r %160
+    R2.*7 %167
+    h2\p d4
+    h r r
+    c2 e4 %170
+    a, r r
+    d d d
+    d g, d'
+    h2( a4)
+    g r r %175
+    e a c
+    a4. h8 c h
+    a4( d) d
+    d d r
+    d,\f fis a %180
+    d d, r
+    e8 e gis4 h
+    e e, r
+    a2 a4
+    a2 a4 %185
+    c2( a4)
+    gis r r
+    e'2 e4
+    d( f) d
+    c( e d) %190
+    c r r
+    R2.*4 %195
+    r4 r h
+    c4. d8 e4
+    d d d8 c
+    h4. h8 e4
+    e r r %200
+    e r r
+    a, cis d
+    e4. e8 d4
+    cis r r
+    d2\f d4 %205
+    d2 d4
+    d2 d4
+    d d d
+    f2 f4
+    d r r %210
+    r e! e
+    e4. e8 d4
+    d2 cis4
+    d r r
+    R2.*7 %221
+    c4\p c c
+    c4. c8 c4
+    d2 b4
+    b a r %225
+    c f, b
+    g2 a4
+    b d c
+    a2 b4
+    c2\fp c4 %230
+    b2\fp c4
+    d c c
+    c c r
+    r c\p c
+    e,2 f4 %235
+    b2 as4
+    g4. g8 f4
+    r b b
+    g!( as) c
+    c( des d) %240
+    g, r r
+    f8([ a!)] c4 c
+    c2 c4
+    d4. c8 b4
+    b a r %245
+    c f, b
+    g4. g8 a4
+    g( c) c
+    c r c
+    d2 h!4\cresc %250
+    c r c
+    g4. g8 g g
+    g4 r c\f
+    c r c
+    c r f %255
+    e8([ d c)] h c d
+    h4 r r
+    R2.
+    r4 g g
+    c4. es8 d c %260
+    h4 g r
+    h r r
+    cis r r
+    r d d
+    d4. d8 c!4 %265
+    c c( h)
+    c r r
+    R2.*13 %270
+    r4 g g
+    a2 a4
+    c2 c4
+    d2.
+    c4 e c %275
+    g' g, r
+    r h h
+    c8[ h c e d c]
+    h4 d r
+    r c c %280
+    c g r
+    r h d
+    e c r
+    R2.
+    r4 f d %285
+    h e r
+    r e c
+    a d r
+    R2.
+    r4 e e %290
+    e c r
+    R2.
+    r4 c c
+    d2 d4
+    f2 f4 %295
+    g2.
+    f4 r r
+    r a, c
+    f f, r
+    r f' f %300
+    f2 f,4
+    r c' c
+    c2 c,4
+    r d' d
+    d2 d,4 %305
+    r e' e
+    e c a~
+    a d2~
+    d4 h g~
+    g c2~ %310
+    c4 a f~
+    f h2~
+    h4 gis e~
+    e a f~
+    f h g!~ %315
+    g c a~
+    a d8[ c h a]
+    g4 g' g
+    g( e) c
+    R2. %320
+    r4 g g
+    f'2.
+    e4 r r
+    r c c
+    a2 a4 %325
+    f2 f4
+    d2.
+    e4 e' e
+    a,4. cis8[ d e]
+    f[ e d c h a] %330
+    h[ c d h c d]
+    e[ f] g4 f
+    e d c
+    c c( h)
+    c e\ff e %335
+    c2 c4
+    c2 c4
+    f2.
+    e4 e d
+    d c c %340
+    h h a
+    a g e'
+    c c( h)
+    c r r
+    r e d %345
+    c e r
+    r e d
+    c e r
+    R2.
+    r4 e e %350
+    e2.~
+    e~
+    e~
+    e
+    c4 r r %355
+    R2.\fermata \bar "|." %356 finis
+  }
+}
+
+CXVIIcTenoreLyrics = \lyricmode {
+  Ae -- %148
+  ter -- na
+  fac cum %150
+  san -- ctis
+  tu -- is in
+  glo -- ri -- a nu -- me --
+  ra -- ri, in
+  glo -- ri -- a nu -- me -- %155
+  ra -- ri, cum
+  san -- ctis
+  tu -- is in
+  glo -- ri --
+  a. %160
+
+  Sal -- vum %168
+  fac,
+  Do -- mi -- %170
+  ne,
+  sal -- vum fac
+  po -- pu -- lum
+  tu --
+  um, %175
+  et be -- ne --
+  dic hae -- re -- di --
+  ta -- ti
+  tu -- ae,
+  et re -- ge %180
+  e -- os,
+  et ex -- tol -- le
+  il -- los
+  us -- que
+  in ae -- %185
+  ter --
+  num,
+  us -- que
+  in __ ae --
+  ter -- %190
+  num.
+
+  Per %196
+  sin -- gu -- los
+  di -- es be -- ne --
+  di -- ci -- mus
+  te, %200
+  te,
+  te, be -- ne --
+  di -- ci -- mus
+  te,
+  et lau -- %205
+  da -- mus
+  no -- men
+  tu -- um in
+  sae -- cu --
+  lum, %210
+  et in
+  sae -- cu -- lum
+  sae -- cu --
+  li.
+
+  Di -- gna -- re %222
+  Do -- mi -- ne,
+  di -- e
+  i -- sto %225
+  si -- ne pec --
+  ca -- to,
+  si -- ne pec --
+  ca -- to
+  di -- e %230
+  i -- sto
+  nos cu -- sto --
+  di -- re.
+  Mi -- se --
+  re -- re %235
+  no -- stri,
+  Do -- mi -- ne,
+  mi -- se --
+  re -- re
+  no -- %240
+  stri.
+  Fi -- at mi --
+  se -- ri --
+  cor -- di -- a
+  tu -- a %245
+  Do -- mi -- ne,
+  Do -- mi -- ne,
+  su -- per
+  nos, quem --
+  ad -- mo -- %250
+  dum spe --
+  ra -- vi -- mus in
+  te, in
+  te, in
+  te, spe -- %255
+  ra -- vi -- mus in
+  te.
+
+  In te,
+  Do -- mi -- ne, spe -- %260
+  ra -- vi,
+  non,
+  non,
+  non con --
+  fun -- dar in %265
+  ae -- ter --
+  num.
+
+  In te, %281
+  Do -- mi --
+  ne, spe --
+  ra --
+  vi, non con -- %285
+  fun -- dar
+  in ae --
+  ter --
+  _ num,
+  non con -- %290
+  fun -- dar
+  in ae --
+  ter -- num,
+
+  non con -- %295
+  fun -- dar
+  in ae --
+  ter -- num,
+
+  non con -- %300
+  fun -- dar,
+
+  in te,
+  Do -- mi --
+  ne, spe -- %305
+  ra --
+  vi,
+  non con --
+  fun -- dar
+  in ae -- %310
+  ter -- num,
+  in ae --
+  ter -- num,
+  in ae --
+  ter -- num, %315
+  in ae --
+  ter -- _ _
+  _
+  _ _
+  _ %320
+  _ _
+  _
+  _ _
+  _ _
+  _ _ %325
+  _ _
+  _
+  num, non con --
+  fun -- dar
+  %330
+  in ae --
+  ter --
+  num,
+  in te,
+  Do -- mi -- %335
+  ne, spe --
+  ra --
+  vi, in ae --
+  ter -- _
+  _ %340
+  _
+  _ _ _
+  _ num non con --
+  fun --
+  dar, in te, %345
+  Do -- mi --
+  ne, spe --
+  ra --
+  vi, non con --
+  fun -- dar, non, %350
+  non, non con --
+  fun -- dar in
+  ae -- ter --
+  num,
+  non con -- %355
+  fun -- dar
+  in ae --
+  ter -- num,
+  in ae -- %360
+  ter --
+
+  num. %365 finis
+}

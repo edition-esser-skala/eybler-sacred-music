@@ -158,3 +158,233 @@ CXVIIbViolinoII = {
     a1\fermata \bar "||" %144 finis
   }
 }
+
+CXVIIcViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCXVIIc
+      \set Score.currentBarNumber = #145
+    c8.\trill\f h32 c e4-! g-!
+    c8.\trill h32 c e4 r
+    g8.\trill fis32 g a4-! c,-!
+    h-! <g' h, d, g,> r
+    r8 g, g g g g
+    r g g g g g
+    r d' d d c c
+    c8.\trill h32 c h16 g g g g g' g g
+    g a, a a h a cis h d cis e d
+    f d a f d f a d a f' f f
+    f g, g g a g h a c! h d c %155
+    e c g e c e g c e, g c e
+    f c c c f, c' c c e, c' c c
+    a c c c g' c, c c f c c c
+    e c e g c g e c d8 h'
+    c,4 r8 e d h %160
+    c c, r c' h g
+    a a, r a' g e
+    f d d e16 f g a h c
+    d c h a g f e d c8 c'
+    a f' g, e' d, f %165
+    e e'(\p d c h a)
+    g( fis e d cis c)
+    h h( h') h r fis
+    r g a16( g fis g a h c d)
+    r8 e,( c') c-! r e, %170
+    r a, h16( a gis a h c d e)
+    r8 fis( a) a-! fis fis
+    g16( fis h a g fis e d c h e d)
+    r8 \once \slurDashed d( h') h-\parenthesize-! r a
+    g h,16( a g a h c d e fis g) %175
+    r8 c,-! c( e) e( a)
+    r \appoggiatura g16 fis e fis d g d fis d g d
+    a'8 c c a g h
+    g8.\trill fis32 g fis16 d' cis d a g fis e
+    d4 r r %180
+    r8 d~\fz d16 e c! d h c a h
+    gis4 r r
+    r8 e'~\fz e16 f! d e c d h c
+    a8\f c4 c c8
+    c c'4 c c8 %185
+    c a4 a a8
+    gis e16 fis gis8-! a-! h-! c-!
+    h16 d d d d h h h a c c c
+    h c h a h c d e f! d c h
+    c a e' c a' e c a h8 gis' %190
+    a, a, r c' h g!
+    a a, r a' g e
+    f f' r f e c
+    d h h\trill c16 d e fis gis a
+    h a gis fis e d c h a8 e' %195
+    d, f' c, c' e, h'
+    a16 e' d e c d h c a h c a
+    c h d c h d, d h' h d d f
+    f g e f d e c d h c d h
+    c8 a,16 c e8 c16 e a8 e16 a %200
+    cis8 e,16 a cis8 a16 cis e8 cis16 e
+    a8 a,16 a' g8 a,16 g' f8 a,16 f'
+    e a, a a a e' e e a, d d d
+    cis8 b16 c a b g a f g e f
+    d8 d'16 e c d b c a b g a %205
+    f8 b16 c a b g a f g e f
+    d8 d'16 e c d b c a b g a
+    f8 b16 c a b g a f g e f
+    d8 a16 c b d c es d es c d
+    b8 c16 d b c a b g g' b a %210
+    g8 cis,16 e! e g g cis cis e e e
+    e a, a a a e' e e d f f f
+    e d' d d d e, e d' a,8 cis'
+    d, d, r f' e c
+    d d, r d' c a %215
+    b b, r b' a f
+    g e e\trill f16 g a h cis d
+    e d cis b a g f e d8 f'
+    b, g' a, f' e, g
+    f d(\p f e g f) %220
+    \once \slurDashed a( g b a c! b)
+    a r c, r c r
+    c r g' r f r
+    f r f r b r
+    b r a r c, r %225
+    c r f r d r
+    c r c r c r
+    d r d r es r
+    d r d r d r
+    g\fp r g r f! r %230
+    f\fp r f r f r
+    f r g r f r
+    f4\trill e r
+    r8 e\p e e e e
+    r g g g f f %235
+    r b b b as as
+    r g g g f f
+    r des des des des des
+    des des c c g'! g
+    g g g g f f %240
+    e!( c\cresc d e f e)
+    f r a\p r a r
+    g r g r g r
+    f r f r f r
+    f r f r c r %245
+    c r f r d r
+    c r c r c r
+    g' r g r f r
+    g r g r g r
+    g r h,! r g'\cresc r %250
+    g r c, r g' r
+    g r d r g r
+    g[\f c c c] c8.\trill h32 c
+    a'8[ c, c c] c8.\trill h32 c
+    g'8[ g, g g] f8.\trill e32 f %255
+    e16 g a h c h d c e d f e
+    d8 h,16 d d g g h h d d g
+    g8 e,16 g g c c e e d d c
+    h8 h,16 d d g g h h d d g
+    fis8 c,16 fis fis c' c es es d d c %260
+    h4 g,16 h h d d g g h
+    h4 g,16 h h d d g g h
+    cis4 g,16 cis cis e! e g g cis
+    d4 d,16 f f a a d d f
+    d8 g,16 h h d d f e8 c! %265
+    a f' d c' g, h'
+    c, c, r e' d h
+    c c, r c' h g
+    a a, r a' g e
+    f d d e16 f g a h c %270
+    d c h a g f e d c8 c'
+    a f' g, e' d, f
+    e[ g( c) c]-! c8.\trill h32 c
+    r8 a([ c) c]-! c8.\trill h32 c
+    r8 c([ e) e]-! e8.\trill d32 e %275
+    r8 g,([ g') g]-! g8.\trill fis32 g
+    r8 e([ g) g]-! g8.\trill fis32 g
+    r8 e([ c) c]-! c8.\trill h32 c
+    r8 d,([ d') d]-! d8.\trill cis32 d
+    r8 a'([ c,) c]-! c8.\trill h32 c %280
+    r8 h([ g') g]-! g8.\trill fis32 g
+    r8 e([ c) c]-! c8.\trill h32 c
+    r8 g([ g') g]-! g8.\trill fis32 g
+    r8 d'([ f,!) f]-! f8.\trill e32 f
+    r8 e([ g,) g]-! g8.\trill fis32 g %285
+    r8 c([ e) e]-! e8.\trill d32 e
+    r8 g,([ d') d]-! d8.\trill cis32 d
+    r8 a'([ c,) c]-! c8.\trill h32 c
+    r8 h([ d) d]-! d8.\trill c32 d
+    r8 e,([ c') c]-! c8.\trill h32 c %290
+    r8 c([ g') g]-! g8.\trill fis32 g
+    r8 g,([ f') f]-! f8.\trill e32 f
+    r8 e([ c) c]-! c8.\trill h32 c
+    r8 a([ f') f]-\parenthesize-! f8.\trill e32 f
+    r8 d([ h) h]-! h8.\trill a32 h %295
+    r8 g([ e') e]-! e8.\trill d32 e
+    r8 c([ a) a]-! a8.\trill gis32 a
+    r8 a([ f') f]-! f8.\trill e32 f
+    r8 d([ h') h]-! h8.\trill a32 h
+    r8 e,,([ d') d]-! d8.\trill c32 d %300
+    r8 c([ a) a]-! a8.\trill gis32 a
+    r8 d([ h) h]-! h8.\trill a32 h
+    r8 e([ c) c]-! c8.\trill h32 c
+    r8 a([ f') f]-! f8.\trill e32 f
+    r8 f([ d) d]-! d8.\trillFlat c32 d %305
+    r8 b([ g') g]-! g8.\trill f32 g
+    r8 a,([ f') f]-! f8.\trill e32 f
+    r8 c([ a') a]-! a8.\trillFlat g32 a
+    r8 c([ a,) a]-! a8.\trillFlat g32 a
+    r8 f([ d') d]-! d8.\trillFlat c32 d %310
+    r8 a([ c) c]-! c8.\trill h32 c
+    r8 c([ g') g]-! g8.\trill f32 g
+    r8 a([ c,) c]-! c8.\trill h!32 c
+    r8 d([ a') a]-! a8.\trill g32 a
+    r8 h!([ d,) d]-! d8.\trill cis32 d %315
+    r8 e([ h') h]-! h8.\trill a32 h
+    r8 c([ c,) c]-! c8.\trill h32 c
+    r8 a'([ d,) d]-! d8.\trill cis32 d
+    r8 h'([ g,) g]-! g8.\trill fis32 g
+    r8 g'([ c,) c]-! c8.\trill h32 c %320
+    r8 \once \slurDashed a'([ f,) f]-\parenthesize-! f8.\trill e32 f
+    r8 d([ h') h]-! h8.\trill a32 h
+    r8 \once \slurDashed h'([ gis,) gis]-\parenthesize-! gis8.\trill fis32 gis
+    r8 e([ c') c]-! c8.\trill h32 c
+    r8 f,!([ d') d]-! d8.\trill c32 d %325
+    r8 g,([ e') e]-! e8.\trill d32 e
+    r8 a,([ a') a]-! a8.\trill g32 a
+    r8 h,([ g') g]-! g8.\trill fis32 g
+    r8 g,([ e') e]-! e8.\trill d32 e
+    r8 a([ c,) c]-! c8.\trill h32 c %330
+    r8 c([ g') g]-! g8.\trill fis32 g
+    r8 g,([ f') f]-! f8.\trill e32 f
+    r8 e,([ e') e]-! e8.\trill d32 e
+    r8 c([ g') g]-! g8.\trill f32 g
+    r8 c,([ a') a]-! a8.\trillFlat g32 a %335
+    r8 a,([ f') f]-! f8.\trill e32 f
+    r8 g([ d) d]-! d8.\trill c32 d
+    r8 e,([ e') e]-\parenthesize-! e8.\trill d32 e
+    r8 f([ a,) a]-! a8.\trill gis32 a
+    r8 a([ a') a]-\parenthesize-! a8.\trill gis32 a %340
+    r8 h,([ d) d]-! d8.\trill cis32 d
+    r8 \once \slurDashed g,([ g') g]-\parenthesize-! g8.\trill fis32 g
+    r8 g,([ f') f]-! e8.\trill d32 e
+    a8 f d c' g, h'
+    c c,\ff c8.\trill h32 c c,8 c' %345
+    r c c8.\trill h32 c c,8 c'
+    r g g8.\trill fis32 g e8 g'
+    r f! f8.\trill e32 f f,8 f'
+    e e, e' e, d' d,
+    d' d, c' c, c' c, %350
+    h' h, h' h, a' a,
+    a' a, h' h, c' c,
+    c' c, d c' g, f'
+    e4 <g c e> <d h' g'>
+    <g c e> r r %355
+    r <g c e> <d h' g'>
+    <g c e> r r
+    r <g c e> <d h' g'>
+    <g c e> r r
+    <g, e' c'> r r %360
+    q r r
+    q r r
+    q g' e
+    c g' e
+    c c c %365
+    c r r\fermata \bar "|." %366 finis
+  }
+}

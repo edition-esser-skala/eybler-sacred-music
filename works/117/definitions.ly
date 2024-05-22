@@ -2,6 +2,7 @@
 
 tempoCXVIIa = \tempoMarkup "Allegro con spirito"
 tempoCXVIIb = \tempoMarkup "Adagio"
+tempoCXVIIc = \tempoMarkup "Allegro vivace"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

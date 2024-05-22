@@ -66,3 +66,124 @@ CXVIIClarinoII = {
     c g e r\fermata \bar "||" %116 finis
   }
 }
+
+CXVIIcClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCXVIIc
+      \set Score.currentBarNumber = #145
+    c4\f e g
+    c e r
+    c, r c
+    g g r
+    r g r
+    r g r %150
+    r g' c
+    c g r
+    R2.*4 %156
+    c,4 r r
+    c r r
+    c'2 g4
+    e r r %160
+    c r r
+    c r r
+    R2.
+    g'2 c4
+    r c g %165
+    e r r
+    R2.*87 %253
+    r4 c\f c
+    c r r %255
+    R2.
+    g4 r r
+    g r r
+    g r r
+    c8 c16 c c8 c c c %260
+    g4 r r
+    R2.*3
+    g'2 c4 %265
+    r r g
+    e r r
+    c r r
+    c r r
+    R2. %270
+    g'2 c4
+    r c g
+    e r r
+    c r r
+    c r r %275
+    g'2.
+    c,4 c c
+    e2 e4
+    g r r
+    R2.*2 %281
+    r4 c, c
+    c r r
+    g'2.
+    e4 c c %285
+    e2 e4
+    g r r
+    R2.
+    r4 g, g
+    e' r r %290
+    g r r
+    g2.
+    e4 r r
+    R2.*2 %295
+    g,4 r r
+    c r r
+    R2.*2
+    e4 r8 e16 e e8 e %300
+    e4 r r
+    g2.
+    c,4 r r
+    R2.*7 %310
+    r4 c c
+    c2 r4
+    r c' c
+    d2 r4
+    r d d %315
+    e,2 r4
+    R2.*2
+    g,4 r8 g16 g g8 g
+    c4 r r %320
+    R2.*5 %325
+    c4 r r
+    R2.
+    r4 g g
+    c r r
+    r c c %330
+    e2.
+    g
+    e4 r r
+    r c c
+    c r r %335
+    R2.
+    r4 g' g
+    c, r r
+    R2.*4 %342
+    r4 g' c
+    r r g
+    e r r %345
+    c\ff r r
+    c r r
+    c8 c16 c c8 c c c
+    c4 r r
+    R2.*2 %351
+    r4 g' c~
+    c c g
+    e c' g
+    c, r r %355
+    r c' g
+    c, r r
+    r c' g
+    c, r r
+    c r8 c16 c c8 c %360
+    e4 r8 e16 e e8 e
+    e4 e e
+    e r r
+    c' g e
+    c c c %365
+    c r r\fermata \bar "|." %366 finis
+  }
+}

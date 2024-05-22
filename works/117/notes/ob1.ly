@@ -102,3 +102,190 @@ CXVIIOboeI = {
     c h \pd c r\fermata \bar "||" %116 finis
   }
 }
+
+CXVIIcOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCXVIIc
+      \set Score.currentBarNumber = #145
+    c4\f e g
+    c8.\trill h32 c e4 r
+    g8.\trill fis32 g a4 c,
+    h g' r
+    r h, d
+    r c e %150
+    r f e
+    e\trill d g
+    \pa a, h8 cis d e
+    f4 d \pd f
+    \pa g, a8 h c! d %155
+    e4 c c \pd
+    f2 e4
+    a g f
+    e2 d4\trill
+    \pa c8 e g2 %160
+    r8 c, e2
+    r8 a, c2
+    r8 \pd f,4 f' f8
+    f2 e4
+    d c h %165
+    c r r
+    R2.*17 %183
+    a2.\f
+    c %185
+    dis
+    e4 r r
+    d!2 c4
+    h d f
+    a,2 \appoggiatura c8 h4 %190
+    \pa a8 c e2
+    r8 a, c2
+    r8 f, a'2
+    r8 \pd d,4 h' h8
+    h2 a4 %195
+    d, c h
+    c r c~
+    c h r
+    d2.
+    c %200
+    cis
+    d4 e f
+    g2 f4
+    e r r
+    d2.~ %205
+    d~
+    d~
+    d
+    f
+    d4 r r %210
+    r cis e!
+    g2 f4
+    e2.\trill
+    \pa d8 f a2
+    r8 d, f2 %215
+    r8 b, d2
+    r8 \pd g,4 g' g8
+    g2 f4
+    e d cis
+    d r r %220
+    R2.*12 %232
+    r4 g,\p g
+    g2.
+    b2 as4 %235
+    des2 c4
+    c4. b8 as4
+    R2.*15 %252
+    r4 \pa c\f c
+    a'2.
+    g4 g, h %255
+    c4. d8 e f \pd
+    d2.
+    e2 d8 c
+    h2.
+    c %260
+    h4 d d
+    d d2\fz
+    r4 e2\fz
+    r4 f a
+    g4. f8 e4 %265
+    f d2\trill
+    \pa c8 e g2
+    r8 c, e2
+    r8 a, c2
+    r8 \pd f,4 f' f8 %270
+    f2 e4
+    d c h
+    c g g
+    a2 a4
+    c2 c4 %275
+    d2.
+    c4 e c
+    g' g, r
+    r h h
+    c8 h c e d c %280
+    h4 d r
+    r c c
+    c g r
+    r h d
+    e c r %285
+    R2.*3
+    r4 g g
+    a2 a4 %290
+    c2 c4
+    d2.
+    c4 r r
+    r a c
+    d h r %295
+    r g h
+    c a r
+    r a a
+    d8 c h a gis a
+    h a gis h e d %300
+    c h a c f e
+    d c h d g! f
+    e4 c r
+    r f f
+    d2 d4 %305
+    b2 b4
+    a2 d4
+    c r r
+    r f, f'
+    d b r %310
+    r c c
+    c2 c,4
+    r a' a
+    d2 d,4
+    r h'! h %315
+    e2 e,4
+    r c' c
+    f8 e d c h a
+    g4. h8 c d
+    e d c h a g %320
+    f4. a8 h c
+    d c h a gis fis
+    e4. gis8 a h
+    c4. a8 h c
+    d4. h8 c d %325
+    e4. c8 d e
+    f e d e d c
+    h4 g r
+    r g g
+    a2 a4 %330
+    c2 c4
+    d2.
+    c4 c c
+    c e r
+    r c c %335
+    f8 e d c h a
+    g4 g' f
+    e c r
+    r a a
+    a'8 g f e d c %340
+    h4 g g
+    a8 h c d e f
+    g4 f e
+    f d2\trill
+    c4 c\ff c %345
+    e2 e4
+    g2 g4
+    a2.
+    g4 a f
+    g e f %350
+    d e c
+    d h c
+    f d2\trill
+    \pao c4 g' h
+    c r r %355
+    r g h
+    c r r
+    r g h
+    c r r
+    \pao c,2. %360
+    e
+    g
+    c4 \pa g e
+    c g e
+    c c c %365
+    c \pd r r\fermata \bar "|." %366 finis
+  }
+}

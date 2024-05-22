@@ -279,17 +279,403 @@ CXVIIbSopranoLyrics = \lyricmode {
   sti. %144 finis
 }
 
+CXVIIcSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoCXVIIc
+      \set Score.currentBarNumber = #145
+    R2.*3 %147
+    r4 r g'\f
+    h2 g4
+    c2 g4 %150
+    f'2 e4
+    e d g
+    a, h8 cis d e
+    f4 d f
+    g, a8 h c! d %155
+    e4 c c
+    f2 e4
+    a g f
+    e2 d4
+    c r r %160
+    R2.*7 %167
+    d2\p h4
+    g r r
+    e'2 c4 %170
+    a r r
+    fis' fis fis
+    g8([ fis)] e([ d)] c([ h)]
+    d2( c4)
+    h r r %175
+    e c a
+    \appoggiatura g8 fis4. g8 a h
+    c2 h4
+    h a r
+    d,\f fis a %180
+    d d, r
+    e8 e gis4 h
+    e e, r
+    a2 a4
+    a2 a4 %185
+    dis2.
+    e4 r r
+    d!2 c4
+    h( d) f
+    a,2( \grace c8 h4) %190
+    a r r
+    R2.*4 %195
+    r4 r e'
+    e4. d8 c4
+    c h h8 d
+    f4. e8 d4
+    c r r %200
+    cis r r
+    d e f
+    g4. g8 f4
+    e r r
+    d2\f d4 %205
+    d2 d4
+    d2 d4
+    d d d
+    f2 f4
+    d r r %210
+    r cis e!
+    g4. g8 f4
+    e2 e4
+    d r r
+    R2.*7 %221
+    a4\p a a
+    c4. b8 a4
+    f'2 d4
+    d c r %225
+    c b8([ a)] g([ f)]
+    \appoggiatura f4 e2 f4
+    d' c8([ b)] a([ g)]
+    \appoggiatura g4 fis2 g4
+    b2\fp a4 %230
+    d2\fp c4
+    f b, a
+    a g r
+    r g\p g
+    b2 as4 %235
+    des2 c4
+    c4. b8 as4
+    r ges f
+    e!( f) g
+    b2( as4) %240
+    g r r
+    a! a a
+    c2 c4
+    f4. e8 d4
+    d c r %245
+    c b8([ a)] g([ f)]
+    \appoggiatura f4 e4. e8 f4
+    c'( b) a
+    g r g
+    h!2 d4\cresc %250
+    c r g
+    d'4. e8 f d
+    e4 r c\f
+    a'4 r c,
+    g' r h, %255
+    c4. d8 e f
+    d4 g, g
+    g'4. e8 d c
+    h4 d r
+    R2.*2 %261
+    d4 r r
+    e! r r
+    r f a
+    g4. f8 e4 %265
+    f d2
+    c4 r r
+    R2.*5 %272
+    r4 g g
+    a2 a4
+    c2 c4 %275
+    d2.
+    c4 e c
+    g' g, r
+    r h h
+    c8[ h c e d c] %280
+    h4 d r
+    r c c
+    c g r
+    r h d
+    e c r %285
+    R2.*3
+    r4 g g
+    a2 a4 %290
+    c2 c4
+    d2.
+    c4 r r
+    r a c
+    d h r %295
+    r g h
+    c a r
+    r a a
+    d8[ c h a gis a]
+    h[ a gis h e d] %300
+    c[ h a c f e]
+    d[ c h d g! f]
+    e4 c r
+    r f f
+    d2 d4 %305
+    b2 b4
+    a2( d4)
+    c r r
+    r f, f'
+    d b r %310
+    r c c
+    c2 c,4
+    r a' a
+    d2 d,4
+    r h'! h %315
+    e2 e,4
+    r c' c
+    f8[ e d c h a]
+    g4. h8[ c d]
+    e[ d c h a g] %320
+    f4. a8[ h c]
+    d[ c h a gis fis]
+    e4. gis8[ a h]
+    c4. a8[ h c]
+    d4. h8[ c d] %325
+    e4. c8[ d e]
+    f[ e d e d c]
+    h4 g r
+    r g g
+    a2 a4 %330
+    c2 c4
+    d2.
+    c4 c c
+    c e r
+    r c c %335
+    f8[ e d c h a]
+    g4 g' f
+    e c r
+    r a a
+    a'8[( g f e d c]) %340
+    h4 g g
+    a8[ h c d e f]
+    g4 f e
+    f d2
+    c4 c\ff c %345
+    e2 e4
+    g2 g4
+    a2.
+    g4 a f
+    g e f %350
+    d e c
+    d h c
+    f d2
+    c4 r r
+    r e g %355
+    e c r
+    r e g
+    e c r
+    R2.*3 %361
+    r4 c c
+    c2.~
+    c
+    c,4 r r %365
+    R2.\fermata \bar "|." %36 finis
+  }
+}
 
-%   Ae -- ter -- na fac cum san -- ctis tu -- is in glo -- ri -- a nu -- me -- ra -- ri.
-%   Sal -- vum fac po -- pu -- lum tu -- um Do -- mi -- ne,
-%   et be -- ne -- dic hae -- re -- di -- ta -- ti tu -- ae.
-%   Et re -- ge e -- os, et ex -- tol -- le il -- los us -- que in ae -- ter -- num.
-%   Per sin -- gu -- los di -- es, be -- ne -- di -- ci -- mus te
-%   et lau -- da -- mus no -- men tu -- um in sae -- cu -- lum,
-%   et in sae -- cu -- lum sae -- cu -- li.
-%   Di -- gna -- re Do -- mi -- ne, di -- e i -- sto si -- ne pec -- ca -- to nos cu -- sto -- di -- re.
-%   Mi -- se -- re -- re no -- stri, Do -- mi -- ne, mi -- se -- re -- re no -- stri.
-%   Fi -- at mi -- se -- ri -- cor -- di -- a tu -- a Do -- mi -- ne,
-%   su -- per nos, quem -- ad -- mo -- dum spe -- ra -- vi -- mus in te.
-%   In te, Do -- mi -- ne, spe -- ra -- vi:
-%   Non con -- fun -- dar in ae -- ter -- num.
+CXVIIcSopranoLyrics = \lyricmode {
+  Ae -- %148
+  ter -- na
+  fac cum %150
+  san -- ctis
+  tu -- is in
+  glo -- ri -- a nu -- me --
+  ra -- ri, in
+  glo -- ri -- a nu -- me -- %155
+  ra -- ri, cum
+  san -- ctis
+  tu -- is in
+  glo -- ri --
+  a. %160
+
+  Sal -- vum %168
+  fac,
+  Do -- mi -- %170
+  ne,
+  sal -- vum fac
+  po -- pu -- lum
+  tu --
+  um, %175
+  et be -- ne --
+  dic hae -- re -- di --
+  ta -- ti
+  tu -- ae,
+  et re -- ge %180
+  e -- os,
+  et ex -- tol -- le
+  il -- los
+  us -- que
+  in ae -- %185
+  ter --
+  num,
+  us -- que
+  in __ ae --
+  ter -- %190
+  num.
+
+  Per %196
+  sin -- gu -- los
+  di -- es be -- ne --
+  di -- ci -- mus
+  te, %200
+  te,
+  te, be -- ne --
+  di -- ci -- mus
+  te,
+  et lau -- %205
+  da -- mus
+  no -- men
+  tu -- um in
+  sae -- cu --
+  lum, %210
+  et in
+  sae -- cu -- lum
+  sae -- cu --
+  li.
+
+  Di -- gna -- re %222
+  Do -- mi -- ne,
+  di -- e
+  i -- sto %225
+  si -- ne __ pec --
+  ca -- to,
+  si -- ne __ pec --
+  ca -- to
+  di -- e %230
+  i -- sto
+  nos cu -- sto --
+  di -- re.
+  Mi -- se --
+  re -- re %235
+  no -- stri,
+  Do -- mi -- ne,
+  mi -- se --
+  re -- re
+  no -- %240
+  stri.
+  Fi -- at mi --
+  se -- ri --
+  cor -- di -- a
+  tu -- a %245
+  Do -- mi -- ne, __
+  Do -- mi -- ne,
+  su -- per
+  nos, quem --
+  ad -- mo -- %250
+  dum spe --
+  ra -- vi -- mus in
+  te, in
+  te, in
+  te, spe -- %255
+  ra -- vi -- mus in
+  te. In te,
+  Do -- mi -- ne, spe --
+  ra -- vi,
+
+  non, %262
+  non,
+  non con --
+  fun -- dar in %265
+  ae -- ter --
+  num.
+
+  In te, %273
+  Do -- mi --
+  ne, spe -- %275
+  ra --
+  vi, non con --
+  fun -- dar
+  in ae --
+  ter -- %280
+  _ num,
+  non con --
+  fun -- dar
+  in ae --
+  ter -- num, %285
+
+  in te, %289
+  Do -- mi -- %290
+  ne, spe --
+  ra --
+  vi,
+  non con --
+  fun -- dar %295
+  in ae --
+  ter -- num,
+  in ae --
+  ter --
+  _ %300
+  _
+  _
+  _ num,
+  in te,
+  Do -- mi -- %305
+  ne, spe --
+  ra --
+  vi,
+  non con --
+  fun -- dar %310
+  in ae --
+  ter -- num,
+  in ae --
+  ter -- num,
+  in ae -- %315
+  ter -- num,
+  in ae --
+  ter --
+  _ _
+  _ %320
+  _ _
+  _
+  _ _
+  _ _
+  _ _ %325
+  _ _
+  _
+  _ num,
+  in te,
+  Do -- mi -- %330
+  ne, spe --
+  ra --
+  vi, non con --
+  fun -- dar
+  in ae -- %335
+  ter --
+  _ _ _
+  _ num,
+  in ae --
+  ter -- %340
+  num, in ae --
+  ter --
+  _ num non
+  con -- fun --
+  dar, in te, %345
+  Do -- mi --
+  ne, spe --
+  ra --
+  vi, non con --
+  fun -- dar, non, %350
+  non, non con --
+  fun -- dar in
+  ae -- ter --
+  num,
+  non con -- %355
+  fun -- dar
+  in ae --
+  ter -- num,
+
+  in ae -- %362
+  ter --
+
+  num. %365 finis
+}
