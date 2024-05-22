@@ -21,3 +21,4 @@ perdE = #(make-music
   'span-direction START
   'span-type 'text
   'span-text (markup (#:normal-text #:small #:italic "perd.")))
+trillFlat = \tweak self-alignment-X #CENTER ^\markup { { \teeny \raise #.5 \flat } \musicglyph #'"scripts.trill" }
