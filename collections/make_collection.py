@@ -75,6 +75,18 @@ TOE_TEMPLATE = """\
 
 LYRICS_TEMPLATE = "\\textlt{{\\textit{{Lyrics}}\\\\{}}}"
 
+FULL_SCORE_TEMPLATE = """\
+\\version "2.24.0"
+
+\\include "../../definitions_main.ly"
+\\include "definitions.ly"
+\\include "score_settings/full-score.ly"
+
+\\book {{
+{}
+}}
+"""
+
 
 PYTHON_CALL = """
 mkdir -p tmp/{name}
@@ -119,16 +131,79 @@ def get_definitions(work: str) -> list[str]:
     return res
 
 
+def extract_paper_variables(match: re.Match | None) -> list[str]:
+    """Extract paper variables as list from Match object."""
+    if match is None:
+        return []
+    return ["      " + s.strip()
+            for s in match.group(1)
+                          .replace("\\", "\\\\")
+                          .strip()
+                          .split("\n")]
+
+
+def get_full_score(work: str) -> list[str]:
+    """Get the full score of a work."""
+    score_file = f"works/{work}/scores/full_score.ly"
+    with open(score_file, encoding="utf8") as f:
+        score = "".join(f.readlines())
+
+    # get top-level paper variables
+    top_level_paper_variables = re.search(
+        r"\n\\paper {(.*?)}",
+        score,
+        re.DOTALL
+    )
+    top_vars = extract_paper_variables(top_level_paper_variables)
+
+    # reformat bookparts by combining paper variables
+    bookparts = re.findall(
+        r"  \\bookpart {.*?\n  }\n",
+        score,
+        re.DOTALL
+    )
+    bookparts_reformatted: list[str] = []
+    for bookpart in bookparts:
+        paper_variables = re.search(
+            r"\\paper {(.*?)}",
+            bookpart,
+            re.DOTALL
+        )
+        paper_vars = extract_paper_variables(paper_variables)
+        all_vars = "\n".join(top_vars + paper_vars)
+
+        b = re.sub(
+            r"\\addTocEntry.*\\score",
+            r"\\addTocEntry\n    \\paper {\n"
+                + all_vars
+                + r"\n    }\n    \\score",
+            bookpart,
+            flags=re.DOTALL
+        )
+        bookparts_reformatted.append(b)
+
+    # TBD: handle top-level \context settings
+
+    return bookparts_reformatted
+
+
 def main() -> None:
     """Main function."""
     coll_name = argv[1]
     works = argv[2:]
 
     definitions: list[str] = []
-    work_details: list[str] = []
+    full_score: list[str] = []
     abbreviations: set[str] = set()
+    work_details: list[str] = []
 
     for work in works:
+        # merge definitions
+        definitions += get_definitions(work)
+
+        # merge full scores
+        full_score += get_full_score(work)
+
         # generate metadata
         print("Generate metadata for", work)
         subprocess.run(
@@ -137,9 +212,6 @@ def main() -> None:
             shell=True,
             capture_output=True
         )
-
-        # merge definitions
-        definitions += get_definitions(work)
 
         # parse metadata
         with open(f"tmp/{coll_name}/metadata_{work}.macros",
@@ -166,7 +238,7 @@ def main() -> None:
 
         lyrics = extract_value(metadata, "Lyrics")
         if lyrics:
-            lyrics=LYRICS_TEMPLATE.format(lyrics)
+            lyrics = LYRICS_TEMPLATE.format(lyrics)
 
         # format work information
         work_details.append(
@@ -207,6 +279,11 @@ def main() -> None:
               "w",
               encoding="utf8") as f:
         f.write("".join(definitions))
+
+    with open(f"collections/{coll_name}/full_score.ly",
+              "w",
+              encoding="utf8") as f:
+        f.write(FULL_SCORE_TEMPLATE.format("".join(full_score)))
 
 
 if __name__ == "__main__":
