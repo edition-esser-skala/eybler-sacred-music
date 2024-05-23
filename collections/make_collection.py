@@ -11,9 +11,14 @@ FRONT_MATTER_TEMPLATE = """\
 
 \\begin{{document}}
 
-\\input{{metadata_{first_work}.tex}}
-\\date{{\\MetadataDate}}
-\\license{{\\MetadataLicense}}
+\\title{{[collection – add custom title page]}}
+\\date{{{date}}}
+\\license{{{license}}}
+\\def\\MetadataLilypondVersion{{{lilypond_version}}}
+\\def\\MetadataEESToolsVersion{{{eestools_version}}}
+\\repository{{{repository}}}
+\\version{{{version}}}
+\\checksum{{{checksum}}}
 \\def\\MetadataQRCode{{\\relax}}
 \\eesTitlePage
 
@@ -45,51 +50,73 @@ available on the Edition’s webpage.
 \\end{{document}}
 """
 
-
-WORK_TEMPLATE = """
-\\input{{metadata_{work}.tex}}
-
-\\section{{\\MetadataTitle\\ (\\MetadataSubtitle)}}
+WORK_TEMPLATE = """\
+\\section{{{title} · {subtitle}}}
 
 \\begin{{xltabular}}{{\\linewidth}}{{@{{}} >\\itshape l X}}
-genre & \\MetadataGenre \\\\
-festival & \\MetadataFestival \\\\
-scoring & \\MetadataScoring \\\\
+genre & {genre} \\\\
+festival & {festival} \\\\
+scoring & {scoring} \\\\
 \\end{{xltabular}}
-
-\\begin{{sources}}
 {sources}
-\\end{{sources}}
-
 {toe}
-
-\\MetadataLyrics
+{lyrics}
 """
 
-
-TOE_TEMPLATE = """
+TOE_TEMPLATE = """\
 \\begin{{xltabular}}{{\\linewidth}}{{ll X}}
 \\toprule
 \\itshape Bar & \\itshape Staff & \\itshape Description \\\\
 \\midrule \\endhead
-{toe_contents}
+{}
 \\bottomrule
 \\end{{xltabular}}
 """
+
+LYRICS_TEMPLATE = "\\textlt{{\\textit{{Lyrics}}\\\\{}}}"
 
 
 PYTHON_CALL = """
 mkdir -p tmp/{name}
 python $EES_TOOLS_PATH/read_metadata.py edition \\
     -i works/{work}/metadata.yaml \\
-    -o collections/{name}/metadata_{work}.tex \\
+    -o tmp/{name}/metadata_{work}.macros \\
     -t full_score \\
     -k festival genre lyrics toe \\
-    -s tmp/{work} \\
-    -q https://edition.esser-skala.at/assets/pdf/eybler-proprium-missae \\
     -c tag
 """
 
+
+def extract_value(metadata: str, key: str) -> str:
+    """Extracts the value from a metadata LaTeX macro."""
+    value = re.search(
+        rf"\\def\\Metadata{key}{{(.*?)}}\n\\def",
+        metadata,
+        re.DOTALL
+    )
+    if not value:
+        return ""
+    return value.group(1)
+
+
+def get_definitions(work: str) -> list[str]:
+    """Extracts info from definitions.ly of a single work"""
+    def_file = f"works/{work}/definitions.ly"
+    res = [f"\n% from {def_file}\n"]
+    with open(def_file, encoding="utf8") as f:
+        for line in f:
+            if line.startswith("\\version"):
+                continue
+            if line.startswith("\\include"):
+                res.append(
+                    line.replace(
+                        "notes",
+                        f"works/{work}/notes"
+                    )
+                )
+                continue
+            res.append(line)
+    return res
 
 
 def main() -> None:
@@ -101,96 +128,76 @@ def main() -> None:
     work_details: list[str] = []
     abbreviations: set[str] = set()
 
-    for w in works:
+    for work in works:
         # generate metadata
-        print("Generate metadata for", w)
+        print("Generate metadata for", work)
         subprocess.run(
-            PYTHON_CALL.format(name=coll_name, work=w),
+            PYTHON_CALL.format(name=coll_name, work=work),
             check=False,
             shell=True,
             capture_output=True
         )
 
         # merge definitions
-        def_file = f"works/{w}/definitions.ly"
-        definitions.append(f"\n% from {def_file}\n")
-        with open(def_file, encoding="utf8") as f:
-            for line in f:
-                if line.startswith("\\version"):
-                    continue
-                if line.startswith("\\include"):
-                    definitions.append(
-                        line.replace(
-                            "notes",
-                            f"works/{w}/notes"
-                        )
-                    )
-                    continue
-                definitions.append(line)
+        definitions += get_definitions(work)
 
         # parse metadata
-        with open(f"collections/{coll_name}/metadata_{w}.tex",
+        with open(f"tmp/{coll_name}/metadata_{work}.macros",
                   encoding="utf8") as f:
             metadata = f.read()
 
-        ## get abbreviations
-        abbr = re.search(
-            r"\\begin{abbreviations}(.*)\\end{abbreviations}",
-            metadata,
-            re.DOTALL
-        )
-        if not abbr:
-            raise ValueError("No abbreviations found")
+        # add new abbreviations
+        abbr = extract_value(metadata, "Abbreviations")
         abbreviations.update(
-            abbr
-            .group(1)
-            .strip()
-            .replace(" ", "")
-            .split("\n")
+            [a for a in abbr.replace(" ", "").split("\n")
+               if a.startswith("\\abbr")]
         )
 
-        ## get sources
-        src = re.search(
-            r"\\begin{sources}(.*?)\\end{sources}",
-            metadata,
-            re.DOTALL
-        )
-        if not src:
-            raise ValueError("No sources found")
-        sources = src.group(1)
+        # format selected metadata values
+        festival = extract_value(metadata, "Festival")
+        if not festival:
+            festival = "–"
 
-        ## get TOE
-        toe_contents = re.search(
-            r"\\def\\MetadataToe{(.*?)}\n\\def",
-            metadata,
-            re.DOTALL
-        )
+        toe_contents = extract_value(metadata, "Toe")
         if toe_contents:
-            toe = TOE_TEMPLATE.format(toe_contents=toe_contents.group(1))
+            toe = TOE_TEMPLATE.format(toe_contents)
         else:
             toe = ""
 
-        ## get other metadata
-        meta = re.sub(
-            r"\\def\\MetadataQRCode{.*?}\n\\def",
-            r"\\def",
-            metadata,
-            flags=re.DOTALL
-        )
+        lyrics = extract_value(metadata, "Lyrics")
+        if lyrics:
+            lyrics=LYRICS_TEMPLATE.format(lyrics)
 
+        # format work information
         work_details.append(
-            WORK_TEMPLATE.format(metadata=meta, work=w,
-                                 sources=sources, toe=toe)
+            WORK_TEMPLATE.format(
+                title=extract_value(metadata, "Title"),
+                subtitle=extract_value(metadata, "Subtitle"),
+                genre=extract_value(metadata, "Genre"),
+                festival=festival,
+                scoring=extract_value(metadata, "Scoring").replace("\\\\", " "),
+                sources=extract_value(metadata, "Sources"),
+                toe=toe,
+                lyrics=lyrics,
+            )
         )
 
-    # save files
-    makedirs(f"collections/{coll_name}", exist_ok=True)
+    # format front matter
     front_matter = FRONT_MATTER_TEMPLATE.format(
         name=coll_name,
-        first_work=works[0],
+        date=extract_value(metadata, "Date"),
+        license=extract_value(metadata, "License"),
+        lilypond_version=extract_value(metadata, "LilypondVersion"),
+        eestools_version=extract_value(metadata, "EESToolsVersion"),
+        repository=extract_value(metadata, "Repository"),
+        version=extract_value(metadata, "Version"),
+        checksum=extract_value(metadata, "Checksum"),
         abbr="\n".join(sorted(abbreviations)),
         works="\n".join(work_details)
     )
+
+    # save files
+    makedirs(f"collections/{coll_name}", exist_ok=True)
     with open(f"collections/{coll_name}/critical_report.tex",
               "w",
               encoding="utf8") as f:
