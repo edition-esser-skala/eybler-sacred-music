@@ -1,0 +1,33 @@
+title: Lauda Sion
+id: HerEy 45
+genre: sequence
+festival: in Festo Corporis Christi
+scoring: S (solo), S, A, T, B (coro), fl, 2 cl (C), 2 cor (C), 2 clno (C), timp (C–G),\\2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.21573
+    date: no later than 1833
+    url: https://data.onb.ac.at/rec/AC14266032
+    license: public domain
+    principal: true
+    notes: 16 parts (S, A (2×), T, B, fl, cl 1, cl 2, cor 1/2, clno 1/2, timp, vl 1, vl 2, vla, vlne, org)
+toe: |
+  – & – & The setting of the first verse (\textit{Lauda Sion})
+          is based on the \textit{Alleluia} movement of HerEy 38.
+          It likely has been arranged by a different hand.
+          A total of 65 performance dates (as recorded on the envelope of \B1)
+          from 1833 to 1906 testify to its popularity;
+          the work was not performed only in the years 1860, 1877, 1879f,
+          1883–1886, and 1897.
+          \B1 also contains settings for three further verses of the hymn
+          (\textit{Ecce panis Angelorum}, \textit{In figuris praesignatur},
+          and \textit{Bone Pastor, panis vere}), which are likely not by Eybler. \\
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
