@@ -1,0 +1,52 @@
+title: Salve Regina
+id: HerEy 113
+genre: gradual
+festival: Mariæ B.V.
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/8
+    date: 1809-07
+    license: public domain
+    principal: true
+    notes: full score; 8 pages
+  B1:
+    siglum: A-Wn
+    shelfmark: HK.2147/4
+    date: 1850
+    url: https://data.onb.ac.at/rec/AC14266094
+    license: public domain
+    notes: full score; 8 pages
+toe: |
+  – & – & \A1 contains two versions of the work: Version 1 is for mixed chorus
+          with org and vlne (i.e., the bottom three staves in this edition),
+          while version 2 is for the same mixed chorus with orchestra
+          (i.e., staves 1–5 and 10 in this edition).
+          On each of pages 1–7 of \A1, the upper seven staves (of 12 staves
+          per page in total) contain parts for S, A, T, B,
+          org (right and left hand), and vlne, while the lower four staves
+          contain parts for vl 1, vl 2, b/org, and vla.
+          Staves 5–7 (i.e., the instruments of version 1) have been
+          cancelled with red pencil. The 8th staff from the top is empty,
+          except for the first page, where it contains the directive
+          “ossia con quest’accompagnamenta /: si copia questo di sotto,
+          e gli stromenti da fiato in fine :/”. ob 1/2 and fag 1/2 are written
+          separately on page 8, entitled “gli stromenti da fiato”. \\
+parts:
+  vla: Viole
+  b: Violoncello \& Bassi
+  org_solo: Organo solo (version 1)
+  org: Organo (version 2)
+lyrics:
+  Salve Regina, mater misericordiae,\\
+  vita, dulcedo et spes nostra, salve.\\
+  Ad te clamamus, exules fili Evae.\\
+  Ad te suspiramus, gementes et flentes\\
+  in hac lachrymarum valle.\\
+  Eia ergo, advocata nostra,\\
+  illos tuos misericordes oculos ad nos converte.\\
+  Et Jesum, benedictum fructum ventris tui,\\
+  nobis post hoc exilium ostende.\\
+  O clemens! O pia! O dulcis virgo Maria.
