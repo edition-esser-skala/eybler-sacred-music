@@ -1,5 +1,14 @@
 # Changelog
 
+## 2024.05.0 – 2024-05-31
+
+### Added
+
+- works: HerEy 45, 113, 117, 123, and 124
+- global macro definition: \trillFlat
+- acknowledgements for A-Wst
+
+
 ## 2024.04.0 – 2024-04-30
 
 ### Added
