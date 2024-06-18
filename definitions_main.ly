@@ -11,6 +11,7 @@ fivehatflat = \markup { \concat { \combine \figured-bass 5 \path #.15 #'((rmovet
 fzp  = \dynScript "fzp" ##f
 ffz  = \dynScript "ffz" ##f
 hA = \once \override Accidental.stencil = ##f
+pedolce = \markup { \larger \bold "p" \remark "e dolce" }
 perd = #(make-music
   'DecrescendoEvent
   'span-direction START
