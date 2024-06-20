@@ -57,7 +57,7 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >                                          -t {score} \\
 >                                          -k festival genre lyrics toe toestyle commentary \\
 >                                          -s ../tmp/{work} \\
-> -q https://edition.esser-skala.at/assets/pdf/eybler-proprium-missae/{work} \\
+> -q https://edition.esser-skala.at/assets/pdf/eybler-sacred-music/{work} \\
 >                                          -c tag
 >latexmk -cd \\
 >        -lualatex \\

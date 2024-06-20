@@ -26,7 +26,7 @@ jobs:
         with:
           switches: -avzr --delete
           path: final/
-          remote_path: html/edition/assets/pdf/eybler-proprium-missae/
+          remote_path: html/edition/assets/pdf/eybler-sacred-music/
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_KEY }}
