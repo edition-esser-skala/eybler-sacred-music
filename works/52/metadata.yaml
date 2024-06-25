@@ -1,0 +1,44 @@
+title: Pater noster
+id: HerEy 52
+genre: gradual
+festival: de tempore
+scoring: S, A, T, B (coro), 2 cl (\flat B), fag, 2 cor (\flat E), 2 clno (\flat E), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.22390
+    rism: 600110905
+    url: https://data.onb.ac.at/rec/AC14266081
+    license: public domain
+    principal: true
+    notes: 15 parts (S, A, T, B, cl 1, cl 2, fag, cor 1/2, clno 1/2 vl 1, vl 2, vla, b (2×), org)
+toe: |
+  –  & –    & Eybler's authorship may be doubted, since the work has
+              only survived in a single (mediocre) copy and does not
+              appear in his autograph catalogue of works. \\
+  27 & T    & 2nd \halfNote\ in \B1: f2 \\
+  37 & B    & 4th \quarterNote\ in \B1: f4 \\
+  49 & S    & 2nd \halfNote\ in \B1: f″2 \\
+  49 & B    & 2nd \halfNote\ in \B1: \flat b2 \\
+  74 & cl 1 & 1st \halfNote\ in \B1: a′4–\crotchetRest \\
+  74 & vl 2 & 1st \halfNote\ in \B1: g+\flat e′4–\crotchetRest \\
+  75 & vl 2 & 4th \quarterNote\ in \B1: \flat b+f′4 \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in \flat E
+  clno12: Clarino I, II in \flat E
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Pater noster, qui es in coelis,\\
+  sanctificetur nomen tuum,\\
+  adveniat regnum tuum,\\
+  fiat voluntas tua, sicut in coelo, et in terra.\\
+  Panem nostrum quotidianum da nobis hodie,\\
+  et dimitte nobis debita nostra,\\
+  sicut et nos dimittimus debitoribus nostris.\\
+  Et ne nos inducas in tentationem,\\
+  sed libera nos a malo.\\
+  (\bibleverse{Mat}(6:9-13))
