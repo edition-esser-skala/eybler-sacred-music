@@ -1,4 +1,4 @@
-\documentclass[changelog=false,tocdir=\tocdir,tocstyle=none]{ees}
+\documentclass[changelog=false,tocdir=\tocdir]{ees}
 
 \usepackage{mfirstuc}
 \usepackage{multicol}
@@ -7,8 +7,6 @@
 \lastname{Eybler}
 \shortname{Eybler}
 \shorttitle{Sacred music}
-
-\providecommand\MetadataToestyle{short}
 
 \ifthenelse{\isundefined{\MetadataFestival}}{%
   \subtitle{%
@@ -22,27 +20,31 @@
   }%
 }%
 
+\makeatletter
+\providecommand\MetadataTocstyle{none}
+\ifthenelse{\equal{\MetadataTocstyle}{none}}{%
+  \let\ees@tocstyle\ees@tocstyle@none%
+  \renewcommand\newtocentry[6]{%
+    \bookmark[level=#2,dest=score.#6]{#5}%
+  }%
+}{}%
 
-\def\eesCommentaryAfterToe{\section{Acknowledgements}Permission of the Schottenstift Abbey Archive to use their archival materials for this edition is gratefully acknowledged. We thank Dr. Maximilian Alexander Trofaier for assistance in obtaining these documents; the staff of the Austrian National Library and the Vienna City Library for support; and Dr. Reinhold Kainhofer for his previous work on the Eybler Edition.}
+\ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
+\makeatother
+
+\def\acknowledgements{\section{Acknowledgements}Permission of the Schottenstift Abbey Archive to use their archival materials for this edition is gratefully acknowledged. We thank Dr. Maximilian Alexander Trofaier for assistance in obtaining these documents; the staff of the Austrian National Library and the Vienna City Library for support; and Dr. Reinhold Kainhofer for his previous work on the Eybler Edition.}
+\ifthenelse{\isundefined{\MetadataCommentary}}{
+  \def\eesCommentaryAfterToe{\acknowledgements}%
+}{%
+  \def\eesCommentaryAfterToe{\MetadataCommentary\acknowledgements}%
+}
+
 
 \begin{document}
 
 \eesTitlePage
 
-\ifthenelse{\isundefined{\MetadataCommentary}}{}{%
-\def\eesCommentaryAfterToe{\MetadataCommentary}%
-}
-
-\makeatletter%
-  \ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
-  \ifthenelse{\equal{\MetadataToestyle}{movement}}%
-    {\let\ees@tocstyle\ees@tocstyle@default}{}%
-\makeatother%
 \eesCriticalReport{\csname MetadataToe\endcsname}
-\makeatletter%
-  \ees@toetrue%
-  \let\ees@tocstyle\ees@tocstyle@none%
-\makeatother
 
 \ifthenelse{\isundefined{\MetadataLyrics}}{}{%
   \ifPrintFrontMatter%
