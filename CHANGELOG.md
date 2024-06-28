@@ -1,5 +1,18 @@
 # Changelog
 
+## 2024.06.0 – 2024-06-28
+
+### Added
+
+- works: HerEy 52 and 59
+- global macro definition: \pedolce
+- a YAML key *tocstyle* which supports works with multiple movements
+
+### Changed
+
+- renamed the project to “Sacred Music”
+
+
 ## 2024.05.0 – 2024-05-31
 
 ### Added
