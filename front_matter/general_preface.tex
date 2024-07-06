@@ -1,0 +1,21 @@
+% latexmk -cd -lualatex -outdir=../final front_matter/general_preface.tex
+% latexmk -c -outdir=final front_matter/general_preface.tex
+
+\documentclass{ees}
+
+\markdownSetup{
+  renderers = {
+    link = {\href{#3}{#1}},
+  },
+}
+
+\newgeometry{twoside=false,left=20mm,right=40mm,top=20mm,bottom=40mm}
+
+\begin{document}
+
+\includepdf{cover_general_preface.pdf}%
+\pagenumbering{arabic}%
+\setcounter{page}{1}%
+\markdownInput[pipeTables=true]{../README.md}
+
+\end{document}
