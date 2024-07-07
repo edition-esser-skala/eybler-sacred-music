@@ -75,6 +75,16 @@ Most of Eybler's autographs are kept in the Schottenstift Abbey Archive; some ca
 |Magna et mirabilia                |108  |1832|5742      |5745  |7. Offertorium          |
 
 
+## Prior editions
+
+- [*Dies sanctificatus*](https://www.doblinger.at/shop/okm-00005-st-dies-sanctificatus-tui-sunt-coeli-170430) (HerEy 61) and *Tui sunt coeli* (HerEy 78) edited by Karl Pfannhauser (Doblinger)
+- [*Iubilate Deo*](https://boehm-und-sohn.de/produkt/jubilate-deo-4) (HerEy 91) edited by Felix Schroeder (Böhm & Sohn)
+- [*Omnes de Saba*](https://boehm-und-sohn.de/produkt/omnes-de-saba) (HerEy 40) and [*Terra tremuit*](https://boehm-und-sohn.de/produkt/terra-tremuit) (HerEy 85) edited by Rouland Carl (Böhm & Sohn)
+- [*Missa Sancti Alberti*]((https://www.carus-verlag.com/musiknoten-und-aufnahmen/eybler-missa-sancti-alberti-2708400.html)) (HerEy 6) edited by Armin Kircher (Carus)
+- [*Requiem*](https://www.kunzelmann.ch/en/requiem-oct-10287) (HerEy 37) edited by Franz Beyer (Edition Kunzelmann)
+- three masses, as well as several graduals and offertories edited by Manfred Hößl (available at [CPDL](https://www.cpdl.org/wiki/index.php/Josef_von_Eybler))
+- *Omnes de Saba* (HerEy 40), *Sperate in Deo* (HerEy 41), *Domine Deus* (HerEy 42), *Tristes erant Apostoli* (HerEy 123), *Iste Confessor* (HerEy 124), and *Ecce quomodo moritur* (HerEy 125) edited by Reinhold Kainhofer (Edition Kainhofer)
+
 
 ## Editorial guidelines
 
