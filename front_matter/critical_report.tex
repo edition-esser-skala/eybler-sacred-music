@@ -18,7 +18,7 @@
     \MetadataSubtitle\\[\baselineskip]%
     \xmakefirstuc{\MetadataGenre}~(\MetadataFestival)%
   }%
-}%
+}
 
 \makeatletter
 \providecommand\MetadataTocstyle{none}
@@ -27,17 +27,28 @@
   \renewcommand\newtocentry[6]{%
     \bookmark[level=#2,dest=score.#6]{#5}%
   }%
-}{}%
+}{}
 
-\ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}%
-\makeatother
+\ifthenelse{\isundefined{\MetadataToe}}{\ees@toefalse}{}
 
-\def\acknowledgements{\section{Acknowledgements}Permission of the Schottenstift Abbey Archive to use their archival materials for this edition is gratefully acknowledged. We thank Dr. Maximilian Alexander Trofaier for assistance in obtaining these documents; the staff of the Austrian National Library and the Vienna City Library for support; and Dr. Reinhold Kainhofer for his previous work on the Eybler Edition.}
-\ifthenelse{\isundefined{\MetadataCommentary}}{
-  \def\eesCommentaryAfterToe{\acknowledgements}%
+\providecommand\MetadataCommentary{}
+
+\providecommand\MetadataLyrics{}
+\ifthenelse{\equal{\MetadataLyrics}{\@empty}}{%
+  \def\lyrics{}%
 }{%
-  \def\eesCommentaryAfterToe{\MetadataCommentary\acknowledgements}%
+  \def\lyrics{\section{Lyrics}\MetadataLyrics}%
 }
+
+\providecommand\MetadataAcknowledgements{Permission of the Schottenstift Abbey Archive to use their archival materials for this edition is gratefully acknowledged. We thank Dr. Maximilian Alexander Trofaier for assistance in obtaining these documents; the staff of the Austrian National Library and the Vienna City Library for support; and Dr. Reinhold Kainhofer for his previous work on the Eybler Edition.}
+\ifthenelse{\equal{\MetadataAcknowledgements}{\@empty}}{%
+  \def\acknowledgements{}%
+}{%
+  \def\acknowledgements{\section{Acknowledgements}\MetadataAcknowledgements}%
+}
+
+\def\eesCommentaryAfterToe{\MetadataCommentary\lyrics\acknowledgements}%
+\makeatother
 
 
 \begin{document}
@@ -45,13 +56,6 @@
 \eesTitlePage
 
 \eesCriticalReport{\csname MetadataToe\endcsname}
-
-\ifthenelse{\isundefined{\MetadataLyrics}}{}{%
-  \ifPrintFrontMatter%
-    \section{Lyrics}%
-    \MetadataLyrics%
-  \fi%
-}
 
 \eesToc{}
 
