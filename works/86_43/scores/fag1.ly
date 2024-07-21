@@ -16,7 +16,7 @@
     }
   }
   \bookpart {
-    \subsection "Unam petiit (1827 versions)"
+    \subsection "Unam petii (1827 versions)"
     \addTocEntry
     \score {
       <<

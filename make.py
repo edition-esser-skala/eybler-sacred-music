@@ -4,15 +4,14 @@
 
 import argparse
 import os
-import re
 import subprocess
-from typing import Final, Union
+from typing import Final
 
 
 
 # Templates ---------------------------------------------------------------
 
-MAKE_HEADER: Final = """
+MAKE_HEADER: Final = """\
 .RECIPEPREFIX = >
 .DEFAULT_GOAL := info
 LILYPOND = lilypond \
@@ -40,18 +39,18 @@ Specify one of the following {color}targets{reset},\nwhere [id] is the catalogue
 
 - {color}[id]/scores{reset}:\n  all scores for a work (e.g. 46/scores)
 
+- {color}[id]/midi{reset}:\n  MIDI archive
+
 - {color}final/[id]/[score]{reset}:\n  individual scores with front matter for a work (e.g. final/46/org)
 
 - {color}final/[id]/scores{reset}:\n  all scores with front matter for a work (e.g. final/scores)
-
-- {color}midi{reset}:\n  MIDI archive
 
 - {color}works{reset}:\n  all final scores for all works
 
 - {color}info{reset}:\n  prints this message\
 """.format(color="\033[94m", reset="\033[0m")
 
-RULE_WORK_SCORE: Final = """
+RULE_SCORE: Final = """
 {work}/{score}: tmp/{work}/{score}.pdf
 tmp/{work}/{score}.pdf: works/{work}/scores/{score}.ly \
                         works/{work}/notes/*.ly \
@@ -84,38 +83,26 @@ final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
 >        front_matter/critical_report.tex
 """
 
-RULE_WORK_SCORES: Final = """
+RULE_WORK: Final = """
 .PHONY: {work}/scores
 {work}/scores: {deps}
 
+.PHONY: {work}/midi
+{work}/midi:
+>mkdir -p final/{work}
+>if [ -d works/{work}/midi ]; then zip -j final/{work}/midi_collection.zip works/{work}/midi/*; fi
+
 .PHONY: final/{work}/scores
-final/{work}/scores: {deps_final}
+final/{work}/scores: {work}/midi {deps_final}
 """
 
-RULE_WORKS: Final = """
-.PHONY: midi
-midi:
->mkdir -p final
->if [ -d midi ]; then zip -j final/midi_collection.zip midi/*; fi
-
-.PHONY: works
-works: midi {all_works}
-"""
-
-RULE_WORKS_BATCH: Final = """
-.PHONY: works_{batch}
-works_{batch}: {batch_works}
+RULE_ALL: Final = """
+.PHONY: works{batch}
+works{batch}: {works}
 """
 
 
 # Main workflow -----------------------------------------------------------
-
-def natural_sort(
-    s: str, _nsre: re.Pattern = re.compile("([0-9]+)")
-) -> list[Union[int, str]]:
-    """Simple natural sorting."""
-    return [int(text) if text.isdigit() else text.lower()
-            for text in _nsre.split(s)]
 
 def generate_makefile(n_jobs: int = 1) -> str:
     """Generate the contents of the makefile."""
@@ -125,8 +112,7 @@ def generate_makefile(n_jobs: int = 1) -> str:
                              if not w.startswith("#")]
     except FileNotFoundError:
         ignored_works = []
-    included_works = [w for w in sorted(os.listdir("works"), key=natural_sort)
-                      if w not in ignored_works]
+    included_works = [w for w in os.listdir("works") if w not in ignored_works]
 
     makefile = [MAKE_HEADER, MAKE_PREFACE]
 
@@ -136,35 +122,30 @@ def generate_makefile(n_jobs: int = 1) -> str:
 
         # rule for a single (final) score
         for score in scores:
-            makefile.append(RULE_WORK_SCORE.format(work=work, score=score))
+            makefile.append(RULE_SCORE.format(work=work, score=score))
 
         # rule for all (final) scores
         deps = " ".join([f"{work}/{s}" for s in scores])
         deps_final = " ".join([f"final/{work}/{s}" for s in scores])
         makefile.append(
-            RULE_WORK_SCORES.format(work=work, deps=deps, deps_final=deps_final)
+            RULE_WORK.format(work=work, deps=deps, deps_final=deps_final)
         )
 
     # rule for all final works, possibly using parallel jobs
     batch_size = len(included_works) // n_jobs
-    midi_included = False
     for i in range(n_jobs):
-        batch_works = " ".join(
+        works = " ".join(
             [f"final/{w}/scores"
              for w in included_works[batch_size*i : batch_size*(i+1)]]
         )
-        if midi_included:
-            makefile.append(
-                RULE_WORKS_BATCH.format(batch=i, batch_works=batch_works)
-            )
-        else:
-            makefile.append(RULE_WORKS.format(all_works=batch_works))
-            midi_included = True
+        batch = "" if i == 0 else f"_{i}"
+        makefile.append(RULE_ALL.format(batch=batch, works=works))
 
     return "\n".join(makefile)
 
 
-if __name__ == "__main__":
+def main() -> None:
+    """Main workflow."""
     parser = argparse.ArgumentParser(add_help=False)
     _, make_args = parser.parse_known_args()
 
@@ -177,3 +158,7 @@ if __name__ == "__main__":
             text=True,
             check=False
         )
+
+
+if __name__ == "__main__":
+    main()
