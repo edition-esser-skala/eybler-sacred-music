@@ -92,7 +92,7 @@
     }
   }
   \bookpart {
-    \subsection "Unam petiit (1805 version)"
+    \subsection "Unam petii (1805 version)"
     \addTocEntry
     \paper {
       systems-per-page = #2
@@ -136,7 +136,7 @@
     }
   }
   \bookpart {
-    \subsection "Unam petiit (1827 versions)"
+    \subsection "Unam petii (1827 versions)"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10

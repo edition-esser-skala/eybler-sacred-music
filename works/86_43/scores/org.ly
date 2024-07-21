@@ -17,7 +17,7 @@
     }
   }
   \bookpart {
-    \subsection "Unam petiit (1805 version)"
+    \subsection "Unam petii (1805 version)"
     \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
