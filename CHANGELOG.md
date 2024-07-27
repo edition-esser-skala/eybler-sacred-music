@@ -1,5 +1,20 @@
 # Changelog
 
+## 2024.07.0 – 2024-07-27
+
+### Added
+
+- works: HerEy 60 and 128
+- a general preface for the project, containing a biography of Eybler, scope and sources of the edition, prior editions, a transcription of Eybler's autograph catalogue of works, editorial guidelines, contents of printed editions, acknowledgements, bibliography, and the changelog
+- a make target 'preface' which typesets the preface
+- files for the printed first volume of series B
+- a YAML key *acknowledgements* which supports per-work acknowledgements
+
+### Fixed
+
+- HerEy 86/43: title of the middle movement (“Unam petiit” -> “Unam petii”)
+
+
 ## 2024.06.0 – 2024-06-28
 
 ### Added
