@@ -1,0 +1,23 @@
+title: Peccata dimittis
+id: HerEy 60
+genre: gradual
+festival: de tempore
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/14
+    date: 1826
+    license: public domain
+    principal: true
+    notes: full score; 12 pages
+toe: |
+  – & – & In the tempo indication, “con moto” has been added later. \\
+parts:
+  vla: Viole
+lyrics:
+  Peccata dimittis his, qui invocant te.\\
+  Ad te Domine faciem meam converto,\\
+  ad te oculos meos dirigo.\\
+  (\bibleverse{Tobit}(3:14-15))
