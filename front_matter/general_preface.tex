@@ -13,12 +13,26 @@
   label=\textbullet
 }
 
+\setcounter{tocdepth}{1}
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=\baselineskip,
+  entrynumberformat=\@gobble,
+  entryformat=\sbseries,
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox,
+  pagenumberformat=\sbseries
+]{tocline}{chapter}
+
+
 \begin{document}
 
 \includepdf{cover_general_preface.pdf}
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
+\tableofcontents
 
 \chapter{General preface}
 
