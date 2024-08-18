@@ -19,7 +19,7 @@ jobs:
       - name: Engrave
         uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2023.10.0
         with:
-          args: make -B preface && make -B works
+          args: make -B preface works
 
       - name: Publish via rsync
         uses: burnett01/rsync-deployments@6.0.0
