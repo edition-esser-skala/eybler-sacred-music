@@ -10,6 +10,10 @@
 - files for the printed first volume of series B
 - a YAML key *acknowledgements* which supports per-work acknowledgements
 
+### Changed
+
+- For each work, a separate MIDI archive is now created.
+
 ### Fixed
 
 - HerEy 86/43: title of the middle movement (“Unam petiit” -> “Unam petii”)
