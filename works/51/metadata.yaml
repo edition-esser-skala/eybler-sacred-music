@@ -1,0 +1,61 @@
+title: Omni die dic Mariæ
+id: HerEy 51
+genre: gradual
+festival: de Beatæ Mariæ Virgine
+scoring: S (solo), 2 cl (\flat B), 2 fag, 2 cor (\flat E), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.9736
+    rism: 600110954
+    url: https://data.onb.ac.at/rec/AC14266075
+    license: public domain
+    principal: true
+    notes: 11 parts (S solo, cl 1, cl 2, fag 1, fag 2, cor 1, cor 2, vl 1, vl 2, vla, org)
+  B2:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.22387
+    rism: 600110947
+    url: https://data.onb.ac.at/rec/AC14266076
+    license: public domain
+    notes: 12 parts (S solo, cl 1, cl 2, fag 1, fag 2, cor 1, cor 2, vl 1, vl 2, vla, vlc, org)
+toe: |
+  –   & –     & This works is a contrafactum of the aria
+                “Liebe! Liebe! Schöpfe ein der Freuden” (2nd act, no. 13)
+                from Eybler's opera \textit{Das Zauberschwert} (HerEy 142).
+                \B2 represents a shortened version of \B1
+                where bars 51–142 have been omitted. \\
+  –   & org   & All bass figures have been added by the editor. \\
+  6   & org   & 1st \halfNote\ in \B2: \flat b4.-\quaverRest \\
+  30  & vl 2  & 3rd \eighthNote\ in \B1: \flat e″8 \\
+  43  & cl 2  & bar missing in \B1 \\
+  46  & org   & 1st \eighthNote\ in \B2: \flat E8 \\
+  48  & org   & 1st \eighthNote\ in \B2: \flat E8 \\
+  146 & vl 1  & 3rd \quarterNote\ missing in \B1 \\
+  154 & org   & bar duplicated in \B1 \\
+  161 & org   & 1st \eighthNote\ in \B2: \flat E8 \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in \flat E
+  S_solo: Soprano solo
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Omni die dic Mariae\\
+  mea laudes anima,\\
+  eius festa, eius gesta\\
+  cole devotissima.\\[1ex]
+  Contemplare et mirare\\
+  eius celsitudinis,\\
+  dic felicem genitricem,\\
+  dic beatam virginem.\\[1ex]
+  Ipsam cole ut de mole\\
+  criminum te liberet,\\
+  hanc appella ne procella\\
+  vitiorum superet.\\[1ex]
+  Haec persona nobis dona\\
+  contulit coelestia,\\
+  hac regina nos divina\\
+  illustravit gratia.
