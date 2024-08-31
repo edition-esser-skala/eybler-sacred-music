@@ -1,5 +1,13 @@
 # Changelog
 
+## 2024.08.0 – 2024-08-31
+
+### Added
+
+- works: HerEy 51, 62, and 63
+- preface: info on prior modern edition of HerEy 23
+
+
 ## 2024.07.0 – 2024-07-27
 
 ### Added
