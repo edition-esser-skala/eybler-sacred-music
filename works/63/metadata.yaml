@@ -1,0 +1,22 @@
+title: Tu Domine pater noster
+id: HerEy 63
+genre: gradual
+festival: de SS. Nomine Jesu, aut de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 cor (C), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/20
+    date: 1836
+    license: public domain
+    principal: true
+    notes: full score; 7 pages
+parts:
+  cor12: Corno I, II in C
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Tu Domine pater noster et redemptor noster,\\
+  a saeculo nomen tuum.\\
+  (\bibleverse{Isa}(63:16))
