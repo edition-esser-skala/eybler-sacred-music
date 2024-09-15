@@ -1,0 +1,27 @@
+title: Ecce quomodo moritur
+id: HerEy 125
+genre: responsorium
+scoring: S, A, T, B (coro), [3 trb]
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/3
+    date: 1816-04-07
+    license: public domain
+    principal: true
+    notes: full score; 3 pages
+toe: |
+  – & trb & Three trombones are implicated by Eybler’s note at the bottom of the last page of \A1: “Nb: Bey den 3 Posaunen wird auch der Text unterlegt.” \\
+  82–99 & – & In \A1, these bars are indicated by stars in bars 41 and 81, as well as the directive “da capo wird ausgeschrieben”. \\
+lyrics: |
+  Ecce quomodo moritur iustus,\\
+  et nemo percipit corde,\\
+  et viri iusti tolluntur\\
+  et nemo considerat.\\
+  A facie iniquitatis sublatus est iustus:\\
+  et erit in pace memoria eius.\\
+  Tamquam agnus coram tondete se obmutuit,\\
+  et non aperuit os suum:\\
+  de angustia, et de iudicio sublatus est.\\
+  (\bibleverse{Isa}(57:1,2); Cantus Index 006605)
