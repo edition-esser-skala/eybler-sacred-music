@@ -1,0 +1,23 @@
+title: Jesu nostra redemptio
+id: HerEy 130
+genre: hymn
+festivel: Ascensio Domini
+scoring: S, A, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/4 (3)
+    license: public domain
+    principal: true
+    notes: full score; 1 page
+lyrics: |
+  Jesu nostra redemptio,\\
+  amor et desiderium,\\
+  Deus creator omnium,\\
+  homo in fine temporum.\\
+  Tu esto nostrum gaudium,\\
+  qui es futurus praemium,\\
+  sit nostra in te gloria\\
+  per cuncta semper saecula.\\
+  (Cantus Index 008331)
