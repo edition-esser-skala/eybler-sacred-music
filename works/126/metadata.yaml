@@ -1,0 +1,29 @@
+title: Cœlestis urbs Jerusalem
+id: HerEy 126
+genre: hymn
+festivel: Dedicatio Ecclesiarum
+scoring: S, A, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/4 (1)
+    date: 1831
+    license: public domain
+    principal: true
+    notes: full score; 2 pages
+lyrics: |
+  Coelestis urbs Jerusalem,\\
+  beata pacis visio,\\
+  quae celsa de viventibus\\
+  saxis ad astra tolleris:\\
+  Sponsaeque ritu cingeris\\
+  mille angelorum millibus.\\[1ex]
+  Decus parenti debitum\\
+  sit usquequaque Altissimo\\
+  natoque Patris unico,\\
+  et inclyto paraclito,\\
+  cui laus, potestas, gloria\\
+  aeterna sit per saecula.\\
+  Amen.\\[1ex]
+  (Cantus Index a01590)
