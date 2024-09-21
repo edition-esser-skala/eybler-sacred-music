@@ -1,0 +1,24 @@
+title: Exultet orbis gaudiis
+id: HerEy 127
+genre: hymn
+festivel: in Festo Sti Andreæ Apostoli
+scoring: S, A, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/4 (4)
+    license: public domain
+    principal: true
+    notes: full score; 1 page
+lyrics: |
+  Exultet orbis gaudiis:\\
+  Coelum resultet laudibus:\\
+  Apostolorum gloriam\\
+  tellus et astra concinunt.\\[1ex]
+  Patri, simulque Filio,\\
+  tibique, Sancte Spiritus,\\
+  sicut fuit, sit iugiter\\
+  saeclum per omne gloria.\\
+  Amen.\\[1ex]
+  (Cantus Index a01579)
