@@ -1,0 +1,78 @@
+title: Omnes de Saba venient
+id: HerEy 40
+genre: gradual
+festival: Epiphania Domini
+scoring: S (solo), 2 S, 2 A, T, B (coro), 2 ob, 2 fag, 2 cor (C),\\2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 568 (2)
+    date: 1807
+    license: public domain
+    principal: true
+    notes: full score; 15 pages
+  A2:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.16437
+    date: 1807
+    rism: 600110895
+    url: https://data.onb.ac.at/rec/AC14266072
+    license: public domain
+    notes: full score; 15 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: SA.82.A.22/13,3
+    date: 1827
+    url: https://data.onb.ac.at/rec/AC09228482
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5046
+  C2:
+    siglum: A-Wn
+    shelfmark: MS10019-4°
+    date: 1827
+    url: https://data.onb.ac.at/rec/AC09173359
+    license: public domain
+    notes: 19 parts (S solo, S rip, A, T, B, ob 1, ob 2, fag 1, fag 2, cor 1, cor 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5049
+  E1:
+    siglum: A-Wn
+    shelfmark: MS7845-4°/10
+    date: 1928
+    url: https://data.onb.ac.at/rec/AC09173367
+    license: public domain
+    notes: conductor's score; Anton Böhm \& Sohn, Augsburg–Wien, plate number 6847
+toe: |
+  –   & –     & An in-depth critical report is available in Reinhold
+                Kainhofer’s edition of the work (Edition Kainhofer, 2013). \\
+  –   & cor   & missing in \A1 \\
+  8   & T     & 2nd \halfNote\ in \A2: c′2 \\
+  9   & S     & 2nd \halfNote\ in \C2: d″4–g′4 (S solo) and d″4–b′4 (S rip) \\
+  10  & vl 1  & 3rd \quarterNote\ in \A1: originally e″4, corrected to
+                f″4 with pencil; in \A2: f″4; in \C2: e″4 \\
+  10  & vl 2  & 3rd \quarterNote\ in \A1: originally c″4, corrected to
+                d″4 with pencil; in \A2 and \C2: c″4 \\
+  13–16 & fag & bars in \A2:\newline \includegraphics{snippet_40.pdf} \\
+  16  & –     & In \A1, two bars with a short instrumental interlude
+                following bar 16 have been cancelled.
+                These bars are also absent in all other sources. \\
+  16  & org   & 3rd \quarterNote\ in \A2: e8.–e16 \\
+  32  & vl 2  & 1st \quarterNote\ in \A2: f′+c″+f″4 \\
+  36  & cor 1 & 1st \quarterNote\ in \C2: d″4 \\
+  37  & A     & 1st \halfNote\ of upper voice in \C2: d″2 \\
+  106 & S     & 4th \quarterNote\ in \C2 (S solo): f″4 \\
+
+parts:
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Omnes de Saba venient,\\
+  aurum et thus deferentes,\\
+  et laudem Domino annuntiantes.\\
+  Surge et illuminare Ierusalem,\\
+  quia gloria Domini super te orta est.\\
+  (\bibleverse{Isa}(60:6,1))\\[1ex]
+  Vidimus stellam eius in Oriente,\\
+  et venimus cum muneribus adorare Dominum.\\
+  (\bibleverse{Mat}(2:2))
