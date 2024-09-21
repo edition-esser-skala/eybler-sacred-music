@@ -163,7 +163,7 @@ CXIVOrgano = {
     f!2.\fz %165
     e4 r r
     R2.
-    r4 \mvTr e\pE-\pizz-\solo e
+    r4 \mvTr e\pE-\solo \tweak TextScript.X-offset #0 ^\pizz e
     e e' r
     r a,, a %170
     a a' r
