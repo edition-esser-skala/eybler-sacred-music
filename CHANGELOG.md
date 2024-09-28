@@ -1,5 +1,14 @@
 # Changelog
 
+## 2024.09.0 – 2024-09-28
+
+### Added
+
+- works: HerEy 40, 125–127, and 130
+- files for the printed second volume of series B
+- preface: info on not editing HerEy 131
+
+
 ## 2024.08.0 – 2024-08-31
 
 ### Added
