@@ -23,3 +23,18 @@ perdE = #(make-music
   'span-type 'text
   'span-text (markup (#:normal-text #:small #:italic "perd.")))
 trillFlat = \tweak self-alignment-X #CENTER ^\markup { { \teeny \raise #.5 \flat } \musicglyph #'"scripts.trill" }
+
+markCritnote = {
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup \normalsize \critnote
+}
+
+startDeleted = {
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup { \hspace #3.5 \musicglyph "scripts.coda" \remark "vi -" }
+}
+
+stopDeleted = {
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup { \remark "- de" \musicglyph "scripts.coda" \hspace #3.9 }
+}
