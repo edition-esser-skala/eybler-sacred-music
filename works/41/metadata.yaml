@@ -1,0 +1,77 @@
+title: Sperate in Deo
+id: HerEy 41
+genre: gradual
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 cor (C), 2 trb, 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/10
+    date: 1822
+    license: public domain
+    principal: true
+    notes: full score; 16 pages
+  A2:
+    siglum: A-Ws
+    shelfmark: 555 (1)
+    date: 1822
+    license: public domain
+    notes: parts for cor 1/2; 4 staves on the last page of the cor parts for the Missa Sancti Mauritii HerEy 4
+  B1:
+    siglum: A-Wn
+    shelfmark: HK.2504
+    date: 1822
+    url: https://data.onb.ac.at/rec/AC14266100
+    license: public domain
+    notes: 38 parts (S (5×), A (5×), T (5×), B (5×), ob 1, ob 2, fag 1/2, cor 1, cor 2, trb 1, trb 2, vl 1 (3×), vl 2 (3×), vla, vlne (2×), org, maestro di capella)
+  C1:
+    siglum: A-Wn
+    shelfmark: HK.2144
+    date: 1827
+    rism: 991018076
+    url: https://data.onb.ac.at/rec/AC14328859
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5012
+  C2:
+    siglum: A-Wn
+    shelfmark: F4.Baden.86
+    date: 1827
+    rism: 654000104
+    url: https://data.onb.ac.at/rec/AC14266102
+    license: public domain
+    notes: 14 parts (S, A, T, B, ob 1, ob 2, fag 1, fag 2, cor 1/2, vl 1, vl 2, vla, vlne, org); Tobias Haslinger, Wien, plate number 5015
+toe: |
+  –   & –    & An in-depth critical report is available in Reinhold
+               Kainhofer’s edition of the work (Edition Kainhofer, 2011). \\
+  –   & –    & There exist three versios of the work:
+               Initially, it comprised 143 bars (Eybler also wrote down
+               this number below the final bar line). For the second version
+               (used as template for \B1), Eybler cancelled 17 bars following
+               bar 72. (Here, these bars are reproduced as appendix).
+               Concomitantly, he crossed out the bar count “143”
+               and replaced it by “126”. In the third version
+               (used as template for \C1 and \C2), Eybler also cancelled
+               bars 80–81 and replaced the bar count by “124”.
+               (Here, these bars are indicated by vide marks.)
+               The cor parts in \A2 also comprise 124~bars,
+               and there are no cancellations. \\
+  –   & cor  & The title page of \D1 (but no other source) states
+               that either two trombones or two horns should play. \\
+  1   & –    & The addition “con moto” to the tempo indication appears
+               in \A1 above the system, \A2, and \C1,
+               but not in \A1 below the system, \B1, and \C2.
+               Since “con moto” is written in the same ink
+               as the bar count “124” in \A1, Eybler may have added it
+               when revising the work for the third version. \\
+  120 & ob 2 & bar in \C1: \crotchetRest–a′2–a′4 \\
+parts:
+  ob1: Oboe I concertanto
+  cor12: Corno I, II in C
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Sperate in Deo, omnis congregatio populi,\\
+  effundite coram illo corda vestra.\\
+  Deus adiutor noster in aeternum.\\
+  (\bibleverse{Ps}(62/61:9))
