@@ -2,7 +2,7 @@
 
 xxxViola = {
   \relative c' {
-    \clef treble
+    \clef alto
 
   }
 }

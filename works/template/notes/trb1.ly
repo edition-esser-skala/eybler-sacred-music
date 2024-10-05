@@ -2,7 +2,7 @@
 
 xxxTromboneI = {
   \relative c' {
-    \clef treble
+    \clef alto
 
   }
 }
