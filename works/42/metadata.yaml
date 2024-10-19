@@ -1,0 +1,45 @@
+title: Domine Deus, omnium creator
+id: HerEy 42
+genre: gradual
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/13
+    date: 1826
+    license: public domain
+    principal: true
+    notes: full score; 12 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: HK.2154
+    date: 1832
+    rism: 991018065
+    url: https://data.onb.ac.at/rec/AC14328838
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5741
+  C2:
+    siglum: A-Wn
+    shelfmark: MS69263-4°/7
+    date: 1832
+    rism: 991018065
+    url: https://data.onb.ac.at/rec/AC09306796
+    license: public domain
+    notes: 16 parts (S, A, T, B, ob 1, ob 2, fag 1, fag 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5744
+toe: |
+  –  & –   & An in-depth critical report is available in Reinhold
+             Kainhofer’s edition of the work (Edition Kainhofer, 2011). \\
+  94 & fag & bass clef missing in \A1 \\
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Domine Deus, omnium creator, iustus et misericors,\\
+  qui solus es bonus, et omnipotens, et aeternus;\\
+  accipe sacrificium pro universo populo tuo,\\
+  et custodi partem tuam,\\
+  et sanctifica partem tuam.\\
+  (\bibleverse{IMaccabees}(1:24-26))
