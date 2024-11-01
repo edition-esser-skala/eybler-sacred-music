@@ -1,5 +1,14 @@
 # Changelog
 
+## 2024.10.0 – 2024-11-01
+
+### Added
+
+- works: HerEy 41 and 42
+- preface: info on printed editions A/2 and B/2
+- global macros `\markCritnote`, `\startDeleted`, and `\stopDeleted`
+
+
 ## 2024.09.0 – 2024-09-28
 
 ### Added
