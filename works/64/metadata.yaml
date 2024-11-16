@@ -1,0 +1,25 @@
+title: Benedictus es, Domine
+id: HerEy 64
+genre: gradual
+festival: de Sanctissimæ Trinitate
+scoring: S, A, T, B (solo), S, A, T, B (coro),\\2 cl (\flat B), 2 fag, 2 cor (\flat E), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/19
+    date: 1834
+    license: public domain
+    principal: true
+    notes: full score; 6 pages
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in \flat E
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Benedictus es, Domine,\\
+  Deus Patrum nostrorum,\\
+  et laudabilis et gloriosus in saecula.\\
+  (\bibleverse{Dan}(3:52))
