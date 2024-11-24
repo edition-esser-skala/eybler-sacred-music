@@ -1,0 +1,20 @@
+title: Te Deum
+id: HerEy 118
+genre: hymn
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 567 (1)
+    date: 1800-07
+    license: public domain
+    principal: true
+    notes: full score; 52 pages
+toe: |
+  1  & – & In \A1, the “con fuoco” part of the tempo indication has been crossed out with pencil. \\
+  25 & – & In \A1, Eybler cancelled three bars following this bar. These bars only contain vocal parts. \\
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
+  vla: Viole
+  b: Violoncello \& Bassi
