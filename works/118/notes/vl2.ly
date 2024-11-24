@@ -122,3 +122,37 @@ CXVIIIViolinoII = {
     d4 d, r2\fermata \bar "||" %116 finis
   }
 }
+
+CXVIIIbViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \tempoCXVIIIb
+      \set Score.currentBarNumber = #117
+    d2:8\p d:
+    cis: e:
+    dis: dis:
+    e: e: %120
+    eis: eis:
+    fis: fis:
+    g: g:
+    fis: fis:
+    cis': cis: %125
+    cis: h:
+    g: eis:
+    fis: fis:
+    d8\pp h h h h2:
+    cis: cis: %130
+    h: h:
+    cis: cis:
+    h: h:
+    h8\sfp d d d d2:
+    d8\sfp fis fis fis fis2: %135
+    g: gis:
+    fis8 fis e! e d2:
+    cis: d:
+    d: cis:
+    d: dis: %140
+    e: ais,:
+    h1\fermata \bar "||" %142 finis
+  }
+}

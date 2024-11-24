@@ -241,3 +241,66 @@ CXVIIIBassFigures = \figuremode {
   r8 \bo <[6 _]>4 <6 _!>8 \bc <[6 5]>2 %115
   r1 %116 finis
 }
+
+CXVIIIbOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key h \minor \time 2/2 \tempoCXVIIIb
+      \set Score.currentBarNumber = #117
+    h2:8\p h:
+    ais: ais:
+    a: a:
+    gis: gis: %120
+    g: g:
+    fis: fis:
+    e': e:
+    d: d:
+    ais: ais: %125
+    h: h:
+    e: g:
+    fis: fis,:
+    h\pp d4 fis
+    ais,4. h8 \hA ais4 r %130
+    h2 d4 fis
+    ais,4. h8 \hA ais4 r
+    h2 d4 fis
+    h8\sfp h, h h h2:8
+    h'8\sfp h, h h h2:8 %135
+    e: eis:
+    fis: g!:
+    e!: eis:
+    fis: fis,:
+    h: h:-\tasto %140
+    h: h:
+    h1\fermata \bar "||" %142 finis
+  }
+}
+
+CXVIIIbBassFigures = \figuremode {
+  r1 %117
+  <6>
+  <4\+ _!>
+  <6> %120
+  <6\\ 5[!]>2 \bassFigureExtendersOn <6\\ 4>4 <6\\ 3> \bassFigureExtendersOff
+  <_+>1
+  <4\+ _!>
+  <7>2 <6>
+  <6 5>1 %125
+  <9 4>2 <8 3>
+  <6!> <6\\>
+  <6 4> <[5\+] _+>
+  r1
+  <6 5> %130
+  r
+  <[6 5]>
+  r
+  r
+  r %135
+  <6 5>2 <\t \t [_+]>
+  <7 _+> <5>
+  <6> <7 [_+]>
+  <6 4> <5 4>4 <\t _+>
+  r1 %140
+  r
+  r %142 finis
+}

@@ -139,3 +139,42 @@ CXVIIIViola = {
     d,4 d, r2\fermata \bar "||" %116 finis
   }
 }
+
+CXVIIIbViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key h \minor \time 2/2 \tempoCXVIIIb
+      \set Score.currentBarNumber = #117
+    h2:8\p h:
+    fis: cis':
+    c: c:
+    h: h:
+    h: h:
+    cis!: cis:
+    cis: cis:
+    d: d:
+    fis: fis:
+    fis: fis:
+    e: d:
+    d: cis:
+    h8\pp fis fis fis fis2:
+    fis: fis:
+    fis: fis:
+    fis: fis:
+    fis: fis:
+    fis8\sfp fis fis fis fis2:
+    h8\sfp h h h h2:
+    h: h:
+    ais: h:
+    h: h:
+    h: h8 h ais ais
+    << {
+      h2: h:
+      h: g:
+    } \\ {
+      h: a!:
+      g: e:
+    } >>
+    <dis fis>1\fermata \bar "||"
+  }
+}

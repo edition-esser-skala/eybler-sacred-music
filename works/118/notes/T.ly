@@ -193,3 +193,63 @@ CXVIIITenoreLyrics = \lyricmode {
   tu -- %110
   rus. %111 finis
 }
+
+CXVIIIbTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key h \minor \time 2/2 \autoBeamOff \tempoCXVIIIb
+      \set Score.currentBarNumber = #117
+    R1
+    cis2\pE cis4 cis
+    c4. c8 c2
+    r h4 h %120
+    h2 h4 h
+    ais4. ais8 ais2
+    r4 cis cis cis
+    d2 d
+    cis4 cis cis cis %125
+    cis4. h8 h2
+    g h
+    d( cis)
+    h r
+    r4 fis\pp fis fis %130
+    fis4. g8 fis2
+    r4 fis2 fis4
+    fis4. g8 fis2
+    h4.\sf cis8 d4 r
+    h4.\sf cis8 d4 r %135
+    r h\p h h
+    ais( cis) h2
+    h4 h8 h h4 cis8([ d)]
+    d2( cis)
+    h r %140
+    R1
+    R\fermata \bar "||" %142 finis
+  }
+}
+
+CXVIIIbTenoreLyrics = \lyricmode {
+  Te er -- go %118
+  quae -- su -- mus,
+  tu -- is %120
+  fa -- mu -- lis
+  sub -- ve -- ni,
+  quos pre -- ti --
+  o -- so,
+  pre -- ti -- o -- so %125
+  san -- gui -- ne
+  re -- de --
+  mi --
+  sti.
+  Te er -- go %130
+  quae -- su -- mus,
+  tu -- is
+  fa -- mu -- lis
+  sub -- ve -- ni,
+  sub -- ve -- ni, %135
+  quos pre -- ti --
+  o -- so
+  san -- gui -- ne re -- de --
+  mi --
+  sti. %140 finis
+}

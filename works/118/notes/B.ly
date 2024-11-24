@@ -193,3 +193,63 @@ CXVIIIBassoLyrics = \lyricmode {
   tu -- %110
   rus. %111 finis
 }
+
+CXVIIIbBasso = {
+  \relative c {
+    \clef bass
+    \twotwotime \key h \minor \time 2/2 \autoBeamOff \tempoCXVIIIb
+      \set Score.currentBarNumber = #117
+    R1
+    ais'2\pE ais4 ais
+    a4. a8 a2
+    r gis4 gis %120
+    g2 g4 g
+    fis4. fis8 fis2
+    r4 e e e
+    d2 d
+    ais4 ais ais ais %125
+    h4. h8 h2
+    e g
+    fis1
+    h,2 r
+    r4 fis'\pp fis fis %130
+    fis4. g8 fis2
+    r4 fis2 fis4
+    fis4. g8 fis2
+    h4.\sf h,8 h4 r
+    \mvDll d'4.\sf h,8 h4 r %135
+    r e\pE eis eis
+    fis2 g!
+    e!4 e8 e eis4 eis
+    fis1
+    h,2 r %140
+    R1
+    R\fermata \bar "||" %142 finis
+  }
+}
+
+CXVIIIbBassoLyrics = \lyricmode {
+  Te er -- go %118
+  quae -- su -- mus,
+  tu -- is %120
+  fa -- mu -- lis
+  sub -- ve -- ni,
+  quos pre -- ti --
+  o -- so,
+  pre -- ti -- o -- so %125
+  san -- gui -- ne
+  re -- de --
+  mi --
+  sti.
+  Te er -- go %130
+  quae -- su -- mus,
+  tu -- is
+  fa -- mu -- lis
+  sub -- ve -- ni,
+  sub -- ve -- ni, %135
+  quos pre -- ti --
+  o -- so
+  san -- gui -- ne re -- de --
+  mi --
+  sti. %140 finis
+}

@@ -186,8 +186,67 @@ CXVIIISopranoLyrics = \lyricmode {
   rus. %111 finis
 }
 
-% Te er -- go quae -- su -- mus, tu -- is fa -- mu -- lis sub -- ve -- ni,
-%   quos pre -- ti -- o -- so san -- gui -- ne re -- de -- mi -- sti.
+CXVIIIbSoprano = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \autoBeamOff \tempoCXVIIIb
+      \set Score.currentBarNumber = #117
+    R1
+    fis'2\pE fis,4 fis
+    fis4. g8 fis2
+    r h4 h %120
+    d!2 cis4 h
+    fis'4. fis,8 fis2
+    r4 ais ais ais
+    cis4.( h8) h2
+    cis4 cis fis e %125
+    e4. d8 d2
+    c h
+    h( ais)
+    h r
+    r4 fis\pp fis fis %130
+    fis4. g8 fis2
+    r4 fis2 fis4
+    fis4. g8 fis2
+    d'4.\sf cis8 h4 r
+    fis'4.\sf e8 d4 r %135
+    r cis\p cis cis
+    e!2 d
+    cis4 cis8 cis e([ d)] cis([ h)]
+    fis1
+    fis2 r %140
+    R1
+    R\fermata \bar "||" %142 finis
+  }
+}
+
+CXVIIIbSopranoLyrics = \lyricmode {
+  Te er -- go %118
+  quae -- su -- mus,
+  tu -- is %120
+  fa -- mu -- lis
+  sub -- ve -- ni,
+  quos pre -- ti --
+  o -- so,
+  pre -- ti -- o -- so %125
+  san -- gui -- ne
+  re -- de --
+  mi --
+  sti.
+  Te er -- go %130
+  quae -- su -- mus,
+  tu -- is
+  fa -- mu -- lis
+  sub -- ve -- ni,
+  sub -- ve -- ni, %135
+  quos pre -- ti --
+  o -- so
+  san -- gui -- ne re -- de --
+  mi --
+  sti. %140 finis
+}
+
+
 %   Ae -- ter -- na fac cum san -- ctis tu -- is in glo -- ri -- a nu -- me -- ra -- ri.
 %   Sal -- vum fac po -- pu -- lum tu -- um Do -- mi -- ne,
 %   et be -- ne -- dic hae -- re -- di -- ta -- ti tu -- ae.

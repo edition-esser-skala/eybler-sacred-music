@@ -185,3 +185,63 @@ CXVIIIAltoLyrics = \lyricmode {
   tu -- %110
   rus. %111 finis
 }
+
+CXVIIIbAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key h \minor \time 2/2 \autoBeamOff \tempoCXVIIIb
+      \set Score.currentBarNumber = #117
+    R1
+    fis2\pE e4 e
+    dis4. dis8 dis2
+    r e4 e %120
+    eis2 eis4 eis
+    fis4. cis8 cis2
+    r4 g' g g
+    fis2 fis
+    fis4 fis fis fis %125
+    fis4. fis8 fis2
+    e eis
+    fis1
+    fis2 r
+    r4 fis\pp fis fis %130
+    fis4. g8 fis2
+    r4 fis2 fis4
+    fis4. g8 fis2
+    fis4.\sf fis8 fis4 r
+    fis4.\sf fis8 fis4 r %135
+    r g\p gis gis
+    fis( ais) h2
+    g!4 g8 g gis4 gis
+    fis2.( e4)
+    d2 r %140
+    R1
+    R\fermata \bar "||" %142 finis
+  }
+}
+
+CXVIIIbAltoLyrics = \lyricmode {
+  Te er -- go %118
+  quae -- su -- mus,
+  tu -- is %120
+  fa -- mu -- lis
+  sub -- ve -- ni,
+  quos pre -- ti --
+  o -- so,
+  pre -- ti -- o -- so %125
+  san -- gui -- ne
+  re -- de --
+  mi --
+  sti.
+  Te er -- go %130
+  quae -- su -- mus,
+  tu -- is
+  fa -- mu -- lis
+  sub -- ve -- ni,
+  sub -- ve -- ni, %135
+  quos pre -- ti --
+  o -- so
+  san -- gui -- ne re -- de --
+  mi --
+  sti. %140 finis
+}
