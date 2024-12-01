@@ -7,11 +7,39 @@
 
 \book {
   \bookpart {
-    \section "CXVIII" ""
+    \section "118" "Te Deum"
     \addTocEntry
     \score {
       <<
         \new Staff { \CXVIIIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Te ergo quæsumus"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \CXVIIIbViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CXVIIIcViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fiat misericordia"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CXVIIIdViolinoI }
       >>
     }
   }

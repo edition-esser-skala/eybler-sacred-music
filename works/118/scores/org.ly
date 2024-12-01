@@ -7,12 +7,43 @@
 
 \book {
   \bookpart {
-    \section "CXVIII" ""
+    \section "118" "Te Deum"
     \addTocEntry
     \score {
       <<
         \new Staff { \CXVIIIOrgano }
         \new FiguredBass { \CXVIIIBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Te ergo quæsumus"
+    \addTocEntry
+    \paper { system-count = #4 }
+    \score {
+      <<
+        \new Staff { \CXVIIIbOrgano }
+        \new FiguredBass { \CXVIIIbBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CXVIIIcOrgano }
+        \new FiguredBass { \CXVIIIcBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fiat misericordia"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CXVIIIdOrgano }
+        \new FiguredBass { \CXVIIIdBassFigures }
       >>
     }
   }

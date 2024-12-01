@@ -10,13 +10,13 @@
 
 \book {
   \bookpart {
-    \section "CXVIII" ""
+    \section "118" "Te Deum"
     \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedNameShort "clno" "C" ""
+            \set GrandStaff.instrumentName = \transposedNameShort "clno" "D" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \CXVIIIClarinoI
@@ -28,9 +28,53 @@
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
+          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
           \CXVIIITimpani
         }
+      >>
+    }
+    \tacet "subsection" "Te ergo quæsumus"
+  }
+  \bookpart {
+    \subsection "Æterna fac"
+    \addTocEntry
+    \paper { system-count = #2 }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CXVIIIcClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CXVIIIcClarinoII
+            }
+          >>
+        >>
+        \new Staff { \CXVIIIcTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Fiat misericordia"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CXVIIIdClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CXVIIIdClarinoII
+            }
+          >>
+        >>
+        \new Staff { \CXVIIIdTimpani }
       >>
     }
   }
