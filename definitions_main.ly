@@ -8,6 +8,7 @@
 \include "ees.ly"
 
 fivehatflat = \markup { \concat { \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) \raise #.3 \fontsize #-5 \flat } }
+fivehatnatural = \markup { \concat { \raise #.3 \fontsize #-5 \natural \combine \figured-bass 5 \path #.15 #'((rmoveto 0 1.2) (rlineto .5 .5) (rlineto .5 -.5)) } }
 fzp  = \dynScript "fzp" ##f
 ffz  = \dynScript "ffz" ##f
 hA = \once \override Accidental.stencil = ##f
