@@ -178,3 +178,287 @@ CXVIIIbViola = {
     <dis fis>1\fermata \bar "||"
   }
 }
+
+CXVIIIcViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key d \major \time 2/4 \tempoCXVIIIc
+      \set Score.currentBarNumber = #143
+    g8\fE g' h g
+    d d'16 cis d8 d,
+    e e, fis fis' %145
+    g, g'16 fis g8 h,
+    c e g c
+    h a h g
+    a g a d,
+    g4 r8 d %150
+    d,4 r8 d'
+    g g, h a
+    g g' fis e
+    fis e dis h
+    e fis g e %155
+    cis! a h cis
+    d! a' d c
+    h a g fis
+    g[ cis,! d] r
+    r d[ e fis] %160
+    g dis e c
+    d c d d,
+    g4 r8 g'
+    g,4 r8 a'
+    a,4 r8 d %165
+    d, h' c d
+    e d e fis
+    g fis g a
+    h c a h
+    fis g a fis %170
+    g d e c
+    h g'16 fis g8 g,
+    d' d'16 cis d8 d,
+    cis! e' cis a
+    d d,16 cis d8 d' %175
+    g, g'16 fis g8 g,
+    fis\cresc fis' e, e'
+    d,\f d'16 cis d8 d,
+    a' a,-! h-! cis-!
+    d-! e-! fis-! gis-! %180
+    a e cis a
+    ais cis fis ais
+    h fis d h
+    gis h e gis
+    a,! cis e a %185
+    gis h \hA gis e
+    a e' cis a
+    gis h \hA gis e
+    a e' cis a
+    gis h \hA gis e %190
+    a e cis e
+    a, a' h h,
+    cis cis' d d,
+    a a'16 g! a8 a,
+    d4 r8 d %195
+    d,4 r8 e'
+    e,4 r8 e'
+    a, fis g a
+    h a h cis
+    d cis d e %200
+    fis g a h
+    cis d e cis
+    d a h g
+    fis d\p d d
+    d d cis cis
+    h h a a
+    a r r a'\mf
+    a, r r a'
+    a, a\p a a
+    a a a a
+    fis' fis e e
+    e4 r8 e\mf
+    e,4 r8 gis
+    a\f cis e a
+    g,! cis e g %215
+    fis, fis' ais ais,
+    h h'16 ais h8 eis,
+    fis cis ais fis
+    e!\f g cis e
+    d h' fis d %220
+    ais\decresc cis fis ais
+    h fis d h
+    e\p e' c g
+    e e' e e,
+    e e' d d, %225
+    cis! cis' ais ais,
+    h h' g, g'
+    fis, fis'16 eis fis8 fis,
+    h4 r8 fis'
+    h,4 r8 gis' %230
+    cis,4 r8 fis~
+    fis fis g! e
+    d\p fis d h
+    ais cis \hA ais fis
+    h fis' d h %235
+    ais cis \hA ais fis
+    h fis' d h
+    e  h' g e
+    d fis d h
+    cis e cis h %240
+    ais cis \hA ais fis
+    h h' a! a,
+    g g'16 fis g8 g,
+    fis ais cis fis
+    fis, h d fis %245
+    fis, ais cis fis
+    fis, h d fis
+    fis, fis' fis( cis)
+    cis( ais) ais( fis)
+    fis2\fermata \bar "||" %250 finis
+  }
+}
+
+CXVIIIdViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoCXVIIId
+      \set Score.currentBarNumber = #251
+    r8 fis\p fis fis fis fis
+    r g g g g g
+    r e e e e e
+    r fis\cresc fis fis fis fis
+    r cis cis cis cis cis %255
+    d\decresc d a' a fis fis
+    d\p d cis cis e e
+    a,4\f r8 a a a
+    a4 r8 a a a
+    a a a a cis' cis %260
+    fis,2.:8
+    h8 h gis gis h h
+    e,2.:
+    a:
+    fis: %265
+    h,2: cis8 cis
+    d2: e8 e
+    e2.:
+    a:
+    a2: h8 h %270
+    fis2.:
+    fis:
+    a8 a fis fis h h
+    h2: gis8 gis
+    <h e,>2.: %275
+    <cis e,>:
+    <h e,>:
+    a8 a gis gis a a
+    h fis a e gis d
+    cis4 r8 e e e %280
+    e4 r8 e e e
+    e4 r8 e a, e'
+    a, d e e e e
+    e cis fis d h d
+    cis a r a a' a, %285
+    h h' r h, h' h,
+    cis cis' r cis, cis' cis,
+    d e fis g a fis
+    d g h a g fis
+    g h g fis e d %290
+    e d cis cis d e
+    fis g a h a g
+    fis a fis e d cis
+    d fis d cis h a
+    h a gis gis' a h %295
+    e,4 a a
+    h2 h4
+    g!2 g4
+    a4. h8 a g
+    fis4 d r %300
+    r d' d
+    h2 h4
+    r gis e
+    a4. h8 a g
+    fis4 d r %305
+    r g fis
+    e cis r
+    r fis e
+    d h d
+    e8 fis g fis e d %310
+    cis4 ais cis
+    h r r
+    R2.
+    r4 g' e
+    cis fis r %315
+    r fis d
+    h e r
+    R2.
+    r4 a a
+    h2 h4 %320
+    g2 g4
+    a4. h8 a g
+    fis4 d r
+    r g g
+    e2 e4 %325
+    r fis fis
+    d2 d4
+    r e e
+    c2.
+    h4 r r %330
+    R2.*3
+    r4 h' h
+    c2 c4 %335
+    a2 a4
+    d2.
+    h4 g g
+    a4. g8 fis e
+    d4 fis a %340
+    h8 a g fis e d
+    cis4. e8 fis g
+    a g fis e d cis
+    h4. d8 e fis
+    g fis e d cis h %345
+    a4 cis r
+    r fis fis
+    g2 g4
+    e2 e4
+    d4. fis8 g a %350
+    h a g fis e d
+    cis4. e8 fis g
+    a g fis e d cis
+    h4 d r
+    r e e %355
+    fis2 fis4
+    d2 d4
+    e4. fis8 e d
+    cis4 a r
+    R2. %360
+    r4 fis' fis
+    g!2 g4
+    e2 e4
+    fis4. g8 fis e
+    d4 h d %365
+    e4. fis8 e d
+    cis4 ais cis8 cis
+    d cis d e fis d
+    e fis gis a h \hA gis
+    a e cis d e cis %370
+    d e fis g! a fis
+    d cis h d g fis
+    e d cis e a g
+    fis e d fis h a
+    g fis e g cis h %375
+    a4 g fis
+    e a a
+    h2 h4
+    g2 g4
+    a4. h8 a g %380
+    fis4 d r
+    r e e
+    e cis a'8 a
+    a4. a8 a4
+    h a2 %385
+    fis8-\critnote d, e fis g a
+    h fis g a h cis
+    d a h cis d e
+    fis cis d e fis g
+    a a fis fis d d %390
+    b b' b b b b
+    a, a' a a a a
+    gis gis4 gis gis8
+    a a4 a a8~
+    a fis4 fis fis8 %395
+    a a4 a a8~
+    a e fis g a h
+    cis h cis d e cis
+    d d cis cis d d
+    h h a a a a %400
+    a4 <a fis d>\f <h g g,>
+    <a fis d> r r
+    r q <h g g,>
+    <a fis d> r r
+    r q <h g g,> %405
+    <a fis d> q <h g g,>
+    <a fis d> q <h g g,>
+    <a fis d> q q
+    <h g g,> <h d, g,> q
+    q <d d, g,> <h d, g,> %410
+    <a fis d> d,, d
+    d r r\fermata \bar "|." %412 finis
+  }
+}

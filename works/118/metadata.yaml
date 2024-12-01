@@ -12,8 +12,11 @@ sources:
     principal: true
     notes: full score; 52 pages
 toe: |
-  1  & – & In \A1, the “con fuoco” part of the tempo indication has been crossed out with pencil. \\
-  25 & – & In \A1, Eybler cancelled three bars following this bar. These bars only contain vocal parts. \\
+  1   & – & In \A1, the “con fuoco” part of the tempo indication has been crossed out with pencil. \\
+  25  & – & In \A1, Eybler cancelled three bars following this bar. These bars only contain vocal parts. \\
+  143 & – & In \A1, Eybler cancelled the original tempo indication “Andante”. \\
+  vide + bleibt weg
+  386f & vla & In \A1, dashes imply that vla still plays in unison with A. However, it is more likely that vla switches to unison with b in these bars, as shown here. \\
 parts:
   ottoni: Clarino I, II in D\\Timpani in D–A
   vla: Viole

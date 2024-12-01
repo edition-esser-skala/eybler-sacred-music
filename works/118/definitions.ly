@@ -4,6 +4,8 @@ accomp = \markup \remark "accomp."
 
 tempoCXVIII = \tempoMarkup "Allegro con spirito [e fuoco]"
 tempoCXVIIIb = \tempoMarkup "Adagio"
+tempoCXVIIIc = \tempoMarkup "Allegretto"
+tempoCXVIIId = \tempoMarkup "Allego vivace"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"
