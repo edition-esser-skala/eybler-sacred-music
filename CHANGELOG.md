@@ -1,5 +1,15 @@
 # Changelog
 
+## 2024.11.0 – 2024-12-01
+
+### Added
+
+- works: HerEy 64 and 118
+- preface: info on not editing HerEy 99
+- IMSLP links in metadata of all works
+- global macro `\fivehatnatural`
+
+
 ## 2024.10.0 – 2024-11-01
 
 ### Added
