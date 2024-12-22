@@ -1,0 +1,25 @@
+title: Ave Maria
+id: HerEy 65
+genre: gradual
+festival: Mariæ B.V.
+scoring: S, A, T, B (coro), 2 cl (A), 2 fag, 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/7
+    date: 1819
+    license: public domain
+    principal: true
+    notes: full score; 11 pages
+parts:
+  cl1: Clarinetto I in A
+  cl2: Clarinetto II in A
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Ave Maria, gratia plena,\\
+  Dominus tecum,\\
+  benedicta tu in mulieribus,\\
+  et benedictus fructus ventris tui.\\
+  (\bibleverse{Luk}(1:28,42))
