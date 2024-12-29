@@ -1,5 +1,13 @@
 # Changelog
 
+## 2024.12.0 – 2024-12-29
+
+### Added
+
+- works: HerEy 65
+- IMSLP links in metadata of HerEy 64 and 118
+
+
 ## 2024.11.0 – 2024-12-01
 
 ### Added
