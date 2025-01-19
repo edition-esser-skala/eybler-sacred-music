@@ -1,0 +1,46 @@
+title: Benedicam Dominum
+id: HerEy 55
+genre: gradual
+festival: de tempore
+scoring: S, A, T, B (coro), 2 ob, 2 cl (\flat B), 2 fag, 2 cor (F), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/8
+    date: 1820-09
+    license: public domain
+    principal: true
+    notes: full score (11 pages); cor 1/2 on one separate page
+  C1:
+    siglum: A-Wn
+    shelfmark: SA.82.A.22/13,5
+    date: 1829
+    rism: 991018063
+    url: https://data.onb.ac.at/rec/AC09228484
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5428
+  C2:
+    siglum: A-Wn
+    shelfmark: F4.Baden.89
+    date: 1829
+    rism: 1001234597
+    url: https://data.onb.ac.at/rec/AC14265967
+    license: public domain
+    notes: 17 parts (S, A, T, B, ob 1, ob 2, cl 1, cl 2, fag 1, fag 2, cor 1, cor 2, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5431
+toe: |
+  – & cor & Eybler cancelled a cor part on the bottommost staff
+            in the full score and instead added a new cor part
+            on a separate sheet. \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in F
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Benedicam Dominum in omni tempore:\\
+  semper laus eius in ore meo.\\
+  In Domino laudabitur anima mea:\\
+  audiant mansueti et laetentur.\\
+  (\bibleverse{Ps}(34/33:2–3))
