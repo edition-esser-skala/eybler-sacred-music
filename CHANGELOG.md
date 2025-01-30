@@ -1,5 +1,18 @@
 # Changelog
 
+## 2025.01.0 – 2025-01-30
+
+### Added
+
+- works: HerEy 65
+- HerEy 40: parts for three trombones
+- IMSLP links in metadata of HerEy 65
+
+### Fixed
+
+- shelfmark of HerEy 85, 123, 124, 126, 127, and 130
+
+
 ## 2024.12.0 – 2024-12-29
 
 ### Added
