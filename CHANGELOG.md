@@ -4,7 +4,7 @@
 
 ### Added
 
-- works: HerEy 65
+- works: HerEy 55
 - HerEy 40: parts for three trombones
 - IMSLP links in metadata of HerEy 65
 
