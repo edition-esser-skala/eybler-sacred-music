@@ -1,0 +1,24 @@
+title: Magnificate Dominum mecum
+id: HerEy 67
+genre: gradual
+festival: de tempore
+scoring: S, A, T, B (coro), 2 ob, clno solo (\flat B), 2 clno (\flat B), timp (\flat B–F),\\2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 570
+    date: 1802
+    license: public domain
+    principal: true
+    notes: full score; 11 pages
+parts:
+  clno_solo: Clarino solo in \flat B
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Magnificate Dominum mecum\\
+  et exaltemus nomen eius in id ipsum.\\
+  Exquisivi Dominum et exaudivit me.\\[1ex]
+  (\bibleverse{Ps}(34/33:4-5))
