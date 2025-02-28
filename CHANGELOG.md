@@ -1,5 +1,13 @@
 # Changelog
 
+## 2025.02.0 – 2025-02-28
+
+### Added
+
+- works: HerEy 67
+- preface: info on print A.3 and not editing HerEy 134
+
+
 ## 2025.01.0 – 2025-01-30
 
 ### Added
