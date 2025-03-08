@@ -16,6 +16,16 @@
             \set Staff.instrumentName = "Oboe I, II"
             \partCombine #'(0 . 10) \XCIIIOboeI \XCIIIOboeII
           >>
+          \new Staff <<
+            \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
+            \set Staff.soloText = \markup \remark \medium "cl 1"
+            % \transpose c b,
+            \partCombine #'(0 . 10) \XCIIIClarinettoI \XCIIIClarinettoII
+          >>
+          \new Staff <<
+            \set Staff.instrumentName = "Fagotto I, II"
+            \partCombine #'(0 . 10) \XCIIIFagottoI \XCIIIFagottoII
+          >>
         >>
         \new StaffGroup <<
           \new Staff <<

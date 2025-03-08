@@ -1,5 +1,76 @@
 \version "2.24.0"
 
+XCIIIClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoXCIII
+    e'1\f
+    g
+    fis
+    a
+    gis %5
+    a
+    ais
+    h
+    c!2 h
+    a g %10
+    f e
+    dis4 r r2
+    e1
+    dis4 r r2
+    g1 %15
+    fis4 r r2
+    R1
+    e
+    g
+    fis %20
+    a
+    gis
+    a
+    ais
+    h %25
+    c!2\fz h\fz
+    a\fz g\fz
+    f\fz e\fz
+    dis4 r r2
+    e1 %30
+    dis4 r r2
+    g1
+    fis4 r r2
+    R1*11 %44
+    r4 d,(\p g h) %45
+    d1
+    e
+    d4. h8 d( c h a)
+    \pao g4 r r2
+    R1*7 %56
+    r4 fis8( g a g c h)
+    \pa a4 gis8( a h a d c) \pd
+    h4 cis8( d e d g fis)
+    fis([ e)] e([ d)] d([ c)] c([ h)] %60
+    a d,(\cresc e fis g a h c)\!
+    d1\f
+    h
+    c4 r r2
+    r8 d,(\p e fis g a h c) %65
+    d1
+    e\cresc
+    d4. h8 d( c h a)\!
+    \pao g4 r r2
+    R1*3 %72
+    g'1\f
+    e2 a~
+    a4 fis d c %75
+    h \pa c d \pd e
+    fis g a h
+    c c h fis
+    g r8. h,16 h4 r8. d16
+    \tempoXCIIIa d4 r r2 %80
+    h4 r8. d16 d4 r8. f16
+    f4 r r r\fermata \bar "||" %82 finis
+  }
+}
+
 XCIIIbClarinettoSolo = {
   \relative c' {
     \clef treble
@@ -53,10 +124,37 @@ XCIIIbClarinettoSolo = {
 XCIIIcClarinettoI = {
   \relative c' {
     \clef treble
-    \key c \major \time 4/4 \tempoXCIIIc
+    \key e \minor \time 4/4 \tempoXCIIIc
       \set Score.currentBarNumber = #168
-    R1*39 %206
-    h'1\p
+    R1
+    fis'\f
+    r %170
+    g\f
+    f2\fz e\fz
+    dis4 r r2
+    e1\f
+    dis4 r r2 %175
+    g1
+    fis4 r r2
+    R1
+    e
+    g %180
+    fis
+    a
+    gis
+    a
+    ais %185
+    h
+    c!2\fz h\fz
+    a\fz g\fz
+    f\fz e\fz
+    dis4 r r2 %190
+    e1
+    dis4 r r2
+    g1
+    fis4 r r2
+    R1*12 %206
+    h,1\p
     cis
     h4 r r2
     R1*4 %213
@@ -71,7 +169,7 @@ XCIIIcClarinettoI = {
     gis'1\f
     e
     fis4 r r2 %225
-    r4 gis,\p h e
+    r4 gis,(\p h e)
     gis1
     a\cresc
     gis4. e8 gis( fis e dis)

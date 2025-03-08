@@ -12,6 +12,11 @@ sources:
     license: public domain
     principal: true
     notes: full score; 32 pages
+  A2:
+    siglum: A-Ws
+    shelfmark: Cod. 571/3
+    license: public domain
+    notes: cl/fag parts (2 pages)
   C1:
     siglum: A-Wn
     shelfmark: HK.2525
@@ -31,6 +36,10 @@ sources:
 toe: |
   –   & –    & Articulations and dynamics are exclusively taken from \A1,
                since they are highly inconsistent in \C1. \\
+  –   & cl, fag & In \A1, cl and fag only begin in bar 207.
+               By contrast, parts in \A2, which Eybler apparently wrote later,
+               also accompany bars 1–82 and 168–206. These parts are identical
+               to \A1 in the remaining bars of the third part. \\
   10  & vla  & 1st \halfNote\ in \C1: \sharp d′2 \\
   55  & vl 2 & 6th/last eighthNote\ in \C1: \flat b8 \\
   82  & vl 1 & 1st \quarterNote\ in \C1: \flat e″+c′′′4 \\
