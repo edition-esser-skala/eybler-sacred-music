@@ -21,30 +21,21 @@
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "Oboe"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \xxxOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \xxxOboeII
-            }
-          >>
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "Fagotto"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \xxxFagottoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \xxxFagottoII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = "Oboe I, II"
+            \partCombine #'(0 . 10) \xxxOboeI \xxxOboeII
+          }
+          \new Staff {
+            \set Staff.instrumentName = \transposedName "Clarinetto I, II" "C" ""
+            % \transpose c c
+            \partCombine #'(0 . 10) \xxxClarinettoI \xxxClarinettoII
+          }
+          \new Staff {
+            \set Staff.instrumentName = "Fagotto I, II"
+            \partCombine #'(0 . 10) \xxxFagottoI \xxxFagottoII
+          }
         >>
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "C" ""
             % \transpose c c
@@ -56,7 +47,7 @@
             \partCombine #'(0 . 10) \xxxClarinoI \xxxClarinoII
           >>
         >>
-        \new Staff \with { \smallStaffDistance } {
+        \new Staff {
           \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
           % \transpose c c
           \xxxTimpani
