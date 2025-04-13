@@ -1,0 +1,22 @@
+title: Ave Regina cœlorum
+id: HerEy 71
+genre: gradual
+festival: de B. V. M.
+scoring: S (solo), S, A, T, B (coro), 2 ob, 2 cl (\flat B), 2 fag, 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/6
+    date: 1819
+    license: public domain
+    principal: true
+    notes: full score; 10 pages
+toe: |
+  – & – & In \A1, ob and fag are denoted “ad libitum”,
+          and cl are labelled “in mancanza degl’oboi”. \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  vla: Viole
+  b: Violoncello \& Bassi
