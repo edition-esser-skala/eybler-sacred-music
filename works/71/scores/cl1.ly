@@ -14,7 +14,7 @@
       <<
         \new Staff {
           \set Staff.instrumentName = \transposedNameShort "cl 1" "B" "flat"
-          \LXXIClarinettoI
+          \transpose b c' \LXXIOboeI
         }
       >>
     }
