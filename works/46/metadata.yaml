@@ -1,0 +1,23 @@
+title: Os iusti meditabitur
+id: HerEy 46
+genre: gradual
+festival: de Confessore
+scoring: S, A, T, B (coro), 2 ob, 2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 569 (3)
+    date: 1805
+    license: public domain
+    principal: true
+    notes: full score; 19 pages
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  b: Violoncello \& Bassi
+lyrics:
+  Os iusti meditabitur sapientiam,\\
+  et lingua eius loquetur iudicium.\\
+  Lex Dei eius in corde ipsius,\\
+  et non suplantabuntur gressus eius.\\
+  (\bibleverse{Ps}(37/36:30-31))
