@@ -1,10 +1,9 @@
 final/
-manuscript
-manuscript/
 tmp/
 front_matter/critical_report.pdf
 main.ly
 main.pdf
+manuscript
 scores/full_score.ly
 *.aux
 *.bbl
