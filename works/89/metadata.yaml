@@ -1,0 +1,47 @@
+title: Hæc est dies
+id: HerEy 89
+genre: offertorium
+festival: in Festo S: Theresiæ
+scoring: S, T (solo), S, A, T, B (coro), 2 ob, 2 clno (D), timp (D–A), 2 vl, vla, vla d’amore solo, vlc solo, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 735/1
+    date: 1800-10
+    license: public domain
+    principal: true
+    notes: full score; 37 pages
+toe: |
+  – & – & Eybler reworked the two movements of this work into the offertory \textit{Summe Deus} (HerEy 90, 1818) and the gradual \textit{Te summe Jesu} (HerEy 49, 1809), respectively. To this end, he changed the scoring of the first movement. In the second movement, Eybler introduced the following major changes: (1) He replaced bars 232–234, 257f, and 278–291 with 11, 8, and 36 bars, respectively, thereby extending the movement from 79 to 115 bars. (2) He set different lyrics to the music. (3) He added parts for two bassoons. \\
+  – & org & bass figures added by editor \\
+  1 & – & tempo indication missing in \A1, here derived from HerEy 90 \\
+  79 -3
+  76 -2
+  74 -14
+  60 11
+  71 8
+  79 36
+  115
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Haec est dies
+  qua candidae instar columbae
+  spiritus Theresiae
+  ad sacra templa caelitum se transtulit.
+
+  Sponsique voces audiit:
+  Veni soror de vertice carmeli,
+  ad agni nuptias veni,
+  ad gloriae coronam veni.
+
+  Te sponse Jesu,
+  te sponse virginum
+  beati ordines adorent
+  et nuptiali cantico laudent
+  per cuncta saecula.
+
+  (Cantus Index a01576)
