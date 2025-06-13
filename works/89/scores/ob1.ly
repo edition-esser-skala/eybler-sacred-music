@@ -7,7 +7,16 @@
 
 \book {
   \bookpart {
-    \section "49" "Te summe Jesu"
+    \section "89" "Hæc est dies"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LXXXIXOboeI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Coro"
     \addTocEntry
     \score {
       <<

@@ -6,7 +6,29 @@
 
 \book {
   \bookpart {
-    \section "49" "Te summe Jesu"
+    \section "89" "Hæc est dies"
+    \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #6
+    }
+    \score {
+      <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \LXXXIXTenore }
+          }
+          \new Lyrics \lyricsto Tenore \LXXXIXTenoreLyrics
+        >>
+        \new Staff { \LXXXIXOrgano }
+        \new FiguredBass { \LXXXIXBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Coro"
     \addTocEntry
     \score {
       <<

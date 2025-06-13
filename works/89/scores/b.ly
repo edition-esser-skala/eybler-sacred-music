@@ -2,12 +2,21 @@
 
 \include "../../../definitions_main.ly"
 \include "../definitions.ly"
-#(define option-instrument-name (markup #:center-column ("vlc" "b")))
+#(define option-instrument-name "b")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \section "49" "Te summe Jesu"
+    \section "89" "Hæc est dies"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LXXXIXOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Coro"
     \addTocEntry
     \score {
       <<

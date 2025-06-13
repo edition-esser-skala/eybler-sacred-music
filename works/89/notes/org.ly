@@ -91,7 +91,7 @@ LXXXIXOrgano = {
     e: gis: %85
     a8 a cis cis d d fis fis
     e2: e,:
-    a8( gis\p a cis) h( a gis fis)
+    a8( gis\p a cis) h( a \hA gis fis)
     e4 gis h e
     e, a cis e %90
     e, gis h e
@@ -221,11 +221,11 @@ LXXXIXOrgano = {
 
 LXXXIXBassFigures = \figuremode {
   r1
-  r
-  r
-  r
-  r %5
-  r
+  <6>
+  <5>4 <6>2 <6 5>4
+  r2 <6>
+  r q %5
+  r1
   r
   r
   r
@@ -233,25 +233,25 @@ LXXXIXBassFigures = \figuremode {
   r
   r
   r
-  r
-  r %15
-  r
-  r
-  r
-  r
-  r %20
+  r2 <6>
+  r1 %15
   r
   r
   r
   r
-  r %25
+  r8 <7>2.. %20
+  r2 <6 4>4 <5 3>
+  r1
+  <6 5>
   r
+  q %25
+  r4 <7>2 q4
+  r2 <7!>
+  r1
+  <6 4>2 <\t \t>
+  q1 %30
   r
-  r
-  r
-  r %30
-  r
-  r
+  <7 5>
   r
   r
   r %35
@@ -264,8 +264,8 @@ LXXXIXBassFigures = \figuremode {
   r
   r
   r
-  r %45
-  r
+  r2 <7> %45
+  r1
   r
   r
   <6>
@@ -275,19 +275,19 @@ LXXXIXBassFigures = \figuremode {
   r
   r2 <6>
   r4 <_+>2. %55
-  <5 _+>1
+  <7 _+>1
   <6 4>
   <7 _+>
   <6 4>
   <7 _+> %60
-  r2. <_+>4
+  r2. q4
   r2. q4
   r1
   <7!>
   r %65
   <6 4>2 <5 _+>
   r1
-  <6>
+  <6 5>
   r
   q %70
   r
@@ -299,15 +299,15 @@ LXXXIXBassFigures = \figuremode {
   <6>
   <6 4>2 <\t \t>4 <7 _+>
   r1
-  <6 5>2 <_+> %80
+  <6 5>2 <7 _+> %80
   r1
-  r2 <_+>
+  <6 5>2 <7 _+>
   r1
-  r
-  r %85
-  r
-  r
-  r
+  r2 <6>
+  <_+> <6 5!> %85
+  r1
+  <6 4>2 <5 _+>
+  r1
   <5 _+>
   <6 4> %90
   <5 _+>
@@ -338,9 +338,9 @@ LXXXIXBassFigures = \figuremode {
   r
   r
   r
-  r
-  r %120
-  r
+  r2 <6>
+  r q %120
+  r1
   r
   r
   r
@@ -348,8 +348,8 @@ LXXXIXBassFigures = \figuremode {
   r
   r
   r
-  r
-  r %130
+  r2 <6>
+  r1 %130
   r
   r
   r
@@ -360,8 +360,8 @@ LXXXIXBassFigures = \figuremode {
   r
   r
   r %140
-  r
-  r
+  r2 <7>
+  r1
   r
   r2 <2>
   <6>1 %145
@@ -383,51 +383,51 @@ LXXXIXBassFigures = \figuremode {
   r
   <6 4>2 <5 _+>
   r1
-  r
+  <7>
   r %165
-  r
-  r
-  r
-  r
-  r %170
-  r
-  r2 <6>
+  <7 4>4 <6>2.
   r1
   r
-  <6 4>2 <\t \t>4 <5 3> %175
+  r4 <7>2.
+  r1 %170
+  <7!>
+  r2 <6\\>
   r1
-  <6 5>
   r
-  r
+  <6 4>2 <\t \t>4 <7 5> %175
+  r1
+  <6 5>2 <7>
+  <6 5>1
+  q
   r %180
-  r
-  r
-  r
+  <6>2 <7>
+  r <6 5!>
+  r4 <_+>2 <6>4
   <8 3>2.. \once \bassFigureExtendersOn q8
   <6 4>2 <5 3> %185
   r1
-  r
-  r
-  r
+  r2 <6>
+  r <6 5!>
+  r1
   r %190
   r
   r
   r
   r
   r %195
-  r
-  r
-  r
-  r
+  r8 <7>2..
+  r2 <6 4>4 <5 3>
+  r1
+  <6 5>
   r %200
+  q
+  r4 <7>2 q4
+  r2 q
+  r1
+  <6 4>2 <\t \t> %205
+  q1
   r
-  r
-  r
-  r
-  r %205
-  r
-  r
-  r
+  <5 3>
   r
   r %210
   r

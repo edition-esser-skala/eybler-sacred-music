@@ -4,7 +4,69 @@ LXXXIXClarinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoLXXXIX
-
+    c'2\f g
+    e4 c8. c16 c4 c
+    c r r2
+    g' c
+    g c %5
+    g4 r g, r
+    g g g r
+    R1*24 %31
+    g'4\f g8. g16 g4 g
+    c, r r2
+    c g'4 e
+    c r r2 %35
+    r4 c8.\pp c16 c4 c
+    c r r2
+    R1*8 %45
+    c4\f r r2
+    c g'4 e
+    c r r2
+    R1*34 %82
+    g4\f r r2
+    c4 r r2
+    R1*23 %107
+    R1\fermata
+    e4\mfE e8. e16 g4 g8. g16
+    c4 r r g %110
+    e e8. e16 g4 g8. g16
+    c4 r r2
+    r4 c,8. c16 c4 c
+    c c c c
+    c c8. c16 c4 c8. c16 %115
+    c4 c8. c16 c4 c8. c16
+    c4 c8. c16 c4 r
+    R1
+    g'2 c
+    g c %120
+    g4 r g, r
+    g g g r
+    R1*8 %130
+    e'2\p g
+    c,4 c8. c16 c4 c
+    c r r2
+    R1*8 %141
+    c4\f r r2
+    c g'4 e
+    c r r2
+    R1*35 %179
+    c4\f r r2 %180
+    R1
+    c4 r r2
+    R1
+    c4 c8. c16 c4 c
+    c r r2\fermata %185
+    c4\f r r2
+    R1
+    g'
+    c4 g e c
+    g r r2 %190
+    R1*17 %207
+    g'4\f g8. g16 g4 g
+    c, r r2
+    c g'4 e %210
+    c r c r
+    c r r2\fermata \bar "||" %212 finis
   }
 }
 

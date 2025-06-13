@@ -10,13 +10,37 @@
 
 \book {
   \bookpart {
-    \section "49" "Te summe Jesu"
+    \section "89" "Hæc est dies"
     \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = \transposedNameShort "clno" "D" ""
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \LXXXIXClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \LXXXIXClarinoII
+            }
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
+          \LXXXIXTimpani
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Coro"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
             \new Staff {
               \set Staff.instrumentName = "1"
               \LXXXIXbClarinoI
@@ -27,10 +51,7 @@
             }
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = \transposedTimpShort "D" "" "A" ""
-          \LXXXIXbTimpani
-        }
+        \new Staff { \LXXXIXbTimpani}
       >>
     }
   }

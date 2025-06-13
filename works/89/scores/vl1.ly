@@ -7,8 +7,18 @@
 
 \book {
   \bookpart {
-    \section "49" "Te summe Jesu"
+    \section "89" "Hæc est dies"
     \addTocEntry
+    \score {
+      <<
+        \new Staff { \LXXXIXViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Coro"
+    \addTocEntry
+    \paper { system-count = #23 }
     \score {
       <<
         \new Staff { \LXXXIXbViolinoI }
