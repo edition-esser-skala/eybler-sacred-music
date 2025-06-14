@@ -1,0 +1,34 @@
+title: Summe Deus
+id: HerEy 90
+genre: offertorium
+festival: de Tempore
+scoring: T (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 clno (D), timp (D–A),\\2 vl, vl solo, vla, vlc solo, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 735/8
+    date: 1818
+    license: public domain
+    principal: true
+    notes: full score; 28 pages
+toe: |
+  – & –   & This work is a revised version of the first movement
+            of \textit{Hæc est dies} (HerEy 89). See the critical report
+            of the latter work for details. \\
+  – & org & bass figures added by editor \\
+parts:
+  ottoni: Clarino I, II in D\\Timpani in D–A
+  vla: Viole
+  vl_solo: Violino solo
+  vlc_solo: Violoncello solo
+lyrics:
+  Summe Deus, te semper laudum carmine\\
+  voces nostrae celebrent\\
+  conjunctae angelorum elatis canticis.\\
+  Sint cordis nostri vota grata tibi,\\
+  sint oris nostri laudes carae tibi,\\
+  et pietatis tuae descendant in nos dona,\\
+  pie Pater, haec speramus.\\
+  Quam felix qui tanto\\
+  sub Patre coelestem tendit ad metam.
