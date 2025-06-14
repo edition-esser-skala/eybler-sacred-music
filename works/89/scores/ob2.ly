@@ -11,7 +11,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LXXXIXOboeI }
+        \new Staff { \LXXXIXOboeII }
       >>
     }
   }
@@ -20,7 +20,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LXXXIXbOboeI }
+        \new Staff { \LXXXIXbOboeII }
       >>
     }
   }

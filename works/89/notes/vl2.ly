@@ -35,7 +35,7 @@ LXXXIXViolinoII = {
     d r fis r
     a r r2 %30
     R1
-    <a g'>4\f q8. q16 a4 a
+    <a g'>4\f q8. q16 q4 q
     <d fis>4. cis16 h a h a g fis g fis e
     <d d'>4. cis'16 h a h a g fis g fis e
     d4 r8 \once \slurDashed d32(\p e fis g) a4 r8 \tuplet 3/2 8 { a16 h cis } %35

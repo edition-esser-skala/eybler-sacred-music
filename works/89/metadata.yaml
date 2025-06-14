@@ -13,9 +13,24 @@ sources:
     principal: true
     notes: full score; 37 pages
 toe: |
-  – & – & Eybler reworked the two movements of this work into the offertory \textit{Summe Deus} (HerEy 90, 1818) and the gradual \textit{Te summe Jesu} (HerEy 49, 1809), respectively. To this end, he changed the scoring of the first movement. In the second movement, Eybler introduced the following major changes: (1) He replaced bars 232–234, 257f, and 278–291 with 11, 8, and 36 bars, respectively, thereby extending the movement from 79 to 115 bars. (2) He set different lyrics to the music. (3) He added parts for two bassoons. \\
+  – & –   & Eybler reworked the two movements of this work into
+            the offertory \textit{Summe Deus} (HerEy 90, 1818) and
+            the gradual \textit{Te summe Jesu} (HerEy 49, 1809), respectively.
+            To this end, he changed the lyrics and introduced several major
+            changes (drafts of which also appear in \A1).
+            Revision of first movement to HerEy~90:
+            (1) Eybler deleted bars 61f and 91, replaced bars 96f with
+            one new bar, and deleted bars~157f and 180–185,
+            thereby shortening the movement from 212 to 200 bars.
+            (2) He added parts for two bassoons and a mixed chorus.
+            (3) He replaced the solo viola d’amore with a solo violin.
+            Revision of second movement to HerEy~49:
+            (1) Eybler replaced bars 232–234, 257f, and 278–291 with
+            11, 8, and 36 bars, respectively, thereby extending
+            the movement from 79 to 115 bars.
+            (2) He added parts for two bassoons. \\
   – & org & bass figures added by editor \\
-  1 & – & tempo indication missing in \A1, here derived from HerEy 90 \\
+  1 & –   & tempo indication missing in \A1, here derived from HerEy 90 \\
 parts:
   ottoni: Clarino I, II in D\\Timpani in D–A
   vla: Viole

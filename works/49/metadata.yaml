@@ -12,6 +12,10 @@ sources:
     license: public domain
     principal: true
     notes: full score; 16 pages
+toe: |
+  – & – & This work is a revised version of the second movement
+          of \textit{Hæc est dies} (HerEy~89). See the critical report
+          of the latter work for details. \\
 parts:
   ottoni: Clarino I, II in D\\Timpani in D–A
   vla: Viole
