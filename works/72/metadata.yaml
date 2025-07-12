@@ -1,0 +1,27 @@
+title: Populum humilem salvum
+id: HerEy 72
+genre: gradual
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 cl (\flat B), 2 fag, 2 cor (\flat B), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/17
+    date: 1829-09-05
+    license: public domain
+    principal: true
+    notes: full score; 8 pages
+toe: |
+  46 & cl 2 & 3rd \quarterNote\ missing in \A1 \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in \flat B
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Populum humilem salvum facies, Domine,\\
+  et oculos superborum humiliabis.\\
+  Quoniam quis Deus praeter te, Domine?\\
+  (\bibleverse{Ps}(18/17:28,32))
