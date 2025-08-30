@@ -1,5 +1,13 @@
 # Changelog
 
+## 2025.08.0 – 2025-08-30
+
+### Added
+
+- works: HerEy 73
+- preface: info on print A.8 and not editing HerEy 74/75
+
+
 ## 2025.07.0 – 2025-07-26
 
 ### Added
