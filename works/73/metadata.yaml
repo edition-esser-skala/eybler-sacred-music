@@ -1,0 +1,23 @@
+title: Alleluia confitemini
+id: HerEy 73
+genre: gradual
+festival: in Vigilia Pentecostes
+scoring: S, A, T, B (coro), b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/21
+    license: public domain
+    principal: true
+    notes: full score; 2 pages
+lyrics:
+  Alleluia.\\
+  Confitemini Domino, quoniam bonus:\\
+  quoniam in saeculum misericordia eius.\\
+  (\bibleverse{Ps}(106/105:1))\\[1ex]
+  Laudate Dominum, omnes gentes,\\
+  collaudate eum, omnes populi.\\
+  Quoniam confirmata est super nos misericordia eius,\\
+  et veritas Domini manet in aeternum.\\
+  (\bibleverse{Ps}(117/116:))
