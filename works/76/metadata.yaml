@@ -1,0 +1,24 @@
+title: Nos populus tuus
+id: HerEy 76
+genre: offertorium
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 735/11
+    date: 1822
+    license: public domain
+    principal: true
+    notes: full score; 14 pages
+parts:
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Nos populus tuus et oves pascuae tuae,\\
+  confitebimur tibi Domine in saeculum,\\
+  in generationem et generationem\\
+  annuntiabimus laudem tuam.\\[1ex]
+  (\bibleverse{Ps}(79/78:13))
