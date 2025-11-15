@@ -1,0 +1,27 @@
+title: Jubilate Deo
+id: HerEy 77
+genre: offertorium
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 cl (C), 2 fag,\\2 clno (C), 3 trb, timp (C–G), 2 vl, vla, vlc, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 735/12
+    date: 1823
+    license: public domain
+    principal: true
+    notes: full score (20 pages); clno, trb, and timp written on 3 separate pages
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Jubilate Deo universa terra,\\
+  psalmum dicite nomini eius,\\
+  venite et audite et narrabo vobis,\\
+  omnes qui timetis Deum,\\
+  quanta fecit Dominus animae meae.\\
+  (\bibleverse{Ps}(66/65:1,2,16))
