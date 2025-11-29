@@ -1,5 +1,13 @@
 # Changelog
 
+## 2025.11.0 – 2025-11-29
+
+### Added
+
+- works: HerEy 77
+- preface: info on not editing HerEy 136
+
+
 ## 2025.09.0 – 2025-09-27
 
 ### Added
