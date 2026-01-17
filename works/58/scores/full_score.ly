@@ -14,14 +14,14 @@
         \new StaffGroup \with { \setGroupDistance #15 #15 } <<
           \new Staff <<
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
-            \set Staff.soloIIText = \markup \remark \medium "ob 2"
+            \setSoloText "ob 1"
+            \setSoloIIText "ob 2"
             \partCombine #'(0 . 10) \LVIIIOboeI \LVIIIOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
-            \set Staff.soloIIText = \markup \remark \medium "fag 2"
+            \setSoloText "fag 1"
+            \setSoloIIText "fag 2"
             \partCombine #'(0 . 10) \LVIIIFagottoI \LVIIIFagottoII
           >>
         >>

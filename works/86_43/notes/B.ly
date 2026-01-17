@@ -567,7 +567,7 @@ LXXXVIdBasso = {
     \key c \minor \time 4/4 \tempoLXXXVId \autoBeamOff
       \set Score.currentBarNumber = #115
       \markSkip
-    \once \override Parentheses.font-size = #3 \parenthesize g4^\markup \remark { "B 2" \critnote } r r \set Staff.forceClef = ##t \mvTr g'8\p^\tuttiE g
+    \once \override Parentheses.font-size = #3 \parenthesize g4^\markup \remark { "B 2" \critnote } r r \fC \mvTr g'8\p^\tuttiE g
     g4 g8 g g4 g8 g
     g4 g, r g'8 g
     g4 g8 g g4 g8 g

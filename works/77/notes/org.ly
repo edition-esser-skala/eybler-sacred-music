@@ -121,7 +121,7 @@ LXXVIIOrgano = {
     g g g, g %115
     c c'-!\ff e-! c-!
     g r r2
-    r4 \mvTr c,\p-\solo ^\tweak TextScript.X-offset #0 ^\pizz e c
+    r4 \mvTr c,\p-\solo ^\mvTz ^\pizz e c
     d r r2
     r4 g g r %120
     R1*3

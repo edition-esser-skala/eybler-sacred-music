@@ -4,7 +4,7 @@ CXVIIIOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoCXVIII
-    \mvTr d8[\f-\tuttiE ^\tweak TextScript.X-offset #0 ^\unisono r16 d32( e] fis8[) r16 fis32( g] a4) r8. d,32( e
+    \mvTr d8[\f-\tuttiE ^\mvTz^\unisono r16 d32( e] fis8[) r16 fis32( g] a4) r8. d,32( e
     fis8[) r16 fis32( g] a8[) r16 \tuplet 3/2 16 { a32 h cis] } d8 r d,-\accomp g
     d r d g d r d g
     d g a a, d[ r16 \tuplet 3/2 16 { d'32 cis h] } a8[ r16 \tuplet 3/2 16 { g32 fis e] }

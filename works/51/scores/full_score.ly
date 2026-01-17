@@ -14,8 +14,8 @@
         \new StaffGroup \with { \setGroupDistance #15 #15 } <<
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
-            \set Staff.soloIIText = \markup \remark \medium "cl 2"
+            \setSoloText "cl 1"
+            \setSoloIIText "cl 2"
             % \transpose c b,
             \partCombine #'(0 . 10) \LIClarinettoI \LIClarinettoII
           }

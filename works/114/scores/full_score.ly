@@ -23,21 +23,21 @@
         \new StaffGroup \with { \setGroupDistance #11.5 #11.5 } <<
           \new Staff <<
             \set Staff.instrumentName = "Flauto I, II"
-            \set Staff.soloText = \markup \remark \medium "fl 1"
+            \setSoloText "fl 1"
             \partCombine #'(0 . 10) \CXIVFlautoI \CXIVFlautoII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \CXIVOboeI \CXIVOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "C" ""
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             \partCombine #'(0 . 10) \CXIVClarinettoI \CXIVClarinettoII
           >>
           \new Staff <<
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \set Staff.instrumentName = "Fagotto I, II"
             \partCombine #'(0 . 10) \CXIVFagottoI \CXIVFagottoII
           >>
@@ -214,22 +214,22 @@
         \new StaffGroup \with { \setGroupDistance #11.5 #11.5 } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "fl 1"
+            \setSoloText "fl 1"
             \partCombine #'(0 . 10) \CXIVcFlautoI \CXIVcFlautoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \CXIVcOboeI \CXIVcOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "cl" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             \partCombine #'(0 . 10) \CXIVcClarinettoI \CXIVcClarinettoII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \CXIVcFagottoI \CXIVcFagottoII
           >>
         >>
@@ -242,8 +242,8 @@
             \set GrandStaff.instrumentName = "trb"
             \new Staff <<
               \set Staff.instrumentName = "1, 2"
-              \set Staff.soloText = \markup \remark \medium "trb 1"
-              \set Staff.soloIIText = \markup \remark \medium "trb 2"
+              \setSoloText "trb 1"
+              \setSoloIIText "trb 2"
               \partCombine #'(0 . 10) \CXIVcTromboneI \CXIVcTromboneII
             >>
             \new Staff {

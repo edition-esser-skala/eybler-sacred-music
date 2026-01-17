@@ -241,7 +241,7 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \set Staff.soloIIText = \markup \remark \medium "ob 2"
+            \setSoloIIText "ob 2"
             \partCombine #'(0 . 10) \CXVIIIdOboeI \CXVIIIdOboeII
           }
         >>

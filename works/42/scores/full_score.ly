@@ -14,12 +14,12 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \XLIIOboeI \XLIIOboeII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \XLIIFagottoI \XLIIFagottoII
           }
         >>

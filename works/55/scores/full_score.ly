@@ -14,12 +14,12 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \LVOboeI \LVOboeII
           }
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \LVClarinettoI \LVClarinettoII
           }

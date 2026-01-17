@@ -18,7 +18,7 @@
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \medium \remark "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LXIIIFagottoI \LXIIIFagottoII
           }
         >>

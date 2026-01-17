@@ -23,26 +23,26 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \CXXXIIOboeI \CXXXIIOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
-            \set Staff.soloIIText = \markup \remark \medium "cl 2"
+            \setSoloText "cl 1"
+            \setSoloIIText "cl 2"
             % \transpose c b,
             \partCombine #'(0 . 10) \CXXXIIClarinettoI \CXXXIIClarinettoII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \CXXXIIFagottoI \CXXXIIFagottoII
           >>
         >>
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff<<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \CXXXIIClarinoI \CXXXIIClarinoII
           >>

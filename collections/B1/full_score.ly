@@ -2,7 +2,7 @@
 % manual adjustments:
 % - increase inner margin
 % - HerEy 53 and 54: add \layout and \page blocks
-% - HerEy 107: decrease distance after ChoirStaff to 13 
+% - HerEy 107: decrease distance after ChoirStaff to 13
 \version "2.24.0"
 
 \include "../../definitions_main.ly"
@@ -26,19 +26,19 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \medium \remark "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \XLIVOboeI \XLIVOboeII
           }
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "C" ""
-            \set Staff.soloText = \markup \medium \remark "cl 1"
-            \set Staff.soloIIText = \markup \medium \remark "cl 2"
+            \setSoloText "cl 1"
+            \setSoloIIText "cl 2"
             \partCombine #'(0 . 10) \XLIVClarinettoI \XLIVClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \medium \remark "fag 1"
-            \set Staff.soloIIText = \markup \medium \remark "fag 2"
+            \setSoloText "fag 1"
+            \setSoloIIText "fag 2"
             \partCombine #'(0 . 10) \XLIVFagottoI \XLIVFagottoII
           }
         >>
@@ -217,13 +217,13 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \LClarinettoI \LClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LFagottoI \LFagottoII
           }
         >>
@@ -456,12 +456,12 @@
           }
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "C" ""
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             \partCombine #'(0 . 10) \LVIClarinettoI \LVIClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LVIFagottoI \LVIFagottoII
           }
         >>
@@ -531,12 +531,12 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "C" ""
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             \partCombine #'(0 . 10) \LXIClarinettoI \LXIClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LXIFagottoI \LXIFagottoII
           }
         >>
@@ -922,12 +922,12 @@
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \LXXXVIcOboeI \LXXXVIcOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LXXXVIcFagottoI \LXXXVIcFagottoII
           >>
         >>
@@ -1312,7 +1312,7 @@
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \CVIIFagottoI \CVIIFagottoII
           >>
         >>
@@ -1416,26 +1416,26 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \CXXXIIOboeI \CXXXIIOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
-            \set Staff.soloIIText = \markup \remark \medium "cl 2"
+            \setSoloText "cl 1"
+            setSoloIIText "cl 2"
             % \transpose c b,
             \partCombine #'(0 . 10) \CXXXIIClarinettoI \CXXXIIClarinettoII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \CXXXIIFagottoI \CXXXIIFagottoII
           >>
         >>
         \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff<<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \setSoloText "clno 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \CXXXIIClarinoI \CXXXIIClarinoII
           >>

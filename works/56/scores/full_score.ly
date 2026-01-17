@@ -18,12 +18,12 @@
           }
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "C" ""
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             \partCombine #'(0 . 10) \LVIClarinettoI \LVIClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LVIFagottoI \LVIFagottoII
           }
         >>

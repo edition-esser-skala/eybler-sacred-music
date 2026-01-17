@@ -112,11 +112,11 @@
         \new StaffGroup \with { \setGroupDistance #15 #15 } <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \XLIOboeI \XLIOboeII
           }
           \new Staff {
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \set Staff.instrumentName = "Fagotto I, II"
             \partCombine #'(0 . 10) \XLIFagottoI \XLIFagottoII
           }
@@ -255,12 +255,12 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \XLIIOboeI \XLIIOboeII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \XLIIFagottoI \XLIIFagottoII
           }
         >>
@@ -423,8 +423,8 @@
         \new StaffGroup \with { \setGroupDistance #15 #15 } <<
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
-            \set Staff.soloIIText = \markup \remark \medium "cl 2"
+            \setSoloText "cl 1"
+            \setSoloIIText "cl 2"
             % \transpose c b,
             \partCombine #'(0 . 10) \LIClarinettoI \LIClarinettoII
           }
@@ -488,12 +488,12 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \LVOboeI \LVOboeII
           }
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \LVClarinettoI \LVClarinettoII
           }
@@ -575,12 +575,12 @@
         \new StaffGroup \with { \setGroupDistance #15 #15 } <<
           \new Staff <<
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \LXOboeI \LXOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LXFagottoI \LXFagottoII
           >>
         >>
@@ -742,7 +742,7 @@
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \medium \remark "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LXIIIFagottoI \LXIIIFagottoII
           }
         >>
@@ -1143,18 +1143,18 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \remark \medium "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \LXXIOboeI \LXXIOboeII
           }
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             \transpose b c'
             \partCombine #'(0 . 10) \LXXIOboeI \LXXIOboeII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LXXIFagottoI \LXXIFagottoII
           }
         >>
@@ -1463,7 +1463,7 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \set Staff.soloIIText = \markup \remark \medium "ob 2"
+            \setSoloIIText "ob 2"
             \partCombine #'(0 . 10) \CXVIIIdOboeI \CXVIIIdOboeII
           }
         >>

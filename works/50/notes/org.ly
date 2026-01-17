@@ -47,11 +47,11 @@ LOrgano = {
     es,, g b es as, as' g f
     es des' c b as g f es!
     d! f b b, es4 r
-    \mvTr es8\p-\solo ^\tweak TextScript.X-offset #0 ^\pizz r g r b r b, r
+    \mvTr es8\p-\solo ^\mvTz^\pizz r g r b r b, r
     es4 r es,8 es' es es %45
     es es, r g r b\decresc b b
     es,4\! r r2
-    \mvTr es'16.\f-\tutti ^\tweak TextScript.X-offset #0 ^\arco g32 b16. g32 es16. g32 b16. g32 es16. g32 b16. g32 es16. g32 b16. g32
+    \mvTr es'16.\f-\tutti ^\mvTz^\arco g32 b16. g32 es16. g32 b16. g32 es16. g32 b16. g32 es16. g32 b16. g32
     es16. g32 b16. g32 es16. g32 b16. g32 es16. g32 b16. g32 es'16. b32 g16. b32
     es,16. as32 c16. as32 es16. as32 c16. as32 es16. as32 c16. as32 es16. as32 c16. as32 %50
     es16. as32 c16. as32 es16. as32 c16. as32 es16. as32 c16. as32 es'16. c32 as16. c32

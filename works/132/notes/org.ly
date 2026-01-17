@@ -38,7 +38,7 @@ CXXXIIOrgano = {
       b~
       b4 r r2 %10
       R1
-      r2 r4_\markup \remark "vlne" a(
+      r2 r4_\vlne a(
       b2) b
       b1~_\markup \remark "vlne, org"
       b~ %15

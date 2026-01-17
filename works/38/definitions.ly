@@ -1,7 +1,7 @@
 \version "2.24.0"
 
-tempoXXXVIIIa = \tempoMarkup "Aria · Allegro moderato"
-tempoXXXVIIIb = \tempoMarkup "Alleluia · Allegro moderato"
+tempoXXXVIIIa = \tempoTitleMarkup "Aria" "Allegro moderato"
+tempoXXXVIIIb = \tempoTitleMarkup "Alleluia" "Allegro moderato"
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

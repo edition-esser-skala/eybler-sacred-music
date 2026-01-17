@@ -23,12 +23,12 @@
         \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \medium \remark "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \XXXVIIIOboeI \XXXVIIIOboeII
           >>
           \new Staff <<
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \medium \remark "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \XXXVIIIFagottoI \XXXVIIIFagottoII
           >>
         >>
@@ -44,7 +44,7 @@
           >>
           \new Staff <<
             \set Staff.instrumentName = "Trombone I, II"
-            \set Staff.soloText = \markup \medium \remark "trb 1"
+            \setSoloText "trb 1"
             \partCombine #'(0 . 10) \XXXVIIITromboneI \XXXVIIITromboneII
           >>
         >>

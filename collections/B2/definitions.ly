@@ -3,8 +3,8 @@
 
 % from works/38/definitions.ly
 
-tempoXXXVIIIa = \tempoMarkup "Aria · Allegro moderato"
-tempoXXXVIIIb = \tempoMarkup "Alleluia · Allegro moderato"
+tempoXXXVIIIa = \tempoTitleMarkup "Aria" "Allegro moderato"
+tempoXXXVIIIb = \tempoTitleMarkup "Alleluia" "Allegro moderato"
 
 \include "works/38/notes/ob1.ly"
 \include "works/38/notes/ob2.ly"

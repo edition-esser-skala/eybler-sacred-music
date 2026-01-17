@@ -130,8 +130,6 @@ tempoLXI = \tempoMarkup "Andante comodo"
 
 conGarbo = \markup \remark "con garbo"
 sempreBenMarcato = \markup \remark "sempre ben marcato"
-trillFlat = \tweak self-alignment-X #CENTER ^\markup { \raise #.5 { \tiny \flat } \musicglyph #'"scripts.trill" }
-
 tempoLXXVIII = \tempoMarkup "Andante maestoso"
 
 \include "works/78/notes/cl1.ly"

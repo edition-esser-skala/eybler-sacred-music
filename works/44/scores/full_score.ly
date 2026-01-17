@@ -14,19 +14,19 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "Oboe I, II"
-            \set Staff.soloText = \markup \medium \remark "ob 1"
+            \setSoloText "ob 1"
             \partCombine #'(0 . 10) \XLIVOboeI \XLIVOboeII
           }
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "C" ""
-            \set Staff.soloText = \markup \medium \remark "cl 1"
-            \set Staff.soloIIText = \markup \medium \remark "cl 2"
+            \setSoloText "cl 1"
+            \setSoloIIText "cl 2"
             \partCombine #'(0 . 10) \XLIVClarinettoI \XLIVClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \medium \remark "fag 1"
-            \set Staff.soloIIText = \markup \medium \remark "fag 2"
+            \setSoloText "fag 1"
+            \setSoloIIText "fag 2"
             \partCombine #'(0 . 10) \XLIVFagottoI \XLIVFagottoII
           }
         >>

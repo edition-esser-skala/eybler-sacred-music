@@ -23,13 +23,13 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
-            \set Staff.soloText = \markup \remark \medium "cl 1"
+            \setSoloText "cl 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \LClarinettoI \LClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = "Fagotto I, II"
-            \set Staff.soloText = \markup \remark \medium "fag 1"
+            \setSoloText "fag 1"
             \partCombine #'(0 . 10) \LFagottoI \LFagottoII
           }
         >>

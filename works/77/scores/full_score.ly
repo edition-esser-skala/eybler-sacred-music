@@ -43,7 +43,7 @@
             \set GrandStaff.instrumentName = "Trombone"
             \new Staff <<
               \set Staff.instrumentName = "I, II"
-              \set Staff.soloText = \markup \remark \medium "trb 1"
+              \setSoloText "trb 1"
               \partCombine #'(0 . 10) \LXXVIITromboneI \LXXVIITromboneII
             >>
             \new Staff {
