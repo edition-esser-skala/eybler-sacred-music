@@ -63,12 +63,11 @@ final/{work}/{score}: final/{work}/{score}.pdf
 final/{work}/{score}.pdf: tmp/{work}/{score}.pdf \
                           front_matter/critical_report.tex \
                           works/{work}/metadata.yaml
->python $(EES_TOOLS_PATH)/read_metadata.py edition \\
+>python $(EES_TOOLS_PATH)/read_metadata.py \\
 >  -i works/{work}/metadata.yaml \\
 >  -t {score} \\
 >  -k abbrwidth acknowledgements enlargefirstpage commentary festival genre lyrics tocstyle toe \\
 >  -s ../tmp/{work} \\
->  -q https://edition.esser-skala.at/assets/eybler-sacred-music/{work} \\
 >  -c tag
 >latexmk -cd \\
 >        -lualatex \\
