@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026.01.0 – 2026-01-31
+
+### Added
+
+- works: HerEy 108
+- ARKs for all works
+
+### Changed
+
+- updated files to EES Tools v2026.01.0
+
+
 ## 2025.12.0 – 2025-12-27
 
 ### Added
