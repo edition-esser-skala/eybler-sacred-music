@@ -1,0 +1,29 @@
+title: Iste est, qui ante Deum
+id: HerEy 69
+genre: gradual
+festival: de Sancti Josephi
+scoring: S, A, T, B (coro), 2 ob, [2 cl (\flat B)], 2 fag,\\2 clno (\flat B), timp (\flat B–F), 2 vl, vla, vlc, b, org
+ark: 68748/e1jle69
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 571/3
+    date: 1807
+    license: public domain
+    principal: true
+    notes: full score (8 pages); cl 1/2 on one extra page
+toe: |
+  –  & cl & Clarinets play unison with oboes and thus should be
+            regarded as alternative instruments. \\
+  13 & T  & 4th \quarterNote\ in \A1: d′4 \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Iste est qui ante Deum magnas virtutes operatus est,\\
+  et de omni corde suo laudavit Dominum.\\
+  (Cantus Index 003426)
