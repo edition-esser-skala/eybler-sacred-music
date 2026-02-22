@@ -13,14 +13,14 @@
   markup-system-spacing.minimum-distance = #10
 }
 
-% #(set-global-staff-size 11.22)
+#(set-global-staff-size 11.22)
 
 \book {
   \bookpart {
     \section "115" "Te Deum"
     % \addTocEntry
     \paper { indent = 2.15\cm }
-    \score { %\articulate
+    \score { \articulate
       <<
         % \new StaffGroup <<
         %   \new Staff {
@@ -67,23 +67,23 @@
         %   \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
         %   \CXVTimpani
         % }
-        % \new StaffGroup <<
-        %   \new GrandStaff \with { \smallGroupDistance } <<
-        %     \set GrandStaff.instrumentName = "Violino"
-        %     \new Staff {
-        %       \set Staff.instrumentName = "I"
-        %       \CXVViolinoI
-        %     }
-        %     \new Staff {
-        %       \set Staff.instrumentName = "II"
-        %       \CXVViolinoII
-        %     }
-        %   >>
-        %   \new Staff {
-        %     \set Staff.instrumentName = "Viole"
-        %     \CXVViola
-        %   }
-        % >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "Violino"
+            \new Staff {
+              \set Staff.instrumentName = "I"
+              \CXVViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "II"
+              \CXVViolinoII
+            }
+          >>
+          \new Staff {
+            \set Staff.instrumentName = "Viole"
+            \CXVViola
+          }
+        >>
         \new ChoirStaff <<
           \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   1" \hspace #12 }
           \new Staff {
@@ -92,23 +92,23 @@
           }
           \new Lyrics \lyricsto SopranoI \CXVSopranoILyrics
 
-          % \new Staff {
-          %   \incipitAlto
-          %   \new Voice = "AltoI" { \dynamicUp \CXVAltoI }
-          % }
-          % \new Lyrics \lyricsto AltoI \CXVAltoILyrics
+          \new Staff {
+            \incipitAlto
+            \new Voice = "AltoI" { \dynamicUp \CXVAltoI }
+          }
+          \new Lyrics \lyricsto AltoI \CXVAltoILyrics
 
-          % \new Staff {
-          %   \incipitTenore
-          %   \new Voice = "TenoreI" { \dynamicUp \CXVTenoreI }
-          % }
-          % \new Lyrics \lyricsto TenoreI \CXVTenoreILyrics
+          \new Staff {
+            \incipitTenore
+            \new Voice = "TenoreI" { \dynamicUp \CXVTenoreI }
+          }
+          \new Lyrics \lyricsto TenoreI \CXVTenoreILyrics
 
-          % \new Staff {
-          %   \set Staff.instrumentName = "Basso"
-          %   \new Voice = "BassoI" { \dynamicUp \CXVBassoI }
-          % }
-          % \new Lyrics \lyricsto BassoI \CXVBassoILyrics
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "BassoI" { \dynamicUp \CXVBassoI }
+          }
+          \new Lyrics \lyricsto BassoI \CXVBassoILyrics
         >>
         \new ChoirStaff <<
           \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   2" \hspace #12 }
@@ -118,35 +118,35 @@
           }
           \new Lyrics \lyricsto SopranoII \CXVSopranoIILyrics
 
-          % \new Staff {
-          %   \incipitAlto
-          %   \new Voice = "AltoII" { \dynamicUp \CXVAltoII }
-          % }
-          % \new Lyrics \lyricsto AltoII \CXVAltoIILyrics
+          \new Staff {
+            \incipitAlto
+            \new Voice = "AltoII" { \dynamicUp \CXVAltoII }
+          }
+          \new Lyrics \lyricsto AltoII \CXVAltoIILyrics
 
-          % \new Staff {
-          %   \incipitTenore
-          %   \new Voice = "TenoreII" { \dynamicUp \CXVTenoreII }
-          % }
-          % \new Lyrics \lyricsto TenoreII \CXVTenoreIILyrics
+          \new Staff {
+            \incipitTenore
+            \new Voice = "TenoreII" { \dynamicUp \CXVTenoreII }
+          }
+          \new Lyrics \lyricsto TenoreII \CXVTenoreIILyrics
 
-          % \new Staff {
-          %   \set Staff.instrumentName = "Basso"
-          %   \new Voice = "BassoII" { \dynamicUp \CXVBassoII }
-          % }
-          % \new Lyrics \lyricsto BassoII \CXVBassoIILyrics
+          \new Staff {
+            \set Staff.instrumentName = "Basso"
+            \new Voice = "BassoII" { \dynamicUp \CXVBassoII }
+          }
+          \new Lyrics \lyricsto BassoII \CXVBassoIILyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo," "Violoncello" "e Bassi" }
-            % \transpose c c,
+            \transpose c c,
             \CXVOrgano
           }
         >>
         \new FiguredBass { \CXVBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 120 } %110
+      % \layout { }
+      \midi { \tempo 4 = 110 } % 55 – 110
     }
   }
 }

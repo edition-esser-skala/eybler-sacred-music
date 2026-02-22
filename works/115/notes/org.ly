@@ -281,7 +281,7 @@ CXVOrgano = {
     e,\p e e e \noBreak
     e2 r\fermata \bar "||"
     \key c \major \time 3/4 \tempoCXVc
-      \mvTr c8\p-\solo c' c c c c \noBreak
+      \mvTr c8\p-\solo ^\mvTz^\senzaSordE c' c c c c \noBreak
     c, c' c c c c
     c, c' c c c c %285
     c, c' c c c c
@@ -370,7 +370,7 @@ CXVOrgano = {
     f d r h h' d,
     g e r c c' e, %370
     a f r d d' f,
-    g a h g g f'
+    g a h a g f'
     e d c h a g
     f e f d g g,
     c4 r r %375
@@ -635,10 +635,10 @@ CXVBassFigures = \figuremode {
   r %75
   <6>2 <5->4
   r2.
-  r
+  \bo <[_-]>
   r
   r %80
-  r2 <[6\\]>4
+  r2 \bc <[6\\]>4
   r2.
   r
   <6>
@@ -647,10 +647,10 @@ CXVBassFigures = \figuremode {
   <6 _->4 <6> <\fivehatflat>
   <_+>2.
   r
-  r %90
-  r
-  r
-  r2 <[4\+]>4
+  \bo <[_-]>4. <5-> %90
+  <_+>2.
+  r4 <_-> <_+>
+  r2 \bc <[4\+]>4
   <_!>2.
   r %95
   <6>
@@ -660,7 +660,7 @@ CXVBassFigures = \figuremode {
   <6>2 <5>4 %100
   r2.
   r
-  r
+  <[_+]>
   r
   r %105
   r
@@ -678,15 +678,15 @@ CXVBassFigures = \figuremode {
   <6 4>2 <[5] _+>4
   r2.
   r %120
-  r
-  r
-  r
-  r
+  \bo <[_+ _]>
+  r2 <_+>4
+  r2.
+  <6 _->
   r %125
-  \bo <[6 4]>4 <7- 5> <5 3>
+  <6 4>4 <7- 5> <5 3>
   <7->2.
   <\t>4 <8>2
-  <5 3>4 <6- 4> <7 2>
+  <5 3>4 <6 4-> <7 \t>
   <8 3>2. %130
   <8 6>4 <7 5> <5- 3>
   r2.
@@ -723,12 +723,12 @@ CXVBassFigures = \figuremode {
   <6 4->
   r4 <6 _-> <6->
   <6>2. %165
-  <[7-] 5>
+  \bo <[7-] 5>
   r
-  r
-  r
-  r %170
-  r
+  <5->4. <_->
+  r2.
+  r4 \bc <[5-]>2 %170
+  r2.
   <6 4>4 <5[!] _+> <6 4>
   <7>2.
   <_+>
@@ -744,31 +744,31 @@ CXVBassFigures = \figuremode {
   <_->2 <6 _->4
   <6- 4>2 <[7] _+>4 %185
   <_->2.
-  r
-  r
-  r
-  r4 <6> <6[!]> %190
+  \bo <[_- _]>4. <5->4 <6 _!>8
+  <_+>2.
+  r4 <6 _-> \bc <[_+ _]>
+  r <6> <6[!]> %190
   <6- [_-]> <6> q
   <6-> <6 _-> <7- [_!]>
   <_+>2.
-  \bo <[_!]>
+  \bo <[_! _]>
   <_+> %195
-  r
-  r
-  r
+  <\t>
+  <6 4>4 <5 3>2
+  r2.
   <_+>
-  <4\+>2 <7>4 %200
+  <4\+>4 <\t> <7> %200
   <6 4> <5 3>2
   r2.*3
   r2. %205
   r
-  r
-  r
-  <6>
+  <4 2\+>2. \once \bassFigureExtendersOn
+  q8 <6 4> <6 4\+> <6> <6\\> <6\\ 4\+>
+  <6>2.
   r %210
   q
   <5!>
-  <5>4 \bc <[6]>2
+  <5>4 \bc <[6 _]>2
   <_+>2.
   <7 [_+]> %215
   <_+>
@@ -777,17 +777,17 @@ CXVBassFigures = \figuremode {
   r
   r %220
   \bo <[5! _]>
-  r
-  r
-  r
-  r %225
+  <2>
+  <6>4 q2
+  <8>2 <7>4
+  r2. %225
   <2>
   <6>4 q2
   q <7>4
   r <6> <6\\>
-  r2. %230
-  r
-  r
+  r4 <\t> <5> %230
+  <6> <\t> <7>
+  r2.
   <6>4 q2
   <6 5>2.
   <2>4 <6> q %235
@@ -819,20 +819,20 @@ CXVBassFigures = \figuremode {
   r
   r
   r
-  r
-  r %265
-  r
+  r4 \bo <[6]>2
+  r \bc <[7]>4 %265
+  r2.
   r1*16 %282
   r2.
-  r
-  r %285
-  r
-  r
-  r
-  r
-  r %290
-  r
-  r2 <7>4
+  \bo <[7 4]>
+  <\t \t> %285
+  <8 3>
+  <7- 5>
+  <6 4>
+  <7! 2>
+  <8 3>2 <7 4>4 %290
+  <8 3>2 <7 4>4
+  \bc <[8 3]>2 <7>4
   r2 <6 5!>4
   <5> <6> <8>
   <6 4> <[5 3]>2 %295
@@ -844,13 +844,13 @@ CXVBassFigures = \figuremode {
   <6>2.
   <6 4[!]>2 <[7] 3>4
   r2.
+  \bo <[6 _]>
+  <6> %305
+  q
   r
-  r %305
   r
-  r
-  r
-  r
-  r %310
+  r8 <6> \bc <[6 5]>2
+  r2. %310
   <5>2. \bassFigureExtendersOn
   q2 q8 q \bassFigureExtendersOff
   r2.
@@ -866,11 +866,11 @@ CXVBassFigures = \figuremode {
   <6>2 <5>4. \once \bassFigureExtendersOn
   q8 <_!>2
   r2. %325
-  r
-  r
-  r
-  r
-  r %330
+  \bo <[_- _]>4. <5->
+  r2.
+  r4. <_->
+  r2.
+  r4 \bc <[6 5]>2 %330
   <8>2. \bassFigureExtendersOn
   q
   q2 q8 q \bassFigureExtendersOff
@@ -891,11 +891,11 @@ CXVBassFigures = \figuremode {
   <5>4 <\fivehat>4. \once \bassFigureExtendersOn q8
   <_+>2.
   r %350
-  r
-  r
-  r
-  r
-  r2 <[_+]>4 %355
+  \bo <[6 _]>
+  <6>
+  q
+  <6\\>
+  r4 <6 5> \bc <[_+ _]> %355
   r2.
   <7>4 <6\\>2
   <7>2.
@@ -909,17 +909,17 @@ CXVBassFigures = \figuremode {
   <6>2.
   q2 <7>4
   r2.
-  r
-  r %370
-  r
-  r
-  r
-  r
-  r %375
+  \bo <[6 _ _]>
+  <6> %370
+  q
   r
   r
-  r
-  \bo <[_- _ _]>
+  r8 q <6 5>2
+  r2. %375
+  <_->
+  <4 3>
+  r4 <6 5>2
+  <_->2.
   r %380
   <4 3>
   r4 <6 5>2
@@ -931,8 +931,8 @@ CXVBassFigures = \figuremode {
   r <7 _!>2
   <6 5 _-> <7 _!>4
   r <\t \t>2 %390
-  <6>4 <6!> <6>
-  <9 4>2 <7- 5>4
+  <6>4 <6!> <6 5>
+  <9 4> <\t \t> <7- 5>
   <_!>2.
   <3! 1>2 <4 2>4
   <5 3>2 <6 4>8 <7 \t> %395
