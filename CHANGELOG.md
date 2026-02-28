@@ -5,7 +5,7 @@
 ### Added
 
 - works: HerEy 59 and 115
-- printer information for collactions B1–3
+- printer information for collections B1–3
 
 
 ## 2026.01.0 – 2026-01-31
