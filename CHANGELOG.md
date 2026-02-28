@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.02.0 – 2026-02-28
+
+### Added
+
+- works: HerEy 59 and 115
+- printer information for collactions B1–3
+
+
 ## 2026.01.0 – 2026-01-31
 
 ### Added
