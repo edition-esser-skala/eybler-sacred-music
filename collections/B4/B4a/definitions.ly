@@ -1,0 +1,41 @@
+% created by make_collection.py
+% manual adjustments: [describe here]
+
+% from works/115/definitions.ly
+
+accomp = \markup \remark "accomp."
+
+tempoCXVa = \tempoMarkup "Allegro con spirito"
+tempoCXVb = \tempoMarkup "Largo"
+tempoCXVc = \tempoMarkup "Allegro con spirito"
+
+\include "works/115/notes/fl1.ly"
+\include "works/115/notes/fl2.ly"
+\include "works/115/notes/ob1.ly"
+\include "works/115/notes/ob2.ly"
+\include "works/115/notes/cl1.ly"
+\include "works/115/notes/cl2.ly"
+\include "works/115/notes/fag1.ly"
+\include "works/115/notes/fag2.ly"
+\include "works/115/notes/cor1.ly"
+\include "works/115/notes/cor2.ly"
+\include "works/115/notes/clno1.ly"
+\include "works/115/notes/clno2.ly"
+\include "works/115/notes/clno3.ly"
+\include "works/115/notes/clno4.ly"
+\include "works/115/notes/trb1.ly"
+\include "works/115/notes/trb2.ly"
+\include "works/115/notes/trb3.ly"
+\include "works/115/notes/timp.ly"
+\include "works/115/notes/vl1.ly"
+\include "works/115/notes/vl2.ly"
+\include "works/115/notes/vla.ly"
+\include "works/115/notes/S1.ly"
+\include "works/115/notes/S2.ly"
+\include "works/115/notes/A1.ly"
+\include "works/115/notes/A2.ly"
+\include "works/115/notes/T1.ly"
+\include "works/115/notes/T2.ly"
+\include "works/115/notes/B1.ly"
+\include "works/115/notes/B2.ly"
+\include "works/115/notes/org.ly"

@@ -1,0 +1,92 @@
+% created by make_collection.py
+% manual adjustments: [describe here]
+\documentclass[tocdir=../../tmp/B4a]{ees}
+
+\begin{document}
+
+\title{[collection – add custom title page]}
+\date{2026-02-28}
+\license{cc-by-sa-4.0}
+\def\MetadataLilypondVersion{2.24.4}
+\def\MetadataEESToolsVersion{v2026.01.0}
+\repository{edition-esser-skala/eybler-sacred-music}
+\version{v2026.02.0}
+\checksum{98058be7b6cd5ed5265d62eeed13efb4dae8333d}
+\def\MetadataQRCode{\relax}
+\eesTitlePage
+
+\chapter{Critical Report}
+
+In general, this edition closely follows the respective principal source.
+Any changes that were introduced by the editor are indicated
+by italic type (lyrics, dynamics and directives), parentheses
+(expressive marks and bass figures) or dashes (slurs and ties).
+Accidentals are used according to modern conventions.
+For further details, consult the Editorial Guidelines
+available on the Edition’s webpage.
+
+\section{Abbreviations}
+
+\begin{abbreviations}
+\abbr{A}{alto}
+\abbr{B}{bass}
+\abbr{S}{soprano}
+\abbr{T}{tenor}
+\abbr{b}{basses}
+\abbr{clno}{clarion}
+\abbr{cl}{clarinet}
+\abbr{cor}{horn}
+\abbr{fag}{bassoon}
+\abbr{fl}{flute}
+\abbr{ob}{oboe}
+\abbr{org}{organ}
+\abbr{timp}{timpani}
+\abbr{trb}{trombone}
+\abbr{vla}{viola}
+\abbr{vlc}{violoncello}
+\abbr{vl}{violin}
+\end{abbreviations}
+
+\section{Te Deum · HerEy 115}
+
+\begin{xltabular}{\linewidth}{@{} >\itshape l X}
+genre & hymn \\
+festival & – \\
+scoring & S, A, T, B (coro 1), S, A, T, B (coro 2), 2 fl, 2 ob, 2 cl (C), 2 fag, 2 cor (C), 4 clno (C), 3 trb, timp (C–G), 2 vl, vla, vlc, b, org \\
+\end{xltabular}
+
+\begin{sources}
+  
+\sourceitem%
+  {A1}%
+  {A-Ws}%
+  {700}%
+  {autograph manuscript (principal source)}%
+  {1814-02}%
+  {}%
+  {public domain}%
+  {}%
+  {full score; 66 pages}
+
+\end{sources}
+
+\begin{xltabular}{\linewidth}{ll X}
+\toprule
+\itshape Bar & \itshape Staff & \itshape Description \\
+\midrule \endhead
+99 & B 2 & 1st \halfNote\ in \A1: e2 \\
+
+\bottomrule
+\end{xltabular}
+
+
+
+
+\eesToc{}
+
+\cleardoublepage%
+\pagenumbering{arabic}%
+\setcounter{page}{1}%
+\includepdf[pages=-,link=true,linkname=score]{../../tmp/B4a/full_score.pdf}%
+
+\end{document}
