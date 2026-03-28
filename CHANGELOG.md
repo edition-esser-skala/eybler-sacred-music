@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026.03.0 – 2026-03-28
+
+### Added
+
+- works: HerEy 68
+- files for the printed collection B.4
+- preface:
+  - table with ISMNs
+  - info on not editing HerEy 102 and 103
+
+
 ## 2026.02.0 – 2026-02-28
 
 ### Added
