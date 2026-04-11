@@ -12,7 +12,7 @@
   markup-system-spacing.basic-distance = #10
   markup-system-spacing.minimum-distance = #10
 }
-% showFirstLength = R1
+
 \book {
   \bookpart {
     \section "68" "Exaltate Dominum Deum"

@@ -1,0 +1,31 @@
+title: Lux est orta
+id: HerEy 95
+genre: offertortium
+festival: de Tempore
+scoring: 2 S, T, B (solo), S, A, T, B (coro 1), S, A, T, B (coro 2), 2 ob, 2 cl (\flat B), 2 fag,\\2 cor (\flat E), 2 clno (\flat B), timp (\flat B–F), 2 vl, vla, vlc, b, org
+ark: 68748/e1jle95
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 699
+    date: 1806
+    license: public domain
+    principal: true
+    notes: full score; 21 pages
+toe: |
+  55    & A    & 4th \quarterNote\ in \A1: f′4 \\
+  72–74 & cl 2 & bars in \A1: c2–e′2, e′1, and e′1 \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in \flat E
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Lux est orta iusto\\
+  et rectis corde laetitiae,\\
+  laetamini iusti in Domino\\
+  et gloriamini omnes recti corde.\\[1ex]
+  (\bibleverse{Ps}(97/96:11,12))
