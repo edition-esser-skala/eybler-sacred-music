@@ -1,0 +1,26 @@
+title: Ascendit Deus
+id: HerEy 80
+genre: offertorium
+festival: de Ascensione
+scoring: S, A, 2 T, B (coro), 2 ob, 2 cl (C), 2 fag, 2 cor (C),\\2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+ark: 68748/e1jle80
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 735/16
+    date: 1831
+    license: public domain
+    principal: true
+    notes: full score; 14 pages
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Ascendit Deus in iubilatione,\\
+  et Dominus in voce tubae.\\[1ex]
+  (\bibleverse{Ps}(47/46:6))
