@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.06.0 – 2026-06-21
+
+### Added
+
+- works: HerEy 81
+- general preface: approximate date of the autograph catalogue of works
+
+
 ## 2026.05.0 – 2026-05-30
 
 ### Added
