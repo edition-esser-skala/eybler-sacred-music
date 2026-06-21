@@ -1,0 +1,32 @@
+title: Tres sunt qui testimonium dant
+id: HerEy 81
+genre: offertorium
+festival: de Sanctissima Trinitate
+scoring: S, A, T, B (coro), 2 ob, 2 cl (C), 2 fag, 2 cor (C),\\2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+ark: 68748/e1jle81
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 7315/17
+    date: 1835
+    license: public domain
+    principal: true
+    notes: full score; 14 pages
+toe: |
+  1–6 & – & In \A1, the rhythm of the ascending octaves
+               is incorrectly written as\newline
+               \includegraphics{snippet_81.pdf}\newline
+               (the correct rhythm only appears in bar 68.) \\
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics: |
+  Tres sunt qui testimonium dant in coelo:\\
+  Pater, Verbum et Spiritus Sanctus,\\
+  et hi tres unum sunt.\\[1ex]
+  (\bibleverse{IJohn}(5:7))
