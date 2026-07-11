@@ -1,0 +1,52 @@
+title: Timebunt gentes
+id: HerEy 87
+genre: offertorium
+festival: de Tempore
+scoring: S, A, T, B (coro 1), S, A, T, B (coro 2), [2 ob], 2 cl (\flat B), 2 fag,\\2 cor (C), 2 clno (C), 2 trb, timp (C–G), 2 vl, vla, vlc, b, org
+ark: 68748/e1jle87
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 735/15
+    date: 1817
+    license: public domain
+    principal: true
+    notes: full score; 28 pages
+  C1:
+    siglum: A-Wn
+    shelfmark: SA.82.A.22/12,6
+    date: 1831
+    rism: 991018077
+    url: https://data.onb.ac.at/rec/AC09228480
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5561
+  C2:
+    siglum: A-Wn
+    shelfmark: F4.Baden.83
+    date: 1831
+    rism: 654000119
+    url: https://data.onb.ac.at/rec/AC14266118
+    license: public domain
+    notes: 21 parts (S 1, A 1, T 1, B 1, S 2, A 2, T 2, B 2, cl 1, cl 2, fag 1, fag 2, cor 1, cor 2, clno 1/2, timp, vl 1, vl 2, vla, vlc/b, org); Tobias Haslinger, Wien, plate number 5564
+toe: |
+  –    & cl & \A1 contains an alternative part for
+              two oboes instead of clarinets. \\
+  102ff & – & In bars 102–109, the lyrics “alleluia” and “amen”
+              are written alternatingly in S/T and A/B, respectively,
+              while in bars 110–117, they are written in each voice.
+              Here, these alternative lyrics are written throughout
+              the final section. \\
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Timebunt gentes nomen tuum Domine\\
+  et omnes reges terrae gloriam tuam.\\
+  Quoniam aedificavit Dominus Sion,\\
+  et videbitur in maiestate sua.\\[1ex]
+  (\bibleverse{Ps}(102/101:16–17))
