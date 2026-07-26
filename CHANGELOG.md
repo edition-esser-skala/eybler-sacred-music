@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.07.0 – 2026-07-26
+
+### Added
+
+- works: HerEy 87
+- preface: info on print A.9
+
+
 ## 2026.06.0 – 2026-06-21
 
 ### Added
