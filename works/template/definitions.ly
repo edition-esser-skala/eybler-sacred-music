@@ -1,5 +1,12 @@
 \version "2.24.0"
 
+\layout {
+  \context {
+    \Staff
+    \accidentalStyle modern
+  }
+}
+
 tempoxxx = \tempoMarkup "Allegro"
 
 \include "notes/ob1.ly"
