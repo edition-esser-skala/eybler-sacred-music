@@ -1,0 +1,44 @@
+title: Jubilate Deo
+id: HerEy 91
+genre: offertorium
+festival: de Tempore
+scoring: S, A, T, B (coro), 2 ob, 2 cl (A), 2 fag, 2 cor (D),\\2 clno (D), timp (D–A), 2 vl, vla, vlc, b, org
+ark: 68748/e1jle91
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 735/9
+    date: 1820
+    license: public domain
+    principal: true
+    notes: full score, 15 pages; cor 1/2 written onto one separate sheet
+  C1:
+    siglum: A-Wn
+    shelfmark: SA.82.A.22/12,5
+    date: 1829
+    rism: 605000989
+    url: https://data.onb.ac.at/rec/AC09228479
+    license: public domain
+    notes: full score; Tobias Haslinger, Wien, plate number 5429
+  C2:
+    siglum: A-Wn
+    shelfmark: F24.St.Peter.E153(II)
+    date: 1829
+    rism: 991018068
+    url: https://data.onb.ac.at/rec/AC14328846
+    license: public domain
+    notes: 20 parts (S, A, T, B, ob 1, ob 2, cl 1, cl 2, fag 1, fag 2, cor 1, cor 2, clno 1, clno 2, timp, vl 1, vl 2, vla, vlne, org); Tobias Haslinger, Wien, plate number 5432
+parts:
+  cl1: Clarinetto I in A
+  cl2: Clarinetto II in A
+  cor12: Corno I, II in D
+  ottoni: Clarino I, II in D\\Timpani in D–A
+  vla: Viole
+  b: Violoncello \& Bassi
+lyrics:
+  Jubilate Deo omnis terra,\\
+  servite Domino in laetitia,\\
+  intrate in conspectu eius in exultatione,\\
+  quia Dominus ipse est Deus.\\[1ex]
+  (\bibleverse{Ps}(100/99:2-3))
