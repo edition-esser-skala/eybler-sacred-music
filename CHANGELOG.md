@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026.09.0 – 2026-09-27
+
+### Added
+
+- works: HerEy 91
+
+### Changed
+
+- template uses “modern” accidental style by default
+
+
 ## 2026.08.0 – 2026-08-29
 
 ### Added
