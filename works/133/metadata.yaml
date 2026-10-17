@@ -1,0 +1,25 @@
+title: Laudate Dominum
+id: HerEy 133
+genre: psalm
+festival: pro Sabbato Sancto
+scoring: S, A, T, B (coro), 2 ob, 2 fag, vl, vla, vlc, b, org
+ark: 68748/e1jle133
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: Cod. 707/5
+    date: 1831-11-30
+    license: public domain
+    principal: true
+    notes: full score; 6 pages
+toe: |
+  17 & – & In \A1, Eybler cancelled the original measure following bar 17,
+           which would have ended the piece in C major.
+           Instead, he added bars 18–31, which set the doxology to music
+           and conclude with a plagal cadence in G,
+           emphasizing the mixolydian mode of the piece. \\
+parts:
+  vl: Violini
+  vla: Viole
+  b: Violoncello \& Bassi
