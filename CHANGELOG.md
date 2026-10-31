@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.10.0 – 2026-10-31
+
+### Added
+
+- works: HerEy 133
+- preface: info on not editing HerEy 244
+
+
 ## 2026.09.0 – 2026-09-27
 
 ### Added
