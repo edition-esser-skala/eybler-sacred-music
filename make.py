@@ -29,6 +29,7 @@ preface:
 >        front_matter/general_preface.tex
 >latexmk -c \\
 >        -outdir=final \\
+>        -e '$$bibtex_use=2;' \\
 >        front_matter/general_preface.tex
 """
 

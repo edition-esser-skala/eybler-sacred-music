@@ -22,6 +22,9 @@
   pagenumberformat=\sbseries
 ]{tocline}{chapter}
 
+\usepackage[style=apa,datecirca=true]{biblatex}
+\addbibresource{references.bib}
+
 
 \begin{document}
 
@@ -385,16 +388,9 @@ Works in JLE:SM will also appear in print at Amazon Kindle Direct Publishing. Cu
 Permission of the Schottenstift Abbey Archive to use their archival materials for this edition is gratefully acknowledged. We thank Dr. Maximilian Alexander Trofaier for assistance in obtaining these documents; the staff of the Austrian National Library and the Vienna City Library for support; and Dr. Reinhold Kainhofer for his previous work on the Eybler Edition.
 
 
-\section{Bibliography}
+\nocite{*}
+\printbibliography
 
-\begin{bulletlist}
-  \item Badura-Skoda, Eva, and Herrmann-Schneider, Hildegard (2001). Eybler, Joseph [Josef] Leopold, Edler von. \href{https://doi.org/10.1093/gmo/9781561592630.article.40047}{Grove Music Online}.
-  \item Boisits, Barbara, and Haas, Robert (2016). Eybler, Joseph Leopold Edler von. \href{https://www.mgg-online.com/mgg/stable/13179}{MGG Online}.
-  \item Eybler, Joseph Leopold (n.d.). Catalogo della musica sacra. Manuscript, A-Ws Cod. 707/1.
-  \item Herrmann, Hildegard (1976). Thematisches Verzeichnis der Werke von Joseph Eybler. Musikverlag Emil Katzbichler, München–Salzburg.
-  \item Ölsinger, Franz (1932). Die kirchenmusikalischen Werke Joseph Eyblers. PhD thesis, University of Vienna.
-  \item Weinmann, Alexander (1979–1983). Vollständiges Verlagsverzeichnis Senefelder Steiner Haslinger. 3 vols. Musikverlag Emil Katzbichler, München–Salzburg.
-\end{bulletlist}
 
 \clearpage
 \markdownInput{../CHANGELOG.md}
