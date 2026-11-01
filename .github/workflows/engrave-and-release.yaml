@@ -11,18 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Fix git safe.directory in container
         run: mkdir -p /home/runner/work/_temp/_github_home && printf "[safe]\n\tdirectory = /github/workspace" > /home/runner/work/_temp/_github_home/.gitconfig
 
       - name: Engrave
-        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2026.01.0
+        uses: docker://ghcr.io/edition-esser-skala/ees-tools:v2026.11.0
         with:
           args: make -B preface works
 
       - name: Publish via rsync
-        uses: burnett01/rsync-deployments@v8
+        uses: burnett01/rsync-deployments@v9
         with:
           switches: -avzrm --delete
           path: final/
