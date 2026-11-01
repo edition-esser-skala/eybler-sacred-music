@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 CoroI = \markup \remark "Coro 1"
 CoroII = \markup \remark "Coro 2"

@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 markSkip = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT

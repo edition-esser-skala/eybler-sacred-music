@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LXXXVIIIFagottoI = {
   \relative c {
@@ -96,7 +96,7 @@ LXXXVIIIFagottoI = {
     r4 c f e
     d2 r %100
     r4 c f e
-    \once \partCombineChords d2 r
+    \pco d2 r
     R1
     d~\p
     d~ %105
@@ -156,7 +156,7 @@ LXXXVIIIFagottoI = {
     h r r g'~ %165
     g e2 c4~
     c r r g'~
-    g \pd f e \once \partCombineChords d
+    g \pd f e \pco d
     d r r2
     r4 e\ff c g %170
     e c' g e'

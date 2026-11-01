@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LClarinoI = {
   \relative c' {
@@ -9,7 +9,7 @@ LClarinoI = {
     g c8 e g r g r
     c,4 r c8[ r16 c32 c] c8 c
     c4 r c8[ r16 c32 c] c8 c %5
-    c8[ r16. g32] c8 e \pa g[ \once \partCombineChords r16. c,32] e8 g \pd
+    c8[ r16. g32] c8 e \pa g[ \pco r16. c,32] e8 g \pd
     c4 r r2
     d4 c8 r r2
     R1*11 %19

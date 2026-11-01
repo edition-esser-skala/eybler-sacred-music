@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LXXXIClarinoI = {
   \relative c' {
@@ -16,7 +16,7 @@ LXXXIClarinoI = {
     r g'8. g16 \pa c8 g e c \pd %15
     g'4 r r2
     R1
-    \pa e8[ \once \partCombineChords r16 e32 e] e8 e \pd e4 r
+    \pa e8[ \pco r16 e32 e] e8 e \pd e4 r
     R1*3 %21
     r2 g4 r
     g r r2

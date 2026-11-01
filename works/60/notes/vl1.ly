@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LXViolinoI = {
   \relative c' {
@@ -29,7 +29,7 @@ LXViolinoI = {
     a( g e cis) a( e' cis g) fis( a d fis) h,( h' g e)
     cis a, cis e a cis e g, fis8 fis'-! fis4~
     fis16( g ais h) dis,( e fis g) his,( cis dis e) a,( g h a) %25
-    g( fis e' d) cis( h g' cis,) e4( d8) \noBeam fis\p
+    g( fis e' d) cis( h g' cis,) e4( d8) \brkBeam fis\p
     e( d cis d) dis( e)~ e16( cis e g)
     e8( cis a g) eis( fis)~ fis16( d fis a)
     h(\f g d g) h( g h d) cis( a cis e) d( a d fis)

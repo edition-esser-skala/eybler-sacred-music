@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 XLIFagottoI = {
   \relative c {
@@ -52,7 +52,7 @@ XLIFagottoI = {
     h d d2
     d4 g fis e %70
     d d2 d4
-    \once \partCombineChords d1\fz \markCritnote
+    \pco d1\fz \markCritnote
     c2 r
     r a~
     a d %75
@@ -77,7 +77,7 @@ XLIFagottoI = {
     g4 g2 f4
     e r r d'
     h2( c4) c %100
-    \once \partCombineChords d r r f!
+    \pco d r r f!
     \once \slurDashed d2( e4) r
     r a,2 a4
     a2 cis4( d)

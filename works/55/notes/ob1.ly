@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LVOboeI = {
   \relative c' {
@@ -40,7 +40,7 @@ LVOboeI = {
     e2 f4. c8
     c b4 a8 g c'[ c c] %35
     c1~
-    c8 b4 a8 g \once \partCombineChords c4 e,8
+    c8 b4 a8 g \pco c4 e,8
     f4~ f16( e d c) c8. b16 b4
     g'~ g16( e c b) b8. a16 a4
     d e f8 a g16( f e d) %40

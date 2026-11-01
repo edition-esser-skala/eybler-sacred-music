@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoCXVIIa = \tempoMarkup "Allegro con spirito"
 tempoCXVIIb = \tempoMarkup "Adagio"

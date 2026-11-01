@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LXXVIIIFagottoI = {
   \relative c {
@@ -46,7 +46,7 @@ LXXVIIIFagottoI = {
     a g~ %40
     g d'~
     d d
-    c \once \partCombineChords a
+    c \pco a
     e1\fz
     d %45
     g4 r r2

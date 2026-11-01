@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LXXXVIFagottoI = {
   \relative c {
@@ -13,9 +13,9 @@ LXXXVIFagottoI = {
     c4 c r es8. es16
     c4 c r es8. es16
     f4 c2 c4
-    d r \once \partCombineChords d2\fz %10
+    d r \pco d2\fz %10
     c es
-    d4 r \once \partCombineChords d2\fz
+    d4 r \pco d2\fz
     c es
     d4 r r2
     c1\fz %15
@@ -126,9 +126,9 @@ LXXXVIdFagottoI = {
     h2. d8. d16 %120
     d2.\f d4
     es! d c c
-    d r \once \partCombineChords d2\fz
+    d r \pco d2\fz
     c es
-    d4 r \once \partCombineChords d2\fz %125
+    d4 r \pco d2\fz %125
     c es
     d4 r r2
     c1\fz

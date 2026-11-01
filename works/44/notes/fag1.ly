@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 XLIVFagottoI = {
   \relative c {
@@ -31,7 +31,7 @@ XLIVFagottoI = {
     h8 r r4 d~ d16( fis a c,) %25
     h4\f a g e'
     d d, g r
-    r8 a'16( g32) r fis16( e32) r d16( c32) r h8 \noBeam r r4
+    r8 a'16( g32) r fis16( e32) r d16( c32) r h8 \brkBeam r r4
     r8 a'16( g32) r fis16( e32) r d16( c32) r h8 \pa g d' h \pd
     g r r4 r8 g'\cresc d h %30
     g r r4 r8 g'\f d h

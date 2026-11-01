@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LXXIFagottoI = {
   \relative c {
@@ -50,7 +50,7 @@ LXXIFagottoI = {
     g4. es8 \pd d c r4
     r2 r8 a4\p a8
     c4 es16( d g f) f8. es16 d8 r
-    r b\cresc b b\! \once \partCombineChords es4\fz r %50
+    r b\cresc b b\! \pco es4\fz r %50
     R1
     b2\f es,4 r
     R1

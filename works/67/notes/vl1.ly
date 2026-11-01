@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LXVIIViolinoI = {
   \relative c' {
@@ -6,7 +6,7 @@ LXVIIViolinoI = {
     \key b \major \time 4/4 \tempoLXVII
     b4\f d8 f b8.\trill a32 b d8 b
     f4 r r r8 <d b' b'>\f
-    <es b' g'> es32([ d es d)] es8 <es b' g'> \noBeam <d b' f'> b32([ a b a)] b8 \tuplet 3/2 8 { f''16[ g a] }
+    <es b' g'> es32([ d es d)] es8 <es b' g'> \brkBeam <d b' f'> b32([ a b a)] b8 \tuplet 3/2 8 { f''16[ g a] }
     b16. a32 g16. f32 es16. d32 c16. b32 f'8 f, r4
     r8 b\p b r r c c r %5
     r a a a b r r4
@@ -17,9 +17,9 @@ LXVIIViolinoI = {
     b-! r r <c f, a,> <d f, b,> r r <a' c, f,>
     <b b, d,> r q q q4 r
     b,, d8 f b8.\trill a32 b d8 b
-    f16. g32 a16. b32 c16. d32 es16. f32 d8 b,32([ a b a)] b8 \noBeam <d b' b'>
-    <es b' g'> es32([ d es d)] es8 \noBeam <es b' g'> <d b' f'> b32([ a b a)] b8 \noBeam <d b' b'> %15
-    <es b' g'> es32([ d es d)] es8 \noBeam <es b' g'> <d b' f'> b32([ a b a)] b8 \noBeam <d b' b'>
+    f16. g32 a16. b32 c16. d32 es16. f32 d8 b,32([ a b a)] b8 \brkBeam <d b' b'>
+    <es b' g'> es32([ d es d)] es8 \brkBeam <es b' g'> <d b' f'> b32([ a b a)] b8 \brkBeam <d b' b'> %15
+    <es b' g'> es32([ d es d)] es8 \brkBeam <es b' g'> <d b' f'> b32([ a b a)] b8 \brkBeam <d b' b'>
     <es b' g'> g16. g'32 a8 a,16. a'32 b8 b,16. b'32 c8 c,16. c'32
     d16. f,32 es'16. f,32 d'16. b32 f16. d32 c16. f32 f8\trill f,16. a'32 a8\trill
     g16. c,32 c8\trill b'16. e,32 e8\trill f16. f,32 a16. c32 f16. c32 a'16. f32
@@ -33,8 +33,8 @@ LXVIIViolinoI = {
     d'4 r <d, b' b'>\f r
     r2 q4 r
     r16. c'32 c8\trill a16. f32 f8\trill f'16. d32 d8\trill b16. g32 g8\trill
-    c r <e c g> r <f c f,> f,32([ e f \hA e)] f8 \noBeam <f c' f> %30
-    <f d'> b,32([ a b a)] b8 \noBeam <h' g'> <c e> c,32([ h c \hA h)] c8 c''
+    c r <e c g> r <f c f,> f,32([ e f \hA e)] f8 \brkBeam <f c' f> %30
+    <f d'> b,32([ a b a)] b8 \brkBeam <h' g'> <c e> c,32([ h c \hA h)] c8 c''
     a16. g32 b16. a32 d16. c32 b16. a32 g16. f32 e16. d32 c16. b32 a16. g32
     f8 f'16. a,32 g8 e' f f, r4
     r8 c'\p c r r d d r
@@ -58,8 +58,8 @@ LXVIIViolinoI = {
     es16. g,32 g8\trill f16. a32 c16. es32 d16. b32 g'16. b,32 f'16. b,32 es16. c32
     d16. b32 b'16. d,32 c8 a' b,4 r
     <b f b,>8\ff r r4 <d f, b,>8 r r4
-    <f b, d,>8 r <a c, f,> r <b b, d,> b,,32([ a b a)] b8 \noBeam <d b' b'> %55
-    <es b' g'> es32([ d es d)] es8 \noBeam <es b' g'> <d b' f'> b32([ a b a)] b8 \tuplet 3/2 8 { f''16[ g a] }
+    <f b, d,>8 r <a c, f,> r <b b, d,> b,,32([ a b a)] b8 \brkBeam <d b' b'> %55
+    <es b' g'> es32([ d es d)] es8 \brkBeam <es b' g'> <d b' f'> b32([ a b a)] b8 \tuplet 3/2 8 { f''16[ g a] }
     b16. a32 g16. f32 es16 .d32 c16. b32 f'8 f, r4
     r8 b\p b r r c c r
     r a a a b r r4

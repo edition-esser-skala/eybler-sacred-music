@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 CXXXIIFagottoI = {
   \relative c {
@@ -136,7 +136,7 @@ CXXXIIFagottoI = {
     es4 es, r2
     R1*2 %181
     \clef bass r4 es8( f g as b c)
-    \once \partCombineChords des2\fz r
+    \pco des2\fz r
     R1*2 %185
     r4 c8( b as g f es)
     d4 r r2

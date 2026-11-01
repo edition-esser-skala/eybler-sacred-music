@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LXIXFagottoI = {
   \relative c {
@@ -18,8 +18,8 @@ LXIXFagottoI = {
     a4 g f2
     b8. c32 b a8 g c8. d32 c b8 a
     d r r4 r8 c4 b8
-    a4 r r8 e'4 \once \partCombineChords g8 %15
-    c,4 r r8 e4 \once \partCombineChords g8
+    a4 r r8 e'4 \pco g8 %15
+    c,4 r r8 e4 \pco g8
     \pa f4 e8 es d8. c16 b8 b
     a d c8. b16 a4 \pd \clef "treble_8" f'16( e d c)
     c8( b) c16( b a g) f8( e) g'16( e c b)

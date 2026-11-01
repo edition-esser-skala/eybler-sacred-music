@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 LFagottoI = {
   \relative c {
@@ -10,7 +10,7 @@ LFagottoI = {
     g2 c4 b
     g2 es4 g %5
     b2. b8 b
-    \once \partCombineChords b4 b f c'
+    \pco b4 b f c'
     as g r2
     b4(\p g8) r r2
     \clef "treble_8" r8 g( b es) g4\fp f16( es d c) %10
@@ -56,7 +56,7 @@ LFagottoI = {
     es f~
     f4 es d2
     \mvDl es~\fz es8 c as c
-    b2 \once \partCombineChords b8 b4\ff b8 %55
+    b2 \pco b8 b4\ff b8 %55
     d2 es8 g,4 es8
     b2 es4 es,
     r2 r4\fermata \bar "|." %58 finis

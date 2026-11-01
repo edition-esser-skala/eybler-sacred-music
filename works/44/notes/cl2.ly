@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 XLIVClarinettoII = {
   \relative c' {
@@ -51,8 +51,8 @@ XLIVClarinettoII = {
     R1*3
     c,2~\f c8 f e fis %50
     g4. f8 e a16( g32) r f16( e32) r d16( c32) r
-    g'8 \noBeam r r4 r8 a16( g32) r f16( e32) r d16( c32) r
-    g'8 \noBeam r r4 r2
+    g'8 \brkBeam r r4 r8 a16( g32) r f16( e32) r d16( c32) r
+    g'8 \brkBeam r r4 r2
     r r8 c,16(\cresc e32) r e16( g32) r g16( c32) r
     c4 r r8 c,16(\f e32) r e16( g32) r g16( c32) r %55
     c4 h a2

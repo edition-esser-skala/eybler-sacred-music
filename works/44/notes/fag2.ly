@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 XLIVFagottoII = {
   \relative c {
@@ -28,9 +28,9 @@ XLIVFagottoII = {
     c8 c4 cis8 d4 r
     R1*3 %25
     g,4\f fis e e'
-    d d, g8 \noBeam e''16(\pE d32) r c16( h32) r a16( g32) r
-    fis8 \noBeam r r4 r8 e'16( d32) r c16( h32) r a16( g32) r
-    fis8 \noBeam r r4 r8 g d h
+    d d, g8 \brkBeam e''16(\pE d32) r c16( h32) r a16( g32) r
+    fis8 \brkBeam r r4 r8 e'16( d32) r c16( h32) r a16( g32) r
+    fis8 \brkBeam r r4 r8 g d h
     g r r4 r8 g'\cresc d h %30
     g r r4 r8 g'\f d h
     g2 c,4 c'

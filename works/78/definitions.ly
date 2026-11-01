@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 conGarbo = \markup \remark "con garbo"
 sempreBenMarcato = \markup \remark "sempre ben marcato"

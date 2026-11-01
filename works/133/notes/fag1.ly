@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 CXXXIIIFagottoI = {
   \relative c {
@@ -24,12 +24,12 @@ CXXXIIIFagottoI = {
     d~ d4 \pa g,~
     g8 d' c a g4. f'8 \pd %15
     e c4 c8 e2
-    c \once \partCombineChords d \markCritnote
+    c \pco d \markCritnote
     c8 e16 d c h a g \pa f8 g4 g8
     c,4 \pd r r2
     R1*3 %22
     r2 r8 c'4 c8
-    c2 \once \partCombineChords c
+    c2 \pco c
     c c %25
     c4 \pa h c4. f8 \pd
     e2 d4 c

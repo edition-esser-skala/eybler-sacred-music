@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tightNotes = \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4)
 

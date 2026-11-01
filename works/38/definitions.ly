@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 
 tempoXXXVIIIa = \tempoTitleMarkup "Aria" "Allegro moderato"
 tempoXXXVIIIb = \tempoTitleMarkup "Alleluia" "Allegro moderato"
